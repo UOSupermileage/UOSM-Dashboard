@@ -25,17 +25,13 @@
 #include "TaskManager.h"
 
 #include "stm32f7xx.h"
-#include "stm32f769i_discovery.h"
-#include "lvgl/lvgl.h"
-#include "lvgl/examples/lv_examples.h"
-#include "lvgl/demos/lv_demos.h"
 
+#include "lvgl/lvgl.h"
 
 #include "tft.h"
 #include "touchpad.h"
 
-#include "lvgl/lvgl.h"
-#include "lvgl/demos/lv_demos.h"
+#include "application.h"
 
 /* USER CODE END Includes */
 
@@ -139,7 +135,7 @@ int main(void)
   tft_init();
   touchpad_init();
 
-  lv_demo_widgets();
+  Application_Create();
 
   /* USER CODE END 2 */
 

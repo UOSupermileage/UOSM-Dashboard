@@ -56,6 +56,8 @@ include_directories(
     ${CMAKE_SOURCE_DIR}/Drivers/tft
     ${CMAKE_SOURCE_DIR}/Drivers/touchpad
     ${CMAKE_SOURCE_DIR}/Drivers/STM32F769I-Discovery
+    ${CMAKE_SOURCE_DIR}/Core/UI
+    ${CMAKE_SOURCE_DIR}/Core/Modules
 )
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F769xx)
@@ -76,6 +78,10 @@ file(GLOB UOSM_CORE_SOURCES
     UOSM-Core/Modules/*.c
 )
 
+file(GLOB UI_SOURCES Core/UI/*.c)
+
+file(GLOB MODULE_SOURCES Core/Modules/*.c)
+
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/LinkerScript.ld)
 
 add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map)
@@ -84,7 +90,7 @@ add_link_options(-T ${LINKER_SCRIPT})
 
 add_subdirectory(Drivers/lvgl)
 
-add_executable(${PROJECT_NAME}.elf ${SOURCES} ${TASK_SOURCES} ${UOSM_CORE_SOURCES} ${LINKER_SCRIPT})
+add_executable(${PROJECT_NAME}.elf ${SOURCES} ${TASK_SOURCES} ${UOSM_CORE_SOURCES} ${UI_SOURCES} ${MODULE_SOURCES} ${LINKER_SCRIPT})
 
 set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)
 set(BIN_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.bin)

@@ -10,7 +10,7 @@
 #include "LVGLTimerTask.h"
 #include "lvgl/lvgl.h"
 
-#define STACK_SIZE 1024*10
+#define STACK_SIZE 1024*9
 #define LVGL_TIMER_TASK_PRIORITY (osPriority_t) osPriorityHigh
 #define TIMER_LVGL_TIMER_TASK 10UL
 

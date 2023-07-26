@@ -5,8 +5,10 @@
 // Can be removed if causing compilation issues on other systems
 #include "TaskManager.h"
 #include "LVGLTimerTask.h"
+#include "InternalCommsTask.h"
 
 void RunTaskManager(void) {
     DebugPrint("Starting Task Manager...");
     InitLVGLTimerTask();
+    InitInternalCommsTask();
 }
