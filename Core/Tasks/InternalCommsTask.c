@@ -34,13 +34,12 @@ PRIVATE void InternalCommsTask(void *argument)
 	uint32_t cycleTick = osKernelGetTickCount();
 	DebugPrint("Starting Internal Communication Task");
 
-	// IComms_Init();
+	 IComms_Init();
 	for(;;)
 	{
 		cycleTick += TIMER_INTERNAL_COMMS_TASK;
 		osDelayUntil(cycleTick);
 
-		// IComms_PeriodicReceive();
-        SystemSetMotorRPM(cycleTick);
+		 IComms_PeriodicReceive();
 	}
 }

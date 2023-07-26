@@ -69,8 +69,6 @@ void Error_Handler(void);
 #define FMC_NBL1_GPIO_Port GPIOE
 #define FMC_NBL0_Pin GPIO_PIN_0
 #define FMC_NBL0_GPIO_Port GPIOE
-#define CAN_CS_Pin GPIO_PIN_8
-#define CAN_CS_GPIO_Port GPIOB
 #define uSD_CMD_Pin GPIO_PIN_7
 #define uSD_CMD_GPIO_Port GPIOD
 #define WIFI_RX_Pin GPIO_PIN_12
@@ -137,8 +135,8 @@ void Error_Handler(void);
 #define D27_GPIO_Port GPIOI
 #define D26_Pin GPIO_PIN_2
 #define D26_GPIO_Port GPIOI
-#define SPI2_NSS_Pin GPIO_PIN_11
-#define SPI2_NSS_GPIO_Port GPIOA
+#define CAN_CS_Pin GPIO_PIN_11
+#define CAN_CS_GPIO_Port GPIOA
 #define FMC_A0_Pin GPIO_PIN_0
 #define FMC_A0_GPIO_Port GPIOF
 #define FMC_NBL3_Pin GPIO_PIN_5
