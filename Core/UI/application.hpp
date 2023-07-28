@@ -1,0 +1,21 @@
+//
+// Created by Jeremy Cote on 2023-07-25.
+//
+
+#ifndef UOSM_DASHBOARD_APPLICATION_HPP
+#define UOSM_DASHBOARD_APPLICATION_HPP
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#include "ApplicationTypes.h"
+#include "lvgl/lvgl.h"
+
+PUBLIC void Application_Create(void);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif //UOSM_DASHBOARD_APPLICATION_HPP

@@ -20,26 +20,24 @@ const char ICT_TAG[] = "#ICT:";
 
 osThreadId_t InternalCommsTaskHandle;
 const osThreadAttr_t InternalCommsTask_attributes = {
-	.name = "InternalCommunications",
-	.stack_size = STACK_SIZE,
-	.priority = INTERNAL_COMMS_TASK_PRIORITY,
+        .name = "InternalCommunications",
+        .stack_size = STACK_SIZE,
+        .priority = INTERNAL_COMMS_TASK_PRIORITY,
 };
 
-PUBLIC void InitInternalCommsTask(void)
-{
-	InternalCommsTaskHandle = osThreadNew(InternalCommsTask, NULL, &InternalCommsTask_attributes);
+PUBLIC void InitInternalCommsTask(void) {
+    InternalCommsTaskHandle = osThreadNew(InternalCommsTask, NULL, &InternalCommsTask_attributes);
 }
-PRIVATE void InternalCommsTask(void *argument)
-{
-	uint32_t cycleTick = osKernelGetTickCount();
-	DebugPrint("Starting Internal Communication Task");
 
-	 IComms_Init();
-	for(;;)
-	{
-		cycleTick += TIMER_INTERNAL_COMMS_TASK;
-		osDelayUntil(cycleTick);
+PRIVATE void InternalCommsTask(void* argument) {
+    uint32_t cycleTick = osKernelGetTickCount();
+    DebugPrint("Starting Internal Communication Task");
 
-		 IComms_PeriodicReceive();
-	}
+    IComms_Init();
+    for (;;) {
+        cycleTick += TIMER_INTERNAL_COMMS_TASK;
+        osDelayUntil(cycleTick);
+
+        IComms_PeriodicReceive();
+    }
 }

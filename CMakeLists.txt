@@ -78,7 +78,7 @@ file(GLOB UOSM_CORE_SOURCES
     UOSM-Core/Modules/*.c
 )
 
-file(GLOB UI_SOURCES Core/UI/*.c)
+file(GLOB UI_SOURCES Core/UI/*.cpp)
 
 file(GLOB MODULE_SOURCES Core/Modules/*.c)
 
