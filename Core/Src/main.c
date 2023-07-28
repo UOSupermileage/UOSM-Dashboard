@@ -31,7 +31,7 @@
 #include "tft.h"
 #include "touchpad.h"
 
-#include "application.hpp"
+#include "application.h"
 
 extern void Application_Create(void);
 

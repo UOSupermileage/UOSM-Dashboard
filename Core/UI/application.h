@@ -2,8 +2,8 @@
 // Created by Jeremy Cote on 2023-07-25.
 //
 
-#ifndef UOSM_DASHBOARD_APPLICATION_HPP
-#define UOSM_DASHBOARD_APPLICATION_HPP
+#ifndef UOSM_DASHBOARD_APPLICATION_H
+#define UOSM_DASHBOARD_APPLICATION_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -18,4 +18,4 @@ PUBLIC void Application_Create(void);
 }
 #endif
 
-#endif //UOSM_DASHBOARD_APPLICATION_HPP
+#endif //UOSM_DASHBOARD_APPLICATION_H

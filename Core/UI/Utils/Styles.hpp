@@ -7,6 +7,9 @@
 
 #include "lvgl/lvgl.h"
 
-void Styles_Init();
+class Styles {
+public:
+    virtual lv_style_t* GetExtraLargeTextStyle() = 0;
+};
 
 #endif //UOSM_DASHBOARD_STYLES_HPP
