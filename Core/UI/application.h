@@ -11,8 +11,9 @@ extern "C" {
 
 #include "ApplicationTypes.h"
 #include "lvgl/lvgl.h"
+#include "DataAggregatorWrapper.h"
 
-PUBLIC void Application_Create(void);
+PUBLIC void Application_Create(DataAggregatorWrapper* aggregatorWrapper);
 
 #ifdef __cplusplus
 }

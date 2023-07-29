@@ -10,7 +10,7 @@
 
 class HomeView : public View {
 private:
-    HomeViewModel* viewModel;
+    HomeViewModel& viewModel;
 
     lv_obj_t* batteryVoltageLabel;
     lv_obj_t* motorRPMLabel;
@@ -19,7 +19,7 @@ protected:
     ~HomeView() = default;
 
 public:
-    HomeView(lv_obj_t* parent, HomeViewModel* viewModel);
+    HomeView(lv_obj_t* parent, HomeViewModel& viewModel);
 };
 
 

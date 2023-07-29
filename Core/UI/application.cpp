@@ -6,7 +6,8 @@
 
 #include "lvgl/lvgl.h"
 
-#include "Styles.hpp"
+#include "DataAggregator.hpp"
+#include "DataAggregatorWrapper.h"
 
 #include "HomeView.hpp"
 #include "HomeViewModel.hpp"
@@ -18,12 +19,19 @@ static HomeView* homeView;
 
 static lv_timer_t* dataTimer;
 
-void Application_Create(void) {
+void Application_Create(DataAggregatorWrapper* aggregatorWrapper) {
     DebugPrint("Creating application");
 
-    homeViewModel = new HomeViewModel();
+    if (aggregatorWrapper == nullptr) {
+        DebugPrint("DataAggregatorWrapper is null, will not start application");
+        return;
+    }
+
+    DataAggregator& aggregator = DataAggregator_GetReference(aggregatorWrapper);
+
+    homeViewModel = new HomeViewModel(aggregator);
 
     // Create an object with no parent. (This will act as the screen).
-    homeView = new HomeView(nullptr, homeViewModel);
-    lv_scr_load(homeView->GetContainer());
+    homeView = new HomeView(nullptr, *homeViewModel);
+    lv_scr_load(homeView->getContainer());
 }

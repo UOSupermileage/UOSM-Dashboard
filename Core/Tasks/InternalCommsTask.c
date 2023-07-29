@@ -9,8 +9,6 @@
 
 #include "InternalCommsTask.h"
 #include "InternalCommsModule.h"
-#include "CANMessageLookUpModule.h"
-#include "DataAggregationModule.h"
 
 #define STACK_SIZE 1024*4
 #define INTERNAL_COMMS_TASK_PRIORITY (osPriority_t) osPriorityNormal

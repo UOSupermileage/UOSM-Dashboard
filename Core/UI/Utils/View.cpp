@@ -4,10 +4,15 @@
 
 #include "View.hpp"
 
-View::View(lv_obj_t* parent) {
+View::View(lv_obj_t* parent, ViewModel& viewModel) : viewModel(viewModel) {
     this->container = lv_obj_create(parent);
 }
 
 View::~View() {
+    DataAggregator& aggregator = viewModel.GetAggregator();
+    for (const auto& token: tokens) {
+        token.cancel();
+    }
+
     lv_obj_del(this->container);
 }

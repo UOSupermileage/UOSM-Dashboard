@@ -8,11 +8,11 @@
 #include "ApplicationTypes.h"
 #include "lvgl/lvgl.h"
 #include "ViewModel.hpp"
-
-#define HOME_DATA_REFRESH_RATE 250
+#include "DataAggregator.hpp"
 
 class HomeViewModel : public ViewModel {
-
+public:
+    explicit HomeViewModel(DataAggregator& aggregator) : ViewModel(aggregator) {}
 };
 
 #endif //UOSM_DASHBOARD_HOMEVIEWMODEL_HPP

@@ -32,8 +32,8 @@
 #include "touchpad.h"
 
 #include "application.h"
-
-extern void Application_Create(void);
+#include "CANCallbacks.h"
+#include "DataAggregatorWrapper.h"
 
 /* USER CODE END Includes */
 
@@ -140,7 +140,9 @@ int main(void) {
     tft_init();
     touchpad_init();
 
-    Application_Create();
+    DataAggregatorWrapper* wrapper = DataAggregator_Create();
+    CAN_SetAggregator(wrapper);
+    Application_Create(wrapper);
 
     /* USER CODE END 2 */
 
