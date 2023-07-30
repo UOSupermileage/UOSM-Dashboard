@@ -6,7 +6,7 @@
 
 LightStyles::LightStyles() {
     lv_style_init(&extraLargeTextStyle);
-    lv_style_set_text_font(&extraLargeTextStyle, &lv_font_montserrat_48);
+    lv_style_set_text_font(&extraLargeTextStyle, &sf_144);
 }
 
 lv_style_t* LightStyles::GetExtraLargeTextStyle() {

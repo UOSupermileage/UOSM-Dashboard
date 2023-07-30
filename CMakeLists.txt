@@ -65,14 +65,6 @@ add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F769xx)
 
 file(GLOB_RECURSE SOURCES "Core/*.*" "Middlewares/*.*" "Drivers/*.*")
 
-set (EXCLUDE_DIR "/Drivers/Fonts")
-foreach (TMP_PATH ${SOURCES})
-    string (FIND ${TMP_PATH} ${EXCLUDE_DIR} EXCLUDE_DIR_FOUND)
-    if (NOT ${EXCLUDE_DIR_FOUND} EQUAL -1)
-        list (REMOVE_ITEM SOURCES ${TMP_PATH})
-    endif ()
-endforeach(TMP_PATH)
-
 file(GLOB TASK_SOURCES Core/Tasks/*.c)
 file(GLOB UOSM_CORE_SOURCES
     UOSM-Core/Drivers/*.c
