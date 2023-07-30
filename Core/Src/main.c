@@ -34,6 +34,7 @@
 #include "application.h"
 #include "CANCallbacks.h"
 #include "DataAggregatorWrapper.h"
+#include "Components/otm8009a/otm8009a.h"
 
 /* USER CODE END Includes */
 

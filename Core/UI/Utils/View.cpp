@@ -6,6 +6,7 @@
 
 View::View(lv_obj_t* parent, ViewModel& viewModel) : viewModel(viewModel) {
     this->container = lv_obj_create(parent);
+    lv_style_set_flex_grow(container->styles->style, 1);
 }
 
 View::~View() {

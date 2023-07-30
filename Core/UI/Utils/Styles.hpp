@@ -10,6 +10,7 @@
 class Styles {
 public:
     virtual lv_style_t* GetExtraLargeTextStyle() = 0;
+    virtual lv_style_t* GetFullscreenChartStyle() = 0;
 };
 
 #endif //UOSM_DASHBOARD_STYLES_HPP

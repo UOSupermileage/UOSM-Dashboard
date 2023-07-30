@@ -10,6 +10,8 @@
 #include "InternalCommsTask.h"
 #include "InternalCommsModule.h"
 
+#include "CANCallbacks.h"
+
 #define STACK_SIZE 1024*4
 #define INTERNAL_COMMS_TASK_PRIORITY (osPriority_t) osPriorityNormal
 #define TIMER_INTERNAL_COMMS_TASK 200UL
@@ -37,5 +39,7 @@ PRIVATE void InternalCommsTask(void* argument) {
         osDelayUntil(cycleTick);
 
         IComms_PeriodicReceive();
+
+        CAN_Dummy_RPM(cycleTick % 3200);
     }
 }

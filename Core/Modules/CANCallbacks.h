@@ -13,4 +13,6 @@
  */
 void CAN_SetAggregator(DataAggregatorWrapper* wrapper);
 
+void CAN_Dummy_RPM(velocity_t v);
+
 #endif //UOSM_DASHBOARD_CANCALLBACKS_H

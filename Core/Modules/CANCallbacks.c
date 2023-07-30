@@ -15,6 +15,11 @@ static bool CAN_Enabled() {
     return aggregatorWrapper != NULL;
 }
 
+void CAN_Dummy_RPM(velocity_t v) {
+    // Invert motor RPM to display in human-readable manor
+    SetMotorRPM(aggregatorWrapper, v);
+}
+
 void MotorRPMDataCallback(iCommsMessage_t* msg) {
     if (!CAN_Enabled()) {
         return;
@@ -22,7 +27,7 @@ void MotorRPMDataCallback(iCommsMessage_t* msg) {
 
     velocity_t rpm = readMsg(msg);
     DebugPrint("CAN rpm received: %d", rpm);
-    SetMotorRPM(aggregatorWrapper, rpm);
+    SetMotorRPM(aggregatorWrapper, rpm * -1);
 }
 
 void VoltageDataCallback(iCommsMessage_t* msg) {

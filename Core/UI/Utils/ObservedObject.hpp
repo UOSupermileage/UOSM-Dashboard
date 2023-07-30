@@ -44,6 +44,11 @@ public:
         }
     }
 
+    // Force publish changes, listeners are also notified when using set.
+    void publish() {
+        notify();
+    }
+
     /**
      *  Add a listener and return a token with a pointer to this object and a cancel lambda
      */
@@ -74,3 +79,54 @@ private:
 };
 
 #endif //UOSM_DASHBOARD_OBSERVEDOBJECT_HPP
+
+// CURRENTLY UNUSED: TEMPLATE SPECIALIZATION FOR AN ARRAY
+//template<typename T, size_t N>
+//class ObservedObject<T[N]> {
+//public:
+//    explicit ObservedObject(T values[N]) : values(values) {
+//
+//    }
+//
+//    // Getter
+//    [[nodiscard]] T* get() const { return values; }
+//
+//    // Setter
+//    void set(T values[N]) {
+//        this->values = values;
+//        notify();
+//    }
+//
+//    // Force publish changes, listeners are also notified when using set.
+//    void publish() {
+//        notify();
+//    }
+//
+//    /**
+//     *  Add a listener and return a token with a pointer to this object and a cancel lambda
+//     */
+//    ObserverToken addListener(std::function<void(const T&)> callback) {
+//        listeners.emplace_back(Listener<T>(callback));
+//
+//        uint32_t listenerId = Listener<T>::getNextId();
+//
+//        std::function<void()> cancel = {[this, listenerId]() {
+//            listeners.erase(std::remove_if(listeners.begin(), listeners.end(), [listenerId](Listener<T>& listener) {
+//                return listener.getId() == listenerId;
+//            }), listeners.end());
+//        }};
+//
+//        return ObserverToken(cancel);
+//    }
+//
+//private:
+//    T values[N];
+//    std::vector<Listener<T[N]>> listeners;
+//
+//    // Notify all registered listeners
+//    void notify() {
+//        for (const auto& listener: listeners) {
+//            listener.onChange(values);
+//        }
+//    }
+//};

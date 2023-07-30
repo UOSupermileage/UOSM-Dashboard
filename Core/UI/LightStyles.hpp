@@ -10,12 +10,14 @@
 class LightStyles : public Styles {
 private:
     lv_style_t extraLargeTextStyle = {};
+    lv_style_t fullscreenChartStyle = {};
 
 public:
     LightStyles();
     ~LightStyles() = default;
 
     lv_style_t* GetExtraLargeTextStyle() override;
+    lv_style_t* GetFullscreenChartStyle() override;
 };
 
 

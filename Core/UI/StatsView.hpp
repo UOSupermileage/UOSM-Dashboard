@@ -11,8 +11,10 @@
 class StatsView : public View {
 private:
     StatsViewModel& viewModel;
-    
-    lv_obj_t* batteryVoltageLabel;
+
+    lv_obj_t* chart;
+    lv_chart_series_t* rpmSeries;
+    lv_obj_t* rpmLabel;
 
 protected:
     ~StatsView() = default;

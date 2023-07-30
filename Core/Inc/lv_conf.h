@@ -21,6 +21,15 @@
 
 #include <stdint.h>
 
+/*
+ *  CUSTOM ADDITIONS
+ */
+
+/**
+ * Compute the size of an object using percentage (Pour mille), based x / 1000 is the fraction.
+ */
+#define LV_SIZE_PCT(x) ((x) == 1000 ? LV_COORD_MAX : (lv_coord_t)((x) * LV_COORD_MAX / 1000))
+
 /*====================
    COLOR SETTINGS
  *====================*/
