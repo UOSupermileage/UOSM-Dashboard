@@ -32,10 +32,11 @@ void swipe_event_callback(lv_event_t* event) {
         lv_dir_t direction = lv_indev_get_gesture_dir(lv_indev_get_act());
 
         if (direction == LV_DIR_LEFT) {
-            screenIndex--;
 
-            if (screenIndex < 0) {
-                screenIndex = nScreens;
+            if (screenIndex == 0) {
+                screenIndex = nScreens - 1;
+            } else {
+                screenIndex--;
             }
         } else if (direction == LV_DIR_RIGHT) {
             screenIndex++;
