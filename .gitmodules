@@ -4,3 +4,6 @@
 [submodule "Drivers/lvgl"]
 	path = Drivers/lvgl
 	url = git@github.com:lvgl/lvgl.git
+[submodule "doxygen-awesome-css"]
+	path = doxygen-awesome-css
+	url = git@github.com:jothepro/doxygen-awesome-css.git

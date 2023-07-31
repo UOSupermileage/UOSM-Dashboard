@@ -74,3 +74,9 @@ dkms.conf
 /Debug/
 
 cmake-build-debug/
+
+# Doxygen Output
+html
+latex
+
+.DS_Store
