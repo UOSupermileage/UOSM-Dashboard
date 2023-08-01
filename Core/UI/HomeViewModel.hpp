@@ -10,6 +10,10 @@
 #include "ViewModel.hpp"
 #include "DataAggregator.hpp"
 
+/** @ingroup core-ui
+ *  A class that represents a view model that provides data for the home view.
+ *  It inherits from the ViewModel class and uses the DataAggregator class to get the data from different sources.
+ */
 class HomeViewModel : public ViewModel {
 public:
     explicit HomeViewModel(DataAggregator& aggregator) : ViewModel(aggregator) {}

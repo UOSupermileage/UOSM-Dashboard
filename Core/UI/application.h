@@ -13,6 +13,11 @@ extern "C" {
 #include "lvgl/lvgl.h"
 #include "DataAggregatorWrapper.h"
 
+/**
+ * @ingroup core-ui
+ * Creates the LVGL application.
+ * @param aggregatorWrapper
+ */
 PUBLIC void Application_Create(DataAggregatorWrapper* aggregatorWrapper);
 
 #ifdef __cplusplus

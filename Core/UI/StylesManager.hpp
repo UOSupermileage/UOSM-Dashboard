@@ -8,17 +8,24 @@
 #include "Styles.hpp"
 #include "LightStyles.hpp"
 
-/**
- * Holds a reference to the currently active styles.
+/** @ingroup core-ui
+ *  A class that manages the styles for the dashboard.
+ *  It holds a reference to the currently active styles and provides a static method to get the styles.
  */
 class StylesManager {
 private:
+    /** The pointer to the currently active styles. */
     static Styles* styles;
 
+    /** Constructs a styles manager object. */
     StylesManager() {};
+    /** Destructs the styles manager object. */
     ~StylesManager() = default;
 
 public:
+    /** Returns a pointer to the currently active styles.
+     *  @return A pointer to the currently active styles.
+     */
     static Styles* GetStyles();
 };
 

@@ -12,32 +12,40 @@
 #include "Styles.hpp"
 #include "ObservedObject.hpp"
 
-/**
- * Create an LVGL view with parent.
- * Binds the model to this view.
- * If parent is NULL, the returned pointer will point to a screen.
- * Else, the returned pointer is the container holding all view elements. This container is a child of the passed parent.
+/** @ingroup core-ui-utils
+ *  A class that represents a view that displays the data from a view model using LVGL widgets.
+ *  It creates a container that holds all the view elements, and binds the view model to the view using observer tokens.
  */
 class View {
 private:
+    /** The container that holds all the view elements. */
     lv_obj_t* container;
+    /** The reference to the view model that provides the data for the view. */
     ViewModel& viewModel;
+    /** The vector of observer tokens that are used to register listeners to the view model. */
     vector<ObserverToken> tokens;
 
 protected:
-    /**
-     * Construct an LVGL object
-     * @param parent
+    /** Constructs a view with a given parent and a view model.
+     *  @param parent The parent object of the container, or NULL if the container is a screen.
+     *  @param viewModel The reference to the view model that provides the data for the view.
      */
     explicit View(lv_obj_t* parent, ViewModel& viewModel);
 
+    /** Destructs the view and releases the observer tokens. */
     ~View();
 
 public:
+    /** Returns a pointer to the container that holds all the view elements.
+     *  @return A pointer to the container that holds all the view elements.
+     */
     lv_obj_t* getContainer() {
         return container;
     }
 
+    /** Registers an observer token to the vector of tokens.
+     *  @param token The observer token to register.
+     */
     void registerListener(ObserverToken& token) {
         tokens.push_back(token);
     }

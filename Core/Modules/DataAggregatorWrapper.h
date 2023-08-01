@@ -12,9 +12,24 @@
 extern "C" {
 #endif
 
+/** @ingroup core-modules
+ * Creates a data aggregator wrapper object and returns a pointer to it.
+ * @return A pointer to the data aggregator wrapper object.
+*/
 DataAggregatorWrapper* DataAggregator_Create();
 
+/** @ingroup core-modules
+ *  Sets the motor RPM data in the data aggregator object from a given wrapper.
+ *  @param wrapper The pointer to the wrapper that contains the data aggregator object.
+ *  @param rpm The motor RPM data to set.
+ */
 void SetMotorRPM(DataAggregatorWrapper* wrapper, velocity_t rpm);
+
+/** @ingroup core-modules
+ *  Sets the battery voltage data in the data aggregator object from a given wrapper.
+ *  @param wrapper The pointer to the wrapper that contains the data aggregator object.
+ *  @param voltage The battery voltage data to set.
+ */
 void SetBatteryVoltage(DataAggregatorWrapper* wrapper, voltage_t voltage);
 
 #ifdef  __cplusplus
