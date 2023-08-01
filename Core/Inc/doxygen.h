@@ -4,7 +4,7 @@
 */
 
 /**
- * @defgroup core-module Modules
+ * @defgroup core-modules Modules
  * @{
  * @}
  */
