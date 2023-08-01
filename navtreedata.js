@@ -67,11 +67,11 @@ var NAVTREEINDEX =
 "group__STM32F769I__DISCOVERY__QSPI__Exported__Constants.html#gad34f1a37f968c4ff3b95b76aeffbe54d",
 "group__STMPE811__Exported__Constants.html#ga363193008569b90a5fc0fe9662ad4fac",
 "group__WM8994__Exported__Constants.html#ga4fe81ac8abc7ff35765ac7a98e36ceb0",
-"group__ft6x06__Private__Functions.html#ga877eeda8f858e0c17aeefe412f1192cf",
-"magneto_8h_source.html",
-"main_8h.html#ac9600b052c752e42ee8b9164fa9c312e",
-"structGYRO__InterruptConfigTypeDef.html",
-"ts3510_8h_source.html"
+"group__ft6x06__Private__Functions.html#ga714520adcf3d75394a2f08cf428d3c40",
+"lv__conf_8h.html#aff60f490268a56128446e6b55e2bd066",
+"main_8h.html#ac4a738d4b5585b977b1cacb026078677",
+"structGYRO__InitTypeDef.html#aa79b23b314641427fdde69821260fd4d",
+"touchpad_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

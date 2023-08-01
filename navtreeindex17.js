@@ -1,5 +1,8 @@
 var NAVTREEINDEX17 =
 {
+"structGYRO__InitTypeDef.html#aa79b23b314641427fdde69821260fd4d":[1,2,0,11,0,1,0,6],
+"structGYRO__InitTypeDef.html#aed2db2c6a2dfea571eead482f2aaf734":[1,2,0,11,0,1,0,1],
+"structGYRO__InitTypeDef.html#af0271acd9f53fe53454eeb30170ab258":[1,2,0,11,0,1,0,3],
 "structGYRO__InterruptConfigTypeDef.html":[1,2,0,11,0,1,2],
 "structGYRO__InterruptConfigTypeDef.html#a55d1685d751cffa77f6eefe492d98f80":[1,2,0,11,0,1,2,1],
 "structGYRO__InterruptConfigTypeDef.html#a6b570098bb7a5a7f2b927af7358b03c1":[1,2,0,11,0,1,2,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX17 =
 "sysmem_8c.html":[3,0,0,2,4],
 "sysmem_8c.html#afcc86b0f227230278459bfaa6e3a2961":[3,0,0,2,4,0],
 "system__stm32f7xx_8c.html":[3,0,0,2,5],
-"tft_8h_source.html":[3,0,1,2,0],
-"touchpad_8h_source.html":[3,0,1,3,0],
-"ts3510_8c.html":[3,0,1,0,18,0],
-"ts3510_8h.html":[3,0,1,0,18,1]
+"tft_8h_source.html":[3,0,1,2,0]
 };
