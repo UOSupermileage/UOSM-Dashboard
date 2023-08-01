@@ -1,0 +1,6 @@
+<map id="Drivers/Components/exc7200/exc7200.c" name="Drivers/Components/exc7200/exc7200.c">
+<area shape="rect" id="node1" title="This file provides a set of functions needed to manage the EXC7200 Touch&#45;screen controller." alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node2" href="$exc7200_8h.html" title="This file contains all the functions prototypes for the exc7200.c IO expander driver." alt="" coords="38,95,127,121"/>
+<area shape="rect" id="node3" href="$ts_8h.html" title="This file contains all the functions prototypes for the Touch Screen driver." alt="" coords="22,169,143,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="47,244,118,271"/>
+</map>

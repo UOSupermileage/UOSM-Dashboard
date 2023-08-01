@@ -1,0 +1,13 @@
+<map id="Drivers/Components/Common/audio.h" name="Drivers/Components/Common/audio.h">
+<area shape="rect" id="node1" title="This header file contains the common defines and functions prototypes for the Audio driver." alt="" coords="285,5,440,47"/>
+<area shape="rect" id="node2" href="$adv7533_8h.html" title="This file contains all the constants parameters for the ADV7533 which is the HDMI bridge between DSI ..." alt="" coords="192,95,347,136"/>
+<area shape="rect" id="node8" href="$wm8994_8h.html" title="This file contains all the functions prototypes for the wm8994.c driver." alt="" coords="379,95,533,136"/>
+<area shape="rect" id="node3" href="$adv7533_8c.html" title="This file provides the ADV7533 DSI to HDMI bridge driver." alt="" coords="5,191,160,233"/>
+<area shape="rect" id="node4" href="$stm32f769i__discovery__lcd_8h.html" title="This file contains the common defines and functions prototypes for the stm32469i_discovery_lcd...." alt="" coords="184,184,355,240"/>
+<area shape="rect" id="node5" href="$stm32f769i__discovery__lcd_8c.html" title="This file includes the driver for Liquid Crystal Display (LCD) module mounted on STM32F769I&#45;DISCOVERY..." alt="" coords="79,288,249,344"/>
+<area shape="rect" id="node6" href="$stm32f769i__discovery__ts_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_ts...." alt="" coords="273,288,444,344"/>
+<area shape="rect" id="node7" href="$stm32f769i__discovery__ts_8c.html" title="This file provides a set of functions needed to manage the Touch Screen on STM32F769I&#45;DISCOVERY disco..." alt="" coords="273,392,444,448"/>
+<area shape="rect" id="node9" href="$wm8994_8c.html" title="This file provides the WM8994 Audio Codec driver." alt="" coords="379,191,533,233"/>
+<area shape="rect" id="node10" href="$stm32f769i__discovery__audio_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_audio...." alt="" coords="557,184,728,240"/>
+<area shape="rect" id="node11" href="$stm32f769i__discovery__audio_8c.html" title="This file provides the Audio driver for the STM32F769I&#45;DISCOVERY &#160;&#160;board." alt="" coords="557,288,728,344"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Drivers/Components/otm8009a/otm8009a.h" name="Drivers/Components/otm8009a/otm8009a.h">
+<area shape="rect" id="node1" title="This file contains all the constants parameters for the OTM8009A which is the LCD Driver for KoD KM&#45;0..." alt="" coords="153,5,328,47"/>
+<area shape="rect" id="node2" href="$main_8c.html" title=": Main program body" alt="" coords="5,109,129,136"/>
+<area shape="rect" id="node3" href="$otm8009a_8c.html" title="This file provides the LCD Driver for KoD KM&#45;040TMP&#45;02&#45;0621 (WVGA) DSI LCD Display OTM8009A." alt="" coords="154,102,327,143"/>
+<area shape="rect" id="node4" href="$stm32f769i__discovery__lcd_8h.html" title="This file contains the common defines and functions prototypes for the stm32469i_discovery_lcd...." alt="" coords="351,95,522,151"/>
+<area shape="rect" id="node5" href="$stm32f769i__discovery__lcd_8c.html" title="This file includes the driver for Liquid Crystal Display (LCD) module mounted on STM32F769I&#45;DISCOVERY..." alt="" coords="254,199,425,255"/>
+<area shape="rect" id="node6" href="$stm32f769i__discovery__ts_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_ts...." alt="" coords="449,199,619,255"/>
+<area shape="rect" id="node7" href="$stm32f769i__discovery__ts_8c.html" title="This file provides a set of functions needed to manage the Touch Screen on STM32F769I&#45;DISCOVERY disco..." alt="" coords="449,303,619,359"/>
+</map>

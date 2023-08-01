@@ -1,0 +1,15 @@
+<map id="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_ts.c" name="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_ts.c">
+<area shape="rect" id="node1" title="This file provides a set of functions needed to manage the Touch Screen on STM32F769I&#45;DISCOVERY disco..." alt="" coords="143,5,313,61"/>
+<area shape="rect" id="node2" href="$stm32f769i__discovery_8h.html" title="This file contains definitions for STM32F769I&#45;Discovery LEDs, push&#45;buttons hardware resources." alt="" coords="5,281,181,307"/>
+<area shape="rect" id="node4" href="$stm32f769i__discovery__ts_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_ts...." alt="" coords="215,109,412,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="95,370,225,397"/>
+<area shape="rect" id="node5" href="$stm32f769i__discovery__lcd_8h.html" title="This file contains the common defines and functions prototypes for the stm32469i_discovery_lcd...." alt="" coords="266,184,433,225"/>
+<area shape="rect" id="node12" href="$ft6x06_8h.html" title="This file contains all the functions prototypes for the ft6x06.c IO expander driver." alt="" coords="597,184,758,225"/>
+<area shape="rect" id="node6" href="$otm8009a_8h.html" title="This file contains all the constants parameters for the OTM8009A which is the LCD Driver for KoD KM&#45;0..." alt="" coords="316,363,503,404"/>
+<area shape="rect" id="node8" href="$adv7533_8h.html" title="This file contains all the constants parameters for the ADV7533 which is the HDMI bridge between DSI ..." alt="" coords="448,273,624,315"/>
+<area shape="rect" id="node10" href="$stm32f769i__discovery__sdram_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_sdram...." alt="" coords="206,273,373,315"/>
+<area shape="rect" id="node11" title=" " alt="" coords="649,281,719,307"/>
+<area shape="rect" id="node7" title=" " alt="" coords="565,452,635,479"/>
+<area shape="rect" id="node9" href="$audio_8h.html" title="This header file contains the common defines and functions prototypes for the Audio driver." alt="" coords="527,370,673,397"/>
+<area shape="rect" id="node13" href="$ts_8h.html" title="This file contains all the functions prototypes for the Touch Screen driver." alt="" coords="697,370,818,397"/>
+</map>

@@ -1,0 +1,7 @@
+var group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Defines =
+[
+    [ "__STM32F769I_DISCOVERY_BSP_VERSION_MAIN", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Defines.html#gaeae85bc767fd05f0d3ca186b5248c7e9", null ],
+    [ "__STM32F769I_DISCOVERY_BSP_VERSION_RC", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Defines.html#gaaea7b1426852b78dd5f1ad8520bbfd3b", null ],
+    [ "__STM32F769I_DISCOVERY_BSP_VERSION_SUB1", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Defines.html#ga61a1568f1adfabba7108360f863f9013", null ],
+    [ "__STM32F769I_DISCOVERY_BSP_VERSION_SUB2", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Defines.html#ga8dc268f0d4c882d9b07091b5034c2c83", null ]
+];

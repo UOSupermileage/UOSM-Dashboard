@@ -1,0 +1,6 @@
+<map id="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_eeprom.c" name="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_eeprom.c">
+<area shape="rect" id="node1" title="This file provides a set of functions needed to manage an I2C M24LR64 EEPROM memory." alt="" coords="8,5,179,61"/>
+<area shape="rect" id="node2" href="$stm32f769i__discovery__eeprom_8h.html" title="This file contains all the functions prototypes for the stm32f769i_discovery_eeprom...." alt="" coords="10,109,177,151"/>
+<area shape="rect" id="node3" href="$stm32f769i__discovery_8h.html" title="This file contains definitions for STM32F769I&#45;Discovery LEDs, push&#45;buttons hardware resources." alt="" coords="5,199,181,225"/>
+<area shape="rect" id="node4" title=" " alt="" coords="28,273,159,300"/>
+</map>

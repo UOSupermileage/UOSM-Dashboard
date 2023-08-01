@@ -1,0 +1,5 @@
+<map id="Drivers/Components/mx25l512/mx25l512.h" name="Drivers/Components/mx25l512/mx25l512.h">
+<area shape="rect" id="node1" title="This file contains all the description of the MX25L51245G QSPI memory." alt="" coords="5,5,177,47"/>
+<area shape="rect" id="node2" href="$stm32f769i__discovery__qspi_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_qspi...." alt="" coords="6,95,177,151"/>
+<area shape="rect" id="node3" href="$stm32f769i__discovery__qspi_8c.html" title="This file includes a standard driver for the MX25L512 QSPI memory mounted on STM32F769I&#45;Discovery boa..." alt="" coords="6,199,177,255"/>
+</map>

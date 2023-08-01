@@ -1,0 +1,7 @@
+<map id="Drivers/Components/Common/lcd.h" name="Drivers/Components/Common/lcd.h">
+<area shape="rect" id="node1" title="This file contains all the functions prototypes for the LCD driver." alt="" coords="96,5,251,47"/>
+<area shape="rect" id="node2" href="$st7735_8h.html" title="This file contains all the functions prototypes for the st7735.c driver." alt="" coords="5,95,160,136"/>
+<area shape="rect" id="node4" href="$st7789h2_8h.html" title="This file contains all the functions prototypes for the st7789h2.c driver." alt="" coords="184,95,347,136"/>
+<area shape="rect" id="node3" href="$st7735_8c.html" title="This file includes the driver for ST7735 LCD mounted on the Adafruit 1.8&quot; TFT LCD shield (reference I..." alt="" coords="5,184,160,225"/>
+<area shape="rect" id="node5" href="$st7789h2_8c.html" title="This file includes the LCD driver for st7789h2 LCD." alt="" coords="185,184,346,225"/>
+</map>

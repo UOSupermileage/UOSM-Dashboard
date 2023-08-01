@@ -1,0 +1,13 @@
+<map id="ST7789H2" name="ST7789H2">
+<area shape="rect" id="node1" href="$group__ST7789H2__Private__FunctionPrototypes.html" title=" " alt="" coords="319,5,517,45"/>
+<area shape="rect" id="node2" href="$group__ST7789H2__Exported__Functions.html" title=" " alt="" coords="310,70,526,95"/>
+<area shape="rect" id="node3" href="$group__ST7789H2__Private__Functions.html" title=" " alt="" coords="316,119,520,145"/>
+<area shape="rect" id="node4" href="$group__ST7789H2__Private__Macros.html" title=" " alt="" coords="323,169,513,194"/>
+<area shape="rect" id="node5" href="$group__Components.html" title=" " alt="" coords="5,218,109,243"/>
+<area shape="rect" id="node7" title="This file provides a set of functions needed to drive the FRIDA FRD154BP2901 LCD." alt="" coords="157,218,245,243"/>
+<area shape="rect" id="node6" href="$group__ST7789H2__Exported__Types.html" title=" " alt="" coords="323,218,513,243"/>
+<area shape="rect" id="node8" href="$group__ST7789H2__Private__Variables.html" title=" " alt="" coords="317,267,519,293"/>
+<area shape="rect" id="node9" href="$group__ST7789H2__Exported__Constants.html" title=" " alt="" coords="309,317,527,342"/>
+<area shape="rect" id="node10" href="$group__ST7789H2__Private__TypesDefinitions.html" title=" " alt="" coords="293,366,543,391"/>
+<area shape="rect" id="node11" href="$group__ST7789H2__Private__Defines.html" title=" " alt="" coords="323,415,513,441"/>
+</map>

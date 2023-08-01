@@ -1,0 +1,6 @@
+<map id="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_qspi.c" name="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_qspi.c">
+<area shape="rect" id="node1" title="This file includes a standard driver for the MX25L512 QSPI memory mounted on STM32F769I&#45;Discovery boa..." alt="" coords="76,5,247,61"/>
+<area shape="rect" id="node2" href="$stm32f769i__discovery__qspi_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_qspi...." alt="" coords="78,109,245,151"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,206,136,233"/>
+<area shape="rect" id="node4" href="$mx25l512_8h.html" title="This file contains all the description of the MX25L51245G QSPI memory." alt="" coords="161,199,346,240"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Drivers/Components/ft6x06/ft6x06.h" name="Drivers/Components/ft6x06/ft6x06.h">
+<area shape="rect" id="node1" title="This file contains all the functions prototypes for the ft6x06.c IO expander driver." alt="" coords="99,5,253,47"/>
+<area shape="rect" id="node2" href="$ft6x06_8c.html" title="This file provides a set of functions needed to manage the FT6X06 IO Expander devices." alt="" coords="5,102,160,143"/>
+<area shape="rect" id="node3" href="$stm32f769i__discovery__ts_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_ts...." alt="" coords="184,95,355,151"/>
+<area shape="rect" id="node4" href="$stm32f769i__discovery__ts_8c.html" title="This file provides a set of functions needed to manage the Touch Screen on STM32F769I&#45;DISCOVERY disco..." alt="" coords="184,199,355,255"/>
+</map>
