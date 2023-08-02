@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"group__FT5336__Exported__Constants.html#ga0e8539b0143bab6aab848799002f09db":[3,0,1,0,5,1,53],
 "group__FT5336__Exported__Constants.html#ga137c02245fe2b559392162a78e7d0090":[3,0,1,0,5,1,52],
 "group__FT5336__Exported__Constants.html#ga13d6e06be4b14c6b3f8da87beadf75ba":[3,0,1,0,5,1,96],
 "group__FT5336__Exported__Constants.html#ga17cc786f66f7a0bfbb8b815e20d15c18":[3,0,1,0,5,1,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "group__IDD__Control__Register__Defines.html#gaed8f92f5ca18ea77d376417f91dd72ab":[3,0,1,0,7,1,49],
 "group__IDD__Control__Register__Defines.html#gaed8f92f5ca18ea77d376417f91dd72ab":[1,2,1,3,2,0,1],
 "group__IDD__DeltaDelay__Defines.html":[1,2,1,3,2,2],
-"group__IDD__DeltaDelay__Defines.html#ga2cdbcaa187091bc8dbb68bd9315e19bf":[3,0,1,0,7,1,54],
-"group__IDD__DeltaDelay__Defines.html#ga2cdbcaa187091bc8dbb68bd9315e19bf":[1,2,1,3,2,2,1]
+"group__IDD__DeltaDelay__Defines.html#ga2cdbcaa187091bc8dbb68bd9315e19bf":[3,0,1,0,7,1,54]
 };

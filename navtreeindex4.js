@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"group__MFXSTM32L152__Exported__Constants.html#gafd188041d67beb42381d59a0f22d2614":[3,0,1,0,7,1,44],
 "group__MFXSTM32L152__Exported__Constants.html#gafd188041d67beb42381d59a0f22d2614":[1,2,1,3,2,5],
 "group__MFXSTM32L152__Exported__Constants.html#gafdc45af248e9a6bf65e9c08506a9acb3":[3,0,1,0,7,1,12],
 "group__MFXSTM32L152__Exported__Constants.html#gafe223e818beadabda390a6b25fc7b9a3":[3,0,1,0,7,1,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "group__MX25L512__Exported__Constants.html#ga1e5bbf97783bd333a84e311b8b1f5185":[3,0,1,0,8,0,52],
 "group__MX25L512__Exported__Constants.html#ga21623e2a5501c821da54dd76ffc1d077":[3,0,1,0,8,0,63],
 "group__MX25L512__Exported__Constants.html#ga216fff040d8bab7b5df5591ebfc2c5d6":[3,0,1,0,8,0,67],
-"group__MX25L512__Exported__Constants.html#ga2311f7c228e930564f83c6d08e6fbd17":[3,0,1,0,8,0,7],
-"group__MX25L512__Exported__Constants.html#ga23b5460d8017d1eaad5bd56371711c1f":[1,2,0,18,1,3]
+"group__MX25L512__Exported__Constants.html#ga2311f7c228e930564f83c6d08e6fbd17":[3,0,1,0,8,0,7]
 };

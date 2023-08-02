@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"group__OV9655__Exported__Constants.html#ga14011b7c1cf9b8394cce36c992c79f2a":[1,2,0,23,1,2],
 "group__OV9655__Exported__Constants.html#ga14011b7c1cf9b8394cce36c992c79f2a":[3,0,1,0,12,1,30],
 "group__OV9655__Exported__Constants.html#ga157ef18efb8f90d8ff543b534596710f":[3,0,1,0,12,1,31],
 "group__OV9655__Exported__Constants.html#ga2466781c5218a564e1e95d79c768e355":[3,0,1,0,12,1,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "group__ST7789H2__Exported__Constants.html":[1,2,0,2,7],
 "group__ST7789H2__Exported__Constants.html#ga09a5b996ed55540ec2bd30aa89d6dfde":[3,0,1,0,16,1,26],
 "group__ST7789H2__Exported__Constants.html#ga0c6ac653ec0c36db47bc97f557642247":[3,0,1,0,16,1,34],
-"group__ST7789H2__Exported__Constants.html#ga0d4dcc932efe69bd228ac58415937544":[3,0,1,0,16,1,8],
-"group__ST7789H2__Exported__Constants.html#ga16664fd80b206fd37e6d1cec8f340ebf":[3,0,1,0,16,1,25]
+"group__ST7789H2__Exported__Constants.html#ga0d4dcc932efe69bd228ac58415937544":[3,0,1,0,16,1,8]
 };

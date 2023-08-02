@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"structGYRO__InitTypeDef.html#a96e8d4464391cd554ac3786f3bef6c17":[1,2,0,11,0,1,0,5],
 "structGYRO__InitTypeDef.html#aa79b23b314641427fdde69821260fd4d":[1,2,0,11,0,1,0,6],
 "structGYRO__InitTypeDef.html#aed2db2c6a2dfea571eead482f2aaf734":[1,2,0,11,0,1,0,1],
 "structGYRO__InitTypeDef.html#af0271acd9f53fe53454eeb30170ab258":[1,2,0,11,0,1,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "syscalls_8c.html#af9aace1b44b73111e15aa39f06f43456":[3,0,0,2,3,0],
 "sysmem_8c.html":[3,0,0,2,4],
 "sysmem_8c.html#afcc86b0f227230278459bfaa6e3a2961":[3,0,0,2,4,0],
-"system__stm32f7xx_8c.html":[3,0,0,2,5],
-"tft_8h_source.html":[3,0,1,2,0]
+"system__stm32f7xx_8c.html":[3,0,0,2,5]
 };

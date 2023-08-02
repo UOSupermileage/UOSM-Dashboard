@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"group__ST7789H2__Exported__Constants.html#ga16664fd80b206fd37e6d1cec8f340ebf":[3,0,1,0,16,1,25],
 "group__ST7789H2__Exported__Constants.html#ga1dbeb1a86dca368e4f33f166453dfec6":[3,0,1,0,16,1,16],
 "group__ST7789H2__Exported__Constants.html#ga2535305a864c4d94e1c288add8aa5e3c":[3,0,1,0,16,1,21],
 "group__ST7789H2__Exported__Constants.html#ga2ab73cd00a3d750ce203159b7c079a07":[3,0,1,0,16,1,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html":[1,2,2,1,6],
 "group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#ga0836864c082cea938e19a3f5fc2bd2c8":[1,2,2,1,6,7],
 "group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#ga0836864c082cea938e19a3f5fc2bd2c8":[3,0,1,1,2,12],
-"group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#ga10167bf4224fa99ebd88358beb3bbf64":[1,2,2,1,6,9],
-"group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#ga10167bf4224fa99ebd88358beb3bbf64":[3,0,1,1,2,14]
+"group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#ga10167bf4224fa99ebd88358beb3bbf64":[1,2,2,1,6,9]
 };

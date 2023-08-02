@@ -55,23 +55,23 @@ var NAVTREEINDEX =
 [
 "ApplicationTypes_8h_source.html",
 "group__ADV7533__Exported__Constants.html#ga4d69c96d99bfbcac01dcf0a5b723d6e8",
-"group__FT5336__Exported__Constants.html#ga137c02245fe2b559392162a78e7d0090",
-"group__IDD__DeltaDelay__Defines.html#ga61e51e549994c78d1c274ebfab68e812",
+"group__FT5336__Exported__Constants.html#ga0e8539b0143bab6aab848799002f09db",
+"group__IDD__DeltaDelay__Defines.html#ga2cdbcaa187091bc8dbb68bd9315e19bf",
 "group__MFXSTM32L152__Exported__Constants.html#gafd188041d67beb42381d59a0f22d2614",
 "group__MX25L512__Exported__Constants.html#ga23b5460d8017d1eaad5bd56371711c1f",
-"group__N25Q512A__Exported__Constants.html#ga778f641f7a12aabbe1ffd0c948f8e1f9",
+"group__N25Q512A__Exported__Constants.html#ga7768dca40e06d3ca8d8b89be5648a5d0",
 "group__OV9655__Exported__Constants.html#ga14011b7c1cf9b8394cce36c992c79f2a",
-"group__ST7789H2__Exported__Constants.html#ga1dbeb1a86dca368e4f33f166453dfec6",
-"group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#ga165e0b4c19b92963f4046cfc63cfa770",
-"group__STM32F769I__DISCOVERY__LCD__Private__Defines.html#gae4015d78b1fe8969fac92f97eddcffcd",
-"group__STM32F769I__DISCOVERY__QSPI__Exported__Constants.html#gad34f1a37f968c4ff3b95b76aeffbe54d",
-"group__STMPE811__Exported__Constants.html#ga363193008569b90a5fc0fe9662ad4fac",
-"group__WM8994__Exported__Constants.html#ga4fe81ac8abc7ff35765ac7a98e36ceb0",
-"group__ft6x06__Private__Functions.html#ga714520adcf3d75394a2f08cf428d3c40",
-"lv__conf_8h.html#aff60f490268a56128446e6b55e2bd066",
-"main_8h.html#ac4a738d4b5585b977b1cacb026078677",
-"structGYRO__InitTypeDef.html#aa79b23b314641427fdde69821260fd4d",
-"touchpad_8h_source.html"
+"group__ST7789H2__Exported__Constants.html#ga16664fd80b206fd37e6d1cec8f340ebf",
+"group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#ga10167bf4224fa99ebd88358beb3bbf64",
+"group__STM32F769I__DISCOVERY__LCD__Private__Defines.html#ga3a532d77b9a823c3a99abb44ad0bff43",
+"group__STM32F769I__DISCOVERY__QSPI__Exported__Constants.html#gad1441003175ef21838a39cc8908537a6",
+"group__STMPE811__Exported__Constants.html#ga35b7fa0ede77d602aebd36f50c1731c1",
+"group__WM8994__Exported__Constants.html#ga4a9d8cc6e08cebe99d8f68a6114e3dc7",
+"group__ft6x06__Private__Functions.html#ga55dc85a22e1cf328f4375a2399a1f552",
+"lv__conf_8h.html#afdd89cb1aa0f3bc5dce3c08945794373",
+"main_8h.html#ac44d52e5a90d9b0892bbaacf817703f8",
+"structGYRO__InitTypeDef.html#a96e8d4464391cd554ac3786f3bef6c17",
+"tft_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

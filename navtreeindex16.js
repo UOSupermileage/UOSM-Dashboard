@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"main_8h.html#ac44d52e5a90d9b0892bbaacf817703f8":[3,0,0,0,3,187],
 "main_8h.html#ac4a738d4b5585b977b1cacb026078677":[3,0,0,0,3,291],
 "main_8h.html#ac4ff03f790c56093f8e31a86ce212a00":[3,0,0,0,3,166],
 "main_8h.html#ac557be660349443d7c309beb09a8ad5d":[3,0,0,0,3,51],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "structGYRO__InitTypeDef.html":[1,2,0,11,0,1,0],
 "structGYRO__InitTypeDef.html#a3898a0a7246ac941147efa697f7d9985":[1,2,0,11,0,1,0,4],
 "structGYRO__InitTypeDef.html#a40c4d31c3fac18a9947b1ce6e42342dd":[1,2,0,11,0,1,0,2],
-"structGYRO__InitTypeDef.html#a5d0ff4654f26ebca0379d02ad86790b9":[1,2,0,11,0,1,0,0],
-"structGYRO__InitTypeDef.html#a96e8d4464391cd554ac3786f3bef6c17":[1,2,0,11,0,1,0,5]
+"structGYRO__InitTypeDef.html#a5d0ff4654f26ebca0379d02ad86790b9":[1,2,0,11,0,1,0,0]
 };

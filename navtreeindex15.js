@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"lv__conf_8h.html#afdd89cb1aa0f3bc5dce3c08945794373":[3,0,0,0,2,54],
 "lv__conf_8h.html#aff60f490268a56128446e6b55e2bd066":[3,0,0,0,2,103],
 "lv__conf_8h_source.html":[3,0,0,0,2],
 "magneto_8h.html":[3,0,1,0,3,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "main_8h.html#ac3118c7aa3ae6e67acafd02a119703e2":[3,0,0,0,3,280],
 "main_8h.html#ac34325bfafcd23ad5472560a0bbfddcb":[3,0,0,0,3,190],
 "main_8h.html#ac39c6d8d9b082772b586b8dfa1506d26":[3,0,0,0,3,55],
-"main_8h.html#ac3f3cb94cd621d8c9c1ecb9e6b3452bc":[3,0,0,0,3,54],
-"main_8h.html#ac44d52e5a90d9b0892bbaacf817703f8":[3,0,0,0,3,187]
+"main_8h.html#ac3f3cb94cd621d8c9c1ecb9e6b3452bc":[3,0,0,0,3,54]
 };
