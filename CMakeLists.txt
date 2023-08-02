@@ -61,7 +61,7 @@ include_directories(
     ${CMAKE_SOURCE_DIR}/Core/Modules
 )
 
-add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F769xx)
+add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F769xx -DSTM)
 
 file(GLOB_RECURSE SOURCES "Core/*.*" "Middlewares/*.*" "Drivers/*.*")
 

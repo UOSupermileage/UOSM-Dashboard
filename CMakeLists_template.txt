@@ -60,7 +60,7 @@ include_directories(
     ${CMAKE_SOURCE_DIR}/Core/Modules
 )
 
-add_definitions(${defines})
+add_definitions(${defines} -DSTM)
 
 file(GLOB_RECURSE SOURCES ${sources})
 
