@@ -106,32 +106,42 @@ $(document).ready(function(){initNavTree('InternalCommsModule_8h_source.html',''
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;PUBLIC result_t IComms_ReceiveNextMessage(<a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a>* rxMsg);</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;PUBLIC uint8_t IComms_HasRxMessage();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;PUBLIC <span class="keywordtype">void</span> IComms_PeriodicReceive();</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;PUBLIC <span class="keywordtype">void</span> IComms_Update();</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;PUBLIC result_t IComms_Transmit(<a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a>* txMsg);</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;PUBLIC result_t IComms_Transmit(<a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a>* txMsg);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;PUBLIC <a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> IComms_CreateMessage(uint16_t standardMessageID, uint8_t dataLength, uint8_t data[8]);</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;PUBLIC <a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> IComms_CreateMessage(uint16_t standardMessageID, uint8_t dataLength, uint8_t data[8]);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;PUBLIC <a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> IComms_CreatePercentageMessage(uint16_t standardMessageID, percentage_t percentage);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;PUBLIC <a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> IComms_CreatePercentageMessage(uint16_t standardMessageID, percentage_t percentage);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;PUBLIC <a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> IComms_CreateUint32BitMessage(uint16_t standardMessageID, uint32_t value);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;PUBLIC <a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> IComms_CreateUint32BitMessage(uint16_t standardMessageID, uint32_t value);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;PUBLIC <a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> IComms_CreateInt32BitMessage(uint16_t standardMessageID, int32_t value);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;PUBLIC <a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> IComms_CreateInt32BitMessage(uint16_t standardMessageID, int32_t value);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;PUBLIC <a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> IComms_CreateErrorMessage(uint16_t standardMessageID, ErrorCode code, flag_status_t);</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;PUBLIC <a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> IComms_CreateErrorMessage(uint16_t standardMessageID, ErrorCode code, flag_status_t);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;PUBLIC <a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> IComms_CreateEventMessage(uint16_t standardMessageID, uint8_t code, uint8_t status);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;PUBLIC <a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> IComms_CreateEventMessage(uint16_t standardMessageID, uint8_t code, uint8_t status);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;PUBLIC <a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> IComms_CreatePairUInt16BitMessage(uint16_t standardMessageID, uint16_t a, uint16_t b);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;PUBLIC <span class="keywordtype">void</span> IComms_PeriodicReceive();</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* MODULES_INTERNALCOMMSMODULE_H_ */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="astructiCommsMessage__t_html"><div class="ttname"><a href="structiCommsMessage__t.html">iCommsMessage_t</a></div><div class="ttdef"><b>Definition:</b> ApplicationTypes.h:75</div></div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="unionuint16__pair__t.html">   39</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">union </span>{</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    uint32_t all;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">struct </span>{</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        uint16_t a:16;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        uint16_t b:16;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        uint32_t reserved;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    };</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;} <a class="code" href="unionuint16__pair__t.html">uint16_pair_t</a>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;PUBLIC <a class="code" href="unionuint16__pair__t.html">uint16_pair_t</a> readMsgPairUInt16Bit(<a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> *msg);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* MODULES_INTERNALCOMMSMODULE_H_ */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="astructiCommsMessage__t_html"><div class="ttname"><a href="structiCommsMessage__t.html">iCommsMessage_t</a></div><div class="ttdef"><b>Definition:</b> ApplicationTypes.h:81</div></div>
+<div class="ttc" id="aunionuint16__pair__t_html"><div class="ttname"><a href="unionuint16__pair__t.html">uint16_pair_t</a></div><div class="ttdef"><b>Definition:</b> InternalCommsModule.h:39</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

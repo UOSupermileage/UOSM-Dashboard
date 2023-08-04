@@ -19,10 +19,8 @@ var searchData=
   ['hdmi_5fio_5finit_350',['HDMI_IO_Init',['../group__STM32F769I__DISCOVERY__LOW__LEVEL.html#ga544f0d0708135b1e716a2d309f5f9509',1,'HDMI_IO_Init(void):&#160;stm32f769i_discovery.c'],['../group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__FunctionPrototypes.html#ga544f0d0708135b1e716a2d309f5f9509',1,'HDMI_IO_Init(void):&#160;stm32f769i_discovery.c']]],
   ['hdmi_5fio_5fread_351',['HDMI_IO_Read',['../group__STM32F769I__DISCOVERY__LOW__LEVEL.html#ga2fbd238c4483b08b7ae8a2206df5acf7',1,'HDMI_IO_Read(uint8_t addr, uint8_t reg):&#160;stm32f769i_discovery.c'],['../group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__FunctionPrototypes.html#ga6f26b1e833894041e12ccc560c29b069',1,'HDMI_IO_Read(uint8_t Addr, uint8_t Reg):&#160;stm32f769i_discovery.c']]],
   ['hdmi_5fio_5fwrite_352',['HDMI_IO_Write',['../group__STM32F769I__DISCOVERY__LOW__LEVEL.html#gad4f6407da49a24c73e0bbe85d42bec66',1,'HDMI_IO_Write(uint8_t addr, uint8_t reg, uint8_t value):&#160;stm32f769i_discovery.c'],['../group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__FunctionPrototypes.html#ga21ed330d8c0e679d74357102b57caea4',1,'HDMI_IO_Write(uint8_t Addr, uint8_t Reg, uint8_t Value):&#160;stm32f769i_discovery.c']]],
-  ['heap_353',['heap',['../structheap.html',1,'']]],
-  ['heapnode_354',['HeapNode',['../structHeapNode.html',1,'']]],
-  ['homeview_355',['HomeView',['../classHomeView.html#ab0d1efa2b3533f941195dcdc3da70abb',1,'HomeView::HomeView()'],['../classHomeView.html',1,'HomeView']]],
-  ['homeviewmodel_356',['HomeViewModel',['../classHomeViewModel.html',1,'']]],
-  ['hse_5fvalue_357',['HSE_VALUE',['../group__STM32F7xx__System__Private__Includes.html#gaeafcff4f57440c60e64812dddd13e7cb',1,'system_stm32f7xx.c']]],
-  ['hsi_5fvalue_358',['HSI_VALUE',['../group__STM32F7xx__System__Private__Includes.html#gaaa8c76e274d0f6dd2cefb5d0b17fbc37',1,'system_stm32f7xx.c']]]
+  ['homeview_353',['HomeView',['../classHomeView.html#ab0d1efa2b3533f941195dcdc3da70abb',1,'HomeView::HomeView()'],['../classHomeView.html',1,'HomeView']]],
+  ['homeviewmodel_354',['HomeViewModel',['../classHomeViewModel.html',1,'']]],
+  ['hse_5fvalue_355',['HSE_VALUE',['../group__STM32F7xx__System__Private__Includes.html#gaeafcff4f57440c60e64812dddd13e7cb',1,'system_stm32f7xx.c']]],
+  ['hsi_5fvalue_356',['HSI_VALUE',['../group__STM32F7xx__System__Private__Includes.html#gaaa8c76e274d0f6dd2cefb5d0b17fbc37',1,'system_stm32f7xx.c']]]
 ];

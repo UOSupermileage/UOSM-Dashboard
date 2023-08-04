@@ -71,7 +71,7 @@ var NAVTREEINDEX =
 "lv__conf_8h.html#afdd89cb1aa0f3bc5dce3c08945794373",
 "main_8h.html#ac44d52e5a90d9b0892bbaacf817703f8",
 "structGYRO__InitTypeDef.html#a96e8d4464391cd554ac3786f3bef6c17",
-"tft_8h_source.html"
+"ts_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

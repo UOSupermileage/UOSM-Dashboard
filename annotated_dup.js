@@ -19,8 +19,6 @@ var annotated_dup =
     [ "GYRO_FilterConfigTypeDef", "structGYRO__FilterConfigTypeDef.html", "structGYRO__FilterConfigTypeDef" ],
     [ "GYRO_InitTypeDef", "structGYRO__InitTypeDef.html", "structGYRO__InitTypeDef" ],
     [ "GYRO_InterruptConfigTypeDef", "structGYRO__InterruptConfigTypeDef.html", "structGYRO__InterruptConfigTypeDef" ],
-    [ "heap", "structheap.html", "structheap" ],
-    [ "HeapNode", "structHeapNode.html", "structHeapNode" ],
     [ "HomeView", "classHomeView.html", "classHomeView" ],
     [ "HomeViewModel", "classHomeViewModel.html", "classHomeViewModel" ],
     [ "iCommsMessage_t", "structiCommsMessage__t.html", "structiCommsMessage__t" ],
@@ -58,6 +56,7 @@ var annotated_dup =
     [ "TSENSOR_DrvTypeDef", "structTSENSOR__DrvTypeDef.html", "structTSENSOR__DrvTypeDef" ],
     [ "TSENSOR_InitTypeDef", "structTSENSOR__InitTypeDef.html", "structTSENSOR__InitTypeDef" ],
     [ "uCAN_MSG", "unionuCAN__MSG.html", "unionuCAN__MSG" ],
+    [ "uint16_pair_t", "unionuint16__pair__t.html", "unionuint16__pair__t" ],
     [ "View", "classView.html", "classView" ],
     [ "ViewModel", "classViewModel.html", "classViewModel" ]
 ];

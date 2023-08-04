@@ -19,8 +19,6 @@ var hierarchy =
     [ "GYRO_FilterConfigTypeDef", "structGYRO__FilterConfigTypeDef.html", null ],
     [ "GYRO_InitTypeDef", "structGYRO__InitTypeDef.html", null ],
     [ "GYRO_InterruptConfigTypeDef", "structGYRO__InterruptConfigTypeDef.html", null ],
-    [ "heap", "structheap.html", null ],
-    [ "HeapNode", "structHeapNode.html", null ],
     [ "iCommsMessage_t", "structiCommsMessage__t.html", null ],
     [ "ICommsMessageInfo", "structICommsMessageInfo.html", null ],
     [ "id_reg_t", "structid__reg__t.html", null ],
@@ -58,6 +56,7 @@ var hierarchy =
     [ "TSENSOR_DrvTypeDef", "structTSENSOR__DrvTypeDef.html", null ],
     [ "TSENSOR_InitTypeDef", "structTSENSOR__InitTypeDef.html", null ],
     [ "uCAN_MSG", "unionuCAN__MSG.html", null ],
+    [ "uint16_pair_t", "unionuint16__pair__t.html", null ],
     [ "View", "classView.html", [
       [ "HomeView", "classHomeView.html", null ],
       [ "StatsView", "classStatsView.html", null ]
