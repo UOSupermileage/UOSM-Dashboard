@@ -7,6 +7,7 @@ var annotated_dup =
     [ "AUDIO_DrvTypeDef", "structAUDIO__DrvTypeDef.html", "structAUDIO__DrvTypeDef" ],
     [ "AUDIOIN_TypeDef", "structAUDIOIN__TypeDef.html", "structAUDIOIN__TypeDef" ],
     [ "CAMERA_DrvTypeDef", "structCAMERA__DrvTypeDef.html", "structCAMERA__DrvTypeDef" ],
+    [ "CombineLatest", "classCombineLatest.html", "classCombineLatest" ],
     [ "ctrl_error_status_t", "unionctrl__error__status__t.html", "unionctrl__error__status__t" ],
     [ "ctrl_rx_status_t", "unionctrl__rx__status__t.html", "unionctrl__rx__status__t" ],
     [ "ctrl_status_t", "unionctrl__status__t.html", "unionctrl__status__t" ],

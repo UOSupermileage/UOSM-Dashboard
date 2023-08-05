@@ -1,5 +1,10 @@
 var NAVTREEINDEX16 =
 {
+"main_8h.html#ac295f9c8b9df4b38867cccc75c15f9eb":[7,0,0,0,3,66],
+"main_8h.html#ac30893c7c5dd78cf02632dc653c3e74e":[7,0,0,0,3,261],
+"main_8h.html#ac3118c7aa3ae6e67acafd02a119703e2":[7,0,0,0,3,280],
+"main_8h.html#ac34325bfafcd23ad5472560a0bbfddcb":[7,0,0,0,3,190],
+"main_8h.html#ac39c6d8d9b082772b586b8dfa1506d26":[7,0,0,0,3,55],
 "main_8h.html#ac3f3cb94cd621d8c9c1ecb9e6b3452bc":[7,0,0,0,3,54],
 "main_8h.html#ac44d52e5a90d9b0892bbaacf817703f8":[7,0,0,0,3,187],
 "main_8h.html#ac4a738d4b5585b977b1cacb026078677":[7,0,0,0,3,291],
@@ -238,16 +243,11 @@ var NAVTREEINDEX16 =
 "structCAMERA__DrvTypeDef.html#aac6076d7bac6e6dc4133163f9e48060e":[5,2,0,9,0,0,0,0],
 "structCAMERA__DrvTypeDef.html#ad81cc9925bdd046c7ec4bfb6e3656f6d":[5,2,0,9,0,0,0,1],
 "structCAMERA__DrvTypeDef.html#ae1632c0a987565422f71a650fbb50d55":[5,2,0,9,0,0,0,2],
-"structDataAggregatorWrapper.html":[6,0,11],
-"structDataAggregatorWrapper.html#a3bc3670b901769dca54fa330607f55ea":[6,0,11,0],
+"structDataAggregatorWrapper.html":[6,0,12],
+"structDataAggregatorWrapper.html#a3bc3670b901769dca54fa330607f55ea":[6,0,12,0],
 "structEPD__DrvTypeDef.html":[5,2,0,10,0,0,0,0],
 "structGYRO__DrvTypeDef.html":[5,2,0,11,0,0,0],
 "structGYRO__DrvTypeDef.html#a0aa0402cc1408ef4e833a79538078436":[5,2,0,11,0,0,0,12],
 "structGYRO__DrvTypeDef.html#a1d600f6adb276998c55259398f833f05":[5,2,0,11,0,0,0,5],
-"structGYRO__DrvTypeDef.html#a1d9f3a468642e0c7fd1199344ed583db":[5,2,0,11,0,0,0,0],
-"structGYRO__DrvTypeDef.html#a2eab4e23880c737f3b7c458843839216":[5,2,0,11,0,0,0,3],
-"structGYRO__DrvTypeDef.html#a43e2b19dea0f8f41fa1b72c0095708cf":[5,2,0,11,0,0,0,8],
-"structGYRO__DrvTypeDef.html#a7d0bb9d4770cc3847b434a20ba688d17":[5,2,0,11,0,0,0,7],
-"structGYRO__DrvTypeDef.html#a7e46e1d7998f4eeaa70515f755a39800":[5,2,0,11,0,0,0,11],
-"structGYRO__DrvTypeDef.html#a88f59001f1f01961239c5575023066ed":[5,2,0,11,0,0,0,9]
+"structGYRO__DrvTypeDef.html#a1d9f3a468642e0c7fd1199344ed583db":[5,2,0,11,0,0,0,0]
 };

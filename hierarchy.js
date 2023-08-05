@@ -7,6 +7,8 @@ var hierarchy =
     [ "AUDIO_DrvTypeDef", "structAUDIO__DrvTypeDef.html", null ],
     [ "AUDIOIN_TypeDef", "structAUDIOIN__TypeDef.html", null ],
     [ "CAMERA_DrvTypeDef", "structCAMERA__DrvTypeDef.html", null ],
+    [ "CombineLatest< Ts >", "classCombineLatest.html", null ],
+    [ "CombineLatest< velocity_t, voltage_t >", "classCombineLatest.html", null ],
     [ "ctrl_error_status_t", "unionctrl__error__status__t.html", null ],
     [ "ctrl_rx_status_t", "unionctrl__rx__status__t.html", null ],
     [ "ctrl_status_t", "unionctrl__status__t.html", null ],

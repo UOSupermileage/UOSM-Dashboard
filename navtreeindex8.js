@@ -1,5 +1,10 @@
 var NAVTREEINDEX8 =
 {
+"group__ST7789H2.html":[5,2,0,2],
+"group__ST7789H2__Exported__Constants.html":[5,2,0,2,7],
+"group__ST7789H2__Exported__Constants.html#ga09a5b996ed55540ec2bd30aa89d6dfde":[7,0,1,0,16,1,26],
+"group__ST7789H2__Exported__Constants.html#ga0c6ac653ec0c36db47bc97f557642247":[7,0,1,0,16,1,34],
+"group__ST7789H2__Exported__Constants.html#ga0d4dcc932efe69bd228ac58415937544":[7,0,1,0,16,1,8],
 "group__ST7789H2__Exported__Constants.html#ga16664fd80b206fd37e6d1cec8f340ebf":[7,0,1,0,16,1,25],
 "group__ST7789H2__Exported__Constants.html#ga1dbeb1a86dca368e4f33f166453dfec6":[7,0,1,0,16,1,16],
 "group__ST7789H2__Exported__Constants.html#ga2535305a864c4d94e1c288add8aa5e3c":[7,0,1,0,16,1,21],
@@ -69,8 +74,8 @@ var NAVTREEINDEX8 =
 "group__ST7789H2__Exported__Functions.html#gaae6ab499c7ca32f026708cbfb5153c97":[7,0,1,0,16,1,38],
 "group__ST7789H2__Exported__Functions.html#gaafb6fbc09b3a6fb4a163c59eefed12a2":[5,2,0,2,8,1],
 "group__ST7789H2__Exported__Functions.html#gaafb6fbc09b3a6fb4a163c59eefed12a2":[7,0,1,0,16,1,42],
-"group__ST7789H2__Exported__Functions.html#gab0ada921c8c4886a56114035b4496edf":[7,0,1,0,16,1,56],
 "group__ST7789H2__Exported__Functions.html#gab0ada921c8c4886a56114035b4496edf":[5,2,0,2,8,15],
+"group__ST7789H2__Exported__Functions.html#gab0ada921c8c4886a56114035b4496edf":[7,0,1,0,16,1,56],
 "group__ST7789H2__Exported__Functions.html#gaccf0a45e037a886f9b1a849bedd63735":[7,0,1,0,16,1,36],
 "group__ST7789H2__Exported__Functions.html#gad35fbfe45d9c0a5740d65f2597af02c2":[5,2,0,2,8,10],
 "group__ST7789H2__Exported__Functions.html#gad35fbfe45d9c0a5740d65f2597af02c2":[7,0,1,0,16,1,51],
@@ -226,8 +231,8 @@ var NAVTREEINDEX8 =
 "group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#ga730bddf27a417c002e1d0058d2b3c314":[5,2,2,1,11,1],
 "group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#ga81c2687246a9c075fa8849009d0aea7f":[7,0,1,1,3,100],
 "group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#ga81c2687246a9c075fa8849009d0aea7f":[5,2,2,1,11,3],
-"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#ga90d938ee6930b09a9931738e186bcb4e":[5,2,2,1,11,5],
 "group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#ga90d938ee6930b09a9931738e186bcb4e":[7,0,1,1,3,102],
+"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#ga90d938ee6930b09a9931738e186bcb4e":[5,2,2,1,11,5],
 "group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gaa4a2359abfe68ce856dbfaf78f19e250":[7,0,1,1,3,97],
 "group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gaa4a2359abfe68ce856dbfaf78f19e250":[5,2,2,1,11,0],
 "group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gaa5cfd402108d9933f0a12beed3863587":[7,0,1,1,3,111],
@@ -244,10 +249,5 @@ var NAVTREEINDEX8 =
 "group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gadf7a4308129a18f4a3c22adb6f543d01":[5,2,2,1,11,12],
 "group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gaecc95f1e2e0daece1d49ac2cb8120380":[5,2,2,1,11,2],
 "group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gaecc95f1e2e0daece1d49ac2cb8120380":[7,0,1,1,3,99],
-"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gafd4b2ffdb8ccfe845fed8590063aed68":[7,0,1,1,3,105],
-"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gafd4b2ffdb8ccfe845fed8590063aed68":[5,2,2,1,11,8],
-"group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html":[5,2,2,1,6],
-"group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#ga0836864c082cea938e19a3f5fc2bd2c8":[5,2,2,1,6,7],
-"group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#ga0836864c082cea938e19a3f5fc2bd2c8":[7,0,1,1,2,12],
-"group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#ga10167bf4224fa99ebd88358beb3bbf64":[5,2,2,1,6,9]
+"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gafd4b2ffdb8ccfe845fed8590063aed68":[7,0,1,1,3,105]
 };

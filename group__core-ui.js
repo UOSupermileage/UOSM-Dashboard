@@ -15,7 +15,7 @@ var group__core_ui =
       [ "GetFullscreenChartStyle", "classLightStyles.html#a584c10e94870b1503cc2c9eb29c5b507", null ]
     ] ],
     [ "StatsView", "classStatsView.html", [
-      [ "~StatsView", "classStatsView.html#a506519c47fea59fc291d47fd940155bd", null ],
+      [ "~StatsView", "classStatsView.html#ae456734534188125bf922504f4abe182", null ],
       [ "StatsView", "classStatsView.html#ac40e1419c4df1d8eb5dda9a09da20a59", null ]
     ] ],
     [ "StatsViewModel", "classStatsViewModel.html", [
