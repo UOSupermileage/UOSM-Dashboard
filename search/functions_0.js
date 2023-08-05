@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_5fsbrk_1178',['_sbrk',['../sysmem_8c.html#afcc86b0f227230278459bfaa6e3a2961',1,'sysmem.c']]]
+  ['_5fsbrk_1180',['_sbrk',['../sysmem_8c.html#afcc86b0f227230278459bfaa6e3a2961',1,'sysmem.c']]]
 ];

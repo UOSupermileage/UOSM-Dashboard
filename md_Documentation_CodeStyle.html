@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>UOSM Dashboard: ToDo List</title>
+<title>UOSM Dashboard: CodeStyle</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,7 +63,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('md_Documentation_ToDo.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('md_Documentation_CodeStyle.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -83,52 +83,16 @@ $(document).ready(function(){initNavTree('md_Documentation_ToDo.html',''); initR
 
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">ToDo List </div>  </div>
+<div class="title">CodeStyle </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md6"></a>
-1. Bar chart that displays lap efficiencies.</h1>
-<ul>
-<li>Create a bar chart that visualizes lap efficiencies.</li>
-<li>Each lap trigger event can be mocked with a button on the screen for now.</li>
-<li>Each lap should appear as a new bar on the chart.</li>
-<li>Color code each bar based on the lap efficiency, with the most efficient lap in green and the least efficient in red.</li>
-<li>Recompute the colors of the bars every time a new lap is added.</li>
-<li>The y-axis scale should be dynamic, with the most efficient lap represented as 100%.</li>
-<li>Utilize a percentage-based y-axis to maximize screen space.</li>
-</ul>
-<h1><a class="anchor" id="autotoc_md7"></a>
-2. Large format efficiency number percentage.</h1>
-<ul>
-<li>Implement a reusable view for the large format efficiency number percentage.</li>
-<li>The view should accept an Observable object to listen to and display its value.</li>
-<li>It will display the value provided by the Observable object.</li>
-</ul>
-<h1><a class="anchor" id="autotoc_md8"></a>
-3. Graph of RPM, Current, Voltage, Throttle over time.</h1>
-<ul>
-<li>Create an interactive graph that plots RPM, Current, Voltage, and Throttle over time.</li>
-<li>Compute a percentage for each value based on its highest possible value.</li>
-<li>Display the percentages in the graph to allow multiple values to share a y-axis.</li>
-<li>Provide a legend to display the current value units (RPM, A, V, etc.) for user reference.</li>
-<li>Include a checkbox system to toggle the visibility of each value in the graph.</li>
-<li>Assign a different color to each line representing a value.</li>
-</ul>
-<h1><a class="anchor" id="autotoc_md9"></a>
-4. Large format lap time.</h1>
-<ul>
-<li>Implement a reusable view for the large format lap time display.</li>
-<li>The view should accept an Observable object to listen to and display the lap time.</li>
-<li>It will display the lap time value provided by the Observable object.</li>
-</ul>
-<h1><a class="anchor" id="autotoc_md10"></a>
-5. Easily change the default screen at compile time.</h1>
-<ul>
-<li>Use #define to specify the order in which the screens appear.</li>
-<li>This approach will enable easy changes to the default screen by modifying the compilation options.</li>
-</ul>
-<hr  />
-<p><b>Note:</b> Throughout the project, keep flexibility in mind to ensure the system remains highly adaptable and easy to customize for different use cases. </p>
+<div class="textblock"><p>The goal of this page is to define a standard code styling for the team to follow.</p>
+<h1><a class="anchor" id="autotoc_md2"></a>
+Naming Conventions</h1>
+<h2><a class="anchor" id="autotoc_md3"></a>
+File Extensions</h2>
+<p>.hpp -&gt; This header is for C++ only.</p>
+<p>.h -&gt; This header is C and C++ compatible. This means pure C headers and C++ headers protected by the <code>__cplusplus</code> macro </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

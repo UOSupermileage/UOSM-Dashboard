@@ -26,12 +26,20 @@ var NAVTREE =
 [
   [ "UOSM Dashboard", "index.html", [
     [ "Getting Started", "index.html", null ],
+    [ "Overview", "md_Documentation_Architecture.html", [
+      [ "Updating the view", "md_Documentation_Architecture.html#autotoc_md1", null ]
+    ] ],
+    [ "CodeStyle", "md_Documentation_CodeStyle.html", [
+      [ "Naming Conventions", "md_Documentation_CodeStyle.html#autotoc_md2", [
+        [ "File Extensions", "md_Documentation_CodeStyle.html#autotoc_md3", null ]
+      ] ]
+    ] ],
     [ "ToDo List", "md_Documentation_ToDo.html", [
-      [ "1. Bar chart that displays lap efficiencies.", "md_Documentation_ToDo.html#autotoc_md2", null ],
-      [ "2. Large format efficiency number percentage.", "md_Documentation_ToDo.html#autotoc_md3", null ],
-      [ "3. Graph of RPM, Current, Voltage, Throttle over time.", "md_Documentation_ToDo.html#autotoc_md4", null ],
-      [ "4. Large format lap time.", "md_Documentation_ToDo.html#autotoc_md5", null ],
-      [ "5. Easily change the default screen at compile time.", "md_Documentation_ToDo.html#autotoc_md6", null ]
+      [ "1. Bar chart that displays lap efficiencies.", "md_Documentation_ToDo.html#autotoc_md6", null ],
+      [ "2. Large format efficiency number percentage.", "md_Documentation_ToDo.html#autotoc_md7", null ],
+      [ "3. Graph of RPM, Current, Voltage, Throttle over time.", "md_Documentation_ToDo.html#autotoc_md8", null ],
+      [ "4. Large format lap time.", "md_Documentation_ToDo.html#autotoc_md9", null ],
+      [ "5. Easily change the default screen at compile time.", "md_Documentation_ToDo.html#autotoc_md10", null ]
     ] ],
     [ "UOSM-Core", "md_UOSM_Core_README.html", null ],
     [ "Modules", "modules.html", "modules" ],
@@ -78,8 +86,8 @@ var NAVTREEINDEX =
 "group__ft6x06__Private__Functions.html#ga55dc85a22e1cf328f4375a2399a1f552",
 "lv__conf_8h.html#afc3a0018a49cfca52d6cac503a638ec2",
 "main_8h.html#ac3f3cb94cd621d8c9c1ecb9e6b3452bc",
-"structGYRO__FilterConfigTypeDef.html",
-"system__stm32f7xx_8c.html"
+"structGYRO__DrvTypeDef.html#aad4d4f459a15a52fde1bac4073326f5d",
+"syscalls_8c.html#ad3134a3dc296622b8d1c5456e481505b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
