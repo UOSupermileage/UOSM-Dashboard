@@ -25,6 +25,14 @@
 var NAVTREE =
 [
   [ "UOSM Dashboard", "index.html", [
+    [ "Getting Started", "index.html", null ],
+    [ "ToDo List", "md_Documentation_ToDo.html", [
+      [ "1. Bar chart that displays lap efficiencies.", "md_Documentation_ToDo.html#autotoc_md2", null ],
+      [ "2. Large format efficiency number percentage.", "md_Documentation_ToDo.html#autotoc_md3", null ],
+      [ "3. Graph of RPM, Current, Voltage, Throttle over time.", "md_Documentation_ToDo.html#autotoc_md4", null ],
+      [ "4. Large format lap time.", "md_Documentation_ToDo.html#autotoc_md5", null ],
+      [ "5. Easily change the default screen at compile time.", "md_Documentation_ToDo.html#autotoc_md6", null ]
+    ] ],
     [ "UOSM-Core", "md_UOSM_Core_README.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Classes", "annotated.html", [
@@ -68,10 +76,10 @@ var NAVTREEINDEX =
 "group__STMPE811__Exported__Constants.html#ga35b7fa0ede77d602aebd36f50c1731c1",
 "group__WM8994__Exported__Constants.html#ga4a9d8cc6e08cebe99d8f68a6114e3dc7",
 "group__ft6x06__Private__Functions.html#ga55dc85a22e1cf328f4375a2399a1f552",
-"lv__conf_8h.html#afdd89cb1aa0f3bc5dce3c08945794373",
-"main_8h.html#ac44d52e5a90d9b0892bbaacf817703f8",
-"structGYRO__InitTypeDef.html#a96e8d4464391cd554ac3786f3bef6c17",
-"ts_8h_source.html"
+"lv__conf_8h.html#afc3a0018a49cfca52d6cac503a638ec2",
+"main_8h.html#ac3f3cb94cd621d8c9c1ecb9e6b3452bc",
+"structGYRO__FilterConfigTypeDef.html",
+"system__stm32f7xx_8c.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

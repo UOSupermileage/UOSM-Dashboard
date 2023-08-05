@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>UOSM Dashboard: Main Page</title>
+<title>UOSM Dashboard: Getting Started</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -81,11 +81,30 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </iframe>
 </div>
 
-<div class="header">
+<div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">UOSM Dashboard Documentation</div>  </div>
+<div class="title">Getting Started </div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><p><a class="anchor" id="md_Documentation_Main"></a> You can edit and compile this project from MacOS, Linux and Windows.</p>
+<p>Here is the recommended setup.</p>
+<ol type="1">
+<li><p class="startli">Install Software</p><ul>
+<li>CLion (Education license available for free)</li>
+<li>STM32CubeIDE</li>
+<li>STM32CubeMX</li>
+<li>OpenOCD</li>
+</ul>
+<p class="startli">By installing the STM32CubeIDE, it takes care of installing the arm-none-eabi cross compiling tool chain. Alternatively, you can also just download the toolchain and the STM32CubeProg.</p>
+</li>
+<li>Clone the project</li>
+</ol>
+<div class="fragment"><div class="line">git clone git@github.com:UOSupermileage/UOSM-Dashboard.git --recurse-submodules</div>
+</div><!-- fragment --><ol type="1">
+<li>Configure CLion paths TODO: Give specifics</li>
+<li>Build and run project </li>
+</ol>
+</div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

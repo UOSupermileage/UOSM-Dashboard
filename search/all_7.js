@@ -16,13 +16,14 @@ var searchData=
   ['getid_322',['getId',['../classIdentifiable.html#a79a8ec515876b30bcecc4cc958baebd7',1,'Identifiable']]],
   ['getnextid_323',['getNextId',['../classIdentifiable.html#ae27c79df0e78b1dc461f7a781f7f4d06',1,'Identifiable']]],
   ['getstyles_324',['GetStyles',['../classStylesManager.html#a9ce2c9219ecb8248bb6a85974ed86ffb',1,'StylesManager']]],
-  ['gyro_325',['GYRO',['../group__GYRO.html',1,'']]],
-  ['gyro_2eh_326',['gyro.h',['../gyro_8h.html',1,'']]],
-  ['gyro_5fdrvtypedef_327',['GYRO_DrvTypeDef',['../structGYRO__DrvTypeDef.html',1,'']]],
-  ['gyro_5fexported_5ftypes_328',['GYRO_Exported_Types',['../group__GYRO__Exported__Types.html',1,'']]],
-  ['gyro_5ffilterconfigtypedef_329',['GYRO_FilterConfigTypeDef',['../structGYRO__FilterConfigTypeDef.html',1,'']]],
-  ['gyro_5finittypedef_330',['GYRO_InitTypeDef',['../structGYRO__InitTypeDef.html',1,'']]],
-  ['gyro_5finterruptconfigtypedef_331',['GYRO_InterruptConfigTypeDef',['../structGYRO__InterruptConfigTypeDef.html',1,'']]],
-  ['gyroscope_20configuration_20structure_332',['Gyroscope Configuration structure',['../group__GYRO__Config__structure.html',1,'']]],
-  ['gyroscope_20driver_20structure_333',['Gyroscope Driver structure',['../group__GYRO__Driver__structure.html',1,'']]]
+  ['getting_20started_325',['Getting Started',['../index.html',1,'']]],
+  ['gyro_326',['GYRO',['../group__GYRO.html',1,'']]],
+  ['gyro_2eh_327',['gyro.h',['../gyro_8h.html',1,'']]],
+  ['gyro_5fdrvtypedef_328',['GYRO_DrvTypeDef',['../structGYRO__DrvTypeDef.html',1,'']]],
+  ['gyro_5fexported_5ftypes_329',['GYRO_Exported_Types',['../group__GYRO__Exported__Types.html',1,'']]],
+  ['gyro_5ffilterconfigtypedef_330',['GYRO_FilterConfigTypeDef',['../structGYRO__FilterConfigTypeDef.html',1,'']]],
+  ['gyro_5finittypedef_331',['GYRO_InitTypeDef',['../structGYRO__InitTypeDef.html',1,'']]],
+  ['gyro_5finterruptconfigtypedef_332',['GYRO_InterruptConfigTypeDef',['../structGYRO__InterruptConfigTypeDef.html',1,'']]],
+  ['gyroscope_20configuration_20structure_333',['Gyroscope Configuration structure',['../group__GYRO__Config__structure.html',1,'']]],
+  ['gyroscope_20driver_20structure_334',['Gyroscope Driver structure',['../group__GYRO__Driver__structure.html',1,'']]]
 ];
