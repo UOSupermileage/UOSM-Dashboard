@@ -58,6 +58,7 @@ include_directories(
     ${CMAKE_SOURCE_DIR}/Drivers/STM32F769I-Discovery
     ${CMAKE_SOURCE_DIR}/Core/UI
     ${CMAKE_SOURCE_DIR}/Core/UI/Utils
+    ${CMAKE_SOURCE_DIR}/Core/UI/Data
     ${CMAKE_SOURCE_DIR}/Core/Modules
 )
 
@@ -71,7 +72,7 @@ file(GLOB UOSM_CORE_SOURCES
     UOSM-Core/Modules/*.c
 )
 
-file(GLOB UI_SOURCES Core/UI/*.cpp Core/UI/Utils/*.cpp)
+file(GLOB UI_SOURCES Core/UI/*.cpp Core/UI/Utils/*.cpp Core/UI/Data/*.cpp)
 
 file(GLOB MODULE_SOURCES Core/Modules/*.c)
 

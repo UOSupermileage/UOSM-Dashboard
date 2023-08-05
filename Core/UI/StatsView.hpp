@@ -7,6 +7,7 @@
 
 #include "View.hpp"
 #include "StatsViewModel.hpp"
+#include "CombineLatest.hpp"
 
 /** @ingroup core-ui
  *  A class that represents a view that displays the statistics of the dashboard, such as the motor RPM over time.
@@ -24,9 +25,12 @@ private:
     /** The label that displays the current motor RPM. */
     lv_obj_t* rpmLabel;
 
+    /** Combiner to get latest value from multiple observed objects whenever one of them changes */
+    CombineLatest<velocity_t, voltage_t>* combiner;
+
 protected:
     /** Destructs the stats view. */
-    ~StatsView() = default;
+    ~StatsView();
 
 public:
     /** Constructs a stats view with a given parent and a stats view model.

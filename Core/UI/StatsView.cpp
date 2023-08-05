@@ -29,10 +29,16 @@ StatsView::StatsView(lv_obj_t* parent, StatsViewModel& viewModel) : View(parent,
 
     rpmLabel = lv_label_create(chart);
 
-    viewModel.GetAggregator().motorRPM.addListener([this](const velocity_t& value) {
-        lv_chart_set_next_value(chart, rpmSeries, value);
+    auto callback = [this](const velocity_t& rpm, const voltage_t& voltage) {
+        lv_chart_set_next_value(chart, rpmSeries, rpm);
         lv_chart_refresh(chart);
 
-        lv_label_set_text_fmt(rpmLabel, "%d RPM", value);
-    });
+        lv_label_set_text_fmt(rpmLabel, "%d RPM", rpm);
+    };
+    combiner = new CombineLatest(callback, viewModel.GetAggregator().motorRPM,
+                                 viewModel.GetAggregator().batteryVoltage);
+}
+
+StatsView::~StatsView() {
+    delete combiner;
 }
