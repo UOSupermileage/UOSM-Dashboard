@@ -6,6 +6,8 @@
 
 #include "lvgl/lvgl.h"
 
+#include "Constants.h"
+
 #include "DataAggregator.hpp"
 #include "DataAggregatorWrapper.h"
 
@@ -75,9 +77,13 @@ void Application_Create(DataAggregatorWrapper* aggregatorWrapper) {
 
     // Create an object with no parent. (This will act as the screen).
     homeView = new HomeView(nullptr, *homeViewModel);
+    lv_obj_set_size(homeView->getContainer(), SCREEN_WIDTH, SCREEN_HEIGHT);
+
     statsView = new StatsView(nullptr, *statsViewModel);
+    lv_obj_set_size(statsView->getContainer(), SCREEN_WIDTH, SCREEN_HEIGHT);
 
     lv_scr_load(homeView->getContainer());
+
     lv_obj_add_event_cb(homeView->getContainer(), swipe_event_callback, LV_EVENT_GESTURE, nullptr);
     lv_obj_add_event_cb(statsView->getContainer(), swipe_event_callback, LV_EVENT_GESTURE, nullptr);
 }

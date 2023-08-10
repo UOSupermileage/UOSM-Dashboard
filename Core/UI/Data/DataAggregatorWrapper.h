@@ -32,6 +32,13 @@ void SetMotorRPM(DataAggregatorWrapper* wrapper, velocity_t rpm);
  */
 void SetBatteryVoltage(DataAggregatorWrapper* wrapper, voltage_t voltage);
 
+/** @ingroup core-modules
+ *  Sets the lap time in the data aggregator object from a given wrapper.
+ *  @param wrapper The pointer to the wrapper that contains the data aggregator object.
+ *  @param time The runtime to set.
+ */
+void SetLapTime(DataAggregatorWrapper* wrapper, ms_t time);
+
 #ifdef  __cplusplus
 }
 #endif

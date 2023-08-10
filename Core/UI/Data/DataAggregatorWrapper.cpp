@@ -23,6 +23,10 @@ void SetBatteryVoltage(DataAggregatorWrapper* wrapper, voltage_t voltage) {
     wrapper->aggregator.batteryVoltage.set(voltage);
 }
 
+void SetLapTime(DataAggregatorWrapper* wrapper, ms_t time) {
+    wrapper->aggregator.lapTime.set(time);
+}
+
 DataAggregator& DataAggregator_GetReference(DataAggregatorWrapper* wrapper) {
     return wrapper->aggregator;
 }

@@ -26,6 +26,8 @@ public:
     ObservedObject<velocity_t> motorRPM{0};
     /** The observed object that holds the battery voltage data. */
     ObservedObject<voltage_t> batteryVoltage{0};
+    /** The observed object that holds the current lap time. */
+    ObservedObject<ms_t> lapTime{0};
 };
 
 /** Returns a reference to the data aggregator object from a given wrapper.

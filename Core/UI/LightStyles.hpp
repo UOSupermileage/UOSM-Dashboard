@@ -17,6 +17,10 @@ private:
     lv_style_t extraLargeTextStyle = {};
     /** The style for fullscreen charts, such as the speed and power charts. */
     lv_style_t fullscreenChartStyle = {};
+    /** The style for a fullscreen view, such as the main view. */
+    lv_style_t fullscreenViewStyle = {};
+    /** The style for a row in a fullscreen view. Should not be visible. */
+    lv_style_t fullscreenRowStyle = {};
 
 public:
     /** Constructs a light styles object and initializes its styles. */
@@ -26,6 +30,8 @@ public:
 
     lv_style_t* GetExtraLargeTextStyle() override;
     lv_style_t* GetFullscreenChartStyle() override;
+    lv_style_t* GetFullscreenViewStyle() override;
+    lv_style_t* GetFullscreenRowStyle() override;
 };
 
 

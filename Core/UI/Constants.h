@@ -1,0 +1,11 @@
+//
+// Created by Jeremy Cote on 2023-08-04.
+//
+
+#ifndef UOSM_DASHBOARD_SDL_CONSTANTS_H
+#define UOSM_DASHBOARD_SDL_CONSTANTS_H
+
+#define SCREEN_WIDTH 800
+#define SCREEN_HEIGHT 480
+
+#endif //UOSM_DASHBOARD_SDL_CONSTANTS_H
