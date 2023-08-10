@@ -1,5 +1,11 @@
 var NAVTREEINDEX3 =
 {
+"group__IDD__Control__Register__Defines.html#gaa4704efa906f955ae80e387e678bb98c":[7,0,1,0,7,1,50],
+"group__IDD__Control__Register__Defines.html#gab075d84e0cd11d88b3aa54bc4deb8331":[7,0,1,0,7,1,51],
+"group__IDD__Control__Register__Defines.html#gac7876324fc8a1f2f77a3ae1b9e846c46":[7,0,1,0,7,1,64],
+"group__IDD__Control__Register__Defines.html#gacbff9f43773ecab2360a1bc5cddbf87b":[7,0,1,0,7,1,47],
+"group__IDD__Control__Register__Defines.html#gacbff9f43773ecab2360a1bc5cddbf87b":[5,2,1,3,2,0,0],
+"group__IDD__Control__Register__Defines.html#gad857054f0eeed39366c5e4ec8ebf26be":[7,0,1,0,7,1,46],
 "group__IDD__Control__Register__Defines.html#gadc0a3daf44d84eff760677c2b69e8ff9":[7,0,1,0,7,1,67],
 "group__IDD__Control__Register__Defines.html#gaed8f92f5ca18ea77d376417f91dd72ab":[7,0,1,0,7,1,49],
 "group__IDD__Control__Register__Defines.html#gaed8f92f5ca18ea77d376417f91dd72ab":[5,2,1,3,2,0,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX3 =
 "group__MFXSTM32L152__Exported__Constants.html#gaec79021c6d0fd9343db622bd85d7dd92":[5,2,1,3,2,44],
 "group__MFXSTM32L152__Exported__Constants.html#gaed11e691d1a64185bc1cb6e917dd18bb":[7,0,1,0,7,1,117],
 "group__MFXSTM32L152__Exported__Constants.html#gaed11e691d1a64185bc1cb6e917dd18bb":[5,2,1,3,2,24],
-"group__MFXSTM32L152__Exported__Constants.html#gaee3889436703748379a81b629ebb5367":[7,0,1,0,7,1,131],
-"group__MFXSTM32L152__Exported__Constants.html#gaeea589a51c6aae8bfd21887f31e45fe5":[7,0,1,0,7,1,73],
-"group__MFXSTM32L152__Exported__Constants.html#gaf063a88b0e227efa77f1d32d8a343f75":[7,0,1,0,7,1,21],
-"group__MFXSTM32L152__Exported__Constants.html#gaf095e441f20ae967d6e74897948bb8a5":[7,0,1,0,7,1,11],
-"group__MFXSTM32L152__Exported__Constants.html#gaf095e441f20ae967d6e74897948bb8a5":[5,2,1,3,2,3],
-"group__MFXSTM32L152__Exported__Constants.html#gaf14834969cb26a6b504df022d7514592":[7,0,1,0,7,1,158],
-"group__MFXSTM32L152__Exported__Constants.html#gaf14834969cb26a6b504df022d7514592":[5,2,1,3,2,39]
+"group__MFXSTM32L152__Exported__Constants.html#gaee3889436703748379a81b629ebb5367":[7,0,1,0,7,1,131]
 };

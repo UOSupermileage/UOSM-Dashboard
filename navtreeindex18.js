@@ -1,5 +1,12 @@
 var NAVTREEINDEX18 =
 {
+"syscalls_8c.html#a4711e961db985ed2c850a8be6597af50":[7,0,0,2,3,14],
+"syscalls_8c.html#a5aab5e2acfd600e3667dc915a2bbc7cb":[7,0,0,2,3,3],
+"syscalls_8c.html#a6cb6331c9d166180903d5fb78b9c9dd7":[7,0,0,2,3,6],
+"syscalls_8c.html#a70b2f211d665cded5637065aa2bb89dc":[7,0,0,2,3,16],
+"syscalls_8c.html#a7a61311bdf1cb025fc07dc2bdae22ce4":[7,0,0,2,3,12],
+"syscalls_8c.html#a945e539df8e0f66d3c73c533fe1968ee":[7,0,0,2,3,8],
+"syscalls_8c.html#aa006daaf11f1e2e45a6ababaf463212b":[7,0,0,2,3,19],
 "syscalls_8c.html#aa53ed4b191897a1bfc205aa1da005d24":[7,0,0,2,3,2],
 "syscalls_8c.html#aaf727ebf57cd64d6c58b23e6ee4a4a69":[7,0,0,2,3,15],
 "syscalls_8c.html#abc96bd69b58b2deaddb484478d911c1b":[7,0,0,2,3,5],

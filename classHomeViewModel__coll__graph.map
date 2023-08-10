@@ -1,7 +1,8 @@
 <map id="HomeViewModel" name="HomeViewModel">
-<area shape="rect" id="node1" title=" " alt="" coords="169,260,302,287"/>
-<area shape="rect" id="node2" href="$classViewModel.html" title=" " alt="" coords="188,184,283,211"/>
-<area shape="rect" id="node3" href="$classDataAggregator.html" title=" " alt="" coords="173,95,298,121"/>
+<area shape="rect" id="node1" title=" " alt="" coords="290,260,423,287"/>
+<area shape="rect" id="node2" href="$classViewModel.html" title=" " alt="" coords="309,184,404,211"/>
+<area shape="rect" id="node3" href="$classDataAggregator.html" title=" " alt="" coords="294,95,419,121"/>
 <area shape="rect" id="node4" href="$classObservedObject.html" title=" " alt="" coords="5,5,223,32"/>
 <area shape="rect" id="node5" href="$classObservedObject.html" title=" " alt="" coords="247,5,467,32"/>
+<area shape="rect" id="node6" href="$classObservedObject.html" title=" " alt="" coords="491,5,679,32"/>
 </map>

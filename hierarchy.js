@@ -36,6 +36,7 @@ var hierarchy =
     [ "MAGNETO_DrvTypeDef", "structMAGNETO__DrvTypeDef.html", null ],
     [ "MAGNETO_InitTypeDef", "structMAGNETO__InitTypeDef.html", null ],
     [ "ObservedObject< T >", "classObservedObject.html", null ],
+    [ "ObservedObject< ms_t >", "classObservedObject.html", null ],
     [ "ObservedObject< velocity_t >", "classObservedObject.html", null ],
     [ "ObservedObject< voltage_t >", "classObservedObject.html", null ],
     [ "QSPI_Info", "structQSPI__Info.html", null ],

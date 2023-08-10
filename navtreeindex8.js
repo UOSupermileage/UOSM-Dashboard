@@ -1,5 +1,11 @@
 var NAVTREEINDEX8 =
 {
+"group__ST7735__Private__Functions.html#gaefe86718c82713c7c15a5ae6f8ed4214":[5,2,0,27,5,6],
+"group__ST7735__Private__Functions.html#gaefe86718c82713c7c15a5ae6f8ed4214":[7,0,1,0,15,0,6],
+"group__ST7735__Private__Macros.html":[5,2,0,27,2],
+"group__ST7735__Private__TypesDefinitions.html":[5,2,0,27,0],
+"group__ST7735__Private__Variables.html":[5,2,0,27,3],
+"group__ST7735__Private__Variables.html#ga91895d6cd41ef0df5e00494592f8b081":[7,0,1,0,15,0,12],
 "group__ST7789H2.html":[5,2,0,2],
 "group__ST7789H2__Exported__Constants.html":[5,2,0,2,7],
 "group__ST7789H2__Exported__Constants.html#ga09a5b996ed55540ec2bd30aa89d6dfde":[7,0,1,0,16,1,26],
@@ -241,13 +247,7 @@ var NAVTREEINDEX8 =
 "group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gaae6c101b1450ec26a15249494764e0ae":[5,2,2,1,11,11],
 "group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gabde31271977edd778912602d506269cc":[7,0,1,1,3,106],
 "group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gabde31271977edd778912602d506269cc":[5,2,2,1,11,9],
-"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gac145a279ffcaf4ec9a63650f5330ee78":[7,0,1,1,3,101],
 "group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gac145a279ffcaf4ec9a63650f5330ee78":[5,2,2,1,11,4],
-"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gac1df7a4be23f378f89e25685a2266247":[7,0,1,1,3,107],
-"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gac1df7a4be23f378f89e25685a2266247":[5,2,2,1,11,10],
-"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gadf7a4308129a18f4a3c22adb6f543d01":[7,0,1,1,3,109],
-"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gadf7a4308129a18f4a3c22adb6f543d01":[5,2,2,1,11,12],
-"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gaecc95f1e2e0daece1d49ac2cb8120380":[5,2,2,1,11,2],
-"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gaecc95f1e2e0daece1d49ac2cb8120380":[7,0,1,1,3,99],
-"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gafd4b2ffdb8ccfe845fed8590063aed68":[7,0,1,1,3,105]
+"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gac145a279ffcaf4ec9a63650f5330ee78":[7,0,1,1,3,101],
+"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#gac1df7a4be23f378f89e25685a2266247":[7,0,1,1,3,107]
 };

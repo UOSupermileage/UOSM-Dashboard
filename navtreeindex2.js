@@ -1,5 +1,11 @@
 var NAVTREEINDEX2 =
 {
+"group__Exported__types.html#gga2c69bcd2c669b2a0ffc493803ba0f1a1ac050fd5fcf0a6b9739b05da4a4ada820":[7,0,1,1,1,71,0],
+"group__Exported__types.html#gga2c69bcd2c669b2a0ffc493803ba0f1a1ad2fcfafe11e0e263af94607b761a4d23":[7,0,1,1,1,71,1],
+"group__Exported__types.html#gga386f3c185c6edf5afeb40edbb1de2ed6a43b117851c58ff418eabb0771d86fc68":[7,0,1,1,1,70,1],
+"group__Exported__types.html#gga386f3c185c6edf5afeb40edbb1de2ed6ac60b559b71e1daf8b3765196a470d514":[7,0,1,1,1,70,0],
+"group__FT5336.html":[5,2,1,1],
+"group__FT5336__Exported__Constants.html":[5,2,1,1,1,0],
 "group__FT5336__Exported__Constants.html#ga04c32cefe41e11d1c1deb432c807a14b":[7,0,1,0,5,1,18],
 "group__FT5336__Exported__Constants.html#ga05ea89d6761075780674e17cae0bd0de":[7,0,1,0,5,1,7],
 "group__FT5336__Exported__Constants.html#ga0ad7b2cb08227ccb7e1fd8a271a27204":[7,0,1,0,5,1,49],
@@ -243,11 +249,5 @@ var NAVTREEINDEX2 =
 "group__IDD__Control__Register__Defines.html#ga7c925b685d90425e51a69735a023c3a6":[5,2,1,3,2,0,2],
 "group__IDD__Control__Register__Defines.html#ga7f9649ce21f0f5f1f778b3e374869f34":[7,0,1,0,7,1,66],
 "group__IDD__Control__Register__Defines.html#ga84e29c3df5945a66c4bd5f947caf446f":[7,0,1,0,7,1,65],
-"group__IDD__Control__Register__Defines.html#ga8551a53dfa767e87f1490a2d28e5f826":[7,0,1,0,7,1,63],
-"group__IDD__Control__Register__Defines.html#gaa4704efa906f955ae80e387e678bb98c":[7,0,1,0,7,1,50],
-"group__IDD__Control__Register__Defines.html#gab075d84e0cd11d88b3aa54bc4deb8331":[7,0,1,0,7,1,51],
-"group__IDD__Control__Register__Defines.html#gac7876324fc8a1f2f77a3ae1b9e846c46":[7,0,1,0,7,1,64],
-"group__IDD__Control__Register__Defines.html#gacbff9f43773ecab2360a1bc5cddbf87b":[7,0,1,0,7,1,47],
-"group__IDD__Control__Register__Defines.html#gacbff9f43773ecab2360a1bc5cddbf87b":[5,2,1,3,2,0,0],
-"group__IDD__Control__Register__Defines.html#gad857054f0eeed39366c5e4ec8ebf26be":[7,0,1,0,7,1,46]
+"group__IDD__Control__Register__Defines.html#ga8551a53dfa767e87f1490a2d28e5f826":[7,0,1,0,7,1,63]
 };

@@ -112,6 +112,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga967c16631d3a55287511e94f2f9b1b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga046de03c32fec6afeb1fd1a877425b75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__core-modules.html#ga046de03c32fec6afeb1fd1a877425b75">SetBatteryVoltage</a> (<a class="el" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a> *wrapper, voltage_t voltage)</td></tr>
 <tr class="separator:ga046de03c32fec6afeb1fd1a877425b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac6e9af57dec6f8317e4cd6d841be0937"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__core-modules.html#gac6e9af57dec6f8317e4cd6d841be0937">SetLapTime</a> (<a class="el" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a> *wrapper, ms_t time)</td></tr>
+<tr class="separator:gac6e9af57dec6f8317e4cd6d841be0937"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -162,6 +164,41 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">wrapper</td><td>The pointer to the wrapper that contains the data aggregator object. </td></tr>
     <tr><td class="paramname">voltage</td><td>The battery voltage data to set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac6e9af57dec6f8317e4cd6d841be0937"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac6e9af57dec6f8317e4cd6d841be0937">&#9670;&nbsp;</a></span>SetLapTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetLapTime </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a> *&#160;</td>
+          <td class="paramname"><em>wrapper</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ms_t&#160;</td>
+          <td class="paramname"><em>time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the lap time in the data aggregator object from a given wrapper. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">wrapper</td><td>The pointer to the wrapper that contains the data aggregator object. </td></tr>
+    <tr><td class="paramname">time</td><td>The runtime to set. </td></tr>
   </table>
   </dd>
 </dl>

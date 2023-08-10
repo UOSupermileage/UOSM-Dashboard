@@ -1,5 +1,12 @@
 var NAVTREEINDEX16 =
 {
+"main_8h.html#abda088a30d1ff89e86618b9143edf8db":[7,0,0,0,3,45],
+"main_8h.html#abecddbaa371df6a6394cd5c0e9714aa9":[7,0,0,0,3,249],
+"main_8h.html#abefe55b18f335b08d26bd146e479e09a":[7,0,0,0,3,289],
+"main_8h.html#abfd09ad073f7231487498a51196932a8":[7,0,0,0,3,263],
+"main_8h.html#ac147d22a377fac9582a29da12f4c0ed7":[7,0,0,0,3,143],
+"main_8h.html#ac1510ba1727e59e558b41436d551e893":[7,0,0,0,3,276],
+"main_8h.html#ac227ca45bc90ee1a9173ad3e6390daa8":[7,0,0,0,3,264],
 "main_8h.html#ac295f9c8b9df4b38867cccc75c15f9eb":[7,0,0,0,3,66],
 "main_8h.html#ac30893c7c5dd78cf02632dc653c3e74e":[7,0,0,0,3,261],
 "main_8h.html#ac3118c7aa3ae6e67acafd02a119703e2":[7,0,0,0,3,280],
@@ -242,12 +249,5 @@ var NAVTREEINDEX16 =
 "structCAMERA__DrvTypeDef.html":[5,2,0,9,0,0,0],
 "structCAMERA__DrvTypeDef.html#aac6076d7bac6e6dc4133163f9e48060e":[5,2,0,9,0,0,0,0],
 "structCAMERA__DrvTypeDef.html#ad81cc9925bdd046c7ec4bfb6e3656f6d":[5,2,0,9,0,0,0,1],
-"structCAMERA__DrvTypeDef.html#ae1632c0a987565422f71a650fbb50d55":[5,2,0,9,0,0,0,2],
-"structDataAggregatorWrapper.html":[6,0,12],
-"structDataAggregatorWrapper.html#a3bc3670b901769dca54fa330607f55ea":[6,0,12,0],
-"structEPD__DrvTypeDef.html":[5,2,0,10,0,0,0,0],
-"structGYRO__DrvTypeDef.html":[5,2,0,11,0,0,0],
-"structGYRO__DrvTypeDef.html#a0aa0402cc1408ef4e833a79538078436":[5,2,0,11,0,0,0,12],
-"structGYRO__DrvTypeDef.html#a1d600f6adb276998c55259398f833f05":[5,2,0,11,0,0,0,5],
-"structGYRO__DrvTypeDef.html#a1d9f3a468642e0c7fd1199344ed583db":[5,2,0,11,0,0,0,0]
+"structCAMERA__DrvTypeDef.html#ae1632c0a987565422f71a650fbb50d55":[5,2,0,9,0,0,0,2]
 };

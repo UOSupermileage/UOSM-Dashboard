@@ -1,5 +1,12 @@
 var NAVTREEINDEX17 =
 {
+"structDataAggregatorWrapper.html":[6,0,12],
+"structDataAggregatorWrapper.html#a3bc3670b901769dca54fa330607f55ea":[6,0,12,0],
+"structEPD__DrvTypeDef.html":[5,2,0,10,0,0,0,0],
+"structGYRO__DrvTypeDef.html":[5,2,0,11,0,0,0],
+"structGYRO__DrvTypeDef.html#a0aa0402cc1408ef4e833a79538078436":[5,2,0,11,0,0,0,12],
+"structGYRO__DrvTypeDef.html#a1d600f6adb276998c55259398f833f05":[5,2,0,11,0,0,0,5],
+"structGYRO__DrvTypeDef.html#a1d9f3a468642e0c7fd1199344ed583db":[5,2,0,11,0,0,0,0],
 "structGYRO__DrvTypeDef.html#a2eab4e23880c737f3b7c458843839216":[5,2,0,11,0,0,0,3],
 "structGYRO__DrvTypeDef.html#a43e2b19dea0f8f41fa1b72c0095708cf":[5,2,0,11,0,0,0,8],
 "structGYRO__DrvTypeDef.html#a7d0bb9d4770cc3847b434a20ba688d17":[5,2,0,11,0,0,0,7],
@@ -242,12 +249,5 @@ var NAVTREEINDEX17 =
 "syscalls_8c.html#a25c7f100d498300fff65568c2fcfe639":[7,0,0,2,3,18],
 "syscalls_8c.html#a270c9113047edd8d64186710ad76062b":[7,0,0,2,3,13],
 "syscalls_8c.html#a31da4cd5328defa76a9e2246992aba12":[7,0,0,2,3,11],
-"syscalls_8c.html#a41eef54307912a82d20e71c3d47315aa":[7,0,0,2,3,7],
-"syscalls_8c.html#a4711e961db985ed2c850a8be6597af50":[7,0,0,2,3,14],
-"syscalls_8c.html#a5aab5e2acfd600e3667dc915a2bbc7cb":[7,0,0,2,3,3],
-"syscalls_8c.html#a6cb6331c9d166180903d5fb78b9c9dd7":[7,0,0,2,3,6],
-"syscalls_8c.html#a70b2f211d665cded5637065aa2bb89dc":[7,0,0,2,3,16],
-"syscalls_8c.html#a7a61311bdf1cb025fc07dc2bdae22ce4":[7,0,0,2,3,12],
-"syscalls_8c.html#a945e539df8e0f66d3c73c533fe1968ee":[7,0,0,2,3,8],
-"syscalls_8c.html#aa006daaf11f1e2e45a6ababaf463212b":[7,0,0,2,3,19]
+"syscalls_8c.html#a41eef54307912a82d20e71c3d47315aa":[7,0,0,2,3,7]
 };

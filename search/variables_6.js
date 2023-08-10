@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['measurenb_1547',['MeasureNb',['../structIDD__ConfigTypeDef.html#af9b602ce27142e679ca329e97da60781',1,'IDD_ConfigTypeDef']]],
-  ['motorrpm_1548',['motorRPM',['../classDataAggregator.html#a23e118bd7ddb05b281af43d82f626372',1,'DataAggregator']]]
+  ['laptime_1556',['lapTime',['../classDataAggregator.html#a12079a8f57c8ec3346029d1094172351',1,'DataAggregator']]]
 ];
