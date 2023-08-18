@@ -141,7 +141,7 @@ int main(void) {
     tft_init();
     touchpad_init();
 
-    DataAggregatorWrapper* wrapper = DataAggregator_Create();
+    DataAggregatorWrapper* wrapper = DataAggregator_Create(10);
     CAN_SetAggregator(wrapper);
     Application_Create(wrapper);
 
