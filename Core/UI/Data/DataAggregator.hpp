@@ -10,6 +10,7 @@
 #include <variant>
 #include "ApplicationTypes.h"
 #include "DataAggregatorWrapperType.h"
+#include "BarDataCollection.h"
 
 #include "ObservedObject.hpp"
 
@@ -22,12 +23,18 @@ using namespace std;
  */
 class DataAggregator {
 public:
+    explicit DataAggregator(uint8_t lapEfficiencySize): lapEfficiencies({BarDataCollection<watt_hour_t>(lapEfficiencySize)}) {
+
+    }
+
     /** The observed object that holds the motor RPM data. */
     ObservedObject<velocity_t> motorRPM{0};
     /** The observed object that holds the battery voltage data. */
     ObservedObject<voltage_t> batteryVoltage{0};
     /** The observed object that holds the current lap time. */
     ObservedObject<ms_t> lapTime{0};
+    /** The observed object that holds a collection of lap efficiencies. */
+    ObservedObject<BarDataCollection<watt_hour_t>> lapEfficiencies;
 };
 
 /** Returns a reference to the data aggregator object from a given wrapper.

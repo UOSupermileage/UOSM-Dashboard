@@ -71,6 +71,14 @@ public:
     T get() const { return value; }
 
     /**
+     * @brief Get a reference to the current value of the observed object.
+     * Make sure to call publish on the observed object once your changes are complete to notify listeners.
+     * This is useful when the observed object is a class.
+     * @return a mute
+     */
+    T& getMutable() { return &value; }
+
+    /**
      * @brief Set a new value for the object and notify the listeners if the value is different from the previous one.
      *
      * @param value The new value for the object.

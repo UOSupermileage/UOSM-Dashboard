@@ -7,11 +7,12 @@
 
 struct DataAggregatorWrapper {
     DataAggregator aggregator;
+
+    explicit DataAggregatorWrapper(uint8_t lapEfficiencySize): aggregator(lapEfficiencySize) {}
 };
 
-DataAggregatorWrapper* DataAggregator_Create() {
-    auto* wrapper = new DataAggregatorWrapper;
-    wrapper->aggregator = DataAggregator();
+DataAggregatorWrapper* DataAggregator_Create(uint8_t lapEfficiencySize) {
+    auto* wrapper = new DataAggregatorWrapper(lapEfficiencySize);
     return wrapper;
 }
 
