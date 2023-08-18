@@ -103,6 +103,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2f24e2b16b57c5c59fd41ac0ac2e7381"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObservedObject.html#a2f24e2b16b57c5c59fd41ac0ac2e7381">get</a> () const</td></tr>
 <tr class="memdesc:a2f24e2b16b57c5c59fd41ac0ac2e7381"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current value of the object.  <a href="classObservedObject.html#a2f24e2b16b57c5c59fd41ac0ac2e7381">More...</a><br /></td></tr>
 <tr class="separator:a2f24e2b16b57c5c59fd41ac0ac2e7381"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1b71fd5f5cab8c7bb430a1db5792401"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObservedObject.html#ac1b71fd5f5cab8c7bb430a1db5792401">getMutable</a> ()</td></tr>
+<tr class="memdesc:ac1b71fd5f5cab8c7bb430a1db5792401"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a reference to the current value of the observed object. Make sure to call publish on the observed object once your changes are complete to notify listeners. This is useful when the observed object is a class.  <a href="classObservedObject.html#ac1b71fd5f5cab8c7bb430a1db5792401">More...</a><br /></td></tr>
+<tr class="separator:ac1b71fd5f5cab8c7bb430a1db5792401"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41251426dd9a7a70cae927da03904966"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObservedObject.html#a41251426dd9a7a70cae927da03904966">set</a> (const T &amp;value)</td></tr>
 <tr class="memdesc:a41251426dd9a7a70cae927da03904966"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a new value for the object and notify the listeners if the value is different from the previous one.  <a href="classObservedObject.html#a41251426dd9a7a70cae927da03904966">More...</a><br /></td></tr>
 <tr class="separator:a41251426dd9a7a70cae927da03904966"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,6 +232,36 @@ template&lt;typename T &gt; </div>
 
 <p>Get the current value of the object. </p>
 <dl class="section return"><dt>Returns</dt><dd>T The current value of the object. </dd></dl>
+
+</div>
+</div>
+<a id="ac1b71fd5f5cab8c7bb430a1db5792401"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1b71fd5f5cab8c7bb430a1db5792401">&#9670;&nbsp;</a></span>getMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T&amp; <a class="el" href="classObservedObject.html">ObservedObject</a>&lt; T &gt;::getMutable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get a reference to the current value of the observed object. Make sure to call publish on the observed object once your changes are complete to notify listeners. This is useful when the observed object is a class. </p>
+<dl class="section return"><dt>Returns</dt><dd>a mute </dd></dl>
 
 </div>
 </div>

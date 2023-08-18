@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['gyro_5fdrvtypedef_1077',['GYRO_DrvTypeDef',['../structGYRO__DrvTypeDef.html',1,'']]],
-  ['gyro_5ffilterconfigtypedef_1078',['GYRO_FilterConfigTypeDef',['../structGYRO__FilterConfigTypeDef.html',1,'']]],
-  ['gyro_5finittypedef_1079',['GYRO_InitTypeDef',['../structGYRO__InitTypeDef.html',1,'']]],
-  ['gyro_5finterruptconfigtypedef_1080',['GYRO_InterruptConfigTypeDef',['../structGYRO__InterruptConfigTypeDef.html',1,'']]]
+  ['ft5336_5fhandle_5ftypedef_1085',['ft5336_handle_TypeDef',['../structft5336__handle__TypeDef.html',1,'']]],
+  ['ft6x06_5fhandle_5ftypedef_1086',['ft6x06_handle_TypeDef',['../structft6x06__handle__TypeDef.html',1,'']]]
 ];

@@ -1,5 +1,16 @@
 var NAVTREEINDEX2 =
 {
+"group__EXC7200__Exported__Types.html":[5,2,1,0,1],
+"group__EXC7200__Private__Defines.html":[5,2,1,0,0,0],
+"group__EXC7200__Private__Macros.html":[5,2,1,0,0,0,0],
+"group__EXC7200__Private__Types__Definitions.html":[5,2,1,0,0],
+"group__EXC7200__Private__Variables.html":[5,2,1,0,0,0,0,0],
+"group__EXC7200__Private__Variables.html#ga6708ed59dfbaf68fdc49cd915252c4ba":[7,0,1,0,4,0,11],
+"group__EXC7200__Private__Variables.html#ga948e9727a135ebaa66a37e1b33aaac92":[7,0,1,0,4,0,10],
+"group__Exported__types.html":[5,2,2,0,7,3],
+"group__Exported__types.html#ga2c69bcd2c669b2a0ffc493803ba0f1a1":[5,2,2,0,7,3,0],
+"group__Exported__types.html#ga2c69bcd2c669b2a0ffc493803ba0f1a1":[7,0,1,1,1,71],
+"group__Exported__types.html#ga386f3c185c6edf5afeb40edbb1de2ed6":[7,0,1,1,1,70],
 "group__Exported__types.html#gga2c69bcd2c669b2a0ffc493803ba0f1a1ac050fd5fcf0a6b9739b05da4a4ada820":[7,0,1,1,1,71,0],
 "group__Exported__types.html#gga2c69bcd2c669b2a0ffc493803ba0f1a1ad2fcfafe11e0e263af94607b761a4d23":[7,0,1,1,1,71,1],
 "group__Exported__types.html#gga386f3c185c6edf5afeb40edbb1de2ed6a43b117851c58ff418eabb0771d86fc68":[7,0,1,1,1,70,1],
@@ -238,16 +249,5 @@ var NAVTREEINDEX2 =
 "group__GYRO.html":[5,2,0,11],
 "group__GYRO__Config__structure.html":[5,2,0,11,0,1],
 "group__GYRO__Driver__structure.html":[5,2,0,11,0,0],
-"group__GYRO__Exported__Types.html":[5,2,0,11,0],
-"group__IDD.html":[5,2,0,12],
-"group__IDD__Config__structure.html":[5,2,0,12,0,0],
-"group__IDD__Control__Register__Defines.html":[5,2,1,3,2,0],
-"group__IDD__Control__Register__Defines.html#ga0e814d40575909cce93ce2ad46a0b3b5":[7,0,1,0,7,1,68],
-"group__IDD__Control__Register__Defines.html#ga0e814d40575909cce93ce2ad46a0b3b5":[5,2,1,3,2,0,3],
-"group__IDD__Control__Register__Defines.html#ga43adc618ad8259ab3114dec2932ac94b":[7,0,1,0,7,1,48],
-"group__IDD__Control__Register__Defines.html#ga7c925b685d90425e51a69735a023c3a6":[7,0,1,0,7,1,62],
-"group__IDD__Control__Register__Defines.html#ga7c925b685d90425e51a69735a023c3a6":[5,2,1,3,2,0,2],
-"group__IDD__Control__Register__Defines.html#ga7f9649ce21f0f5f1f778b3e374869f34":[7,0,1,0,7,1,66],
-"group__IDD__Control__Register__Defines.html#ga84e29c3df5945a66c4bd5f947caf446f":[7,0,1,0,7,1,65],
-"group__IDD__Control__Register__Defines.html#ga8551a53dfa767e87f1490a2d28e5f826":[7,0,1,0,7,1,63]
+"group__GYRO__Exported__Types.html":[5,2,0,11,0]
 };

@@ -98,22 +98,30 @@ $(document).ready(function(){initNavTree('DataAggregator_8hpp_source.html',''); 
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;variant&gt;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;ApplicationTypes.h&quot;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;DataAggregatorWrapperType.h&quot;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;ObservedObject.hpp&quot;</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">using namespace </span>std;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classDataAggregator.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="classDataAggregator.html">DataAggregator</a> {</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classDataAggregator.html#a23e118bd7ddb05b281af43d82f626372">   26</a></span>&#160;    <a class="code" href="classObservedObject.html">ObservedObject&lt;velocity_t&gt;</a> motorRPM{0};</div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classDataAggregator.html#a5eb8f42f9a16be9f27ba7adc2dc95373">   28</a></span>&#160;    <a class="code" href="classObservedObject.html">ObservedObject&lt;voltage_t&gt;</a> batteryVoltage{0};</div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classDataAggregator.html#a12079a8f57c8ec3346029d1094172351">   30</a></span>&#160;    <a class="code" href="classObservedObject.html">ObservedObject&lt;ms_t&gt;</a> lapTime{0};</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;};</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<a class="code" href="classDataAggregator.html">DataAggregator</a>&amp; DataAggregator_GetReference(<a class="code" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a>* wrapper);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//UOSM_DASHBOARD_DATAAGGREGATOR_HPP</span></div>
-<div class="ttc" id="aclassDataAggregator_html"><div class="ttname"><a href="classDataAggregator.html">DataAggregator</a></div><div class="ttdef"><b>Definition:</b> DataAggregator.hpp:23</div></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;BarDataCollection.h&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;ObservedObject.hpp&quot;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classDataAggregator.html">   24</a></span>&#160;<span class="keyword">class </span><a class="code" href="classDataAggregator.html">DataAggregator</a> {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classDataAggregator.html">DataAggregator</a>(uint8_t lapEfficiencySize): lapEfficiencies({<a class="code" href="classBarDataCollection.html">BarDataCollection&lt;watt_hour_t&gt;</a>(lapEfficiencySize)}) {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    }</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classDataAggregator.html#a23e118bd7ddb05b281af43d82f626372">   31</a></span>&#160;    <a class="code" href="classObservedObject.html">ObservedObject&lt;velocity_t&gt;</a> motorRPM{0};</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classDataAggregator.html#a5eb8f42f9a16be9f27ba7adc2dc95373">   33</a></span>&#160;    <a class="code" href="classObservedObject.html">ObservedObject&lt;voltage_t&gt;</a> batteryVoltage{0};</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classDataAggregator.html#a12079a8f57c8ec3346029d1094172351">   35</a></span>&#160;    <a class="code" href="classObservedObject.html">ObservedObject&lt;ms_t&gt;</a> lapTime{0};</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classDataAggregator.html#affbfe5c6bc702d277f78154077462c19">   37</a></span>&#160;    <a class="code" href="classObservedObject.html">ObservedObject&lt;BarDataCollection&lt;watt_hour_t&gt;</a>&gt; <a class="code" href="classDataAggregator.html#affbfe5c6bc702d277f78154077462c19">lapEfficiencies</a>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;};</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<a class="code" href="classDataAggregator.html">DataAggregator</a>&amp; DataAggregator_GetReference(<a class="code" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a>* wrapper);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//UOSM_DASHBOARD_DATAAGGREGATOR_HPP</span></div>
+<div class="ttc" id="aclassBarDataCollection_html"><div class="ttname"><a href="classBarDataCollection.html">BarDataCollection</a></div><div class="ttdef"><b>Definition:</b> BarDataCollection.h:17</div></div>
+<div class="ttc" id="aclassDataAggregator_html"><div class="ttname"><a href="classDataAggregator.html">DataAggregator</a></div><div class="ttdef"><b>Definition:</b> DataAggregator.hpp:24</div></div>
+<div class="ttc" id="aclassDataAggregator_html_affbfe5c6bc702d277f78154077462c19"><div class="ttname"><a href="classDataAggregator.html#affbfe5c6bc702d277f78154077462c19">DataAggregator::lapEfficiencies</a></div><div class="ttdeci">ObservedObject&lt; BarDataCollection&lt; watt_hour_t &gt; &gt; lapEfficiencies</div><div class="ttdef"><b>Definition:</b> DataAggregator.hpp:37</div></div>
 <div class="ttc" id="aclassObservedObject_html"><div class="ttname"><a href="classObservedObject.html">ObservedObject&lt; velocity_t &gt;</a></div></div>
 <div class="ttc" id="astructDataAggregatorWrapper_html"><div class="ttname"><a href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a></div><div class="ttdef"><b>Definition:</b> DataAggregatorWrapper.cpp:8</div></div>
 </div><!-- fragment --></div><!-- contents -->

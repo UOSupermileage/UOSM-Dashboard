@@ -1,5 +1,13 @@
 var group__core_ui_utils =
 [
+    [ "BarDataCollection", "classBarDataCollection.html", [
+      [ "BarDataCollection", "classBarDataCollection.html#a6998312c62284ad0e31f14a4e9ea5da1", null ],
+      [ "add", "classBarDataCollection.html#a2de7daf3611fafc7e8118743e6ff79ce", null ],
+      [ "getNumberOfElements", "classBarDataCollection.html#a901bdc37eb770b318e29d30fb8b0dda7", null ],
+      [ "getSize", "classBarDataCollection.html#a5a92db9ec330d6540048172bc0101044", null ],
+      [ "getValues", "classBarDataCollection.html#ab7ba31281d2933ed13a0890917f3ed2f", null ],
+      [ "update", "classBarDataCollection.html#ad68eeb263cf695f6412befc38c9943d9", null ]
+    ] ],
     [ "Identifiable", "classIdentifiable.html", [
       [ "Identifiable", "classIdentifiable.html#a3bf8f9f85026cf7e6cd026aecd06abe9", null ],
       [ "getId", "classIdentifiable.html#a79a8ec515876b30bcecc4cc958baebd7", null ],
@@ -17,6 +25,7 @@ var group__core_ui_utils =
       [ "ObservedObject", "classObservedObject.html#ae4572a92f6440f07f853eaf01185967a", null ],
       [ "addListener", "classObservedObject.html#a2692751b617e1f546c164cf7488f5676", null ],
       [ "get", "classObservedObject.html#a2f24e2b16b57c5c59fd41ac0ac2e7381", null ],
+      [ "getMutable", "classObservedObject.html#ac1b71fd5f5cab8c7bb430a1db5792401", null ],
       [ "publish", "classObservedObject.html#a883fecd2a34d046804f536e867087ad7", null ],
       [ "set", "classObservedObject.html#a41251426dd9a7a70cae927da03904966", null ]
     ] ],

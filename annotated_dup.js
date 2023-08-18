@@ -6,6 +6,7 @@ var annotated_dup =
     [ "adv7533ConfigTypeDef", "structadv7533ConfigTypeDef.html", "structadv7533ConfigTypeDef" ],
     [ "AUDIO_DrvTypeDef", "structAUDIO__DrvTypeDef.html", "structAUDIO__DrvTypeDef" ],
     [ "AUDIOIN_TypeDef", "structAUDIOIN__TypeDef.html", "structAUDIOIN__TypeDef" ],
+    [ "BarDataCollection", "classBarDataCollection.html", "classBarDataCollection" ],
     [ "CAMERA_DrvTypeDef", "structCAMERA__DrvTypeDef.html", "structCAMERA__DrvTypeDef" ],
     [ "CombineLatest", "classCombineLatest.html", "classCombineLatest" ],
     [ "ctrl_error_status_t", "unionctrl__error__status__t.html", "unionctrl__error__status__t" ],
