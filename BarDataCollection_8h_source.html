@@ -131,22 +131,29 @@ $(document).ready(function(){initNavTree('BarDataCollection_8h_source.html','');
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        head++;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="classBarDataCollection.html#ad68eeb263cf695f6412befc38c9943d9">   71</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classBarDataCollection.html#ad68eeb263cf695f6412befc38c9943d9">update</a>(T value) {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">if</span> (values[head]) {</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="keyword">delete</span> values[head];</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        }</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        values[head] = <span class="keyword">new</span> T(value);</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;};</div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="classBarDataCollection.html#ad68eeb263cf695f6412befc38c9943d9">   72</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classBarDataCollection.html#ad68eeb263cf695f6412befc38c9943d9">update</a>(T value) {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">if</span> (head == 0) {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            <a class="code" href="classBarDataCollection.html#a2de7daf3611fafc7e8118743e6ff79ce">add</a>(value);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        uint8_t i = head - 1;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//UOSM_DASHBOARD_BARDATACOLLECTION_H</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">if</span> (values[i] != <span class="keyword">nullptr</span>) {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <span class="keyword">delete</span> values[i];</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        }</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        values[i] = <span class="keyword">new</span> T(value);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;};</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//UOSM_DASHBOARD_BARDATACOLLECTION_H</span></div>
 <div class="ttc" id="aclassBarDataCollection_html"><div class="ttname"><a href="classBarDataCollection.html">BarDataCollection</a></div><div class="ttdef"><b>Definition:</b> BarDataCollection.h:17</div></div>
 <div class="ttc" id="aclassBarDataCollection_html_a2de7daf3611fafc7e8118743e6ff79ce"><div class="ttname"><a href="classBarDataCollection.html#a2de7daf3611fafc7e8118743e6ff79ce">BarDataCollection::add</a></div><div class="ttdeci">void add(T value)</div><div class="ttdef"><b>Definition:</b> BarDataCollection.h:53</div></div>
 <div class="ttc" id="aclassBarDataCollection_html_a5a92db9ec330d6540048172bc0101044"><div class="ttname"><a href="classBarDataCollection.html#a5a92db9ec330d6540048172bc0101044">BarDataCollection::getSize</a></div><div class="ttdeci">uint8_t getSize() const</div><div class="ttdef"><b>Definition:</b> BarDataCollection.h:34</div></div>
 <div class="ttc" id="aclassBarDataCollection_html_a901bdc37eb770b318e29d30fb8b0dda7"><div class="ttname"><a href="classBarDataCollection.html#a901bdc37eb770b318e29d30fb8b0dda7">BarDataCollection::getNumberOfElements</a></div><div class="ttdeci">uint8_t getNumberOfElements() const</div><div class="ttdef"><b>Definition:</b> BarDataCollection.h:39</div></div>
 <div class="ttc" id="aclassBarDataCollection_html_ab7ba31281d2933ed13a0890917f3ed2f"><div class="ttname"><a href="classBarDataCollection.html#ab7ba31281d2933ed13a0890917f3ed2f">BarDataCollection::getValues</a></div><div class="ttdeci">T ** getValues() const</div><div class="ttdef"><b>Definition:</b> BarDataCollection.h:46</div></div>
-<div class="ttc" id="aclassBarDataCollection_html_ad68eeb263cf695f6412befc38c9943d9"><div class="ttname"><a href="classBarDataCollection.html#ad68eeb263cf695f6412befc38c9943d9">BarDataCollection::update</a></div><div class="ttdeci">void update(T value)</div><div class="ttdef"><b>Definition:</b> BarDataCollection.h:71</div></div>
+<div class="ttc" id="aclassBarDataCollection_html_ad68eeb263cf695f6412befc38c9943d9"><div class="ttname"><a href="classBarDataCollection.html#ad68eeb263cf695f6412befc38c9943d9">BarDataCollection::update</a></div><div class="ttdeci">void update(T value)</div><div class="ttdef"><b>Definition:</b> BarDataCollection.h:72</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
