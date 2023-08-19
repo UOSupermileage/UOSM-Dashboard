@@ -64,16 +64,24 @@ public:
     }
 
     /**
-     * Update the current head of the collection.
+     * Update the last element of the collection.
      * Useful if the latest value is still changing.
+     * If the collection is empty, this acts as a call to add
      * @param value
      */
     void update(T value) {
-        if (values[head]) {
-            delete values[head];
+        if (head == 0) {
+            add(value);
+            return;
         }
 
-        values[head] = new T(value);
+        uint8_t i = head - 1;
+
+        if (values[i] != nullptr) {
+            delete values[i];
+        }
+
+        values[i] = new T(value);
     }
 };
 
