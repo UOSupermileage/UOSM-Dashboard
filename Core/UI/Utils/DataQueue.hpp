@@ -2,8 +2,8 @@
 // Created by Jeremy Cote on 2023-08-18.
 //
 
-#ifndef UOSM_DASHBOARD_BARDATACOLLECTION_H
-#define UOSM_DASHBOARD_BARDATACOLLECTION_H
+#ifndef UOSM_DASHBOARD_DATAQUEUE_HPP
+#define UOSM_DASHBOARD_DATAQUEUE_HPP
 
 #include <stdexcept>
 
@@ -12,15 +12,16 @@
 /** @ingroup core-ui-utils
  *  A class that aggregates the data to display on a bar chart.
  *  It can store any type T, but the values will be cast to lv_coord_t when displayed in a bar chart.
+ *  Follows FIFO model.
  */
 template<typename T>
-class BarDataCollection {
+class DataQueue {
 private:
     T** values;
     uint8_t head;
     uint8_t size;
 public:
-    explicit BarDataCollection(uint8_t size): size(size), head(0) {
+    explicit DataQueue(uint8_t size): size(size), head(0) {
         if (size <= 0) {
             throw std::invalid_argument("Size must be at least 1");
         }
@@ -44,6 +45,17 @@ public:
      * @return a pointer to the underlying data source
      */
     [[nodiscard]] T** getValues() const { return values; }
+
+    /**
+     * @return a pointer to the newest value added to the collection.
+     */
+    [[nodiscard]] T* getLatestValue() const noexcept(false) {
+        if (head == 0) {
+            throw std::out_of_range("The BarDataCollection is empty.");
+        }
+
+        return values[head - 1];
+    }
 
     /**
      * Copy a value into the bar data collection.
@@ -85,4 +97,4 @@ public:
     }
 };
 
-#endif //UOSM_DASHBOARD_BARDATACOLLECTION_H
+#endif //UOSM_DASHBOARD_DATAQUEUE_HPP

@@ -36,12 +36,12 @@ HomeView::HomeView(lv_obj_t* parent, HomeViewModel& viewModel) : View(parent, vi
     lv_label_set_text(motorRPMLabel, "0 RPM");
     lv_obj_add_style(motorRPMLabel, styles->GetExtraLargeTextStyle(), LV_PART_MAIN | LV_STATE_DEFAULT);
 
-    viewModel.GetAggregator().batteryVoltage.addListener([this](const voltage_t& value) {
+    viewModel.GetAggregator().batteryVoltages.addListener([this](const  voltage_t& value) {
         uint32_t n = value * 33 * 185 / 40960;
         lv_label_set_text_fmt(batteryVoltageLabel, "%d.%d Volts", n / 10, n % 10);
     });
 
-    viewModel.GetAggregator().motorRPM.addListener([this](const velocity_t& value) {
+    viewModel.GetAggregator().motorVelocities.addListener([this](const velocity_t& value) {
         lv_label_set_text_fmt(motorRPMLabel, "%d RPM", value);
     });
 
