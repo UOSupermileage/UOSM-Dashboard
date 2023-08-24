@@ -24,17 +24,17 @@ using namespace std;
  */
 class DataAggregator {
 public:
-    explicit DataAggregator(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficiencySize):
+    explicit DataAggregator(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize):
             motorVelocities(motorVelocitiesSize),
             batteryVoltages(batteryVoltagesSize),
-            lapEfficiencies(lapEfficiencySize),
-            lapTimes(0) {}
+            lapEfficiencies(lapEfficienciesSize),
+            lapTimes(lapTimesSize) {}
     /** The observed object that holds the motor RPM data. */
     ObservedDataQueue<velocity_t> motorVelocities;
     /** The observed object that holds the battery voltage data. */
     ObservedDataQueue<voltage_t> batteryVoltages;
     /** The observed object that holds the current lap time. */
-    ObservedObject<ms_t> lapTimes;
+    ObservedDataQueue<ms_t> lapTimes;
     /** The observed object that holds a collection of lap efficiencies. */
     ObservedDataQueue<watt_hour_t> lapEfficiencies;
 };

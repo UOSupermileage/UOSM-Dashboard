@@ -35,8 +35,8 @@ StatsView::StatsView(lv_obj_t* parent, StatsViewModel& viewModel) : View(parent,
 
         lv_label_set_text_fmt(rpmLabel, "%d RPM", rpm);
     };
-    combiner = new CombineLatest(callback, viewModel.GetAggregator().motorVelocities,
-                                 viewModel.GetAggregator().batteryVoltage);
+//    combiner = new CombineLatest(callback, viewModel.GetAggregator().motorVelocities,
+//                                 viewModel.GetAggregator().batteryVoltages);
 }
 
 StatsView::~StatsView() {

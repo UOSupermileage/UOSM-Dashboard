@@ -7,8 +7,6 @@
 
 #include <stdexcept>
 
-#include "lvgl/lvgl.h"
-
 /** @ingroup core-ui-utils
  *  A class that aggregates the data to display on a bar chart.
  *  It can store any type T, but the values will be cast to lv_coord_t when displayed in a bar chart.
@@ -17,7 +15,8 @@
 template<typename T>
 class DataQueue {
 private:
-    T** values;
+    T* values;
+    uint8_t largest;
     uint8_t head;
     uint8_t size;
 public:
@@ -26,7 +25,8 @@ public:
             throw std::invalid_argument("Size must be at least 1");
         }
 
-        values = new T*[size];
+        values = new T[size];
+        largest = 0;
     }
 
     /**
@@ -44,17 +44,25 @@ public:
      * Use to set the data source of a bar chart.
      * @return a pointer to the underlying data source
      */
-    [[nodiscard]] T** getValues() const { return values; }
+    [[nodiscard]] T* getValues() const { return values; }
 
     /**
      * @return a pointer to the newest value added to the collection.
      */
-    [[nodiscard]] T* getLatestValue() const noexcept(false) {
+    [[nodiscard]] T getLatestValue() const noexcept(false) {
         if (head == 0) {
-            throw std::out_of_range("The BarDataCollection is empty.");
+            throw std::out_of_range("DataQueue is empty.");
         }
 
         return values[head - 1];
+    }
+
+    [[nodiscard]] T getLargestValue() const noexcept(false) {
+        if (head == 0) {
+            throw std::out_of_range("DataQueue is empty.");
+        }
+
+        return values[largest];
     }
 
     /**
@@ -64,14 +72,18 @@ public:
      */
     void add(T value) {
         if (head == size) {
-            delete values[0];
             for (uint8_t i = 1; i < size; i++) {
                 values[i - 1] = values[i];
             }
             head--;
         }
 
-        values[head] = new T(value);
+        values[head] = value;
+
+        if (value > values[largest]) {
+            largest = head;
+        }
+
         head++;
     }
 
@@ -89,11 +101,19 @@ public:
 
         uint8_t i = head - 1;
 
-        if (values[i] != nullptr) {
-            delete values[i];
-        }
+        bool shouldScanForLargest = value < values[i];
 
-        values[i] = new T(value);
+        values[i] = value;
+
+        if (shouldScanForLargest) {
+            for (int n = 0; n < head; n++) {
+                if (values[n] > values[largest]) {
+                    largest = n;
+                }
+            }
+        } else if (value > values[largest]) {
+            largest = i;
+        }
     }
 };
 
