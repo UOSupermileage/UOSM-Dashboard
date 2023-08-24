@@ -105,6 +105,10 @@ public:
 
         values[i] = value;
 
+        for (int n = 0; n < head; n++) {
+            printf("%d: %d, ", n, values[n]);
+        }
+
         if (shouldScanForLargest) {
             for (int n = 0; n < head; n++) {
                 if (values[n] > values[largest]) {
