@@ -25,6 +25,9 @@ private:
     /** The label that displays the motor RPM. */
     lv_obj_t* motorRPMLabel;
 
+    /** bar graph for time laps display. */
+    lv_obj_t* lapTimeBarGraph;
+
     /** Top row of the 2 row flex layout */
     lv_obj_t* topRow;
 
