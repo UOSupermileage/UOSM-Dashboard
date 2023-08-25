@@ -6,7 +6,6 @@ var hierarchy =
     [ "adv7533ConfigTypeDef", "structadv7533ConfigTypeDef.html", null ],
     [ "AUDIO_DrvTypeDef", "structAUDIO__DrvTypeDef.html", null ],
     [ "AUDIOIN_TypeDef", "structAUDIOIN__TypeDef.html", null ],
-    [ "BarDataCollection< T >", "classBarDataCollection.html", null ],
     [ "CAMERA_DrvTypeDef", "structCAMERA__DrvTypeDef.html", null ],
     [ "CombineLatest< Ts >", "classCombineLatest.html", null ],
     [ "CombineLatest< velocity_t, voltage_t >", "classCombineLatest.html", null ],
@@ -15,6 +14,7 @@ var hierarchy =
     [ "ctrl_status_t", "unionctrl__status__t.html", null ],
     [ "DataAggregator", "classDataAggregator.html", null ],
     [ "DataAggregatorWrapper", "structDataAggregatorWrapper.html", null ],
+    [ "DataQueue< T >", "classDataQueue.html", null ],
     [ "EPD_DrvTypeDef", "structEPD__DrvTypeDef.html", null ],
     [ "ft5336_handle_TypeDef", "structft5336__handle__TypeDef.html", null ],
     [ "ft6x06_handle_TypeDef", "structft6x06__handle__TypeDef.html", null ],
@@ -36,11 +36,15 @@ var hierarchy =
     [ "LCD_DrvTypeDef", "structLCD__DrvTypeDef.html", null ],
     [ "MAGNETO_DrvTypeDef", "structMAGNETO__DrvTypeDef.html", null ],
     [ "MAGNETO_InitTypeDef", "structMAGNETO__InitTypeDef.html", null ],
-    [ "ObservedObject< T >", "classObservedObject.html", null ],
-    [ "ObservedObject< BarDataCollection< watt_hour_t > >", "classObservedObject.html", null ],
-    [ "ObservedObject< ms_t >", "classObservedObject.html", null ],
-    [ "ObservedObject< velocity_t >", "classObservedObject.html", null ],
-    [ "ObservedObject< voltage_t >", "classObservedObject.html", null ],
+    [ "ObservedObject< T >", "classObservedObject.html", [
+      [ "ObservedDataQueue< velocity_t >", "classObservedDataQueue.html", null ],
+      [ "ObservedDataQueue< watt_hour_t >", "classObservedDataQueue.html", null ],
+      [ "ObservedDataQueue< ms_t >", "classObservedDataQueue.html", null ],
+      [ "ObservedDataQueue< voltage_t >", "classObservedDataQueue.html", null ]
+    ] ],
+    [ "ObservedObject< DataQueue< T > >", "classObservedObject.html", [
+      [ "ObservedDataQueue< T >", "classObservedDataQueue.html", null ]
+    ] ],
     [ "QSPI_Info", "structQSPI__Info.html", null ],
     [ "rx_reg_t", "unionrx__reg__t.html", null ],
     [ "RXF0", "structRXF0.html", null ],

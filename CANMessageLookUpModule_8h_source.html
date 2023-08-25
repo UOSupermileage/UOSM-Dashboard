@@ -122,21 +122,22 @@ $(document).ready(function(){initNavTree('CANMessageLookUpModule_8h_source.html'
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    MessageCANID_t messageID;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    uint8_t numberOfBytes;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    void (* canMessageCallback)(<a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a>* msg);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;} <a class="code" href="structICommsMessageInfo.html">ICommsMessageInfo</a>;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> <a class="code" href="structICommsMessageInfo.html">ICommsMessageInfo</a> CANMessageLookUpTable[NUMBER_CAN_MESSAGE_IDS];</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;PUBLIC <span class="keyword">const</span> <a class="code" href="structICommsMessageInfo.html">ICommsMessageInfo</a>* CANMessageLookUpGetInfo(ICommsMessageLookUpIndex <span class="keywordtype">id</span>);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;}</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* MODULES_CANMESSAGELOOKUPMODULE_H_ */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="comment">// Lambda Function. Instructions to execute when a message of this type is received.</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    void (*canMessageCallback)(<a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a>* msg);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;} <a class="code" href="structICommsMessageInfo.html">ICommsMessageInfo</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> <a class="code" href="structICommsMessageInfo.html">ICommsMessageInfo</a> CANMessageLookUpTable[NUMBER_CAN_MESSAGE_IDS];</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;PUBLIC <span class="keyword">const</span> <a class="code" href="structICommsMessageInfo.html">ICommsMessageInfo</a>* CANMessageLookUpGetInfo(ICommsMessageLookUpIndex <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* MODULES_CANMESSAGELOOKUPMODULE_H_ */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="astructICommsMessageInfo_html"><div class="ttname"><a href="structICommsMessageInfo.html">ICommsMessageInfo</a></div><div class="ttdef"><b>Definition:</b> CANMessageLookUpModule.h:32</div></div>
-<div class="ttc" id="astructiCommsMessage__t_html"><div class="ttname"><a href="structiCommsMessage__t.html">iCommsMessage_t</a></div><div class="ttdef"><b>Definition:</b> ApplicationTypes.h:81</div></div>
+<div class="ttc" id="astructiCommsMessage__t_html"><div class="ttname"><a href="structiCommsMessage__t.html">iCommsMessage_t</a></div><div class="ttdef"><b>Definition:</b> ApplicationTypes.h:99</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

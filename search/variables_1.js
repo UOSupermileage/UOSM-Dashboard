@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['batteryvoltage_1565',['batteryVoltage',['../classDataAggregator.html#a5eb8f42f9a16be9f27ba7adc2dc95373',1,'DataAggregator']]]
+  ['batteryvoltages_1573',['batteryVoltages',['../classDataAggregator.html#ae091edc82f90157fafd25f15921d058a',1,'DataAggregator']]]
 ];

@@ -1,12 +1,14 @@
 var group__core_ui_utils =
 [
-    [ "BarDataCollection", "classBarDataCollection.html", [
-      [ "BarDataCollection", "classBarDataCollection.html#a6998312c62284ad0e31f14a4e9ea5da1", null ],
-      [ "add", "classBarDataCollection.html#a2de7daf3611fafc7e8118743e6ff79ce", null ],
-      [ "getNumberOfElements", "classBarDataCollection.html#a901bdc37eb770b318e29d30fb8b0dda7", null ],
-      [ "getSize", "classBarDataCollection.html#a5a92db9ec330d6540048172bc0101044", null ],
-      [ "getValues", "classBarDataCollection.html#ab7ba31281d2933ed13a0890917f3ed2f", null ],
-      [ "update", "classBarDataCollection.html#ad68eeb263cf695f6412befc38c9943d9", null ]
+    [ "DataQueue", "classDataQueue.html", [
+      [ "DataQueue", "classDataQueue.html#a4bc82ec2676582a7078c6b9fe37d4096", null ],
+      [ "add", "classDataQueue.html#a0912b6b539c9f644d07d9f776a080819", null ],
+      [ "getLargestValue", "classDataQueue.html#abd843545492078dbf945913533845a12", null ],
+      [ "getLatestValue", "classDataQueue.html#a9915bc280e630556caac0583a7ad1358", null ],
+      [ "getNumberOfElements", "classDataQueue.html#a1a59d63aef443d898a2a61214e818d6e", null ],
+      [ "getSize", "classDataQueue.html#aa85667c715662906e8dec3b3568d2892", null ],
+      [ "getValues", "classDataQueue.html#ab1004a592b8ae774820956e35a996e64", null ],
+      [ "update", "classDataQueue.html#a304ea92bf76e45185a6c1b4ae3119648", null ]
     ] ],
     [ "Identifiable", "classIdentifiable.html", [
       [ "Identifiable", "classIdentifiable.html#a3bf8f9f85026cf7e6cd026aecd06abe9", null ],
@@ -23,8 +25,10 @@ var group__core_ui_utils =
     ] ],
     [ "ObservedObject", "classObservedObject.html", [
       [ "ObservedObject", "classObservedObject.html#ae4572a92f6440f07f853eaf01185967a", null ],
+      [ "ObservedObject", "classObservedObject.html#ab0447e4518a635a1bade0da0d7216332", null ],
+      [ "~ObservedObject", "classObservedObject.html#adc6b851296ec6bd58a34a066233f495c", null ],
       [ "addListener", "classObservedObject.html#a2692751b617e1f546c164cf7488f5676", null ],
-      [ "get", "classObservedObject.html#a2f24e2b16b57c5c59fd41ac0ac2e7381", null ],
+      [ "get", "classObservedObject.html#a56618f968fa0671b6463a842078d8936", null ],
       [ "getMutable", "classObservedObject.html#ac1b71fd5f5cab8c7bb430a1db5792401", null ],
       [ "publish", "classObservedObject.html#a883fecd2a34d046804f536e867087ad7", null ],
       [ "set", "classObservedObject.html#a41251426dd9a7a70cae927da03904966", null ]

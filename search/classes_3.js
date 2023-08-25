@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['dataaggregator_1082',['DataAggregator',['../classDataAggregator.html',1,'']]],
-  ['dataaggregatorwrapper_1083',['DataAggregatorWrapper',['../structDataAggregatorWrapper.html',1,'']]]
+  ['epd_5fdrvtypedef_1088',['EPD_DrvTypeDef',['../structEPD__DrvTypeDef.html',1,'']]]
 ];

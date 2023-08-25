@@ -1,8 +1,10 @@
 var classObservedObject =
 [
     [ "ObservedObject", "classObservedObject.html#ae4572a92f6440f07f853eaf01185967a", null ],
+    [ "ObservedObject", "classObservedObject.html#ab0447e4518a635a1bade0da0d7216332", null ],
+    [ "~ObservedObject", "classObservedObject.html#adc6b851296ec6bd58a34a066233f495c", null ],
     [ "addListener", "classObservedObject.html#a2692751b617e1f546c164cf7488f5676", null ],
-    [ "get", "classObservedObject.html#a2f24e2b16b57c5c59fd41ac0ac2e7381", null ],
+    [ "get", "classObservedObject.html#a56618f968fa0671b6463a842078d8936", null ],
     [ "getMutable", "classObservedObject.html#ac1b71fd5f5cab8c7bb430a1db5792401", null ],
     [ "publish", "classObservedObject.html#a883fecd2a34d046804f536e867087ad7", null ],
     [ "set", "classObservedObject.html#a41251426dd9a7a70cae927da03904966", null ]

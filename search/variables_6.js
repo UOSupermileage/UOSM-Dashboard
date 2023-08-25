@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['lapefficiencies_1573',['lapEfficiencies',['../classDataAggregator.html#affbfe5c6bc702d277f78154077462c19',1,'DataAggregator']]],
-  ['laptime_1574',['lapTime',['../classDataAggregator.html#a12079a8f57c8ec3346029d1094172351',1,'DataAggregator']]]
+  ['lapefficiencies_1581',['lapEfficiencies',['../classDataAggregator.html#a725b677d5e1758699622c48c5acac394',1,'DataAggregator']]],
+  ['laptimes_1582',['lapTimes',['../classDataAggregator.html#a14f5b521526fbf9f39480e2aeafe2af7',1,'DataAggregator']]]
 ];
