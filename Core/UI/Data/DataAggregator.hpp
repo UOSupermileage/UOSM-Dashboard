@@ -10,9 +10,10 @@
 #include <variant>
 #include "ApplicationTypes.h"
 #include "DataAggregatorWrapperType.h"
-#include "BarDataCollection.h"
+#include "DataQueue.hpp"
 
 #include "ObservedObject.hpp"
+#include "ObservedDataQueue.hpp"
 
 using namespace std;
 
@@ -23,18 +24,19 @@ using namespace std;
  */
 class DataAggregator {
 public:
-    explicit DataAggregator(uint8_t lapEfficiencySize): lapEfficiencies({BarDataCollection<watt_hour_t>(lapEfficiencySize)}) {
-
-    }
-
+    explicit DataAggregator(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize):
+            motorVelocities(motorVelocitiesSize),
+            batteryVoltages(batteryVoltagesSize),
+            lapEfficiencies(lapEfficienciesSize),
+            lapTimes(lapTimesSize) {}
     /** The observed object that holds the motor RPM data. */
-    ObservedObject<velocity_t> motorRPM{0};
+    ObservedDataQueue<velocity_t> motorVelocities;
     /** The observed object that holds the battery voltage data. */
-    ObservedObject<voltage_t> batteryVoltage{0};
+    ObservedDataQueue<voltage_t> batteryVoltages;
     /** The observed object that holds the current lap time. */
-    ObservedObject<ms_t> lapTime{0};
+    ObservedDataQueue<ms_t> lapTimes;
     /** The observed object that holds a collection of lap efficiencies. */
-    ObservedObject<BarDataCollection<watt_hour_t>> lapEfficiencies;
+    ObservedDataQueue<watt_hour_t> lapEfficiencies;
 };
 
 /** Returns a reference to the data aggregator object from a given wrapper.

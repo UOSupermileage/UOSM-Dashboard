@@ -2,30 +2,31 @@
 // Created by Jeremy Cote on 2023-08-18.
 //
 
-#ifndef UOSM_DASHBOARD_BARDATACOLLECTION_H
-#define UOSM_DASHBOARD_BARDATACOLLECTION_H
+#ifndef UOSM_DASHBOARD_DATAQUEUE_HPP
+#define UOSM_DASHBOARD_DATAQUEUE_HPP
 
 #include <stdexcept>
-
-#include "lvgl/lvgl.h"
 
 /** @ingroup core-ui-utils
  *  A class that aggregates the data to display on a bar chart.
  *  It can store any type T, but the values will be cast to lv_coord_t when displayed in a bar chart.
+ *  Follows FIFO model.
  */
 template<typename T>
-class BarDataCollection {
+class DataQueue {
 private:
-    T** values;
+    T* values;
+    uint8_t largest;
     uint8_t head;
     uint8_t size;
 public:
-    explicit BarDataCollection(uint8_t size): size(size), head(0) {
+    explicit DataQueue(uint8_t size): size(size), head(0) {
         if (size <= 0) {
             throw std::invalid_argument("Size must be at least 1");
         }
 
-        values = new T*[size];
+        values = new T[size];
+        largest = 0;
     }
 
     /**
@@ -43,7 +44,26 @@ public:
      * Use to set the data source of a bar chart.
      * @return a pointer to the underlying data source
      */
-    [[nodiscard]] T** getValues() const { return values; }
+    [[nodiscard]] T* getValues() const { return values; }
+
+    /**
+     * @return a pointer to the newest value added to the collection.
+     */
+    [[nodiscard]] T getLatestValue() const noexcept(false) {
+        if (head == 0) {
+            throw std::out_of_range("DataQueue is empty.");
+        }
+
+        return values[head - 1];
+    }
+
+    [[nodiscard]] T getLargestValue() const noexcept(false) {
+        if (head == 0) {
+            throw std::out_of_range("DataQueue is empty.");
+        }
+
+        return values[largest];
+    }
 
     /**
      * Copy a value into the bar data collection.
@@ -52,14 +72,18 @@ public:
      */
     void add(T value) {
         if (head == size) {
-            delete values[0];
             for (uint8_t i = 1; i < size; i++) {
                 values[i - 1] = values[i];
             }
             head--;
         }
 
-        values[head] = new T(value);
+        values[head] = value;
+
+        if (value > values[largest]) {
+            largest = head;
+        }
+
         head++;
     }
 
@@ -77,12 +101,24 @@ public:
 
         uint8_t i = head - 1;
 
-        if (values[i] != nullptr) {
-            delete values[i];
+        bool shouldScanForLargest = value < values[i];
+
+        values[i] = value;
+
+        for (int n = 0; n < head; n++) {
+            printf("%d: %d, ", n, values[n]);
         }
 
-        values[i] = new T(value);
+        if (shouldScanForLargest) {
+            for (int n = 0; n < head; n++) {
+                if (values[n] > values[largest]) {
+                    largest = n;
+                }
+            }
+        } else if (value > values[largest]) {
+            largest = i;
+        }
     }
 };
 
-#endif //UOSM_DASHBOARD_BARDATACOLLECTION_H
+#endif //UOSM_DASHBOARD_DATAQUEUE_HPP
