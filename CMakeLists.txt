@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 3.25)
 # specify cross-compilers and tools
 set(CMAKE_C_COMPILER arm-none-eabi-gcc)
 set(CMAKE_CXX_COMPILER arm-none-eabi-g++)
-set(CMAKE_ASM_COMPILER  arm-none-eabi-gcc)
+set(CMAKE_ASM_COMPILER arm-none-eabi-gcc)
 set(CMAKE_AR arm-none-eabi-ar)
 set(CMAKE_OBJCOPY arm-none-eabi-objcopy)
 set(CMAKE_OBJDUMP arm-none-eabi-objdump)
@@ -47,29 +47,29 @@ else ()
 endif ()
 
 include_directories(
-    Core/Inc Drivers/STM32F7xx_HAL_Driver/Inc Drivers/STM32F7xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F7xx/Include Drivers/CMSIS/Include Middlewares/Third_Party/FreeRTOS/Source/include Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1
-    ${CMAKE_SOURCE_DIR}/Core/Tasks
-    ${CMAKE_SOURCE_DIR}/Drivers
-    ${CMAKE_SOURCE_DIR}/UOSM-Core/Drivers
-    ${CMAKE_SOURCE_DIR}/UOSM-Core/Inc
-    ${CMAKE_SOURCE_DIR}/UOSM-Core/Modules
-    ${CMAKE_SOURCE_DIR}/Drivers/tft
-    ${CMAKE_SOURCE_DIR}/Drivers/touchpad
-    ${CMAKE_SOURCE_DIR}/Drivers/STM32F769I-Discovery
-    ${CMAKE_SOURCE_DIR}/Core/UI
-    ${CMAKE_SOURCE_DIR}/Core/UI/Utils
-    ${CMAKE_SOURCE_DIR}/Core/UI/Data
-    ${CMAKE_SOURCE_DIR}/Core/Modules
+        Core/Inc Drivers/STM32F7xx_HAL_Driver/Inc Drivers/STM32F7xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F7xx/Include Drivers/CMSIS/Include Middlewares/Third_Party/FreeRTOS/Source/include Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1
+        ${CMAKE_SOURCE_DIR}/Core/Tasks
+        ${CMAKE_SOURCE_DIR}/Drivers
+        ${CMAKE_SOURCE_DIR}/UOSM-Core/Drivers
+        ${CMAKE_SOURCE_DIR}/UOSM-Core/Inc
+        ${CMAKE_SOURCE_DIR}/UOSM-Core/Modules
+        ${CMAKE_SOURCE_DIR}/Drivers/tft
+        ${CMAKE_SOURCE_DIR}/Drivers/touchpad
+        ${CMAKE_SOURCE_DIR}/Drivers/STM32F769I-Discovery
+        ${CMAKE_SOURCE_DIR}/Core/UI
+        ${CMAKE_SOURCE_DIR}/Core/UI/Utils
+        ${CMAKE_SOURCE_DIR}/Core/UI/Data
+        ${CMAKE_SOURCE_DIR}/Core/Modules
 )
 
-add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F769xx -DSTM)
+add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F769xx)
 
 file(GLOB_RECURSE SOURCES "Core/*.*" "Middlewares/*.*" "Drivers/*.*")
 
 file(GLOB TASK_SOURCES Core/Tasks/*.c)
 file(GLOB UOSM_CORE_SOURCES
-    UOSM-Core/Drivers/*.c
-    UOSM-Core/Modules/*.c
+        UOSM-Core/Drivers/*.c
+        UOSM-Core/Modules/*.c
 )
 
 file(GLOB UI_SOURCES Core/UI/*.cpp Core/UI/Utils/*.cpp Core/UI/Data/*.cpp)

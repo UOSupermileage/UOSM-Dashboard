@@ -136,8 +136,12 @@ int main(void) {
     MX_USART1_UART_Init();
     MX_SPI2_Init();
     /* USER CODE BEGIN 2 */
+
+    // This is where the UI is initialized
+
     lv_init();
 
+    // Init the screen
     tft_init();
     touchpad_init();
 
