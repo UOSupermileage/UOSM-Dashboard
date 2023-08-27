@@ -22,6 +22,16 @@ public:
      *  @return A pointer to a style for fullscreen charts.
      */
     virtual lv_style_t* GetFullscreenChartStyle() = 0;
+
+    /** Returns a pointer to a style for a fullscreen view.
+     *  @return A pointer to a style for a fullscreen view.
+     */
+    virtual lv_style_t* GetFullscreenViewStyle() = 0;
+
+    /** Returns a pointer to a style for a fullscreen row.
+     * @return A pointer to a style for a fullscreen row.
+     */
+    virtual lv_style_t* GetFullscreenRowStyle() = 0;
 };
 
 #endif //UOSM_DASHBOARD_STYLES_HPP

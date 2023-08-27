@@ -61,14 +61,36 @@ public:
      *
      * @param value The initial value of the object.
      */
-    explicit ObservedObject(const T& value) : value(value) {}
+    explicit ObservedObject(const T& value) {
+        this->value = new T(value);
+    }
+
+    /**
+     * @brief Const a new ObservedObject where the observed object is held externally
+     * @param value
+     */
+    explicit ObservedObject(T* value, bool makeCopy) {
+        this->value = value;
+    }
+
+    ~ObservedObject() {
+        delete value;
+    }
 
     /**
      * @brief Get the current value of the object.
      *
      * @return T The current value of the object.
      */
-    T get() const { return value; }
+    T& get() const { return *value; }
+
+    /**
+     * @brief Get a pointer to the current value of the observed object.
+     * Make sure to call publish on the observed object once your changes are complete to notify listeners.
+     * This is useful when the observed object is a class.
+     * @return a mute
+     */
+    T& getMutable() { return *value; }
 
     /**
      * @brief Set a new value for the object and notify the listeners if the value is different from the previous one.
@@ -76,8 +98,8 @@ public:
      * @param value The new value for the object.
      */
     void set(const T& value) {
-        if (this->value != value) {
-            this->value = value;
+        if (*(this->value) != value) {
+            this->value = new T(value);
             notify();
         }
     }
@@ -116,7 +138,7 @@ private:
     /**
      * @brief The value that the object holds
      */
-    T value;
+    T* value;
     /**
      * @brief The list of registered listeners
      */
@@ -127,7 +149,7 @@ private:
      */
     void notify() {
         for (const auto& listener: listeners) {
-            listener.onChange(value);
+            listener.onChange(*value);
         }
     }
 };

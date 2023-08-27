@@ -16,7 +16,7 @@ extern "C" {
  * Creates a data aggregator wrapper object and returns a pointer to it.
  * @return A pointer to the data aggregator wrapper object.
 */
-DataAggregatorWrapper* DataAggregator_Create();
+DataAggregatorWrapper* DataAggregator_Create(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize);
 
 /** @ingroup core-modules
  *  Sets the motor RPM data in the data aggregator object from a given wrapper.
@@ -31,6 +31,13 @@ void SetMotorRPM(DataAggregatorWrapper* wrapper, velocity_t rpm);
  *  @param voltage The battery voltage data to set.
  */
 void SetBatteryVoltage(DataAggregatorWrapper* wrapper, voltage_t voltage);
+
+/** @ingroup core-modules
+ *  Sets the lap time in the data aggregator object from a given wrapper.
+ *  @param wrapper The pointer to the wrapper that contains the data aggregator object.
+ *  @param time The runtime to set.
+ */
+void SetLapTime(DataAggregatorWrapper* wrapper, ms_t time);
 
 #ifdef  __cplusplus
 }

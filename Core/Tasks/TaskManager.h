@@ -6,7 +6,8 @@
 #define UOSM_DASHBOARD_TASKMANAGER_H
 
 #include "ApplicationTypes.h"
+#include "DataAggregatorWrapper.h"
 
-void RunTaskManager(void);
+void RunTaskManager(DataAggregatorWrapper* wrapper);
 
 #endif //UOSM_DASHBOARD_TASKMANAGER_H

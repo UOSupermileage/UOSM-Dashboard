@@ -23,8 +23,11 @@ const osThreadAttr_t LVGLTimerTask_attributes = {
 	.priority = LVGL_TIMER_TASK_PRIORITY,
 };
 
-PUBLIC void InitLVGLTimerTask(void)
+static DataAggregatorWrapper* wrapper;
+
+PUBLIC void InitLVGLTimerTask(DataAggregatorWrapper* w)
 {
+    wrapper = w;
 	LVGLTimerTaskHandle = osThreadNew(LVGLTimerTask, NULL, &LVGLTimerTask_attributes);
 }
 PRIVATE void LVGLTimerTask(void *argument)
@@ -35,6 +38,8 @@ PRIVATE void LVGLTimerTask(void *argument)
 	{
         DebugPrint("%s Executing Timer Task", LVGL_TIMER_TAG);
 		lv_timer_handler();
+
+        SetLapTime(wrapper, cycleTick);
 
 		cycleTick += TIMER_LVGL_TIMER_TASK;
 		osDelayUntil(cycleTick);

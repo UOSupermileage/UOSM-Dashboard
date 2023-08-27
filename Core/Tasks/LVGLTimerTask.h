@@ -15,7 +15,9 @@
 // Our headers
 #include "ApplicationTypes.h"
 
-PUBLIC void InitLVGLTimerTask(void);
+#include "DataAggregatorWrapper.h"
+
+PUBLIC void InitLVGLTimerTask(DataAggregatorWrapper* wrapper);
 
 PRIVATE void LVGLTimerTask(void *argument);
 

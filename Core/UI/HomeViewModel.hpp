@@ -16,7 +16,9 @@
  */
 class HomeViewModel : public ViewModel {
 public:
-    explicit HomeViewModel(DataAggregator& aggregator) : ViewModel(aggregator) {}
+    explicit HomeViewModel(DataAggregator& aggregator) : ViewModel(aggregator) {
+
+    }
 };
 
 #endif //UOSM_DASHBOARD_HOMEVIEWMODEL_HPP

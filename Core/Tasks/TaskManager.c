@@ -7,8 +7,8 @@
 #include "LVGLTimerTask.h"
 #include "InternalCommsTask.h"
 
-void RunTaskManager(void) {
+void RunTaskManager(DataAggregatorWrapper* wrapper) {
     DebugPrint("Starting Task Manager...");
-    InitLVGLTimerTask();
+    InitLVGLTimerTask(wrapper);
     InitInternalCommsTask();
 }
