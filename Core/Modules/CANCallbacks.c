@@ -39,3 +39,23 @@ void VoltageDataCallback(iCommsMessage_t* msg) {
     DebugPrint("CAN voltage received: %d", voltage);
     SetBatteryVoltage(aggregatorWrapper, voltage);
 }
+
+void ThrottleDataCallback(iCommsMessage_t* msg) {
+    DebugPrint("ThrottleDataCallback not implemented! %d", msg->standardMessageID);
+}
+
+void ErrorDataCallback(iCommsMessage_t* msg) {
+    DebugPrint("ErrorDataCallback not implemented! %d", msg->standardMessageID);
+}
+
+void SpeedDataCallback(iCommsMessage_t* msg) {
+    DebugPrint("SpeedDataCallback not implemented! %d", msg->standardMessageID);
+}
+
+void EventDataCallback(iCommsMessage_t* msg) {
+    DebugPrint("EventDataCallback not implemented! %d", msg->standardMessageID);
+}
+
+void CurrentVoltageDataCallback(iCommsMessage_t* msg) {
+    DebugPrint("CurrentVoltageDataCallback not implemented! %d", msg->standardMessageID);
+}

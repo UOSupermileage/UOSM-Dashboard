@@ -59,6 +59,7 @@ include_directories(
     ${CMAKE_SOURCE_DIR}/Core/UI
     ${CMAKE_SOURCE_DIR}/Core/UI/Utils
     ${CMAKE_SOURCE_DIR}/Core/UI/Data
+    ${CMAKE_SOURCE_DIR}/Core/UI/Components
     ${CMAKE_SOURCE_DIR}/Core/Modules
 )
 
