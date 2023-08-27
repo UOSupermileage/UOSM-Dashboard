@@ -1,6 +1,8 @@
 // STM headers
 #include "stm32f7xx_hal.h"
 
+#define STM
+
 #define DEBUG_UART              huart1
 #define MAX_SERIAL_PRINT_LENGTH 128
 
