@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['ts_5fdrvtypedef_1133',['TS_DrvTypeDef',['../structTS__DrvTypeDef.html',1,'']]],
-  ['ts_5fstatetypedef_1134',['TS_StateTypeDef',['../structTS__StateTypeDef.html',1,'']]],
-  ['tsensor_5fdrvtypedef_1135',['TSENSOR_DrvTypeDef',['../structTSENSOR__DrvTypeDef.html',1,'']]],
-  ['tsensor_5finittypedef_1136',['TSENSOR_InitTypeDef',['../structTSENSOR__InitTypeDef.html',1,'']]]
+  ['st7789h2_5frgb888_1143',['ST7789H2_Rgb888',['../structST7789H2__Rgb888.html',1,'']]],
+  ['statsview_1144',['StatsView',['../classStatsView.html',1,'']]],
+  ['statsviewmodel_1145',['StatsViewModel',['../classStatsViewModel.html',1,'']]],
+  ['styles_1146',['Styles',['../classStyles.html',1,'']]],
+  ['stylesmanager_1147',['StylesManager',['../classStylesManager.html',1,'']]]
 ];

@@ -1,0 +1,10 @@
+<map id="ChartViewModel" name="ChartViewModel">
+<area shape="rect" id="node1" title=" " alt="" coords="936,109,1065,135"/>
+<area shape="rect" id="node2" href="$classViewModel.html" title=" " alt="" coords="792,109,887,135"/>
+<area shape="rect" id="node3" href="$classDataAggregator.html" title=" " alt="" coords="543,109,668,135"/>
+<area shape="rect" id="node4" href="$classObservedDataQueue.html" title=" " alt="" coords="219,5,387,47"/>
+<area shape="rect" id="node5" href="$classObservedObject.html" title="A class that represents an object that can be observed by listeners." alt="" coords="5,111,169,138"/>
+<area shape="rect" id="node6" href="$classObservedDataQueue.html" title=" " alt="" coords="219,71,387,112"/>
+<area shape="rect" id="node7" href="$classObservedDataQueue.html" title=" " alt="" coords="219,136,387,177"/>
+<area shape="rect" id="node8" href="$classObservedDataQueue.html" title=" " alt="" coords="219,201,387,243"/>
+</map>

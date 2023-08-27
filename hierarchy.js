@@ -7,6 +7,7 @@ var hierarchy =
     [ "AUDIO_DrvTypeDef", "structAUDIO__DrvTypeDef.html", null ],
     [ "AUDIOIN_TypeDef", "structAUDIOIN__TypeDef.html", null ],
     [ "CAMERA_DrvTypeDef", "structCAMERA__DrvTypeDef.html", null ],
+    [ "ChartData", "structChartData.html", null ],
     [ "CombineLatest< Ts >", "classCombineLatest.html", null ],
     [ "CombineLatest< velocity_t, voltage_t >", "classCombineLatest.html", null ],
     [ "ctrl_error_status_t", "unionctrl__error__status__t.html", null ],
@@ -38,10 +39,12 @@ var hierarchy =
     [ "MAGNETO_InitTypeDef", "structMAGNETO__InitTypeDef.html", null ],
     [ "ObservedObject< T >", "classObservedObject.html", [
       [ "ObservedDataQueue< velocity_t >", "classObservedDataQueue.html", null ],
+      [ "ObservedDataQueue< lv_coord_t >", "classObservedDataQueue.html", null ],
       [ "ObservedDataQueue< watt_hour_t >", "classObservedDataQueue.html", null ],
       [ "ObservedDataQueue< ms_t >", "classObservedDataQueue.html", null ],
       [ "ObservedDataQueue< voltage_t >", "classObservedDataQueue.html", null ]
     ] ],
+    [ "ObservedObject< ChartData >", "classObservedObject.html", null ],
     [ "ObservedObject< DataQueue< T > >", "classObservedObject.html", [
       [ "ObservedDataQueue< T >", "classObservedDataQueue.html", null ]
     ] ],
@@ -67,10 +70,16 @@ var hierarchy =
     [ "uCAN_MSG", "unionuCAN__MSG.html", null ],
     [ "uint16_pair_t", "unionuint16__pair__t.html", null ],
     [ "View", "classView.html", [
+      [ "Chart", "classChart.html", [
+        [ "BarChart", "classBarChart.html", null ]
+      ] ],
       [ "HomeView", "classHomeView.html", null ],
       [ "StatsView", "classStatsView.html", null ]
     ] ],
     [ "ViewModel", "classViewModel.html", [
+      [ "ChartViewModel", "classChartViewModel.html", [
+        [ "BarChartViewModel", "classBarChartViewModel.html", null ]
+      ] ],
       [ "HomeViewModel", "classHomeViewModel.html", null ],
       [ "StatsViewModel", "classStatsViewModel.html", null ]
     ] ]

@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$unionrx__reg__t.html" title=" " alt="" coords="5,5,80,32"/>
+<area shape="rect" id="node1" href="$classObservedObject.html" title="A class that represents an object that can be observed by listeners." alt="" coords="5,143,169,170"/>
+<area shape="rect" id="node2" href="$classObservedDataQueue.html" title=" " alt="" coords="217,5,385,47"/>
+<area shape="rect" id="node3" href="$classObservedDataQueue.html" title=" " alt="" coords="217,71,385,112"/>
+<area shape="rect" id="node4" href="$classObservedDataQueue.html" title=" " alt="" coords="217,136,385,177"/>
+<area shape="rect" id="node5" href="$classObservedDataQueue.html" title=" " alt="" coords="217,201,385,243"/>
+<area shape="rect" id="node6" href="$classObservedDataQueue.html" title=" " alt="" coords="217,267,385,308"/>
 </map>
