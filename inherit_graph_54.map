@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$unionuCAN__MSG.html" title=" " alt="" coords="5,5,100,32"/>
+<area shape="rect" id="node1" href="$classViewModel.html" title=" " alt="" coords="5,56,100,83"/>
+<area shape="rect" id="node2" href="$classChartViewModel.html" title=" " alt="" coords="150,5,279,32"/>
+<area shape="rect" id="node4" href="$classHomeViewModel.html" title=" " alt="" coords="148,56,281,83"/>
+<area shape="rect" id="node5" href="$classStatsViewModel.html" title=" " alt="" coords="151,107,278,133"/>
+<area shape="rect" id="node3" href="$classBarChartViewModel.html" title=" " alt="" coords="329,5,480,32"/>
 </map>

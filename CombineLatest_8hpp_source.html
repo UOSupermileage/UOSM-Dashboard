@@ -106,9 +106,9 @@ $(document).ready(function(){initNavTree('CombineLatest_8hpp_source.html',''); i
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="comment">// Templated constructor to deduce the type of the lambda directly</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> Func&gt;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classCombineLatest.html">CombineLatest</a>(Func&amp;&amp; callback, <a class="code" href="classObservedObject.html">ObservedObject&lt;Ts&gt;</a>&amp; ... observedObjects)</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classCombineLatest.html">CombineLatest</a>(Func&amp;&amp; callback, ObservedObject&lt;Ts&gt;&amp; ... observedObjects)</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            : callback(std::forward&lt;Func&gt;(callback)), objects(observedObjects...) {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        (observedObjects.<a class="code" href="classObservedObject.html#a2692751b617e1f546c164cf7488f5676">addListener</a>(std::bind(&amp;CombineLatest::handleUpdate, <span class="keyword">this</span>)), ...);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        (observedObjects.addListener(std::bind(&amp;CombineLatest::handleUpdate, <span class="keyword">this</span>)), ...);</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> handleUpdate() {</div>
@@ -122,7 +122,7 @@ $(document).ready(function(){initNavTree('CombineLatest_8hpp_source.html',''); i
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="comment">// Helper function to get the latest values from ObservedObjects</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">template</span>&lt;std::size_t... Is&gt;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">static</span> std::tuple&lt;std::optional&lt;Ts&gt;...&gt;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    getLatestValues(<span class="keyword">const</span> std::tuple&lt;<a class="code" href="classObservedObject.html">ObservedObject&lt;Ts&gt;</a>&amp; ...&gt;&amp; objects, std::index_sequence&lt;Is...&gt;) {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    getLatestValues(<span class="keyword">const</span> std::tuple&lt;ObservedObject&lt;Ts&gt;&amp; ...&gt;&amp; objects, std::index_sequence&lt;Is...&gt;) {</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">return</span> std::make_tuple(std::get&lt;Is&gt;(objects).get()...);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
@@ -143,8 +143,6 @@ $(document).ready(function(){initNavTree('CombineLatest_8hpp_source.html',''); i
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//UOSM_DASHBOARD_COMBINELATEST_HPP</span></div>
 <div class="ttc" id="aclassCombineLatest_html"><div class="ttname"><a href="classCombineLatest.html">CombineLatest</a></div><div class="ttdef"><b>Definition:</b> CombineLatest.hpp:15</div></div>
-<div class="ttc" id="aclassObservedObject_html"><div class="ttname"><a href="classObservedObject.html">ObservedObject</a></div><div class="ttdoc">A class that represents an object that can be observed by listeners.</div><div class="ttdef"><b>Definition:</b> ObservedObject.hpp:57</div></div>
-<div class="ttc" id="aclassObservedObject_html_a2692751b617e1f546c164cf7488f5676"><div class="ttname"><a href="classObservedObject.html#a2692751b617e1f546c164cf7488f5676">ObservedObject::addListener</a></div><div class="ttdeci">ObserverToken addListener(std::function&lt; void(const T &amp;)&gt; callback)</div><div class="ttdoc">Add a listener and return a token with a pointer to this object and a cancel lambda.</div><div class="ttdef"><b>Definition:</b> ObservedObject.hpp:123</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['identifiable_1406',['Identifiable',['../classIdentifiable.html#a3bf8f9f85026cf7e6cd026aecd06abe9',1,'Identifiable']]]
+  ['lightstyles_1357',['LightStyles',['../classLightStyles.html#ad7854aa0b215b0a09c8a032bb6c5dbd8',1,'LightStyles']]]
 ];

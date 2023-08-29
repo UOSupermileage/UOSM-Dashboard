@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>UOSM Dashboard: Core/UI/Utils/ObservedDataQueue.hpp Source File</title>
+<title>UOSM Dashboard: UOSM-Core/Utils/ObservedDataQueue.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -90,69 +90,55 @@ $(document).ready(function(){initNavTree('ObservedDataQueue_8hpp_source.html',''
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Created by Jeremy Cote on 2023-08-21.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef UOSM_DASHBOARD_SDL_OBSERVEDDATAQUEUE_HPP</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define UOSM_DASHBOARD_SDL_OBSERVEDDATAQUEUE_HPP</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;DataQueue.hpp&quot;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;ObservedObject.hpp&quot;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classObservedDataQueue.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="classObservedDataQueue.html">ObservedDataQueue</a>: <span class="keyword">public</span> <a class="code" href="classObservedObject.html">ObservedObject</a>&lt;DataQueue&lt;T&gt;&gt; {</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="classDataQueue.html">DataQueue&lt;T&gt;</a> queue;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classObservedDataQueue.html">ObservedDataQueue</a>(uint8_t size): queue(size), <a class="code" href="classObservedObject.html">ObservedObject&lt;DataQueue&lt;T&gt;</a>&gt;(&amp;queue, <span class="keyword">false</span>) {}</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classObservedDataQueue.html#adce82dada8dd35fd0ae378d5bde855ed">   25</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classObservedDataQueue.html#adce82dada8dd35fd0ae378d5bde855ed">add</a>(T value) {</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        queue.<a class="code" href="classDataQueue.html#a0912b6b539c9f644d07d9f776a080819">add</a>(value);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        this-&gt;<a class="code" href="classObservedObject.html#a883fecd2a34d046804f536e867087ad7">publish</a>();</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    }</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classObservedDataQueue.html#a2a9b70a39f4a2f78417272fdc58f7643">   35</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classObservedDataQueue.html#a2a9b70a39f4a2f78417272fdc58f7643">update</a>(T value) {</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        queue.<a class="code" href="classDataQueue.html#a304ea92bf76e45185a6c1b4ae3119648">update</a>(value);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        this-&gt;<a class="code" href="classObservedObject.html#a883fecd2a34d046804f536e867087ad7">publish</a>();</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    [[nodiscard]] uint8_t getSize()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> queue.<a class="code" href="classDataQueue.html#aa85667c715662906e8dec3b3568d2892">getSize</a>(); }</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifdef UOSM_OBSERVABLES</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef UOSM_CORE_OBSERVEDDATAQUEUE_HPP</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define UOSM_CORE_OBSERVEDDATAQUEUE_HPP</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;DataQueue.hpp&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;ObservedObject.hpp&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">class </span>ObservedDataQueue: <span class="keyword">public</span> ObservedObject&lt;DataQueue&lt;T&gt;&gt; {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    DataQueue&lt;T&gt; queue;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">explicit</span> ObservedDataQueue(uint8_t size): queue(size), ObservedObject&lt;DataQueue&lt;T&gt;&gt;(&amp;queue, false) {}</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> add(T value) {</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        queue.add(value);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        this-&gt;publish();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span> update(T value) {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        queue.update(value);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        this-&gt;publish();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classObservedDataQueue.html#a590e7656927b0eaf7d9ac8db84e8052d">   45</a></span>&#160;    [[nodiscard]] uint8_t <a class="code" href="classObservedDataQueue.html#a590e7656927b0eaf7d9ac8db84e8052d">getNumberOfElements</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> queue.<a class="code" href="classDataQueue.html#a1a59d63aef443d898a2a61214e818d6e">getNumberOfElements</a>(); }</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classObservedDataQueue.html#a5f575aeb0a970e5a914e10526f40c20e">   52</a></span>&#160;    [[nodiscard]] T* <a class="code" href="classObservedDataQueue.html#a5f575aeb0a970e5a914e10526f40c20e">getValues</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> queue.<a class="code" href="classDataQueue.html#ab1004a592b8ae774820956e35a996e64">getValues</a>(); }</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="classObservedDataQueue.html#ade7c0306923b5e329ac287b2c23ee5dd">   57</a></span>&#160;    [[nodiscard]] T <a class="code" href="classObservedDataQueue.html#ade7c0306923b5e329ac287b2c23ee5dd">getLatestValue</a>() const noexcept(false) { <span class="keywordflow">return</span> queue.<a class="code" href="classDataQueue.html#a9915bc280e630556caac0583a7ad1358">getLatestValue</a>(); }</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="classObservedDataQueue.html#a7ed58a44580b1423ad69d89f4ec1963e">   64</a></span>&#160;    <a class="code" href="classObserverToken.html">ObserverToken</a> <a class="code" href="classObservedDataQueue.html#a7ed58a44580b1423ad69d89f4ec1963e">addListenerForLatest</a>(std::function&lt;<span class="keywordtype">void</span>(<span class="keyword">const</span> T&amp;)&gt; callback) {</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">return</span> this-&gt;<a class="code" href="classObservedObject.html#a2692751b617e1f546c164cf7488f5676">addListener</a>([<span class="keyword">this</span>, callback](<span class="keyword">const</span> <a class="code" href="classDataQueue.html">DataQueue&lt;T&gt;</a>&amp; q) {</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            callback(queue.<a class="code" href="classDataQueue.html#a9915bc280e630556caac0583a7ad1358">getLatestValue</a>());</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        });</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;};</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//UOSM_DASHBOARD_SDL_OBSERVEDDATAQUEUE_HPP</span></div>
-<div class="ttc" id="aclassDataQueue_html"><div class="ttname"><a href="classDataQueue.html">DataQueue</a></div><div class="ttdef"><b>Definition:</b> DataQueue.hpp:16</div></div>
-<div class="ttc" id="aclassDataQueue_html_a0912b6b539c9f644d07d9f776a080819"><div class="ttname"><a href="classDataQueue.html#a0912b6b539c9f644d07d9f776a080819">DataQueue::add</a></div><div class="ttdeci">void add(T value)</div><div class="ttdef"><b>Definition:</b> DataQueue.hpp:73</div></div>
-<div class="ttc" id="aclassDataQueue_html_a1a59d63aef443d898a2a61214e818d6e"><div class="ttname"><a href="classDataQueue.html#a1a59d63aef443d898a2a61214e818d6e">DataQueue::getNumberOfElements</a></div><div class="ttdeci">uint8_t getNumberOfElements() const</div><div class="ttdef"><b>Definition:</b> DataQueue.hpp:40</div></div>
-<div class="ttc" id="aclassDataQueue_html_a304ea92bf76e45185a6c1b4ae3119648"><div class="ttname"><a href="classDataQueue.html#a304ea92bf76e45185a6c1b4ae3119648">DataQueue::update</a></div><div class="ttdeci">void update(T value)</div><div class="ttdef"><b>Definition:</b> DataQueue.hpp:96</div></div>
-<div class="ttc" id="aclassDataQueue_html_a9915bc280e630556caac0583a7ad1358"><div class="ttname"><a href="classDataQueue.html#a9915bc280e630556caac0583a7ad1358">DataQueue::getLatestValue</a></div><div class="ttdeci">T getLatestValue() const noexcept(false)</div><div class="ttdef"><b>Definition:</b> DataQueue.hpp:52</div></div>
-<div class="ttc" id="aclassDataQueue_html_aa85667c715662906e8dec3b3568d2892"><div class="ttname"><a href="classDataQueue.html#aa85667c715662906e8dec3b3568d2892">DataQueue::getSize</a></div><div class="ttdeci">uint8_t getSize() const</div><div class="ttdef"><b>Definition:</b> DataQueue.hpp:35</div></div>
-<div class="ttc" id="aclassDataQueue_html_ab1004a592b8ae774820956e35a996e64"><div class="ttname"><a href="classDataQueue.html#ab1004a592b8ae774820956e35a996e64">DataQueue::getValues</a></div><div class="ttdeci">T * getValues() const</div><div class="ttdef"><b>Definition:</b> DataQueue.hpp:47</div></div>
-<div class="ttc" id="aclassObservedDataQueue_html"><div class="ttname"><a href="classObservedDataQueue.html">ObservedDataQueue</a></div><div class="ttdef"><b>Definition:</b> ObservedDataQueue.hpp:15</div></div>
-<div class="ttc" id="aclassObservedDataQueue_html_a2a9b70a39f4a2f78417272fdc58f7643"><div class="ttname"><a href="classObservedDataQueue.html#a2a9b70a39f4a2f78417272fdc58f7643">ObservedDataQueue::update</a></div><div class="ttdeci">void update(T value)</div><div class="ttdef"><b>Definition:</b> ObservedDataQueue.hpp:35</div></div>
-<div class="ttc" id="aclassObservedDataQueue_html_a590e7656927b0eaf7d9ac8db84e8052d"><div class="ttname"><a href="classObservedDataQueue.html#a590e7656927b0eaf7d9ac8db84e8052d">ObservedDataQueue::getNumberOfElements</a></div><div class="ttdeci">uint8_t getNumberOfElements() const</div><div class="ttdef"><b>Definition:</b> ObservedDataQueue.hpp:45</div></div>
-<div class="ttc" id="aclassObservedDataQueue_html_a5f575aeb0a970e5a914e10526f40c20e"><div class="ttname"><a href="classObservedDataQueue.html#a5f575aeb0a970e5a914e10526f40c20e">ObservedDataQueue::getValues</a></div><div class="ttdeci">T * getValues() const</div><div class="ttdef"><b>Definition:</b> ObservedDataQueue.hpp:52</div></div>
-<div class="ttc" id="aclassObservedDataQueue_html_a7ed58a44580b1423ad69d89f4ec1963e"><div class="ttname"><a href="classObservedDataQueue.html#a7ed58a44580b1423ad69d89f4ec1963e">ObservedDataQueue::addListenerForLatest</a></div><div class="ttdeci">ObserverToken addListenerForLatest(std::function&lt; void(const T &amp;)&gt; callback)</div><div class="ttdef"><b>Definition:</b> ObservedDataQueue.hpp:64</div></div>
-<div class="ttc" id="aclassObservedDataQueue_html_adce82dada8dd35fd0ae378d5bde855ed"><div class="ttname"><a href="classObservedDataQueue.html#adce82dada8dd35fd0ae378d5bde855ed">ObservedDataQueue::add</a></div><div class="ttdeci">void add(T value)</div><div class="ttdef"><b>Definition:</b> ObservedDataQueue.hpp:25</div></div>
-<div class="ttc" id="aclassObservedDataQueue_html_ade7c0306923b5e329ac287b2c23ee5dd"><div class="ttname"><a href="classObservedDataQueue.html#ade7c0306923b5e329ac287b2c23ee5dd">ObservedDataQueue::getLatestValue</a></div><div class="ttdeci">T getLatestValue() const noexcept(false)</div><div class="ttdef"><b>Definition:</b> ObservedDataQueue.hpp:57</div></div>
-<div class="ttc" id="aclassObservedObject_html"><div class="ttname"><a href="classObservedObject.html">ObservedObject</a></div><div class="ttdoc">A class that represents an object that can be observed by listeners.</div><div class="ttdef"><b>Definition:</b> ObservedObject.hpp:57</div></div>
-<div class="ttc" id="aclassObservedObject_html_a2692751b617e1f546c164cf7488f5676"><div class="ttname"><a href="classObservedObject.html#a2692751b617e1f546c164cf7488f5676">ObservedObject&lt; DataQueue&lt; T &gt; &gt;::addListener</a></div><div class="ttdeci">ObserverToken addListener(std::function&lt; void(const DataQueue&lt; T &gt; &amp;)&gt; callback)</div><div class="ttdoc">Add a listener and return a token with a pointer to this object and a cancel lambda.</div><div class="ttdef"><b>Definition:</b> ObservedObject.hpp:123</div></div>
-<div class="ttc" id="aclassObservedObject_html_a883fecd2a34d046804f536e867087ad7"><div class="ttname"><a href="classObservedObject.html#a883fecd2a34d046804f536e867087ad7">ObservedObject&lt; DataQueue&lt; T &gt; &gt;::publish</a></div><div class="ttdeci">void publish()</div><div class="ttdoc">Force publish changes to the listeners, regardless of whether the value has changed or not.</div><div class="ttdef"><b>Definition:</b> ObservedObject.hpp:110</div></div>
-<div class="ttc" id="aclassObserverToken_html"><div class="ttname"><a href="classObserverToken.html">ObserverToken</a></div><div class="ttdef"><b>Definition:</b> ObservedObject.hpp:18</div></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    [[nodiscard]] uint8_t getSize()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> queue.getSize(); }</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    [[nodiscard]] uint8_t getNumberOfElements()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> queue.getNumberOfElements(); }</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    [[nodiscard]] T* getValues()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> queue.getValues(); }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    [[nodiscard]] T&amp; getLatestValue() const noexcept(false) { <span class="keywordflow">return</span> queue.getLatestValue(); }</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="classObserverToken.html">ObserverToken</a> addListenerForLatest(std::function&lt;<span class="keywordtype">void</span>(<span class="keyword">const</span> T&amp;)&gt; callback) {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">return</span> this-&gt;addListener([<span class="keyword">this</span>, callback](<span class="keyword">const</span> DataQueue&lt;T&gt;&amp; q) {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            callback(queue.getLatestValue());</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        });</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;};</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//UOSM_SENSOR_OBSERVEDDATAQUEUE_HPP</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;#endif</div>
+<div class="ttc" id="aclassObserverToken_html"><div class="ttname"><a href="classObserverToken.html">ObserverToken</a></div><div class="ttdef"><b>Definition:</b> Observable.hpp:15</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_c6310732a22f63c0c2fc5595561e68f1.html">Core</a></li><li class="navelem"><a class="el" href="dir_1287df12d70222ca625a5bed22770597.html">UI</a></li><li class="navelem"><a class="el" href="dir_5bd53c5f4096e80701d910889409022e.html">Utils</a></li><li class="navelem"><b>ObservedDataQueue.hpp</b></li>
+    <li class="navelem"><a class="el" href="dir_ba2a61e46d4d62f3cfd6e365fc220216.html">UOSM-Core</a></li><li class="navelem"><a class="el" href="dir_0b5393bfb0697e6d6d016ebf1c878f85.html">Utils</a></li><li class="navelem"><b>ObservedDataQueue.hpp</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

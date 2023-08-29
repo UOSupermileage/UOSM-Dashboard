@@ -15,7 +15,6 @@ var hierarchy =
     [ "ctrl_status_t", "unionctrl__status__t.html", null ],
     [ "DataAggregator", "classDataAggregator.html", null ],
     [ "DataAggregatorWrapper", "structDataAggregatorWrapper.html", null ],
-    [ "DataQueue< T >", "classDataQueue.html", null ],
     [ "EPD_DrvTypeDef", "structEPD__DrvTypeDef.html", null ],
     [ "ft5336_handle_TypeDef", "structft5336__handle__TypeDef.html", null ],
     [ "ft6x06_handle_TypeDef", "structft6x06__handle__TypeDef.html", null ],
@@ -29,25 +28,14 @@ var hierarchy =
     [ "IDD_ConfigTypeDef", "structIDD__ConfigTypeDef.html", null ],
     [ "IDD_dbgTypeDef", "structIDD__dbgTypeDef.html", null ],
     [ "IDD_DrvTypeDef", "structIDD__DrvTypeDef.html", null ],
-    [ "Identifiable", "classIdentifiable.html", [
-      [ "Listener< T >", "classListener.html", null ],
+    [ "Identifiable", null, [
       [ "ObserverToken", "classObserverToken.html", null ]
     ] ],
     [ "IO_DrvTypeDef", "structIO__DrvTypeDef.html", null ],
     [ "LCD_DrvTypeDef", "structLCD__DrvTypeDef.html", null ],
     [ "MAGNETO_DrvTypeDef", "structMAGNETO__DrvTypeDef.html", null ],
     [ "MAGNETO_InitTypeDef", "structMAGNETO__InitTypeDef.html", null ],
-    [ "ObservedObject< T >", "classObservedObject.html", [
-      [ "ObservedDataQueue< velocity_t >", "classObservedDataQueue.html", null ],
-      [ "ObservedDataQueue< lv_coord_t >", "classObservedDataQueue.html", null ],
-      [ "ObservedDataQueue< watt_hour_t >", "classObservedDataQueue.html", null ],
-      [ "ObservedDataQueue< ms_t >", "classObservedDataQueue.html", null ],
-      [ "ObservedDataQueue< voltage_t >", "classObservedDataQueue.html", null ]
-    ] ],
-    [ "ObservedObject< ChartData >", "classObservedObject.html", null ],
-    [ "ObservedObject< DataQueue< T > >", "classObservedObject.html", [
-      [ "ObservedDataQueue< T >", "classObservedDataQueue.html", null ]
-    ] ],
+    [ "Observable< T >", "classObservable.html", null ],
     [ "QSPI_Info", "structQSPI__Info.html", null ],
     [ "rx_reg_t", "unionrx__reg__t.html", null ],
     [ "RXF0", "structRXF0.html", null ],
