@@ -1,7 +1,8 @@
-// STM headers
-#include "stm32f7xx_hal.h"
+#define MAX_SERIAL_PRINT_LENGTH 128
 
-#define STM
+#ifdef STM
+
+#include "stm32f7xx_hal.h"
 
 #define DEBUG_UART              huart1
 #define MAX_SERIAL_PRINT_LENGTH 128
@@ -15,3 +16,18 @@
 #define MCP2515_SPI_TRANSMIT(BUFFER, SIZE)    HAL_SPI_Transmit(SPI_CAN, BUFFER, SIZE, SPI_TIMEOUT);
 #define MCP2515_SPI_RECEIVE(BUFFER, SIZE)     HAL_SPI_Receive(SPI_CAN, BUFFER, SIZE, SPI_TIMEOUT);
 #define MCP2515_SPI_READY                     HAL_SPI_GetState(SPI_CAN) == HAL_SPI_STATE_READY
+
+#else
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+void ExternalSerialPrint(const char* message, ...);
+void ExternalSerialPrintln(const char* message, ...);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
