@@ -1,6 +1,3 @@
-[submodule "UOSM-Core"]
-	path = UOSM-Core
-	url = git@github.com:UOSupermileage/UOSM-Core.git
 [submodule "Drivers/lvgl"]
 	path = Drivers/lvgl
 	url = git@github.com:lvgl/lvgl.git
