@@ -106,6 +106,7 @@ var NAVTREEINDEX16 =
 "md_Documentation_ToDo.html#autotoc_md8":[3,2],
 "md_Documentation_ToDo.html#autotoc_md9":[3,3],
 "md_UOSM_Core_README.html":[4],
+"md_UOSM_Core_README.html#autotoc_md13":[4,0],
 "mfxstm32l152_8c.html":[7,0,1,0,7,0],
 "mfxstm32l152_8h.html":[7,0,1,0,7,1],
 "mfxstm32l152_8h_source.html":[7,0,1,0,7,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "structAUDIO__DrvTypeDef.html#a1cd7d3e9b13c686c3e4bebe9b6709f23":[5,2,0,8,1,0,0,8],
 "structAUDIO__DrvTypeDef.html#a4998954dbaf3bee970383bfbf7a32636":[5,2,0,8,1,0,0,1],
 "structAUDIO__DrvTypeDef.html#a8cdc5e3ea9a629ca4b84ecf78aabb633":[5,2,0,8,1,0,0,9],
-"structAUDIO__DrvTypeDef.html#a9cc9d0e24a9a43655d9a784518d998a2":[5,2,0,8,1,0,0,4],
-"structAUDIO__DrvTypeDef.html#aaf08783572f1aee52f1fb936213534b0":[5,2,0,8,1,0,0,3]
+"structAUDIO__DrvTypeDef.html#a9cc9d0e24a9a43655d9a784518d998a2":[5,2,0,8,1,0,0,4]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"structiCommsMessage__t.html":[6,0,27],
 "structiCommsMessage__t.html#a7419a7f63c07294f1934d5f0048a618e":[6,0,27,1],
 "structiCommsMessage__t.html#ad612ebb5038878696ded86e1fb95ffb5":[6,0,27,2],
 "structiCommsMessage__t.html#af9a0ca553e0b55c51bf39854f8858736":[6,0,27,0],

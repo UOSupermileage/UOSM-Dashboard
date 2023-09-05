@@ -41,7 +41,9 @@ var NAVTREE =
       [ "4. Large format lap time.", "md_Documentation_ToDo.html#autotoc_md9", null ],
       [ "5. Easily change the default screen at compile time.", "md_Documentation_ToDo.html#autotoc_md10", null ]
     ] ],
-    [ "UOSM-Core", "md_UOSM_Core_README.html", null ],
+    [ "UOSM-Core", "md_UOSM_Core_README.html", [
+      [ "Usage", "md_UOSM_Core_README.html#autotoc_md13", null ]
+    ] ],
     [ "Modules", "modules.html", "modules" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -86,8 +88,8 @@ var NAVTREEINDEX =
 "group__ft6x06__Exported__Functions.html#gafe7ac293c9d9896c47f08cf8bc3443df",
 "lv__conf_8h.html#ae6edcf67fb721fba90b6cb8676c45801",
 "main_8h.html#ab8ad2ffd1e9d8db8d3821831162c7db7",
-"structAUDIO__DrvTypeDef.html#ab18ab060f3f2d9ef4575aed502b33a54",
-"structiCommsMessage__t.html#a7419a7f63c07294f1934d5f0048a618e"
+"structAUDIO__DrvTypeDef.html#aaf08783572f1aee52f1fb936213534b0",
+"structiCommsMessage__t.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
