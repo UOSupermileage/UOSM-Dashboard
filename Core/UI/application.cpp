@@ -43,8 +43,9 @@ void swipe_event_callback(lv_event_t* event) {
         } else if (direction == LV_DIR_RIGHT) {
             screenIndex++;
             screenIndex = screenIndex % nScreens;
+        } else {
+            return;
         }
-
 
         lv_scr_load_anim_t animDirection =
                 direction == LV_DIR_LEFT ? LV_SCR_LOAD_ANIM_MOVE_LEFT : LV_SCR_LOAD_ANIM_MOVE_RIGHT;
