@@ -24,11 +24,15 @@ using namespace std;
  */
 class DataAggregator {
 public:
-    explicit DataAggregator(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize):
+    explicit DataAggregator(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, bool prefillLapTimes = true):
             motorVelocities(motorVelocitiesSize),
             batteryVoltages(batteryVoltagesSize),
             lapEfficiencies(lapEfficienciesSize),
-            lapTimes(lapTimesSize) {}
+            lapTimes(lapTimesSize) {
+        for (uint8_t i = 0; i < lapTimesSize; i++){
+            lapTimes.add(0);
+        }
+    }
     /** The observed object that holds the motor RPM data. */
     ObservedDataQueue<velocity_t> motorVelocities;
     /** The observed object that holds the battery voltage data. */
