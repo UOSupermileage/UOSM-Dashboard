@@ -21,6 +21,21 @@ LightStyles::LightStyles() {
     lv_style_init(&fullscreenRowStyle);
     lv_style_set_bg_opa(&fullscreenRowStyle, 0);
     lv_style_set_border_width(&fullscreenRowStyle, 0);
+
+    lv_style_init(&mainArcStyle);
+    lv_style_set_arc_color(&mainArcStyle, LV_COLOR_MAKE(150, 150, 150));
+    lv_style_set_arc_width(&mainArcStyle, 40);
+    lv_style_set_arc_rounded(&mainArcStyle, false);
+
+    lv_style_init(&throttleArcStyle);
+    lv_style_set_arc_color(&throttleArcStyle, LV_COLOR_MAKE(100, 255, 100));
+    lv_style_set_arc_width(&throttleArcStyle, 40);
+    lv_style_set_arc_rounded(&throttleArcStyle, false);
+
+    lv_style_init(&aiThrottleArcStyle);
+    lv_style_set_arc_color(&aiThrottleArcStyle, LV_COLOR_MAKE(255, 100, 100));
+    lv_style_set_arc_width(&aiThrottleArcStyle, 40);
+    lv_style_set_arc_rounded(&aiThrottleArcStyle, false);
 }
 
 lv_style_t* LightStyles::GetExtraLargeTextStyle() {
@@ -37,4 +52,16 @@ lv_style_t* LightStyles::GetFullscreenViewStyle() {
 
 lv_style_t* LightStyles::GetFullscreenRowStyle() {
     return &fullscreenRowStyle;
+}
+
+lv_style_t* LightStyles::GetThrottleArcStyle() {
+    return &throttleArcStyle;
+}
+
+lv_style_t* LightStyles::GetAiThrottleArcStyle() {
+    return &aiThrottleArcStyle;
+}
+
+lv_style_t* LightStyles::GetMainArcStyle() {
+    return &mainArcStyle;
 }

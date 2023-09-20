@@ -32,6 +32,21 @@ public:
      * @return A pointer to a style for a fullscreen row.
      */
     virtual lv_style_t* GetFullscreenRowStyle() = 0;
+
+    /** Returns a pointer to a style for a throttle arc.
+     * @return A pointer to a style for a throttle arc.
+     */
+    virtual lv_style_t* GetThrottleArcStyle() = 0;
+
+    /** Returns a pointer to a style for a ai throttle arc.
+     * @return A pointer to a style for a ai throttle arc.
+     */
+    virtual lv_style_t* GetAiThrottleArcStyle() = 0;
+
+    /** Returns a pointer to a style for a main arc.
+     * @return A pointer to a style for a main arc.
+     */
+    virtual lv_style_t* GetMainArcStyle() = 0;
 };
 
 #endif //UOSM_DASHBOARD_STYLES_HPP
