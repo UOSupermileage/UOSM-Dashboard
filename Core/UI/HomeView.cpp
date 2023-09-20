@@ -13,28 +13,54 @@ HomeView::HomeView(lv_obj_t* parent, HomeViewModel& viewModel) : View(parent, vi
 
     lv_obj_set_flex_flow(container, LV_FLEX_FLOW_COLUMN);
 
-    topRow = lv_obj_create(container);
-    lv_obj_set_width(topRow, lv_obj_get_width(container));
-    lv_obj_add_style(topRow, styles->GetFullscreenRowStyle(), LV_PART_MAIN);
+//    topRow = lv_obj_create(container);
+//    lv_obj_set_width(topRow, lv_obj_get_width(container));
+//    lv_obj_add_style(topRow, styles->GetFullscreenRowStyle(), LV_PART_MAIN);
 
     bottomRow = lv_obj_create(container);
     lv_obj_set_width(bottomRow, lv_obj_get_width(container));
     lv_obj_add_style(bottomRow, styles->GetFullscreenRowStyle(), LV_PART_MAIN);
 
-    lv_obj_set_flex_grow(topRow, 1);
+//    lv_obj_set_flex_grow(topRow, 1);
     lv_obj_set_flex_grow(bottomRow, 1);
 
-    lapTimeLabel = lv_label_create(topRow);
+    lapTimeLabel = lv_label_create(bottomRow);
     lv_label_set_text(lapTimeLabel, "0m 0s");
     lv_obj_add_style(lapTimeLabel, styles->GetExtraLargeTextStyle(), LV_PART_MAIN);
 
     batteryVoltageLabel = lv_label_create(bottomRow);
     lv_label_set_text(batteryVoltageLabel, "0V");
     lv_obj_add_style(batteryVoltageLabel, styles->GetExtraLargeTextStyle(), LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_center(batteryVoltageLabel);
+    lv_obj_set_pos(batteryVoltageLabel, 0, 160);
 
     motorRPMLabel = lv_label_create(bottomRow);
     lv_label_set_text(motorRPMLabel, "0 RPM");
     lv_obj_add_style(motorRPMLabel, styles->GetExtraLargeTextStyle(), LV_PART_MAIN | LV_STATE_DEFAULT);
+
+    aiThrottleArc = lv_arc_create(bottomRow);
+    lv_arc_set_bg_angles(aiThrottleArc, 0, 270);
+    lv_arc_set_angles(aiThrottleArc, 0, 0);
+    lv_arc_set_rotation(aiThrottleArc, 135);
+    lv_obj_set_size(aiThrottleArc, 475, 475);
+    lv_obj_center(aiThrottleArc);
+    lv_obj_clear_flag(aiThrottleArc, LV_OBJ_FLAG_CLICKABLE);
+    lv_obj_remove_style(aiThrottleArc, NULL, LV_PART_KNOB);
+    lv_obj_add_style(aiThrottleArc, styles->GetMainArcStyle(), LV_PART_MAIN);
+    lv_obj_add_style(aiThrottleArc, styles->GetAiThrottleArcStyle(), LV_PART_INDICATOR);
+    lv_arc_set_value(aiThrottleArc, 50);
+
+    throttleArc = lv_arc_create(bottomRow);
+    lv_arc_set_bg_angles(throttleArc, 0, 270);
+    lv_arc_set_angles(throttleArc, 0, 0);
+    lv_arc_set_rotation(throttleArc, 135);
+    lv_obj_set_size(throttleArc, 375, 375);
+    lv_obj_center(throttleArc);
+    lv_obj_clear_flag(throttleArc, LV_OBJ_FLAG_CLICKABLE);
+    lv_obj_remove_style(throttleArc, NULL, LV_PART_KNOB);
+    lv_obj_add_style(throttleArc, styles->GetMainArcStyle(), LV_PART_MAIN);
+    lv_obj_add_style(throttleArc, styles->GetThrottleArcStyle(), LV_PART_INDICATOR);
+    lv_arc_set_value(throttleArc, 50);
 
     lapTimeBarGraph = lv_chart_create(bottomRow);
     lv_chart_set_type(lapTimeBarGraph, LV_CHART_TYPE_BAR);
