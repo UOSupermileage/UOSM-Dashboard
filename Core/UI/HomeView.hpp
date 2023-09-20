@@ -22,8 +22,15 @@ private:
 
     /** The label that displays the battery voltage. */
     lv_obj_t* batteryVoltageLabel;
+
     /** The label that displays the motor RPM. */
     lv_obj_t* motorRPMLabel;
+
+    /** The AI sugested throttle arc. */
+    lv_obj_t* aiThrottleArc;
+
+    /** The current throttle arc. */
+    lv_obj_t* throttleArc;
 
     /** bar graph for time laps display. */
     lv_obj_t* lapTimeBarGraph;
