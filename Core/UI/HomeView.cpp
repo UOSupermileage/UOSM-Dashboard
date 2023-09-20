@@ -32,11 +32,11 @@ HomeView::HomeView(lv_obj_t* parent, HomeViewModel& viewModel) : View(parent, vi
     lv_label_set_text(batteryVoltageLabel, "0V");
     lv_obj_add_style(batteryVoltageLabel, styles->GetExtraLargeTextStyle(), LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_center(batteryVoltageLabel);
-    lv_obj_set_pos(batteryVoltageLabel, 0, 160);
+    lv_obj_align(batteryVoltageLabel, LV_ALIGN_BOTTOM_MID, 0, 0);
 
-    motorRPMLabel = lv_label_create(bottomRow);
-    lv_label_set_text(motorRPMLabel, "0 RPM");
-    lv_obj_add_style(motorRPMLabel, styles->GetExtraLargeTextStyle(), LV_PART_MAIN | LV_STATE_DEFAULT);
+//    motorRPMLabel = lv_label_create(bottomRow);
+//    lv_label_set_text(motorRPMLabel, "0 RPM");
+//    lv_obj_add_style(motorRPMLabel, styles->GetExtraLargeTextStyle(), LV_PART_MAIN | LV_STATE_DEFAULT);
 
     aiThrottleArc = lv_arc_create(bottomRow);
     lv_arc_set_bg_angles(aiThrottleArc, 0, 270);
@@ -91,9 +91,9 @@ HomeView::HomeView(lv_obj_t* parent, HomeViewModel& viewModel) : View(parent, vi
         lv_label_set_text_fmt(batteryVoltageLabel, "%d.%d Volts", n / 10, n % 10);
     });
 
-    viewModel.GetAggregator().motorVelocities.addListenerForLatest([this](const velocity_t& velocity) {
-        lv_label_set_text_fmt(motorRPMLabel, "%d RPM", velocity);
-    });
+//    viewModel.GetAggregator().motorVelocities.addListenerForLatest([this](const velocity_t& velocity) {
+//        lv_label_set_text_fmt(motorRPMLabel, "%d RPM", velocity);
+//    });
 
     viewModel.GetAggregator().lapTimes.addListenerForLatest([this](const ms_t& time) {
         lv_label_set_text_fmt(lapTimeLabel, "%dm %ds", time / 60000, time / 1000);
