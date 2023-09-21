@@ -111,10 +111,44 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1f8caf18ba794508b71a4b9e68216d36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a136c3c1690538282870c9b5410986ee5"><td class="memItemLeft" align="right" valign="top">virtual lv_style_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStyles.html#a136c3c1690538282870c9b5410986ee5">GetFullscreenRowStyle</a> ()=0</td></tr>
 <tr class="separator:a136c3c1690538282870c9b5410986ee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec98f1c10bb93a014dc1555cee0f1827"><td class="memItemLeft" align="right" valign="top">virtual lv_style_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStyles.html#aec98f1c10bb93a014dc1555cee0f1827">GetThrottleArcStyle</a> ()=0</td></tr>
+<tr class="separator:aec98f1c10bb93a014dc1555cee0f1827"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0294a586476899161e9a2ac0d44a7638"><td class="memItemLeft" align="right" valign="top">virtual lv_style_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStyles.html#a0294a586476899161e9a2ac0d44a7638">GetAiThrottleArcStyle</a> ()=0</td></tr>
+<tr class="separator:a0294a586476899161e9a2ac0d44a7638"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3a95e556aec1191b79454ee6bf83823"><td class="memItemLeft" align="right" valign="top">virtual lv_style_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStyles.html#aa3a95e556aec1191b79454ee6bf83823">GetMainArcStyle</a> ()=0</td></tr>
+<tr class="separator:aa3a95e556aec1191b79454ee6bf83823"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class that represents an abstract interface for different styles of the UI elements. It provides methods to get the styles for different components, such as text and charts. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0294a586476899161e9a2ac0d44a7638"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0294a586476899161e9a2ac0d44a7638">&#9670;&nbsp;</a></span>GetAiThrottleArcStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual lv_style_t* Styles::GetAiThrottleArcStyle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns a pointer to a style for a ai throttle arc. </p><dl class="section return"><dt>Returns</dt><dd>A pointer to a style for a ai throttle arc. </dd></dl>
+
+<p>Implemented in <a class="el" href="classLightStyles.html#a0484c413d9f509a7701d1394026fbff3">LightStyles</a>.</p>
+
+</div>
+</div>
 <a id="afa46da3ff2e7aa3124712d42939537f7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afa46da3ff2e7aa3124712d42939537f7">&#9670;&nbsp;</a></span>GetExtraLargeTextStyle()</h2>
 
@@ -224,6 +258,62 @@ Public Member Functions</h2></td></tr>
 <p>Returns a pointer to a style for a fullscreen view. </p><dl class="section return"><dt>Returns</dt><dd>A pointer to a style for a fullscreen view. </dd></dl>
 
 <p>Implemented in <a class="el" href="classLightStyles.html#a07a55b8c0127d5740b2250075325d990">LightStyles</a>.</p>
+
+</div>
+</div>
+<a id="aa3a95e556aec1191b79454ee6bf83823"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3a95e556aec1191b79454ee6bf83823">&#9670;&nbsp;</a></span>GetMainArcStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual lv_style_t* Styles::GetMainArcStyle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns a pointer to a style for a main arc. </p><dl class="section return"><dt>Returns</dt><dd>A pointer to a style for a main arc. </dd></dl>
+
+<p>Implemented in <a class="el" href="classLightStyles.html#acae25eb6da6a71c0551456a551b76ba8">LightStyles</a>.</p>
+
+</div>
+</div>
+<a id="aec98f1c10bb93a014dc1555cee0f1827"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec98f1c10bb93a014dc1555cee0f1827">&#9670;&nbsp;</a></span>GetThrottleArcStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual lv_style_t* Styles::GetThrottleArcStyle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns a pointer to a style for a throttle arc. </p><dl class="section return"><dt>Returns</dt><dd>A pointer to a style for a throttle arc. </dd></dl>
+
+<p>Implemented in <a class="el" href="classLightStyles.html#a6b0631154b264d5648c93e54b5821dbb">LightStyles</a>.</p>
 
 </div>
 </div>

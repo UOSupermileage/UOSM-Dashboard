@@ -1,5 +1,11 @@
 var NAVTREEINDEX16 =
 {
+"main_8h.html#ab4040fc0814cb90cb009a9bd71bdcd0e":[7,0,0,0,3,220],
+"main_8h.html#ab4fc64bfb4d0a9ad2b0f498a0cfc9b73":[7,0,0,0,3,273],
+"main_8h.html#ab540fce62c5bcd53d05ce95e1152b833":[7,0,0,0,3,183],
+"main_8h.html#ab7389bae0ff0d1ac0e52932833daf522":[7,0,0,0,3,233],
+"main_8h.html#ab7c19a579fefda38ed570824cd57c852":[7,0,0,0,3,101],
+"main_8h.html#ab82fce28665ff1ff22d44af4340e0d5a":[7,0,0,0,3,1],
 "main_8h.html#ab8ad2ffd1e9d8db8d3821831162c7db7":[7,0,0,0,3,237],
 "main_8h.html#ab999182f429cec112dad333e0fd314c1":[7,0,0,0,3,221],
 "main_8h.html#ab9e612aead5984ebedb4f5c8a532a0c9":[7,0,0,0,3,123],
@@ -243,11 +249,5 @@ var NAVTREEINDEX16 =
 "structAUDIOIN__TypeDef.html":[5,2,2,1,0,0],
 "structAUDIOIN__TypeDef.html#aab60c0526001475aebf9d83c5f9b36a1":[5,2,2,1,0,0,0],
 "structAUDIOIN__TypeDef.html#affcf79f925ace5969dc4f076fcbd8488":[5,2,2,1,0,0,1],
-"structAUDIO__DrvTypeDef.html":[5,2,0,8,1,0,0],
-"structAUDIO__DrvTypeDef.html#a13b4bc20abd9c52699c671d4cf443328":[5,2,0,8,1,0,0,10],
-"structAUDIO__DrvTypeDef.html#a1b4189f6f6cf3c9af24f89cc70cd6fcf":[5,2,0,8,1,0,0,0],
-"structAUDIO__DrvTypeDef.html#a1cd7d3e9b13c686c3e4bebe9b6709f23":[5,2,0,8,1,0,0,8],
-"structAUDIO__DrvTypeDef.html#a4998954dbaf3bee970383bfbf7a32636":[5,2,0,8,1,0,0,1],
-"structAUDIO__DrvTypeDef.html#a8cdc5e3ea9a629ca4b84ecf78aabb633":[5,2,0,8,1,0,0,9],
-"structAUDIO__DrvTypeDef.html#a9cc9d0e24a9a43655d9a784518d998a2":[5,2,0,8,1,0,0,4]
+"structAUDIO__DrvTypeDef.html":[5,2,0,8,1,0,0]
 };

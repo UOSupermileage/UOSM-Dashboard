@@ -1,5 +1,11 @@
 var NAVTREEINDEX2 =
 {
+"group__EPD__Exported__Types.html":[5,2,0,10,0,0],
+"group__EXC7200.html":[5,2,1,0],
+"group__EXC7200__Exported__Constants.html":[5,2,1,0,1,0],
+"group__EXC7200__Exported__Constants.html#gacfb8fb8ed95a014eeec33c28fa308f7b":[7,0,1,0,4,1,0],
+"group__EXC7200__Exported__Types.html":[5,2,1,0,1],
+"group__EXC7200__Private__Defines.html":[5,2,1,0,0,0],
 "group__EXC7200__Private__Macros.html":[5,2,1,0,0,0,0],
 "group__EXC7200__Private__Types__Definitions.html":[5,2,1,0,0],
 "group__EXC7200__Private__Variables.html":[5,2,1,0,0,0,0,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX2 =
 "group__FT6X06__Private__Defines.html#gac85b949580e75cdd7109b18248874c3c":[7,0,1,0,6,0,0],
 "group__FT6X06__Private__Variables.html":[5,2,1,2,1],
 "group__FT6X06__Private__Variables.html#ga11d12c730f3be0fc1d0d6cbb8faa7a03":[7,0,1,0,6,0,11],
-"group__FT6X06__Private__Variables.html#ga4dde8a2c2c406d0eb3e52f947a462e2e":[7,0,1,0,6,0,12],
-"group__GYRO.html":[5,2,0,11],
-"group__GYRO__Config__structure.html":[5,2,0,11,0,1],
-"group__GYRO__Driver__structure.html":[5,2,0,11,0,0],
-"group__GYRO__Exported__Types.html":[5,2,0,11,0],
-"group__IDD.html":[5,2,0,12],
-"group__IDD__Config__structure.html":[5,2,0,12,0,0]
+"group__FT6X06__Private__Variables.html#ga4dde8a2c2c406d0eb3e52f947a462e2e":[7,0,1,0,6,0,12]
 };
