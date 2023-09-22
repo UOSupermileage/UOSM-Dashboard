@@ -1,7 +1,7 @@
 var searchData=
 [
   ['dataaggregator_195',['DataAggregator',['../classDataAggregator.html',1,'']]],
-  ['dataaggregator_5fcreate_196',['DataAggregator_Create',['../group__core-modules.html#ga2c9dad2fdaadf7f81c8b7f065ce0f769',1,'DataAggregator_Create(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize):&#160;DataAggregatorWrapper.cpp'],['../group__core-modules.html#ga2c9dad2fdaadf7f81c8b7f065ce0f769',1,'DataAggregator_Create(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize):&#160;DataAggregatorWrapper.cpp']]],
+  ['dataaggregator_5fcreate_196',['DataAggregator_Create',['../group__core-modules.html#ga0163e331d59d27d1c99f4f1a4a303ef7',1,'DataAggregator_Create(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t throttleSize):&#160;DataAggregatorWrapper.cpp'],['../group__core-modules.html#ga0163e331d59d27d1c99f4f1a4a303ef7',1,'DataAggregator_Create(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t throttleSize):&#160;DataAggregatorWrapper.cpp']]],
   ['dataaggregatorwrapper_197',['DataAggregatorWrapper',['../structDataAggregatorWrapper.html',1,'']]],
   ['debugmon_5fhandler_198',['DebugMon_Handler',['../stm32f7xx__it_8h.html#adbdfb05858cc36fc520974df37ec3cb0',1,'DebugMon_Handler(void):&#160;stm32f7xx_it.c'],['../stm32f7xx__it_8c.html#adbdfb05858cc36fc520974df37ec3cb0',1,'DebugMon_Handler(void):&#160;stm32f7xx_it.c']]],
   ['deltadelayunit_199',['DeltaDelayUnit',['../structIDD__ConfigTypeDef.html#a911b84562d806d387e838b147e288c9e',1,'IDD_ConfigTypeDef']]],

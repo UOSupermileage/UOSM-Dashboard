@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"structAUDIOIN__TypeDef.html#affcf79f925ace5969dc4f076fcbd8488":[5,2,2,1,0,0,1],
+"structAUDIO__DrvTypeDef.html":[5,2,0,8,1,0,0],
 "structAUDIO__DrvTypeDef.html#a13b4bc20abd9c52699c671d4cf443328":[5,2,0,8,1,0,0,10],
 "structAUDIO__DrvTypeDef.html#a1b4189f6f6cf3c9af24f89cc70cd6fcf":[5,2,0,8,1,0,0,0],
 "structAUDIO__DrvTypeDef.html#a1cd7d3e9b13c686c3e4bebe9b6709f23":[5,2,0,8,1,0,0,8],
@@ -21,8 +23,8 @@ var NAVTREEINDEX17 =
 "structChartData.html#a89fcfee4c55fed5530ae7297e64cb8ce":[6,0,10,0],
 "structChartData.html#aaf6c195f1e9ce45880fb6af0439a05d7":[6,0,10,2],
 "structDataAggregatorWrapper.html":[6,0,17],
-"structDataAggregatorWrapper.html#a17e7ee78d998da70772d0df07a0469cb":[6,0,17,0],
 "structDataAggregatorWrapper.html#a3bc3670b901769dca54fa330607f55ea":[6,0,17,1],
+"structDataAggregatorWrapper.html#a3d3681b6edb3bd0f00811a9e18d19670":[6,0,17,0],
 "structEPD__DrvTypeDef.html":[5,2,0,10,0,0,0,0],
 "structGYRO__DrvTypeDef.html":[5,2,0,11,0,0,0],
 "structGYRO__DrvTypeDef.html#a0aa0402cc1408ef4e833a79538078436":[5,2,0,11,0,0,0,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "structTS__DrvTypeDef.html#a61f6eee55ad561b455d5913293345edf":[5,2,0,16,0,0,0,2],
 "structTS__DrvTypeDef.html#a71a7336180314854b8aec63325aaa101":[5,2,0,16,0,0,0,9],
 "structTS__DrvTypeDef.html#aa53ed1ffd9e26145fb571a4b0d3e450a":[5,2,0,16,0,0,0,4],
-"structTS__DrvTypeDef.html#aa693405bd2ad00dd23a2245700f9577e":[5,2,0,16,0,0,0,1],
-"structTS__DrvTypeDef.html#acb9ebecebbd6f8f3fc8f15751c51b51a":[5,2,0,16,0,0,0,5],
-"structTS__StateTypeDef.html":[5,2,2,5,8,0]
+"structTS__DrvTypeDef.html#aa693405bd2ad00dd23a2245700f9577e":[5,2,0,16,0,0,0,1]
 };

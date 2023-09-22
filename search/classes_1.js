@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['barchart_1063',['BarChart',['../classBarChart.html',1,'']]],
-  ['barchartviewmodel_1064',['BarChartViewModel',['../classBarChartViewModel.html',1,'']]]
+  ['barchart_1065',['BarChart',['../classBarChart.html',1,'']]],
+  ['barchartviewmodel_1066',['BarChartViewModel',['../classBarChartViewModel.html',1,'']]]
 ];

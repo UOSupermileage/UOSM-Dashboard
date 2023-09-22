@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"group__ST7735__Private__Functions.html#ga6e774267d4d8bf517b3ff0e383342ea3":[5,2,0,27,5,9],
 "group__ST7735__Private__Functions.html#ga6e774267d4d8bf517b3ff0e383342ea3":[7,0,1,0,15,0,9],
 "group__ST7735__Private__Functions.html#ga73daff348d93e7cfe665cbee3f415186":[5,2,0,27,5,8],
 "group__ST7735__Private__Functions.html#ga73daff348d93e7cfe665cbee3f415186":[7,0,1,0,15,0,8],
@@ -95,8 +96,8 @@ var NAVTREEINDEX8 =
 "group__ST7789H2__Exported__Functions.html#gaae6ab499c7ca32f026708cbfb5153c97":[7,0,1,0,16,1,38],
 "group__ST7789H2__Exported__Functions.html#gaafb6fbc09b3a6fb4a163c59eefed12a2":[5,2,0,2,8,1],
 "group__ST7789H2__Exported__Functions.html#gaafb6fbc09b3a6fb4a163c59eefed12a2":[7,0,1,0,16,1,42],
-"group__ST7789H2__Exported__Functions.html#gab0ada921c8c4886a56114035b4496edf":[7,0,1,0,16,1,56],
 "group__ST7789H2__Exported__Functions.html#gab0ada921c8c4886a56114035b4496edf":[5,2,0,2,8,15],
+"group__ST7789H2__Exported__Functions.html#gab0ada921c8c4886a56114035b4496edf":[7,0,1,0,16,1,56],
 "group__ST7789H2__Exported__Functions.html#gaccf0a45e037a886f9b1a849bedd63735":[7,0,1,0,16,1,36],
 "group__ST7789H2__Exported__Functions.html#gad35fbfe45d9c0a5740d65f2597af02c2":[5,2,0,2,8,10],
 "group__ST7789H2__Exported__Functions.html#gad35fbfe45d9c0a5740d65f2597af02c2":[7,0,1,0,16,1,51],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#ga5a40f0d40f80fd71fd16fbb4e7fb3b7d":[5,2,2,1,11,6],
 "group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#ga71122b966773b01c8a5933c76f3f12fe":[7,0,1,1,3,110],
 "group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#ga71122b966773b01c8a5933c76f3f12fe":[5,2,2,1,11,13],
-"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#ga730bddf27a417c002e1d0058d2b3c314":[7,0,1,1,3,98],
-"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#ga730bddf27a417c002e1d0058d2b3c314":[5,2,2,1,11,1]
+"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#ga730bddf27a417c002e1d0058d2b3c314":[7,0,1,1,3,98]
 };

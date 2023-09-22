@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['measurenb_1549',['MeasureNb',['../structIDD__ConfigTypeDef.html#af9b602ce27142e679ca329e97da60781',1,'IDD_ConfigTypeDef']]],
-  ['motorvelocities_1550',['motorVelocities',['../classDataAggregator.html#a69521bbe1b160c75661f4cbc5f6a275a',1,'DataAggregator']]]
+  ['measurenb_1552',['MeasureNb',['../structIDD__ConfigTypeDef.html#af9b602ce27142e679ca329e97da60781',1,'IDD_ConfigTypeDef']]],
+  ['motorvelocities_1553',['motorVelocities',['../classDataAggregator.html#a69521bbe1b160c75661f4cbc5f6a275a',1,'DataAggregator']]]
 ];

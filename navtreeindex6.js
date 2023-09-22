@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"group__N25Q512A__Exported__Constants.html#ga450502c8fe6f02e6bb5756714a39220b":[7,0,1,0,10,0,69],
 "group__N25Q512A__Exported__Constants.html#ga4897782a7735445bdab14d0948809a0b":[7,0,1,0,10,0,12],
 "group__N25Q512A__Exported__Constants.html#ga48d8f9670389a5e859a119e439d7e29c":[5,2,0,20,1,22],
 "group__N25Q512A__Exported__Constants.html#ga48d8f9670389a5e859a119e439d7e29c":[7,0,1,0,10,0,46],
@@ -95,10 +96,10 @@ var NAVTREEINDEX6 =
 "group__N25Q512A__Exported__Constants.html#gaee9e4e732a2a9a6b0622deb5c619da28":[5,2,0,20,1,13],
 "group__N25Q512A__Exported__Constants.html#gaee9e4e732a2a9a6b0622deb5c619da28":[7,0,1,0,10,0,37],
 "group__N25Q512A__Exported__Constants.html#gaf08642aa956f6e200088bc670966b137":[7,0,1,0,10,0,82],
-"group__N25Q512A__Exported__Constants.html#gaf197249c84fd3a6eaa7a82074940c589":[5,2,0,20,1,12],
 "group__N25Q512A__Exported__Constants.html#gaf197249c84fd3a6eaa7a82074940c589":[7,0,1,0,10,0,36],
-"group__N25Q512A__Exported__Constants.html#gaf585a551aca42e8d3b270c7b9d72473e":[7,0,1,0,10,0,26],
+"group__N25Q512A__Exported__Constants.html#gaf197249c84fd3a6eaa7a82074940c589":[5,2,0,20,1,12],
 "group__N25Q512A__Exported__Constants.html#gaf585a551aca42e8d3b270c7b9d72473e":[5,2,0,20,1,2],
+"group__N25Q512A__Exported__Constants.html#gaf585a551aca42e8d3b270c7b9d72473e":[7,0,1,0,10,0,26],
 "group__N25Q512A__Exported__Constants.html#gafa2b4b0436f47512f11d7cbdf7e620e9":[7,0,1,0,10,0,48],
 "group__N25Q512A__Exported__Constants.html#gafa3f62391f3e8fbfc1fba32754e88b55":[7,0,1,0,10,0,89],
 "group__N25Q512A__Exported__Constants.html#gafad735439bdb43ab280755aa4f129e05":[7,0,1,0,10,0,78],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "group__OTM8009A__Private__Constants.html#gaa9ca28933feea9a0efea9fdac1185c32":[7,0,1,0,11,0,13],
 "group__OTM8009A__Private__Constants.html#gaafc1c2c815a3a567d8832f3118adf594":[7,0,1,0,11,0,76],
 "group__OTM8009A__Private__Constants.html#gab221b2ab4141b872570f6737a61e832f":[7,0,1,0,11,0,69],
-"group__OTM8009A__Private__Constants.html#gab23992355e0629764ffee9675507bbcc":[7,0,1,0,11,0,20],
-"group__OTM8009A__Private__Constants.html#gab36baee95b183241000dccedbb09813f":[7,0,1,0,11,0,5]
+"group__OTM8009A__Private__Constants.html#gab23992355e0629764ffee9675507bbcc":[7,0,1,0,11,0,20]
 };

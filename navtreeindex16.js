@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"main_8h.html#ab3e0821f2525f4cc2b320b52fa5efb3c":[7,0,0,0,3,262],
+"main_8h.html#ab403497f0a6510bbb6ae760e7e0abad7":[7,0,0,0,3,35],
 "main_8h.html#ab4040fc0814cb90cb009a9bd71bdcd0e":[7,0,0,0,3,220],
 "main_8h.html#ab4fc64bfb4d0a9ad2b0f498a0cfc9b73":[7,0,0,0,3,273],
 "main_8h.html#ab540fce62c5bcd53d05ce95e1152b833":[7,0,0,0,3,183],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "structACCELERO__InitTypeDef.html#ab13db51e571febe2fb5036bd2c1c5f8e":[5,2,0,7,0,1,0,0],
 "structACCELERO__InitTypeDef.html#ad42fcf8687b89f5b2b688590a7fe41ec":[5,2,0,7,0,1,0,3],
 "structAUDIOIN__TypeDef.html":[5,2,2,1,0,0],
-"structAUDIOIN__TypeDef.html#aab60c0526001475aebf9d83c5f9b36a1":[5,2,2,1,0,0,0],
-"structAUDIOIN__TypeDef.html#affcf79f925ace5969dc4f076fcbd8488":[5,2,2,1,0,0,1],
-"structAUDIO__DrvTypeDef.html":[5,2,0,8,1,0,0]
+"structAUDIOIN__TypeDef.html#aab60c0526001475aebf9d83c5f9b36a1":[5,2,2,1,0,0,0]
 };

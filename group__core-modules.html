@@ -106,19 +106,21 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga2c9dad2fdaadf7f81c8b7f065ce0f769"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__core-modules.html#ga2c9dad2fdaadf7f81c8b7f065ce0f769">DataAggregator_Create</a> (uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize)</td></tr>
-<tr class="separator:ga2c9dad2fdaadf7f81c8b7f065ce0f769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0163e331d59d27d1c99f4f1a4a303ef7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__core-modules.html#ga0163e331d59d27d1c99f4f1a4a303ef7">DataAggregator_Create</a> (uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t throttleSize)</td></tr>
+<tr class="separator:ga0163e331d59d27d1c99f4f1a4a303ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga967c16631d3a55287511e94f2f9b1b08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__core-modules.html#ga967c16631d3a55287511e94f2f9b1b08">SetMotorRPM</a> (<a class="el" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a> *wrapper, velocity_t rpm)</td></tr>
 <tr class="separator:ga967c16631d3a55287511e94f2f9b1b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga046de03c32fec6afeb1fd1a877425b75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__core-modules.html#ga046de03c32fec6afeb1fd1a877425b75">SetBatteryVoltage</a> (<a class="el" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a> *wrapper, voltage_t voltage)</td></tr>
 <tr class="separator:ga046de03c32fec6afeb1fd1a877425b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac6e9af57dec6f8317e4cd6d841be0937"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__core-modules.html#gac6e9af57dec6f8317e4cd6d841be0937">SetLapTime</a> (<a class="el" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a> *wrapper, ms_t time)</td></tr>
 <tr class="separator:gac6e9af57dec6f8317e4cd6d841be0937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5b7e3d2fe0863feed795838243e3651d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__core-modules.html#ga5b7e3d2fe0863feed795838243e3651d">SetThrottlePosition</a> (<a class="el" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a> *wrapper, throttle_raw_t throttle)</td></tr>
+<tr class="separator:ga5b7e3d2fe0863feed795838243e3651d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga2c9dad2fdaadf7f81c8b7f065ce0f769"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2c9dad2fdaadf7f81c8b7f065ce0f769">&#9670;&nbsp;</a></span>DataAggregator_Create()</h2>
+<a id="ga0163e331d59d27d1c99f4f1a4a303ef7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0163e331d59d27d1c99f4f1a4a303ef7">&#9670;&nbsp;</a></span>DataAggregator_Create()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145,7 +147,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>lapTimesSize</em>&#160;</td>
+          <td class="paramname"><em>lapTimesSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>throttleSize</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -257,6 +265,41 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">wrapper</td><td>The pointer to the wrapper that contains the data aggregator object. </td></tr>
     <tr><td class="paramname">rpm</td><td>The motor RPM data to set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5b7e3d2fe0863feed795838243e3651d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5b7e3d2fe0863feed795838243e3651d">&#9670;&nbsp;</a></span>SetThrottlePosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetThrottlePosition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a> *&#160;</td>
+          <td class="paramname"><em>wrapper</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">throttle_raw_t&#160;</td>
+          <td class="paramname"><em>throttle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the throttle position in the data aggregator object from a given wrapper. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">wrapper</td><td>The pointer to the wrapper that contains the data aggregator object. </td></tr>
+    <tr><td class="paramname">throttle</td><td>The throttle position to set. </td></tr>
   </table>
   </dd>
 </dl>
