@@ -5,5 +5,5 @@ var classDataAggregator =
     [ "lapEfficiencies", "classDataAggregator.html#a725b677d5e1758699622c48c5acac394", null ],
     [ "lapTimes", "classDataAggregator.html#a14f5b521526fbf9f39480e2aeafe2af7", null ],
     [ "motorVelocities", "classDataAggregator.html#a69521bbe1b160c75661f4cbc5f6a275a", null ],
-    [ "throttlePositions", "classDataAggregator.html#a3b4c7bcdc13d818e1faab98fb4c1c39a", null ]
+    [ "throttlePositions", "classDataAggregator.html#adbbcd7221eb63a96dc62198c7d535c76", null ]
 ];

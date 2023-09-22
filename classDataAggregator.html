@@ -109,8 +109,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a14f5b521526fbf9f39480e2aeafe2af7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a725b677d5e1758699622c48c5acac394"><td class="memItemLeft" align="right" valign="top">ObservedDataQueue&lt; watt_hour_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDataAggregator.html#a725b677d5e1758699622c48c5acac394">lapEfficiencies</a></td></tr>
 <tr class="separator:a725b677d5e1758699622c48c5acac394"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b4c7bcdc13d818e1faab98fb4c1c39a"><td class="memItemLeft" align="right" valign="top">ObservedDataQueue&lt; throttle_raw_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDataAggregator.html#a3b4c7bcdc13d818e1faab98fb4c1c39a">throttlePositions</a></td></tr>
-<tr class="separator:a3b4c7bcdc13d818e1faab98fb4c1c39a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbbcd7221eb63a96dc62198c7d535c76"><td class="memItemLeft" align="right" valign="top">ObservedDataQueue&lt; percentage_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDataAggregator.html#adbbcd7221eb63a96dc62198c7d535c76">throttlePositions</a></td></tr>
+<tr class="separator:adbbcd7221eb63a96dc62198c7d535c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class that aggregates the data from different sources, such as the CAN bus and the sensors, and provides them as observed objects. It uses the <a class="el" href="ApplicationTypes_8h_source.html">ApplicationTypes.h</a> file to define the types of the data, such as velocity_t and voltage_t. It also uses the <a class="el" href="DataAggregatorWrapperType_8h_source.html">DataAggregatorWrapperType.h</a> file to wrap the data aggregator object for the C interface. </p>
@@ -175,18 +175,18 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3b4c7bcdc13d818e1faab98fb4c1c39a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b4c7bcdc13d818e1faab98fb4c1c39a">&#9670;&nbsp;</a></span>throttlePositions</h2>
+<a id="adbbcd7221eb63a96dc62198c7d535c76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbbcd7221eb63a96dc62198c7d535c76">&#9670;&nbsp;</a></span>throttlePositions</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ObservedDataQueue&lt;throttle_raw_t&gt; DataAggregator::throttlePositions</td>
+          <td class="memname">ObservedDataQueue&lt;percentage_t&gt; DataAggregator::throttlePositions</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The observed object that holds the throttle position data. </p>
+<p>The observed object that holds the throttle percentage data. </p>
 
 </div>
 </div>
