@@ -5,6 +5,9 @@
 #include "HomeView.hpp"
 #include "StylesManager.hpp"
 
+lv_obj_t * ai;
+lv_obj_t * notAi;
+
 HomeView::HomeView(lv_obj_t* parent, HomeViewModel& viewModel) : View(parent, viewModel), viewModel(viewModel) {
     Styles* styles = StylesManager::GetStyles();
 
@@ -103,4 +106,21 @@ HomeView::HomeView(lv_obj_t* parent, HomeViewModel& viewModel) : View(parent, vi
         lv_chart_set_point_count(lapTimeBarGraph, queue.getNumberOfElements());
         lv_chart_refresh(lapTimeBarGraph);
     });
+
+    ai = aiThrottleArc;
+    notAi = throttleArc;
+
+    lv_timer_t * timer = lv_timer_create([](lv_timer_t * timer) {
+        lv_anim_t a;
+        lv_anim_init(&a);
+        lv_anim_set_var(&a, notAi);
+        lv_anim_set_exec_cb(&a, [](void * arc, int value) {
+            lv_arc_set_value(notAi, value);
+        });
+        lv_anim_set_time(&a, 100);
+        lv_anim_set_values(&a, lv_arc_get_value(notAi), 10 + (rand() % 50));
+        lv_anim_start(&a);
+
+        lv_arc_set_value(ai, 10 + (rand() % 50));
+    }, 500, nullptr);
 }
