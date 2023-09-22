@@ -41,7 +41,14 @@ void VoltageDataCallback(iCommsMessage_t* msg) {
 }
 
 void ThrottleDataCallback(iCommsMessage_t* msg) {
-    DebugPrint("ThrottleDataCallback not implemented! %d", msg->standardMessageID);
+//    DebugPrint("ThrottleDataCallback not implemented! %d", msg->standardMessageID);
+    if (!CAN_Enabled()) {
+        return;
+    }
+
+    throttle_raw_t throttle = readMsg(msg);
+    DebugPrint("CAN throttle received: %d", throttle);
+    SetThrottlePosition(aggregatorWrapper, throttle);
 }
 
 void ErrorDataCallback(iCommsMessage_t* msg) {

@@ -8,12 +8,12 @@
 struct DataAggregatorWrapper {
     DataAggregator aggregator;
 
-    explicit DataAggregatorWrapper(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize):
-        aggregator(motorVelocitiesSize, batteryVoltagesSize, lapEfficienciesSize, lapTimesSize) {}
+    explicit DataAggregatorWrapper(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t throttleSize):
+        aggregator(motorVelocitiesSize, batteryVoltagesSize, throttleSize, lapEfficienciesSize, lapTimesSize) {}
 };
 
-DataAggregatorWrapper* DataAggregator_Create(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize) {
-    auto* wrapper = new DataAggregatorWrapper(motorVelocitiesSize, batteryVoltagesSize, lapEfficienciesSize, lapTimesSize);
+DataAggregatorWrapper* DataAggregator_Create(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t throttleSize) {
+    auto* wrapper = new DataAggregatorWrapper(motorVelocitiesSize, batteryVoltagesSize, lapEfficienciesSize, lapTimesSize, throttleSize);
     return wrapper;
 }
 

@@ -24,9 +24,10 @@ using namespace std;
  */
 class DataAggregator {
 public:
-    explicit DataAggregator(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, bool prefillLapTimes = true):
+    explicit DataAggregator(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t throttleSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, bool prefillLapTimes = true):
             motorVelocities(motorVelocitiesSize),
             batteryVoltages(batteryVoltagesSize),
+            throttlePositions(throttleSize),
             lapEfficiencies(lapEfficienciesSize),
             lapTimes(lapTimesSize) {
         for (uint8_t i = 0; i < lapTimesSize; i++){
@@ -41,6 +42,8 @@ public:
     ObservedDataQueue<ms_t> lapTimes;
     /** The observed object that holds a collection of lap efficiencies. */
     ObservedDataQueue<watt_hour_t> lapEfficiencies;
+    /** The observed object that holds the throttle position data. */
+    ObservedDataQueue<throttle_raw_t> throttlePositions;
 };
 
 /** Returns a reference to the data aggregator object from a given wrapper.
