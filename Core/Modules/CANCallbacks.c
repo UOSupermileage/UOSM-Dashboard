@@ -46,7 +46,7 @@ void ThrottleDataCallback(iCommsMessage_t* msg) {
         return;
     }
 
-    throttle_raw_t throttle = readMsg(msg);
+    percentage_t throttle = readMsg(msg);
     DebugPrint("CAN throttle received: %d", throttle);
     SetThrottlePosition(aggregatorWrapper, throttle);
 }

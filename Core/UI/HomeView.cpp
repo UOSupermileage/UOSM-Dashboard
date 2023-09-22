@@ -111,7 +111,7 @@ HomeView::HomeView(lv_obj_t* parent, HomeViewModel& viewModel) : View(parent, vi
         lv_chart_refresh(lapTimeBarGraph);
     });
 
-    viewModel.GetAggregator().throttlePositions.addListenerForLatest([this](const throttle_raw_t& throttle) {
+    viewModel.GetAggregator().throttlePositions.addListenerForLatest([this](const percentage_t& throttle) {
         lv_anim_t a;
         lv_anim_init(&a);
         lv_anim_set_var(&a, throttleArc);

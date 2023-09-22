@@ -40,11 +40,11 @@ void SetBatteryVoltage(DataAggregatorWrapper* wrapper, voltage_t voltage);
 void SetLapTime(DataAggregatorWrapper* wrapper, ms_t time);
 
 /** @ingroup core-modules
- *  Sets the throttle position in the data aggregator object from a given wrapper.
+ *  Sets the throttle position (using the percentage) in the data aggregator object from a given wrapper.
  *  @param wrapper The pointer to the wrapper that contains the data aggregator object.
  *  @param throttle The throttle position to set.
  */
-void SetThrottlePosition(DataAggregatorWrapper* wrapper, throttle_raw_t throttle);
+void SetThrottlePosition(DataAggregatorWrapper* wrapper, percentage_t throttle);
 
 #ifdef  __cplusplus
 }

@@ -42,8 +42,8 @@ public:
     ObservedDataQueue<ms_t> lapTimes;
     /** The observed object that holds a collection of lap efficiencies. */
     ObservedDataQueue<watt_hour_t> lapEfficiencies;
-    /** The observed object that holds the throttle position data. */
-    ObservedDataQueue<throttle_raw_t> throttlePositions;
+    /** The observed object that holds the throttle percentage data. */
+    ObservedDataQueue<percentage_t> throttlePositions;
 };
 
 /** Returns a reference to the data aggregator object from a given wrapper.
