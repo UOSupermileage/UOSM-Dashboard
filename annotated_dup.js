@@ -8,12 +8,10 @@ var annotated_dup =
     [ "AUDIO_DrvTypeDef", "structAUDIO__DrvTypeDef.html", "structAUDIO__DrvTypeDef" ],
     [ "AUDIOIN_TypeDef", "structAUDIOIN__TypeDef.html", "structAUDIOIN__TypeDef" ],
     [ "BarChart", "classBarChart.html", "classBarChart" ],
-    [ "BarChartViewModel", "classBarChartViewModel.html", "classBarChartViewModel" ],
     [ "CAMERA_DrvTypeDef", "structCAMERA__DrvTypeDef.html", "structCAMERA__DrvTypeDef" ],
     [ "CANLogEntry", "classCANLogEntry.html", "classCANLogEntry" ],
     [ "Chart", "classChart.html", "classChart" ],
     [ "ChartData", "structChartData.html", "structChartData" ],
-    [ "ChartViewModel", "classChartViewModel.html", "classChartViewModel" ],
     [ "CombineLatest", "classCombineLatest.html", "classCombineLatest" ],
     [ "ctrl_error_status_t", "unionctrl__error__status__t.html", "unionctrl__error__status__t" ],
     [ "ctrl_rx_status_t", "unionctrl__rx__status__t.html", "unionctrl__rx__status__t" ],
@@ -29,7 +27,6 @@ var annotated_dup =
     [ "GYRO_InitTypeDef", "structGYRO__InitTypeDef.html", "structGYRO__InitTypeDef" ],
     [ "GYRO_InterruptConfigTypeDef", "structGYRO__InterruptConfigTypeDef.html", "structGYRO__InterruptConfigTypeDef" ],
     [ "HomeView", "classHomeView.html", "classHomeView" ],
-    [ "HomeViewModel", "classHomeViewModel.html", "classHomeViewModel" ],
     [ "iCommsMessage_t", "structiCommsMessage__t.html", "structiCommsMessage__t" ],
     [ "ICommsMessageInfo", "structICommsMessageInfo.html", "structICommsMessageInfo" ],
     [ "id_reg_t", "structid__reg__t.html", "structid__reg__t" ],
@@ -57,7 +54,6 @@ var annotated_dup =
     [ "RXM1", "structRXM1.html", "structRXM1" ],
     [ "ST7789H2_Rgb888", "structST7789H2__Rgb888.html", "structST7789H2__Rgb888" ],
     [ "StatsView", "classStatsView.html", "classStatsView" ],
-    [ "StatsViewModel", "classStatsViewModel.html", "classStatsViewModel" ],
     [ "Styles", "classStyles.html", "classStyles" ],
     [ "StylesManager", "classStylesManager.html", null ],
     [ "TS_DrvTypeDef", "structTS__DrvTypeDef.html", "structTS__DrvTypeDef" ],
@@ -66,6 +62,5 @@ var annotated_dup =
     [ "TSENSOR_InitTypeDef", "structTSENSOR__InitTypeDef.html", "structTSENSOR__InitTypeDef" ],
     [ "uCAN_MSG", "unionuCAN__MSG.html", "unionuCAN__MSG" ],
     [ "uint16_pair_t", "unionuint16__pair__t.html", "unionuint16__pair__t" ],
-    [ "View", "classView.html", "classView" ],
-    [ "ViewModel", "classViewModel.html", "classViewModel" ]
+    [ "View", "classView.html", "classView" ]
 ];

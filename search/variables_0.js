@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['aggregator_1562',['aggregator',['../classViewModel.html#a5162282efba236ea19aa7ba157d3a140',1,'ViewModel']]],
-  ['ampligain_1563',['AmpliGain',['../structIDD__ConfigTypeDef.html#a9f80320a163c3bf30adb5bfedab630eb',1,'IDD_ConfigTypeDef']]]
+  ['ampligain_1548',['AmpliGain',['../structIDD__ConfigTypeDef.html#a9f80320a163c3bf30adb5bfedab630eb',1,'IDD_ConfigTypeDef']]]
 ];

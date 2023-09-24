@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['ft5336_5fhandle_5ftypedef_1091',['ft5336_handle_TypeDef',['../structft5336__handle__TypeDef.html',1,'']]],
-  ['ft6x06_5fhandle_5ftypedef_1092',['ft6x06_handle_TypeDef',['../structft6x06__handle__TypeDef.html',1,'']]]
+  ['ft5336_5fhandle_5ftypedef_1083',['ft5336_handle_TypeDef',['../structft5336__handle__TypeDef.html',1,'']]],
+  ['ft6x06_5fhandle_5ftypedef_1084',['ft6x06_handle_TypeDef',['../structft6x06__handle__TypeDef.html',1,'']]]
 ];

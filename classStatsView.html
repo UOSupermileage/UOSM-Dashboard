@@ -113,8 +113,8 @@ Collaboration diagram for StatsView:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac40e1419c4df1d8eb5dda9a09da20a59"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStatsView.html#ac40e1419c4df1d8eb5dda9a09da20a59">StatsView</a> (lv_obj_t *parent, <a class="el" href="classStatsViewModel.html">StatsViewModel</a> &amp;viewModel)</td></tr>
-<tr class="separator:ac40e1419c4df1d8eb5dda9a09da20a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a715499a5bfb0389bdb79f19115b4d975"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStatsView.html#a715499a5bfb0389bdb79f19115b4d975">StatsView</a> (lv_obj_t *parent, <a class="el" href="classDataAggregator.html">DataAggregator</a> &amp;aggregator)</td></tr>
+<tr class="separator:a715499a5bfb0389bdb79f19115b4d975"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classView"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classView')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classView.html">View</a></td></tr>
 <tr class="memitem:a7aca473326a1fe185b4ae78e2aec347b inherit pub_methods_classView"><td class="memItemLeft" align="right" valign="top">lv_obj_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classView.html#a7aca473326a1fe185b4ae78e2aec347b">getContainer</a> ()</td></tr>
 <tr class="separator:a7aca473326a1fe185b4ae78e2aec347b inherit pub_methods_classView"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,13 +126,16 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ae456734534188125bf922504f4abe182"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStatsView.html#ae456734534188125bf922504f4abe182">~StatsView</a> ()</td></tr>
 <tr class="separator:ae456734534188125bf922504f4abe182"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classView"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classView')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classView.html">View</a></td></tr>
-<tr class="memitem:ac639d5ce4706048bdce688497d4ee441 inherit pro_methods_classView"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classView.html#ac639d5ce4706048bdce688497d4ee441">View</a> (lv_obj_t *parent, <a class="el" href="classViewModel.html">ViewModel</a> &amp;viewModel)</td></tr>
-<tr class="separator:ac639d5ce4706048bdce688497d4ee441 inherit pro_methods_classView"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bc9ad5d792ada107d4ece451a37f2a9 inherit pro_methods_classView"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classView.html#a1bc9ad5d792ada107d4ece451a37f2a9">View</a> (lv_obj_t *parent, <a class="el" href="classDataAggregator.html">DataAggregator</a> &amp;aggregator)</td></tr>
+<tr class="separator:a1bc9ad5d792ada107d4ece451a37f2a9 inherit pro_methods_classView"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0dc854db9aabbea98a334dec89f785c inherit pro_methods_classView"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classView.html#ad0dc854db9aabbea98a334dec89f785c">~View</a> ()</td></tr>
 <tr class="separator:ad0dc854db9aabbea98a334dec89f785c inherit pro_methods_classView"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4da3877b7e698fa13b835e616332df15 inherit pro_methods_classView"><td class="memItemLeft" align="right" valign="top"><a id="a4da3877b7e698fa13b835e616332df15"></a>
+<a class="el" href="classDataAggregator.html">DataAggregator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getDataAggregator</b> ()</td></tr>
+<tr class="separator:a4da3877b7e698fa13b835e616332df15 inherit pro_methods_classView"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class that represents a view that displays the statistics of the dashboard, such as the motor RPM over time. It inherits from the <a class="el" href="classView.html">View</a> class and uses the <a class="el" href="classStatsViewModel.html">StatsViewModel</a> class to get the data for the view elements. </p>
+<div class="textblock"><p>A class that represents a view that displays the statistics of the dashboard, such as the motor RPM over time. It inherits from the <a class="el" href="classView.html">View</a> class and uses the StatsViewModel class to get the data for the view elements. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae456734534188125bf922504f4abe182"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae456734534188125bf922504f4abe182">&#9670;&nbsp;</a></span>~StatsView()</h2>
@@ -160,8 +163,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac40e1419c4df1d8eb5dda9a09da20a59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac40e1419c4df1d8eb5dda9a09da20a59">&#9670;&nbsp;</a></span>StatsView()</h2>
+<a id="a715499a5bfb0389bdb79f19115b4d975"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a715499a5bfb0389bdb79f19115b4d975">&#9670;&nbsp;</a></span>StatsView()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -175,8 +178,8 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classStatsViewModel.html">StatsViewModel</a> &amp;&#160;</td>
-          <td class="paramname"><em>viewModel</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="classDataAggregator.html">DataAggregator</a> &amp;&#160;</td>
+          <td class="paramname"><em>aggregator</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

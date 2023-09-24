@@ -1,7 +1,0 @@
-<map id="ViewModel" name="ViewModel">
-<area shape="rect" id="node1" title=" " alt="" coords="189,5,284,32"/>
-<area shape="rect" id="node2" href="$classChartViewModel.html" title=" " alt="" coords="16,80,145,107"/>
-<area shape="rect" id="node4" href="$classHomeViewModel.html" title=" " alt="" coords="170,80,303,107"/>
-<area shape="rect" id="node5" href="$classStatsViewModel.html" title=" " alt="" coords="328,80,455,107"/>
-<area shape="rect" id="node3" href="$classBarChartViewModel.html" title=" " alt="" coords="5,155,156,181"/>
-</map>

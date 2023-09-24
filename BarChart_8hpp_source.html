@@ -95,24 +95,15 @@ $(document).ready(function(){initNavTree('BarChart_8hpp_source.html',''); initRe
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;Chart.hpp&quot;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classBarChartViewModel.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="classBarChartViewModel.html">BarChartViewModel</a> : <span class="keyword">public</span> <a class="code" href="classChartViewModel.html">ChartViewModel</a> {</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classBarChart.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="classBarChart.html">BarChart</a> : <span class="keyword">public</span> <a class="code" href="classChart.html">Chart</a> {</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classBarChartViewModel.html">BarChartViewModel</a>(<a class="code" href="classDataAggregator.html">DataAggregator</a>&amp; <a class="code" href="classViewModel.html#a5162282efba236ea19aa7ba157d3a140">aggregator</a>, std::initializer_list&lt;ChartData&gt; data) : <a class="code" href="classChartViewModel.html">ChartViewModel</a>(</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;            <a class="code" href="classViewModel.html#a5162282efba236ea19aa7ba157d3a140">aggregator</a>, data) {};</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;};</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classBarChart.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="classBarChart.html">BarChart</a> : <span class="keyword">public</span> <a class="code" href="classChart.html">Chart</a> {</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="classBarChart.html">BarChart</a>(lv_obj_t* parent, <a class="code" href="classBarChartViewModel.html">BarChartViewModel</a>&amp; viewModel);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;};</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//UOSM_DASHBOARD_SDL_BARCHART_HPP</span></div>
-<div class="ttc" id="aclassBarChartViewModel_html"><div class="ttname"><a href="classBarChartViewModel.html">BarChartViewModel</a></div><div class="ttdef"><b>Definition:</b> BarChart.hpp:10</div></div>
-<div class="ttc" id="aclassBarChart_html"><div class="ttname"><a href="classBarChart.html">BarChart</a></div><div class="ttdef"><b>Definition:</b> BarChart.hpp:16</div></div>
-<div class="ttc" id="aclassChartViewModel_html"><div class="ttname"><a href="classChartViewModel.html">ChartViewModel</a></div><div class="ttdef"><b>Definition:</b> Chart.hpp:21</div></div>
-<div class="ttc" id="aclassChart_html"><div class="ttname"><a href="classChart.html">Chart</a></div><div class="ttdef"><b>Definition:</b> Chart.hpp:41</div></div>
-<div class="ttc" id="aclassDataAggregator_html"><div class="ttname"><a href="classDataAggregator.html">DataAggregator</a></div><div class="ttdef"><b>Definition:</b> DataAggregator.hpp:25</div></div>
-<div class="ttc" id="aclassViewModel_html_a5162282efba236ea19aa7ba157d3a140"><div class="ttname"><a href="classViewModel.html#a5162282efba236ea19aa7ba157d3a140">ViewModel::aggregator</a></div><div class="ttdeci">DataAggregator &amp; aggregator</div><div class="ttdef"><b>Definition:</b> ViewModel.hpp:19</div></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="classBarChart.html">BarChart</a>(lv_obj_t* parent, <a class="code" href="classDataAggregator.html">DataAggregator</a>&amp; aggregator, std::initializer_list&lt;ChartData&gt; data);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;};</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//UOSM_DASHBOARD_SDL_BARCHART_HPP</span></div>
+<div class="ttc" id="aclassBarChart_html"><div class="ttname"><a href="classBarChart.html">BarChart</a></div><div class="ttdef"><b>Definition:</b> BarChart.hpp:10</div></div>
+<div class="ttc" id="aclassChart_html"><div class="ttname"><a href="classChart.html">Chart</a></div><div class="ttdef"><b>Definition:</b> Chart.hpp:21</div></div>
+<div class="ttc" id="aclassDataAggregator_html"><div class="ttname"><a href="classDataAggregator.html">DataAggregator</a></div><div class="ttdef"><b>Definition:</b> DataAggregator.hpp:26</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

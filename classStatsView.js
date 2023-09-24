@@ -1,5 +1,5 @@
 var classStatsView =
 [
     [ "~StatsView", "classStatsView.html#ae456734534188125bf922504f4abe182", null ],
-    [ "StatsView", "classStatsView.html#ac40e1419c4df1d8eb5dda9a09da20a59", null ]
+    [ "StatsView", "classStatsView.html#a715499a5bfb0389bdb79f19115b4d975", null ]
 ];

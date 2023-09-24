@@ -10,7 +10,7 @@ var hierarchy =
     [ "CAMERA_DrvTypeDef", "structCAMERA__DrvTypeDef.html", null ],
     [ "ChartData", "structChartData.html", null ],
     [ "CombineLatest< Ts >", "classCombineLatest.html", null ],
-    [ "CombineLatest< velocity_t, voltage_t >", "classCombineLatest.html", null ],
+    [ "CombineLatest< DataQueue< velocity_t >, DataQueue< voltage_t > >", "classCombineLatest.html", null ],
     [ "ctrl_error_status_t", "unionctrl__error__status__t.html", null ],
     [ "ctrl_rx_status_t", "unionctrl__rx__status__t.html", null ],
     [ "ctrl_status_t", "unionctrl__status__t.html", null ],
@@ -67,12 +67,5 @@ var hierarchy =
       ] ],
       [ "HomeView", "classHomeView.html", null ],
       [ "StatsView", "classStatsView.html", null ]
-    ] ],
-    [ "ViewModel", "classViewModel.html", [
-      [ "ChartViewModel", "classChartViewModel.html", [
-        [ "BarChartViewModel", "classBarChartViewModel.html", null ]
-      ] ],
-      [ "HomeViewModel", "classHomeViewModel.html", null ],
-      [ "StatsViewModel", "classStatsViewModel.html", null ]
     ] ]
 ];

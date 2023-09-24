@@ -86,8 +86,8 @@ $(document).ready(function(){initNavTree('md_Documentation_Architecture.html',''
 <div class="title">Overview </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>We are using the Model <a class="el" href="classView.html">View</a> <a class="el" href="classViewModel.html">ViewModel</a> architecture for this application.</p>
-<p>Model -&gt; <a class="el" href="classDataAggregator.html">DataAggregator</a> <a class="el" href="classView.html">View</a> -&gt; <a class="el" href="classView.html">View</a> classes + LVGL <a class="el" href="classView.html">View</a> Model -&gt; <a class="el" href="classViewModel.html">ViewModel</a> classes</p>
+<div class="textblock"><p>We are using the Model <a class="el" href="classView.html">View</a> ViewModel architecture for this application.</p>
+<p>Model -&gt; <a class="el" href="classDataAggregator.html">DataAggregator</a> <a class="el" href="classView.html">View</a> -&gt; <a class="el" href="classView.html">View</a> classes + LVGL <a class="el" href="classView.html">View</a> Model -&gt; ViewModel classes</p>
 <h1><a class="anchor" id="autotoc_md1"></a>
 Updating the view</h1>
 <p>We have implemented SwiftUI's @ObservedObject pattern in the form of a ObservedObject class. When an ObservedObject instance is updated using its setter, it publishes the change to all of its listeners. This eliminates the need to poll the model for changes. </p>

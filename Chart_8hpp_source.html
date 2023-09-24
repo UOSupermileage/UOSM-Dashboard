@@ -106,51 +106,39 @@ $(document).ready(function(){initNavTree('Chart_8hpp_source.html',''); initResiz
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="structChartData.html">ChartData</a>(ObservedDataQueue&lt;lv_coord_t&gt;&amp; data, <span class="keywordtype">bool</span> displayed = <span class="keyword">true</span>): data(data), displayed(displayed) {}</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;};</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classChartViewModel.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="classChartViewModel.html">ChartViewModel</a>: <span class="keyword">public</span> <a class="code" href="classViewModel.html">ViewModel</a> {</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classChart.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="classChart.html">Chart</a>: <span class="keyword">public</span> <a class="code" href="classView.html">View</a> {</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    std::vector&lt;ObservedObject&lt;ChartData&gt;&gt; items;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classChartViewModel.html">ChartViewModel</a>(<a class="code" href="classDataAggregator.html">DataAggregator</a>&amp; <a class="code" href="classViewModel.html#a5162282efba236ea19aa7ba157d3a140">aggregator</a>, std::initializer_list&lt;ChartData&gt; data): <a class="code" href="classViewModel.html#a9a4556967e4af2693194fc5d7aa42774">ViewModel</a>(<a class="code" href="classViewModel.html#a5162282efba236ea19aa7ba157d3a140">aggregator</a>) {</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="structChartData.html">ChartData</a> item : data) {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <span class="comment">// Use emplace_back to construct the observed object directly inside the vector. This eliminates a copy instruction.</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            items.emplace_back(item);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        }</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    lv_obj_t* chart;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    std::vector&lt;ObservedObject&lt;ChartData&gt;&gt; items;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="classChart.html">Chart</a>(lv_obj_t* parent, <a class="code" href="classDataAggregator.html">DataAggregator</a>&amp; aggregator, std::initializer_list&lt;ChartData&gt; data): <a class="code" href="classView.html#a1bc9ad5d792ada107d4ece451a37f2a9">View</a>(parent, aggregator) {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        chart = lv_chart_create(<a class="code" href="classView.html#a7aca473326a1fe185b4ae78e2aec347b">getContainer</a>());</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classChartViewModel.html#a535e0da7fe3f51dbd1c7a11547bc377e">   36</a></span>&#160;    [[nodiscard]] <span class="keyword">const</span> std::vector&lt;ObservedObject&lt;ChartData&gt;&gt;&amp; <a class="code" href="classChartViewModel.html#a535e0da7fe3f51dbd1c7a11547bc377e">getItems</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">return</span> items;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;};</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classChart.html">   41</a></span>&#160;<span class="keyword">class </span><a class="code" href="classChart.html">Chart</a>: <span class="keyword">public</span> <a class="code" href="classView.html">View</a> {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="classChartViewModel.html">ChartViewModel</a>&amp; viewModel;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    lv_obj_t* chart;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="classChart.html">Chart</a>(lv_obj_t* parent, <a class="code" href="classChartViewModel.html">ChartViewModel</a>&amp; viewModel): <a class="code" href="classView.html#ac639d5ce4706048bdce688497d4ee441">View</a>(parent, viewModel), viewModel(viewModel) {</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        chart = lv_chart_create(<a class="code" href="classView.html#a7aca473326a1fe185b4ae78e2aec347b">getContainer</a>());</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    };</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    [[nodiscard]] lv_obj_t* getChart() {</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">return</span> chart;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;};</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//UOSM_DASHBOARD_SDL_CHART_HPP</span></div>
-<div class="ttc" id="aclassChartViewModel_html"><div class="ttname"><a href="classChartViewModel.html">ChartViewModel</a></div><div class="ttdef"><b>Definition:</b> Chart.hpp:21</div></div>
-<div class="ttc" id="aclassChartViewModel_html_a535e0da7fe3f51dbd1c7a11547bc377e"><div class="ttname"><a href="classChartViewModel.html#a535e0da7fe3f51dbd1c7a11547bc377e">ChartViewModel::getItems</a></div><div class="ttdeci">const std::vector&lt; ObservedObject&lt; ChartData &gt; &gt; &amp; getItems() const</div><div class="ttdef"><b>Definition:</b> Chart.hpp:36</div></div>
-<div class="ttc" id="aclassChart_html"><div class="ttname"><a href="classChart.html">Chart</a></div><div class="ttdef"><b>Definition:</b> Chart.hpp:41</div></div>
-<div class="ttc" id="aclassDataAggregator_html"><div class="ttname"><a href="classDataAggregator.html">DataAggregator</a></div><div class="ttdef"><b>Definition:</b> DataAggregator.hpp:25</div></div>
-<div class="ttc" id="aclassViewModel_html"><div class="ttname"><a href="classViewModel.html">ViewModel</a></div><div class="ttdef"><b>Definition:</b> ViewModel.hpp:16</div></div>
-<div class="ttc" id="aclassViewModel_html_a5162282efba236ea19aa7ba157d3a140"><div class="ttname"><a href="classViewModel.html#a5162282efba236ea19aa7ba157d3a140">ViewModel::aggregator</a></div><div class="ttdeci">DataAggregator &amp; aggregator</div><div class="ttdef"><b>Definition:</b> ViewModel.hpp:19</div></div>
-<div class="ttc" id="aclassViewModel_html_a9a4556967e4af2693194fc5d7aa42774"><div class="ttname"><a href="classViewModel.html#a9a4556967e4af2693194fc5d7aa42774">ViewModel::ViewModel</a></div><div class="ttdeci">ViewModel(DataAggregator &amp;agg)</div><div class="ttdef"><b>Definition:</b> ViewModel.hpp:24</div></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="structChartData.html">ChartData</a> item : data) {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <span class="comment">// Use emplace_back to construct the observed object directly inside the vector. This eliminates a copy instruction.</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            items.emplace_back(item);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    };</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classChart.html#aa92ca95f7ced84247bc2fdf631ae47ab">   42</a></span>&#160;    [[nodiscard]] <span class="keyword">const</span> std::vector&lt;ObservedObject&lt;ChartData&gt;&gt;&amp; <a class="code" href="classChart.html#aa92ca95f7ced84247bc2fdf631ae47ab">getItems</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">return</span> items;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    [[nodiscard]] lv_obj_t* getChart() {</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span> chart;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;};</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//UOSM_DASHBOARD_SDL_CHART_HPP</span></div>
+<div class="ttc" id="aclassChart_html"><div class="ttname"><a href="classChart.html">Chart</a></div><div class="ttdef"><b>Definition:</b> Chart.hpp:21</div></div>
+<div class="ttc" id="aclassChart_html_aa92ca95f7ced84247bc2fdf631ae47ab"><div class="ttname"><a href="classChart.html#aa92ca95f7ced84247bc2fdf631ae47ab">Chart::getItems</a></div><div class="ttdeci">const std::vector&lt; ObservedObject&lt; ChartData &gt; &gt; &amp; getItems() const</div><div class="ttdef"><b>Definition:</b> Chart.hpp:42</div></div>
+<div class="ttc" id="aclassDataAggregator_html"><div class="ttname"><a href="classDataAggregator.html">DataAggregator</a></div><div class="ttdef"><b>Definition:</b> DataAggregator.hpp:26</div></div>
 <div class="ttc" id="aclassView_html"><div class="ttname"><a href="classView.html">View</a></div><div class="ttdef"><b>Definition:</b> View.hpp:19</div></div>
-<div class="ttc" id="aclassView_html_a7aca473326a1fe185b4ae78e2aec347b"><div class="ttname"><a href="classView.html#a7aca473326a1fe185b4ae78e2aec347b">View::getContainer</a></div><div class="ttdeci">lv_obj_t * getContainer()</div><div class="ttdef"><b>Definition:</b> View.hpp:42</div></div>
-<div class="ttc" id="aclassView_html_ac639d5ce4706048bdce688497d4ee441"><div class="ttname"><a href="classView.html#ac639d5ce4706048bdce688497d4ee441">View::View</a></div><div class="ttdeci">View(lv_obj_t *parent, ViewModel &amp;viewModel)</div><div class="ttdef"><b>Definition:</b> View.cpp:7</div></div>
+<div class="ttc" id="aclassView_html_a1bc9ad5d792ada107d4ece451a37f2a9"><div class="ttname"><a href="classView.html#a1bc9ad5d792ada107d4ece451a37f2a9">View::View</a></div><div class="ttdeci">View(lv_obj_t *parent, DataAggregator &amp;aggregator)</div><div class="ttdef"><b>Definition:</b> View.cpp:7</div></div>
+<div class="ttc" id="aclassView_html_a7aca473326a1fe185b4ae78e2aec347b"><div class="ttname"><a href="classView.html#a7aca473326a1fe185b4ae78e2aec347b">View::getContainer</a></div><div class="ttdeci">lv_obj_t * getContainer()</div><div class="ttdef"><b>Definition:</b> View.hpp:46</div></div>
 <div class="ttc" id="astructChartData_html"><div class="ttname"><a href="structChartData.html">ChartData</a></div><div class="ttdef"><b>Definition:</b> Chart.hpp:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

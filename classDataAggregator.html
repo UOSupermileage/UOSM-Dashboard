@@ -95,9 +95,9 @@ $(document).ready(function(){initNavTree('classDataAggregator.html',''); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a759f00877e7f048a6d437c795298de82"><td class="memItemLeft" align="right" valign="top"><a id="a759f00877e7f048a6d437c795298de82"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DataAggregator</b> (uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t throttleSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, bool prefillLapTimes=true)</td></tr>
-<tr class="separator:a759f00877e7f048a6d437c795298de82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada4d89d07a026858a365278f546841a2"><td class="memItemLeft" align="right" valign="top"><a id="ada4d89d07a026858a365278f546841a2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DataAggregator</b> (uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t throttleSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t canLogMessagesSize, bool prefillLapTimes=true)</td></tr>
+<tr class="separator:ada4d89d07a026858a365278f546841a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -111,6 +111,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a725b677d5e1758699622c48c5acac394"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbbcd7221eb63a96dc62198c7d535c76"><td class="memItemLeft" align="right" valign="top">ObservedDataQueue&lt; percentage_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDataAggregator.html#adbbcd7221eb63a96dc62198c7d535c76">throttlePositions</a></td></tr>
 <tr class="separator:adbbcd7221eb63a96dc62198c7d535c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abefcdafd20f44dbed7d1013fcfdb1de2"><td class="memItemLeft" align="right" valign="top">ObservedDataQueue&lt; <a class="el" href="classCANLogEntry.html">CANLogEntry</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDataAggregator.html#abefcdafd20f44dbed7d1013fcfdb1de2">canLogEntries</a></td></tr>
+<tr class="separator:abefcdafd20f44dbed7d1013fcfdb1de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class that aggregates the data from different sources, such as the CAN bus and the sensors, and provides them as observed objects. It uses the <a class="el" href="ApplicationTypes_8h_source.html">ApplicationTypes.h</a> file to define the types of the data, such as velocity_t and voltage_t. It also uses the <a class="el" href="DataAggregatorWrapperType_8h_source.html">DataAggregatorWrapperType.h</a> file to wrap the data aggregator object for the C interface. </p>
@@ -127,6 +129,21 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>The observed object that holds the battery voltage data. </p>
+
+</div>
+</div>
+<a id="abefcdafd20f44dbed7d1013fcfdb1de2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abefcdafd20f44dbed7d1013fcfdb1de2">&#9670;&nbsp;</a></span>canLogEntries</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ObservedDataQueue&lt;<a class="el" href="classCANLogEntry.html">CANLogEntry</a>*&gt; DataAggregator::canLogEntries</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The observed object that holds pointers to logged can messages; </p>
 
 </div>
 </div>
