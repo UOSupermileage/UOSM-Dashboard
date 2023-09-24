@@ -116,6 +116,8 @@ Functions</h2></td></tr>
 <tr class="separator:gac6e9af57dec6f8317e4cd6d841be0937"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf477bd4fb98d28b548bf34a040e05925"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__core-modules.html#gaf477bd4fb98d28b548bf34a040e05925">SetThrottlePosition</a> (<a class="el" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a> *wrapper, percentage_t throttle)</td></tr>
 <tr class="separator:gaf477bd4fb98d28b548bf34a040e05925"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga743c7e951b9e12ec53fa085409f7317d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__core-modules.html#ga743c7e951b9e12ec53fa085409f7317d">LogCanMessage</a> (<a class="el" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a> *wrapper, ICommsMessageLookUpIndex type, uint32_t value, CANLogEntryFormat style)</td></tr>
+<tr class="separator:ga743c7e951b9e12ec53fa085409f7317d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -169,6 +171,55 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Creates a data aggregator wrapper object and returns a pointer to it. </p><dl class="section return"><dt>Returns</dt><dd>A pointer to the data aggregator wrapper object. </dd></dl>
+
+</div>
+</div>
+<a id="ga743c7e951b9e12ec53fa085409f7317d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga743c7e951b9e12ec53fa085409f7317d">&#9670;&nbsp;</a></span>LogCanMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LogCanMessage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a> *&#160;</td>
+          <td class="paramname"><em>wrapper</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ICommsMessageLookUpIndex&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CANLogEntryFormat&#160;</td>
+          <td class="paramname"><em>style</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Log a new can message in the data aggregator object from a given wrapper. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">wrapper</td><td>The pointer to the wrapper that contains the data aggregator object. </td></tr>
+    <tr><td class="paramname">type</td><td>The type of CAN message </td></tr>
+    <tr><td class="paramname">value</td><td>The value to log </td></tr>
+    <tr><td class="paramname">style</td><td>How to display the value in the logs </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

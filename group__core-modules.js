@@ -10,6 +10,7 @@ var group__core_modules =
       [ "throttlePositions", "classDataAggregator.html#adbbcd7221eb63a96dc62198c7d535c76", null ]
     ] ],
     [ "DataAggregator_Create", "group__core-modules.html#ga0b17fa7f7fd7def7411048bbd0014af0", null ],
+    [ "LogCanMessage", "group__core-modules.html#ga743c7e951b9e12ec53fa085409f7317d", null ],
     [ "SetBatteryVoltage", "group__core-modules.html#ga046de03c32fec6afeb1fd1a877425b75", null ],
     [ "SetLapTime", "group__core-modules.html#gac6e9af57dec6f8317e4cd6d841be0937", null ],
     [ "SetMotorRPM", "group__core-modules.html#ga967c16631d3a55287511e94f2f9b1b08", null ],

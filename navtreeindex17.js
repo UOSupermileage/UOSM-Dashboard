@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"structAUDIO__DrvTypeDef.html":[5,2,0,8,1,0,0],
 "structAUDIO__DrvTypeDef.html#a13b4bc20abd9c52699c671d4cf443328":[5,2,0,8,1,0,0,10],
 "structAUDIO__DrvTypeDef.html#a1b4189f6f6cf3c9af24f89cc70cd6fcf":[5,2,0,8,1,0,0,0],
 "structAUDIO__DrvTypeDef.html#a1cd7d3e9b13c686c3e4bebe9b6709f23":[5,2,0,8,1,0,0,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "structTS__DrvTypeDef.html#a71a7336180314854b8aec63325aaa101":[5,2,0,16,0,0,0,9],
 "structTS__DrvTypeDef.html#aa53ed1ffd9e26145fb571a4b0d3e450a":[5,2,0,16,0,0,0,4],
 "structTS__DrvTypeDef.html#aa693405bd2ad00dd23a2245700f9577e":[5,2,0,16,0,0,0,1],
-"structTS__DrvTypeDef.html#acb9ebecebbd6f8f3fc8f15751c51b51a":[5,2,0,16,0,0,0,5],
-"structTS__StateTypeDef.html":[5,2,2,5,8,0]
+"structTS__DrvTypeDef.html#acb9ebecebbd6f8f3fc8f15751c51b51a":[5,2,0,16,0,0,0,5]
 };
