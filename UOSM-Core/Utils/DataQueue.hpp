@@ -9,6 +9,39 @@
 
 #include <stdexcept>
 
+template <typename T>
+class DataQueue;
+
+template <typename T>
+class DataQueueIterator {
+private:
+    const DataQueue<T>& dataQueue;
+    uint8_t currentIndex;
+
+public:
+    DataQueueIterator(const DataQueue<T>& dataQueue, uint8_t index): dataQueue(dataQueue), currentIndex(index) {}
+
+    bool operator!=(const DataQueueIterator& other) const {
+        return currentIndex != other.currentIndex;
+    }
+
+    DataQueueIterator& operator++() {
+        currentIndex++;
+        return *this;
+    }
+
+    const T& operator*() {
+        if (currentIndex >= dataQueue.getNumberOfElements()) {
+            throw std::out_of_range("Iterator is out of range.");
+        }
+        return dataQueue.getValues()[currentIndex];
+    }
+
+    uint8_t getCurrentIndex() const {
+        return currentIndex;
+    }
+};
+
 /** @ingroup core-ui-utils
  *  A class that aggregates the data to display on a bar chart.
  *  It can store any type T, but the values will be cast to lv_coord_t when displayed in a bar chart.
@@ -92,6 +125,16 @@ public:
 
         uint8_t i = head - 1;
         values[i] = value;
+    }
+
+    using iterator = DataQueueIterator<T>;
+
+    iterator begin() const {
+        return iterator(*this, 0);
+    }
+
+    iterator end() const {
+        return iterator(*this, getNumberOfElements());
     }
 };
 
@@ -179,6 +222,16 @@ public:
         // Delete the old object before replacing it
         delete values[i];
         values[i] = value;
+    }
+
+    using iterator = DataQueueIterator<T*>;
+
+    iterator begin() const {
+        return iterator(*this, 0);
+    }
+
+    iterator end() const {
+        return iterator(*this, getNumberOfElements());
     }
 };
 

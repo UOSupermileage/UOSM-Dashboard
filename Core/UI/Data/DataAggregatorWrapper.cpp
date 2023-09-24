@@ -33,6 +33,10 @@ void LogCanMessage(DataAggregatorWrapper* wrapper, ICommsMessageLookUpIndex type
     wrapper->aggregator.canLogEntries.add(new CANLogEntry(type, value, style));
 }
 
+void LogCanMessagePairValue(DataAggregatorWrapper* wrapper, ICommsMessageLookUpIndex type, uint32_t a, uint32_t b, CANLogEntryFormat style) {
+    wrapper->aggregator.canLogEntries.add(new CANLogEntry(type, a, b, style));
+}
+
 DataAggregator& DataAggregator_GetReference(DataAggregatorWrapper* wrapper) {
     return wrapper->aggregator;
 }

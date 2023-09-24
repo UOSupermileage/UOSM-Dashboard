@@ -9,7 +9,7 @@
 
 /** @ingroup core-ui
  *  A class that represents a view that displays the home screen of the dashboard.
- *  It inherits from the View class and uses the \ref HomeViewModel class to get the data for the view elements.
+ *  It inherits from the View class.
  */
 class HomeView : public View {
 private:
@@ -44,7 +44,7 @@ protected:
 public:
     /** Constructs a home view with a given parent and a home view model.
      *  @param parent The parent object of the container, or NULL if the container is a screen.
-     *  @param viewModel The reference to the home view model that provides the data for the view elements.
+     *  @param aggregator The reference to the data aggregator to use as source of truth for this view.
      */
     HomeView(lv_obj_t* parent, DataAggregator& aggregator);
 };

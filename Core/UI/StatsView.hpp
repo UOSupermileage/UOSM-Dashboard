@@ -10,7 +10,7 @@
 
 /** @ingroup core-ui
  *  A class that represents a view that displays the statistics of the dashboard, such as the motor RPM over time.
- *  It inherits from the View class and uses the StatsViewModel class to get the data for the view elements.
+ *  It inherits from the View class.
  */
 class StatsView : public View {
 private:
@@ -31,7 +31,7 @@ protected:
 public:
     /** Constructs a stats view with a given parent and a stats view model.
      *  @param parent The parent object of the container, or NULL if the container is a screen.
-     *  @param viewModel The reference to the stats view model that provides the data for the view elements.
+     *  @param aggregator The reference to the data aggregator to use as source of truth for this view.
      */
     StatsView(lv_obj_t* parent, DataAggregator& aggregator);
 };

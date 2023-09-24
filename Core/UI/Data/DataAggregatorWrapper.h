@@ -7,6 +7,7 @@
 
 #include "ApplicationTypes.h"
 #include "DataAggregatorWrapperType.h"
+#include "CANMessageLookUpModule.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -45,6 +46,18 @@ void SetLapTime(DataAggregatorWrapper* wrapper, ms_t time);
  *  @param throttle The throttle position to set.
  */
 void SetThrottlePosition(DataAggregatorWrapper* wrapper, percentage_t throttle);
+
+/** @ingroup core-modules
+ *  Log a new can message in the data aggregator object from a given wrapper.
+ *  @param wrapper The pointer to the wrapper that contains the data aggregator object.
+ *  @param type The type of CAN message
+ *  @param value The value to log
+ *  @param style How to display the value in the logs
+ */
+void LogCanMessage(DataAggregatorWrapper* wrapper, ICommsMessageLookUpIndex type, uint32_t value, CANLogEntryFormat style);
+
+void LogCanMessagePairValue(DataAggregatorWrapper* wrapper, ICommsMessageLookUpIndex type, uint32_t a, uint32_t b, CANLogEntryFormat style);
+
 
 #ifdef  __cplusplus
 }
