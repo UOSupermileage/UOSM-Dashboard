@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "acceleration_t", "structacceleration__t.html", null ],
     [ "ACCELERO_DrvTypeDef", "structACCELERO__DrvTypeDef.html", null ],
     [ "ACCELERO_FilterConfigTypeDef", "structACCELERO__FilterConfigTypeDef.html", null ],
     [ "ACCELERO_InitTypeDef", "structACCELERO__InitTypeDef.html", null ],
@@ -18,6 +19,7 @@ var hierarchy =
     [ "EPD_DrvTypeDef", "structEPD__DrvTypeDef.html", null ],
     [ "ft5336_handle_TypeDef", "structft5336__handle__TypeDef.html", null ],
     [ "ft6x06_handle_TypeDef", "structft6x06__handle__TypeDef.html", null ],
+    [ "gps_coordinate_t", "structgps__coordinate__t.html", null ],
     [ "GYRO_DrvTypeDef", "structGYRO__DrvTypeDef.html", null ],
     [ "GYRO_FilterConfigTypeDef", "structGYRO__FilterConfigTypeDef.html", null ],
     [ "GYRO_InitTypeDef", "structGYRO__InitTypeDef.html", null ],
@@ -28,7 +30,8 @@ var hierarchy =
     [ "IDD_ConfigTypeDef", "structIDD__ConfigTypeDef.html", null ],
     [ "IDD_dbgTypeDef", "structIDD__dbgTypeDef.html", null ],
     [ "IDD_DrvTypeDef", "structIDD__DrvTypeDef.html", null ],
-    [ "Identifiable", null, [
+    [ "Identifiable", "classIdentifiable.html", [
+      [ "CANLogEntry", "classCANLogEntry.html", null ],
       [ "ObserverToken", "classObserverToken.html", null ]
     ] ],
     [ "IO_DrvTypeDef", "structIO__DrvTypeDef.html", null ],
@@ -36,6 +39,7 @@ var hierarchy =
     [ "MAGNETO_DrvTypeDef", "structMAGNETO__DrvTypeDef.html", null ],
     [ "MAGNETO_InitTypeDef", "structMAGNETO__InitTypeDef.html", null ],
     [ "Observable< T >", "classObservable.html", null ],
+    [ "pressure_t", "structpressure__t.html", null ],
     [ "QSPI_Info", "structQSPI__Info.html", null ],
     [ "rx_reg_t", "unionrx__reg__t.html", null ],
     [ "RXF0", "structRXF0.html", null ],

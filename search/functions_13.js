@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['_7ehomeview_1536',['~HomeView',['../classHomeView.html#a4b37777e6f185aa4ed5abc11d0328a98',1,'HomeView']]],
-  ['_7elightstyles_1537',['~LightStyles',['../classLightStyles.html#ad1cec87b6b82e4722b9b1a7206abeb46',1,'LightStyles']]],
-  ['_7estatsview_1538',['~StatsView',['../classStatsView.html#ae456734534188125bf922504f4abe182',1,'StatsView']]],
-  ['_7eview_1539',['~View',['../classView.html#ad0dc854db9aabbea98a334dec89f785c',1,'View']]]
+  ['view_1544',['View',['../classView.html#ac639d5ce4706048bdce688497d4ee441',1,'View']]],
+  ['viewmodel_1545',['ViewModel',['../classViewModel.html#a9a4556967e4af2693194fc5d7aa42774',1,'ViewModel']]]
 ];

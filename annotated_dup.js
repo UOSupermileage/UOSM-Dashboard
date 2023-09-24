@@ -1,5 +1,6 @@
 var annotated_dup =
 [
+    [ "acceleration_t", "structacceleration__t.html", "structacceleration__t" ],
     [ "ACCELERO_DrvTypeDef", "structACCELERO__DrvTypeDef.html", "structACCELERO__DrvTypeDef" ],
     [ "ACCELERO_FilterConfigTypeDef", "structACCELERO__FilterConfigTypeDef.html", "structACCELERO__FilterConfigTypeDef" ],
     [ "ACCELERO_InitTypeDef", "structACCELERO__InitTypeDef.html", "structACCELERO__InitTypeDef" ],
@@ -9,6 +10,7 @@ var annotated_dup =
     [ "BarChart", "classBarChart.html", "classBarChart" ],
     [ "BarChartViewModel", "classBarChartViewModel.html", "classBarChartViewModel" ],
     [ "CAMERA_DrvTypeDef", "structCAMERA__DrvTypeDef.html", "structCAMERA__DrvTypeDef" ],
+    [ "CANLogEntry", "classCANLogEntry.html", "classCANLogEntry" ],
     [ "Chart", "classChart.html", "classChart" ],
     [ "ChartData", "structChartData.html", "structChartData" ],
     [ "ChartViewModel", "classChartViewModel.html", "classChartViewModel" ],
@@ -21,6 +23,7 @@ var annotated_dup =
     [ "EPD_DrvTypeDef", "structEPD__DrvTypeDef.html", "structEPD__DrvTypeDef" ],
     [ "ft5336_handle_TypeDef", "structft5336__handle__TypeDef.html", "structft5336__handle__TypeDef" ],
     [ "ft6x06_handle_TypeDef", "structft6x06__handle__TypeDef.html", "structft6x06__handle__TypeDef" ],
+    [ "gps_coordinate_t", "structgps__coordinate__t.html", "structgps__coordinate__t" ],
     [ "GYRO_DrvTypeDef", "structGYRO__DrvTypeDef.html", "structGYRO__DrvTypeDef" ],
     [ "GYRO_FilterConfigTypeDef", "structGYRO__FilterConfigTypeDef.html", "structGYRO__FilterConfigTypeDef" ],
     [ "GYRO_InitTypeDef", "structGYRO__InitTypeDef.html", "structGYRO__InitTypeDef" ],
@@ -33,6 +36,7 @@ var annotated_dup =
     [ "IDD_ConfigTypeDef", "structIDD__ConfigTypeDef.html", "structIDD__ConfigTypeDef" ],
     [ "IDD_dbgTypeDef", "structIDD__dbgTypeDef.html", "structIDD__dbgTypeDef" ],
     [ "IDD_DrvTypeDef", "structIDD__DrvTypeDef.html", "structIDD__DrvTypeDef" ],
+    [ "Identifiable", "classIdentifiable.html", "classIdentifiable" ],
     [ "IO_DrvTypeDef", "structIO__DrvTypeDef.html", "structIO__DrvTypeDef" ],
     [ "LCD_DrvTypeDef", "structLCD__DrvTypeDef.html", "structLCD__DrvTypeDef" ],
     [ "LightStyles", "classLightStyles.html", "classLightStyles" ],
@@ -40,6 +44,7 @@ var annotated_dup =
     [ "MAGNETO_InitTypeDef", "structMAGNETO__InitTypeDef.html", "structMAGNETO__InitTypeDef" ],
     [ "Observable", "classObservable.html", "classObservable" ],
     [ "ObserverToken", "classObserverToken.html", "classObserverToken" ],
+    [ "pressure_t", "structpressure__t.html", "structpressure__t" ],
     [ "QSPI_Info", "structQSPI__Info.html", "structQSPI__Info" ],
     [ "rx_reg_t", "unionrx__reg__t.html", "unionrx__reg__t" ],
     [ "RXF0", "structRXF0.html", "structRXF0" ],
