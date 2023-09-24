@@ -12,16 +12,12 @@
 #include "DataAggregatorWrapper.h"
 
 #include "HomeView.hpp"
-#include "HomeViewModel.hpp"
-#include "StatsViewModel.hpp"
 #include "StatsView.hpp"
 
 static void Application_Fetch_Data(lv_timer_t*);
 
-static HomeViewModel* homeViewModel;
 static HomeView* homeView;
 
-static StatsViewModel* statsViewModel;
 static StatsView* statsView;
 
 static lv_timer_t* dataTimer;
@@ -73,14 +69,11 @@ void Application_Create(DataAggregatorWrapper* aggregatorWrapper) {
 
     DataAggregator& aggregator = DataAggregator_GetReference(aggregatorWrapper);
 
-    homeViewModel = new HomeViewModel(aggregator);
-    statsViewModel = new StatsViewModel(aggregator);
-
     // Create an object with no parent. (This will act as the screen).
-    homeView = new HomeView(nullptr, *homeViewModel);
+    homeView = new HomeView(nullptr, aggregator);
     lv_obj_set_size(homeView->getContainer(), SCREEN_WIDTH, SCREEN_HEIGHT);
 
-    statsView = new StatsView(nullptr, *statsViewModel);
+    statsView = new StatsView(nullptr, aggregator);
     lv_obj_set_size(statsView->getContainer(), SCREEN_WIDTH, SCREEN_HEIGHT);
 
     lv_scr_load(homeView->getContainer());

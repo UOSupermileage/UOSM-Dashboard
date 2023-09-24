@@ -18,17 +18,23 @@ struct ChartData {
     explicit ChartData(ObservedDataQueue<lv_coord_t>& data, bool displayed = true): data(data), displayed(displayed) {}
 };
 
-class ChartViewModel: public ViewModel {
+class Chart: public View {
 private:
+    /** Pointer to the chart managed by this view. */
+    lv_obj_t* chart;
+
+    /** The element types to display on the chart. */
     std::vector<ObservedObject<ChartData>> items;
 
-public:
-    explicit ChartViewModel(DataAggregator& aggregator, std::initializer_list<ChartData> data): ViewModel(aggregator) {
+protected:
+    Chart(lv_obj_t* parent, DataAggregator& aggregator, std::initializer_list<ChartData> data): View(parent, aggregator) {
+        chart = lv_chart_create(getContainer());
+
         for (ChartData item : data) {
             // Use emplace_back to construct the observed object directly inside the vector. This eliminates a copy instruction.
             items.emplace_back(item);
         }
-    }
+    };
 
     /**
      * @return a readonly reference to a chart model's observed items.
@@ -36,19 +42,6 @@ public:
     [[nodiscard]] const std::vector<ObservedObject<ChartData>>& getItems() const {
         return items;
     }
-};
-
-class Chart: public View {
-private:
-    ChartViewModel& viewModel;
-
-    /** Pointer to the chart managed by this view. */
-    lv_obj_t* chart;
-
-protected:
-    Chart(lv_obj_t* parent, ChartViewModel& viewModel): View(parent, viewModel), viewModel(viewModel) {
-        chart = lv_chart_create(getContainer());
-    };
 
     [[nodiscard]] lv_obj_t* getChart() {
         return chart;

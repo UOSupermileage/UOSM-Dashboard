@@ -6,7 +6,6 @@
 #define UOSM_DASHBOARD_STATSVIEW_HPP
 
 #include "View.hpp"
-#include "StatsViewModel.hpp"
 #include "CombineLatest.hpp"
 
 /** @ingroup core-ui
@@ -15,9 +14,6 @@
  */
 class StatsView : public View {
 private:
-    /** The reference to the stats view model that provides the data for the view elements. */
-    StatsViewModel& viewModel;
-
     /** The chart that displays the motor RPM over time. */
     lv_obj_t* chart;
     /** The series that represents the motor RPM data. */
@@ -26,7 +22,7 @@ private:
     lv_obj_t* rpmLabel;
 
     /** Combiner to get latest value from multiple observed objects whenever one of them changes */
-    CombineLatest<velocity_t, voltage_t>* combiner;
+    CombineLatest<DataQueue<velocity_t>, DataQueue<voltage_t>>* combiner;
 
 protected:
     /** Destructs the stats view. */
@@ -37,7 +33,7 @@ public:
      *  @param parent The parent object of the container, or NULL if the container is a screen.
      *  @param viewModel The reference to the stats view model that provides the data for the view elements.
      */
-    StatsView(lv_obj_t* parent, StatsViewModel& viewModel);
+    StatsView(lv_obj_t* parent, DataAggregator& aggregator);
 };
 
 

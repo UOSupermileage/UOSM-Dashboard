@@ -5,7 +5,7 @@
 #include "StatsView.hpp"
 #include "StylesManager.hpp"
 
-StatsView::StatsView(lv_obj_t* parent, StatsViewModel& viewModel) : View(parent, viewModel), viewModel(viewModel) {
+StatsView::StatsView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, aggregator) {
     lv_obj_t* container = getContainer();
     lv_obj_set_layout(container, LV_LAYOUT_FLEX);
     lv_obj_set_flex_flow(container, LV_FLEX_FLOW_COLUMN);
@@ -29,14 +29,13 @@ StatsView::StatsView(lv_obj_t* parent, StatsViewModel& viewModel) : View(parent,
 
     rpmLabel = lv_label_create(chart);
 
-    auto callback = [this](const velocity_t& rpm, const voltage_t& voltage) {
-        lv_chart_set_next_value(chart, rpmSeries, rpm);
+    auto callback = [this](const DataQueue<velocity_t>& rpm, const DataQueue<voltage_t>& voltage) {
+        lv_chart_set_next_value(chart, rpmSeries, rpm.getLatestValue());
         lv_chart_refresh(chart);
 
-        lv_label_set_text_fmt(rpmLabel, "%d RPM", rpm);
+        lv_label_set_text_fmt(rpmLabel, "%d RPM", rpm.getLatestValue());
     };
-//    combiner = new CombineLatest(callback, viewModel.GetAggregator().motorVelocities,
-//                                 viewModel.GetAggregator().batteryVoltages);
+    combiner = new CombineLatest(callback, getDataAggregator().motorVelocities, getDataAggregator().batteryVoltages);
 }
 
 StatsView::~StatsView() {

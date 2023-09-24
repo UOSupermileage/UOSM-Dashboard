@@ -16,7 +16,7 @@ extern "C" {
  * Creates a data aggregator wrapper object and returns a pointer to it.
  * @return A pointer to the data aggregator wrapper object.
 */
-DataAggregatorWrapper* DataAggregator_Create(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t throttleSize);
+DataAggregatorWrapper* DataAggregator_Create(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t throttleSize, uint8_t canLogSize);
 
 /** @ingroup core-modules
  *  Sets the motor RPM data in the data aggregator object from a given wrapper.

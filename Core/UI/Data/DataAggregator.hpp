@@ -8,12 +8,13 @@
 #include <map>
 #include <memory>
 #include <variant>
+
 #include "ApplicationTypes.h"
 #include "DataAggregatorWrapperType.h"
-#include "DataQueue.hpp"
 
-#include "ObservedObject.hpp"
 #include "ObservedDataQueue.hpp"
+
+#include "CANLogEntry.hpp"
 
 using namespace std;
 
@@ -24,14 +25,17 @@ using namespace std;
  */
 class DataAggregator {
 public:
-    explicit DataAggregator(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t throttleSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, bool prefillLapTimes = true):
+    explicit DataAggregator(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t throttleSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t canLogMessagesSize, bool prefillLapTimes = true):
             motorVelocities(motorVelocitiesSize),
             batteryVoltages(batteryVoltagesSize),
             throttlePositions(throttleSize),
             lapEfficiencies(lapEfficienciesSize),
-            lapTimes(lapTimesSize) {
-        for (uint8_t i = 0; i < lapTimesSize; i++){
-            lapTimes.add(0);
+            lapTimes(lapTimesSize),
+            canLogEntries(canLogMessagesSize) {
+        if (prefillLapTimes) {
+            for (uint8_t i = 0; i < lapTimesSize; i++){
+                lapTimes.add(0);
+            }
         }
     }
     /** The observed object that holds the motor RPM data. */
@@ -44,6 +48,8 @@ public:
     ObservedDataQueue<watt_hour_t> lapEfficiencies;
     /** The observed object that holds the throttle percentage data. */
     ObservedDataQueue<percentage_t> throttlePositions;
+    /** The observed object that holds pointers to logged can messages; */
+    ObservedDataQueue<CANLogEntry*> canLogEntries;
 };
 
 /** Returns a reference to the data aggregator object from a given wrapper.

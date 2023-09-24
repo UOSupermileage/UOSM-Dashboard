@@ -12,7 +12,7 @@ static void setArcValue(lv_obj_t * arc, int value) {
     lv_arc_set_value(arc, value);
 }
 
-HomeView::HomeView(lv_obj_t* parent, HomeViewModel& viewModel) : View(parent, viewModel), viewModel(viewModel) {
+HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, aggregator) {
     Styles* styles = StylesManager::GetStyles();
 
     lv_obj_t* container = getContainer();
@@ -88,12 +88,12 @@ HomeView::HomeView(lv_obj_t* parent, HomeViewModel& viewModel) : View(parent, vi
     /*Add two data series*/
     lv_chart_series_t * ser1 = lv_chart_add_series(lapTimeBarGraph, lv_palette_lighten(LV_PALETTE_GREEN, 2), LV_CHART_AXIS_PRIMARY_Y);
 
-    lv_chart_set_point_count(lapTimeBarGraph, viewModel.GetAggregator().lapTimes.getNumberOfElements());
+    lv_chart_set_point_count(lapTimeBarGraph, getDataAggregator().lapTimes.getNumberOfElements());
     lv_chart_set_ext_y_array(lapTimeBarGraph, ser1,
-                             reinterpret_cast<lv_coord_t *>(viewModel.GetAggregator().lapTimes.getValues()));
+                             reinterpret_cast<lv_coord_t *>(aggregator.lapTimes.getValues()));
     lv_chart_refresh(lapTimeBarGraph); /*Required after direct set*/
 
-    viewModel.GetAggregator().batteryVoltages.addListenerForLatest([this](const voltage_t& voltage) {
+    getDataAggregator().batteryVoltages.addListenerForLatest([this](const voltage_t& voltage) {
         uint32_t n = voltage * 33 * 185 / 40960;
         lv_label_set_text_fmt(batteryVoltageLabel, "%d.%d Volts", n / 10, n % 10);
     });
@@ -102,16 +102,16 @@ HomeView::HomeView(lv_obj_t* parent, HomeViewModel& viewModel) : View(parent, vi
 //        lv_label_set_text_fmt(motorRPMLabel, "%d RPM", velocity);
 //    });
 
-    viewModel.GetAggregator().lapTimes.addListenerForLatest([this](const ms_t& time) {
+    getDataAggregator().lapTimes.addListenerForLatest([this](const ms_t& time) {
         lv_label_set_text_fmt(lapTimeLabel, "%dm %ds", time / 60000, time / 1000);
     });
 
-    viewModel.GetAggregator().lapTimes.addListener([this](const DataQueue<ms_t>& queue) {
+    getDataAggregator().lapTimes.addListener([this](const DataQueue<ms_t>& queue) {
         lv_chart_set_point_count(lapTimeBarGraph, queue.getNumberOfElements());
         lv_chart_refresh(lapTimeBarGraph);
     });
 
-    viewModel.GetAggregator().throttlePositions.addListenerForLatest([this](const percentage_t& throttle) {
+    getDataAggregator().throttlePositions.addListenerForLatest([this](const percentage_t& throttle) {
         lv_anim_t a;
         lv_anim_init(&a);
         lv_anim_set_var(&a, throttleArc);

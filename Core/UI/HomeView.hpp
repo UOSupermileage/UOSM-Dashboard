@@ -6,7 +6,6 @@
 #define UOSM_DASHBOARD_HOMEVIEW_HPP
 
 #include "View.hpp"
-#include "HomeViewModel.hpp"
 
 /** @ingroup core-ui
  *  A class that represents a view that displays the home screen of the dashboard.
@@ -14,9 +13,6 @@
  */
 class HomeView : public View {
 private:
-    /** The reference to the home view model that provides the data for the view elements. */
-    HomeViewModel& viewModel;
-
     /** The label that displays the current lap time. */
     lv_obj_t* lapTimeLabel;
 
@@ -50,7 +46,7 @@ public:
      *  @param parent The parent object of the container, or NULL if the container is a screen.
      *  @param viewModel The reference to the home view model that provides the data for the view elements.
      */
-    HomeView(lv_obj_t* parent, HomeViewModel& viewModel);
+    HomeView(lv_obj_t* parent, DataAggregator& aggregator);
 };
 
 

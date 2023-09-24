@@ -4,13 +4,12 @@
 
 #include "View.hpp"
 
-View::View(lv_obj_t* parent, ViewModel& viewModel) : viewModel(viewModel) {
+View::View(lv_obj_t* parent, DataAggregator& aggregator): aggregator(aggregator) {
     this->container = lv_obj_create(parent);
     lv_style_set_flex_grow(container->styles->style, 1);
 }
 
 View::~View() {
-    DataAggregator& aggregator = viewModel.GetAggregator();
     for (const auto& token: tokens) {
         token.cancel();
     }

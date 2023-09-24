@@ -8,12 +8,12 @@
 struct DataAggregatorWrapper {
     DataAggregator aggregator;
 
-    explicit DataAggregatorWrapper(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t throttleSize):
-        aggregator(motorVelocitiesSize, batteryVoltagesSize, throttleSize, lapEfficienciesSize, lapTimesSize) {}
+    explicit DataAggregatorWrapper(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t throttleSize, uint8_t canLogSize):
+        aggregator(motorVelocitiesSize, batteryVoltagesSize, throttleSize, lapEfficienciesSize, lapTimesSize, canLogSize) {}
 };
 
-DataAggregatorWrapper* DataAggregator_Create(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t throttleSize) {
-    auto* wrapper = new DataAggregatorWrapper(motorVelocitiesSize, batteryVoltagesSize, lapEfficienciesSize, lapTimesSize, throttleSize);
+DataAggregatorWrapper* DataAggregator_Create(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t throttleSize, uint8_t canLogSize) {
+    auto* wrapper = new DataAggregatorWrapper(motorVelocitiesSize, batteryVoltagesSize, lapEfficienciesSize, lapTimesSize, throttleSize, canLogSize);
     return wrapper;
 }
 
@@ -27,6 +27,10 @@ void SetBatteryVoltage(DataAggregatorWrapper* wrapper, voltage_t voltage) {
 
 void SetLapTime(DataAggregatorWrapper* wrapper, ms_t time) {
     wrapper->aggregator.lapTimes.add(time);
+}
+
+void LogCanMessage(DataAggregatorWrapper* wrapper, ICommsMessageLookUpIndex type, uint32_t value, CANLogEntryFormat style) {
+    wrapper->aggregator.canLogEntries.add(new CANLogEntry(type, value, style));
 }
 
 DataAggregator& DataAggregator_GetReference(DataAggregatorWrapper* wrapper) {

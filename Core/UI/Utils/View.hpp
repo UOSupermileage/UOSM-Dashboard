@@ -8,9 +8,9 @@
 #include <map>
 #include <memory>
 #include "lvgl/lvgl.h"
-#include "ViewModel.hpp"
 #include "Styles.hpp"
 #include "ObservedObject.hpp"
+#include "DataAggregator.hpp"
 
 /** @ingroup core-ui-utils
  *  A class that represents a view that displays the data from a view model using LVGL widgets.
@@ -19,21 +19,25 @@
 class View {
 private:
     /** The container that holds all the view elements. */
-    lv_obj_t* container;
-    /** The reference to the view model that provides the data for the view. */
-    ViewModel& viewModel;
+    lv_obj_t* container;;
     /** The vector of observer tokens that are used to register listeners to the view model. */
-    vector<ObserverToken> tokens;
+    std::vector<ObserverToken> tokens;
+    /** Reference to the source of truth for this view. */
+    DataAggregator& aggregator;
 
 protected:
     /** Constructs a view with a given parent and a view model.
      *  @param parent The parent object of the container, or NULL if the container is a screen.
      *  @param viewModel The reference to the view model that provides the data for the view.
      */
-    explicit View(lv_obj_t* parent, ViewModel& viewModel);
+    explicit View(lv_obj_t* parent, DataAggregator& aggregator);
 
     /** Destructs the view and releases the observer tokens. */
     ~View();
+
+    DataAggregator& getDataAggregator() {
+        return aggregator;
+    }
 
 public:
     /** Returns a pointer to the container that holds all the view elements.
