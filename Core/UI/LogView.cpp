@@ -27,6 +27,8 @@ LogView::LogView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, ag
     lv_obj_align(table, LV_ALIGN_CENTER, 0, 0);
     lv_obj_set_width(table, lv_obj_get_width(container));
 
+    lv_obj_set_scrollbar_mode(table, LV_SCROLLBAR_MODE_OFF);
+
     getDataAggregator().canLogEntries.addListener([this](const DataQueue<CANLogEntry*>& entries) {
         // In case view is deleted, return before trying to access it.
         if (!this) {
