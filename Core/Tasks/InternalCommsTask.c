@@ -12,8 +12,8 @@
 
 #include "CANCallbacks.h"
 
-#define STACK_SIZE 1024*4
-#define INTERNAL_COMMS_TASK_PRIORITY (osPriority_t) osPriorityNormal
+#define STACK_SIZE (1024*4)
+#define INTERNAL_COMMS_TASK_PRIORITY (osPriority_t) osPriorityHigh
 #define TIMER_INTERNAL_COMMS_TASK 200UL
 
 const char ICT_TAG[] = "#ICT:";
@@ -39,7 +39,5 @@ PRIVATE void InternalCommsTask(void* argument) {
         osDelayUntil(cycleTick);
 
         IComms_PeriodicReceive();
-
-        CAN_Dummy_RPM(cycleTick % 3000);
     }
 }
