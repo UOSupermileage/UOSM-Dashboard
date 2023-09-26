@@ -6,6 +6,7 @@
 #include "StylesManager.hpp"
 
 #define LOG_VIEW_N_COLUMNS 1
+#define LOG_VIEW_PADDING 5
 
 LogView::LogView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, aggregator) {
     Styles* styles = StylesManager::GetStyles();
@@ -19,7 +20,7 @@ LogView::LogView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, ag
     table = lv_table_create(container);
 
     lv_table_set_col_cnt(table, LOG_VIEW_N_COLUMNS);
-    lv_table_set_col_width(table, 0, lv_obj_get_width(container));
+    lv_table_set_col_width(table, 0, lv_obj_get_width(container) - LOG_VIEW_PADDING);
 
     // The number of rows is equal to the theoretical max size of the can logs entry buffer. In practice, this buffer is almost always full.
     lv_table_set_row_cnt(table, getDataAggregator().canLogEntries.getSize());

@@ -81,7 +81,7 @@ void Application_Create(DataAggregatorWrapper* aggregatorWrapper) {
     lv_obj_set_size(statsView->getContainer(), SCREEN_WIDTH, SCREEN_HEIGHT);
 
     logView = new LogView(nullptr, aggregator);
-    lv_obj_set_size(logView->getContainer(), SCREEN_WIDTH / 2, SCREEN_HEIGHT);
+    lv_obj_set_size(logView->getContainer(), SCREEN_WIDTH, SCREEN_HEIGHT);
 
     lv_scr_load(homeView->getContainer());
 
