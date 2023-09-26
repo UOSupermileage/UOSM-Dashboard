@@ -144,8 +144,8 @@ int main(void) {
     // Init the screen
     tft_init();
     touchpad_init();
-
-    DataAggregatorWrapper* wrapper = DataAggregator_Create(10, 10, 10, 10, 10, 10);
+#define N_CAN_MESSAGES_IN_LOG 8
+    DataAggregatorWrapper* wrapper = DataAggregator_Create(10, 10, 10, 10, 10, N_CAN_MESSAGES_IN_LOG);
     CAN_SetAggregator(wrapper);
     Application_Create(wrapper);
 
