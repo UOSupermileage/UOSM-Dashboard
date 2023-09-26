@@ -89,7 +89,7 @@ var NAVTREEINDEX =
 "lv__conf_8h.html#ad9dbfeb90679a5db213a80f3e8d61b28",
 "main_8h.html#ab403497f0a6510bbb6ae760e7e0abad7",
 "structAUDIO__DrvTypeDef.html",
-"structTS__StateTypeDef.html"
+"structTS__StateTypeDef.html#a33736cd2bcdf928ef94bb9a5de3bbc70"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
