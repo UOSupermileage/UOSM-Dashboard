@@ -45,13 +45,16 @@ void swipe_event_callback(lv_event_t* event) {
 
         switch (screenIndex) {
             case 0:
-                lv_scr_load_anim(homeView->getContainer(), animDirection, 300, 0, false);
+//                lv_scr_load_anim(homeView->getContainer(), animDirection, 300, 0, false);
+                lv_disp_load_scr(homeView->getContainer());
                 break;
             case 1:
-                lv_scr_load_anim(statsView->getContainer(), animDirection, 300, 0, false);
+//                lv_scr_load_anim(statsView->getContainer(), animDirection, 300, 0, false);
+                lv_disp_load_scr(statsView->getContainer());
                 break;
             case 2:
-                lv_scr_load_anim(logView->getContainer(), animDirection, 300, 0, false);
+//                lv_scr_load_anim(logView->getContainer(), animDirection, 300, 0, false);
+                lv_disp_load_scr(logView->getContainer());
                 break;
             default:
                 break;
