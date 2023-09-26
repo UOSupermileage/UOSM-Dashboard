@@ -66,6 +66,7 @@ var hierarchy =
         [ "BarChart", "classBarChart.html", null ]
       ] ],
       [ "HomeView", "classHomeView.html", null ],
+      [ "LogView", "classLogView.html", null ],
       [ "StatsView", "classStatsView.html", null ]
     ] ]
 ];

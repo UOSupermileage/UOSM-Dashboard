@@ -7,6 +7,7 @@ var dir_1287df12d70222ca625a5bed22770597 =
     [ "Constants.h", "Constants_8h_source.html", null ],
     [ "HomeView.hpp", "HomeView_8hpp_source.html", null ],
     [ "LightStyles.hpp", "LightStyles_8hpp_source.html", null ],
+    [ "LogView.hpp", "LogView_8hpp_source.html", null ],
     [ "StatsView.hpp", "StatsView_8hpp_source.html", null ],
     [ "StylesManager.hpp", "StylesManager_8hpp_source.html", null ]
 ];

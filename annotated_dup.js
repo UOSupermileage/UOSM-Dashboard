@@ -37,6 +37,7 @@ var annotated_dup =
     [ "IO_DrvTypeDef", "structIO__DrvTypeDef.html", "structIO__DrvTypeDef" ],
     [ "LCD_DrvTypeDef", "structLCD__DrvTypeDef.html", "structLCD__DrvTypeDef" ],
     [ "LightStyles", "classLightStyles.html", "classLightStyles" ],
+    [ "LogView", "classLogView.html", "classLogView" ],
     [ "MAGNETO_DrvTypeDef", "structMAGNETO__DrvTypeDef.html", "structMAGNETO__DrvTypeDef" ],
     [ "MAGNETO_InitTypeDef", "structMAGNETO__InitTypeDef.html", "structMAGNETO__InitTypeDef" ],
     [ "Observable", "classObservable.html", "classObservable" ],

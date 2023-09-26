@@ -1,5 +1,9 @@
 var NAVTREEINDEX2 =
 {
+"group__Components.html":[5,2,0],
+"group__EPD.html":[5,2,0,10,0],
+"group__EPD__Driver__structure.html":[5,2,0,10,0,0,0],
+"group__EPD__Exported__Types.html":[5,2,0,10,0,0],
 "group__EXC7200.html":[5,2,1,0],
 "group__EXC7200__Exported__Constants.html":[5,2,1,0,1,0],
 "group__EXC7200__Exported__Constants.html#gacfb8fb8ed95a014eeec33c28fa308f7b":[7,0,1,0,4,1,0],
@@ -11,8 +15,8 @@ var NAVTREEINDEX2 =
 "group__EXC7200__Private__Variables.html#ga6708ed59dfbaf68fdc49cd915252c4ba":[7,0,1,0,4,0,11],
 "group__EXC7200__Private__Variables.html#ga948e9727a135ebaa66a37e1b33aaac92":[7,0,1,0,4,0,10],
 "group__Exported__types.html":[5,2,2,0,7,3],
-"group__Exported__types.html#ga2c69bcd2c669b2a0ffc493803ba0f1a1":[5,2,2,0,7,3,0],
 "group__Exported__types.html#ga2c69bcd2c669b2a0ffc493803ba0f1a1":[7,0,1,1,1,71],
+"group__Exported__types.html#ga2c69bcd2c669b2a0ffc493803ba0f1a1":[5,2,2,0,7,3,0],
 "group__Exported__types.html#ga386f3c185c6edf5afeb40edbb1de2ed6":[7,0,1,1,1,70],
 "group__Exported__types.html#gga2c69bcd2c669b2a0ffc493803ba0f1a1ac050fd5fcf0a6b9739b05da4a4ada820":[7,0,1,1,1,71,0],
 "group__Exported__types.html#gga2c69bcd2c669b2a0ffc493803ba0f1a1ad2fcfafe11e0e263af94607b761a4d23":[7,0,1,1,1,71,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX2 =
 "group__FT6X06__Exported__Constants.html#gaff89c9eddd5c8f96e2ab7954992c2c1f":[7,0,1,0,6,1,53],
 "group__FT6X06__Exported__Types.html":[5,2,1,2,4],
 "group__FT6X06__Private__Defines.html":[5,2,1,2,0],
-"group__FT6X06__Private__Defines.html#gac85b949580e75cdd7109b18248874c3c":[7,0,1,0,6,0,0],
-"group__FT6X06__Private__Variables.html":[5,2,1,2,1],
-"group__FT6X06__Private__Variables.html#ga11d12c730f3be0fc1d0d6cbb8faa7a03":[7,0,1,0,6,0,11],
-"group__FT6X06__Private__Variables.html#ga4dde8a2c2c406d0eb3e52f947a462e2e":[7,0,1,0,6,0,12],
-"group__GYRO.html":[5,2,0,11]
+"group__FT6X06__Private__Defines.html#gac85b949580e75cdd7109b18248874c3c":[7,0,1,0,6,0,0]
 };
