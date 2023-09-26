@@ -22,7 +22,8 @@ var NAVTREEINDEX17 =
 "structChartData.html#a89fcfee4c55fed5530ae7297e64cb8ce":[6,0,11,0],
 "structChartData.html#aaf6c195f1e9ce45880fb6af0439a05d7":[6,0,11,2],
 "structDataAggregatorWrapper.html":[6,0,17],
-"structDataAggregatorWrapper.html#a3bc3670b901769dca54fa330607f55ea":[6,0,17,0],
+"structDataAggregatorWrapper.html#a3bc3670b901769dca54fa330607f55ea":[6,0,17,1],
+"structDataAggregatorWrapper.html#aee7a1c0ecef2eaa9dc41e64c3b81a515":[6,0,17,0],
 "structEPD__DrvTypeDef.html":[5,2,0,10,0,0,0,0],
 "structGYRO__DrvTypeDef.html":[5,2,0,11,0,0,0],
 "structGYRO__DrvTypeDef.html#a0aa0402cc1408ef4e833a79538078436":[5,2,0,11,0,0,0,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "structTS__DrvTypeDef.html#a71a7336180314854b8aec63325aaa101":[5,2,0,16,0,0,0,9],
 "structTS__DrvTypeDef.html#aa53ed1ffd9e26145fb571a4b0d3e450a":[5,2,0,16,0,0,0,4],
 "structTS__DrvTypeDef.html#aa693405bd2ad00dd23a2245700f9577e":[5,2,0,16,0,0,0,1],
-"structTS__DrvTypeDef.html#acb9ebecebbd6f8f3fc8f15751c51b51a":[5,2,0,16,0,0,0,5],
-"structTS__StateTypeDef.html":[5,2,2,5,8,0]
+"structTS__DrvTypeDef.html#acb9ebecebbd6f8f3fc8f15751c51b51a":[5,2,0,16,0,0,0,5]
 };
