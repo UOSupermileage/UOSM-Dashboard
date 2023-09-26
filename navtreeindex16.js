@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"main_8h.html#ab2183d6635c7a23c066bf976e6bbfe90":[7,0,0,0,3,29],
 "main_8h.html#ab2478b68117eab6f5775172f2460f929":[7,0,0,0,3,165],
 "main_8h.html#ab28341f6a99f5b69e8d1856d979c6b49":[7,0,0,0,3,282],
 "main_8h.html#ab298954b023a6690e943184451ba01b2":[7,0,0,0,3,240],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "structACCELERO__InitTypeDef.html#a41508a09d2d1a3c1f7033af038d5362a":[5,2,0,7,0,1,0,7],
 "structACCELERO__InitTypeDef.html#a7098cd042bd7610e912dc3139d70a8d5":[5,2,0,7,0,1,0,4],
 "structACCELERO__InitTypeDef.html#a82a898292ac2103710fb936761d10f35":[5,2,0,7,0,1,0,6],
-"structACCELERO__InitTypeDef.html#ab026b86075ee2380a23925e7d21f9f42":[5,2,0,7,0,1,0,5],
-"structACCELERO__InitTypeDef.html#ab13db51e571febe2fb5036bd2c1c5f8e":[5,2,0,7,0,1,0,0]
+"structACCELERO__InitTypeDef.html#ab026b86075ee2380a23925e7d21f9f42":[5,2,0,7,0,1,0,5]
 };
