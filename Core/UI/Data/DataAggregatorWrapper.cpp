@@ -8,12 +8,18 @@
 struct DataAggregatorWrapper {
     DataAggregator aggregator;
 
-    explicit DataAggregatorWrapper(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t throttleSize, uint8_t canLogSize):
-        aggregator(motorVelocitiesSize, batteryVoltagesSize, throttleSize, lapEfficienciesSize, lapTimesSize, canLogSize) {}
+    explicit DataAggregatorWrapper(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize,
+                                   uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t throttleSize,
+                                   uint8_t canLogSize) :
+            aggregator(motorVelocitiesSize, batteryVoltagesSize, throttleSize, lapEfficienciesSize, lapTimesSize,
+                       canLogSize) {}
 };
 
-DataAggregatorWrapper* DataAggregator_Create(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t throttleSize, uint8_t canLogSize) {
-    auto* wrapper = new DataAggregatorWrapper(motorVelocitiesSize, batteryVoltagesSize, lapEfficienciesSize, lapTimesSize, throttleSize, canLogSize);
+DataAggregatorWrapper*
+DataAggregator_Create(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize,
+                      uint8_t lapTimesSize, uint8_t throttleSize, uint8_t canLogSize) {
+    auto* wrapper = new DataAggregatorWrapper(motorVelocitiesSize, batteryVoltagesSize, lapEfficienciesSize,
+                                              lapTimesSize, throttleSize, canLogSize);
     return wrapper;
 }
 
@@ -29,12 +35,18 @@ void SetLapTime(DataAggregatorWrapper* wrapper, ms_t time) {
     wrapper->aggregator.lapTimes.add(time);
 }
 
-void LogCanMessage(DataAggregatorWrapper* wrapper, ICommsMessageLookUpIndex type, uint32_t value, CANLogEntryFormat style) {
+void
+LogCanMessage(DataAggregatorWrapper* wrapper, ICommsMessageLookUpIndex type, uint32_t value, CANLogEntryFormat style) {
     wrapper->aggregator.canLogEntries.add(new CANLogEntry(type, value, style));
 }
 
-void LogCanMessagePairValue(DataAggregatorWrapper* wrapper, ICommsMessageLookUpIndex type, uint32_t a, uint32_t b, CANLogEntryFormat style) {
+void LogCanMessagePairValue(DataAggregatorWrapper* wrapper, ICommsMessageLookUpIndex type, uint32_t a, uint32_t b,
+                            CANLogEntryFormat style) {
     wrapper->aggregator.canLogEntries.add(new CANLogEntry(type, a, b, style));
+}
+
+void SetThrottlePosition(DataAggregatorWrapper* wrapper, percentage_t throttle) {
+    wrapper->aggregator.throttlePositions.add(throttle);
 }
 
 DataAggregator& DataAggregator_GetReference(DataAggregatorWrapper* wrapper) {
