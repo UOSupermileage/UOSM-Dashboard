@@ -40,6 +40,6 @@ PRIVATE void InternalCommsTask(void* argument) {
 
         IComms_PeriodicReceive();
 
-        CAN_Dummy_RPM(cycleTick % 3200);
+        CAN_Dummy_RPM(cycleTick % 3000);
     }
 }

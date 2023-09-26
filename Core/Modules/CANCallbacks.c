@@ -18,6 +18,7 @@ static bool CAN_Enabled() {
 void CAN_Dummy_RPM(velocity_t v) {
     // Invert motor RPM to display in human-readable manor
     SetMotorRPM(aggregatorWrapper, v);
+    LogCanMessage(aggregatorWrapper, MOTOR_RPM_DATA_ID, v, CAN_DECIMAL);
 }
 
 void MotorRPMDataCallback(iCommsMessage_t* msg) {
