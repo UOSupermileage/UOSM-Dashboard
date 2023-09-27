@@ -46,7 +46,7 @@ void LogCanMessagePairValue(DataAggregatorWrapper* wrapper, ICommsMessageLookUpI
 }
 
 void SetThrottlePosition(DataAggregatorWrapper* wrapper, percentage_t throttle) {
-    wrapper->aggregator.throttlePositions.add(throttle);
+    wrapper->aggregator.throttlePositions.add(throttle/10);
 }
 
 DataAggregator& DataAggregator_GetReference(DataAggregatorWrapper* wrapper) {

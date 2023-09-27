@@ -102,9 +102,9 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
 //        lv_label_set_text_fmt(motorRPMLabel, "%d RPM", velocity);
 //    });
 
-    getDataAggregator().lapTimes.addListenerForLatest([this](const ms_t& time) {
-        lv_label_set_text_fmt(lapTimeLabel, "%dm %ds", time / 60000, time / 1000);
-    });
+//    getDataAggregator().lapTimes.addListenerForLatest([this](const ms_t& time) {
+//        lv_label_set_text_fmt(lapTimeLabel, "%dm %ds", time / 60000, time / 1000);
+//    });
 
     getDataAggregator().lapTimes.addListener([this](const DataQueue<ms_t>& queue) {
         lv_chart_set_point_count(lapTimeBarGraph, queue.getNumberOfElements());
@@ -119,6 +119,7 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
         lv_anim_set_time(&a, 100);
         lv_anim_set_values(&a, lv_arc_get_value(throttleArc), throttle);
         lv_anim_start(&a);
+        lv_label_set_text_fmt(lapTimeLabel, "%d", throttle);
     });
 
     ai = aiThrottleArc;
