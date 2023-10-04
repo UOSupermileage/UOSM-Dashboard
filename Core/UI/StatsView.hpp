@@ -22,7 +22,7 @@ private:
     lv_obj_t* rpmLabel;
 
     /** Combiner to get latest value from multiple observed objects whenever one of them changes */
-    CombineLatest<DataQueue<velocity_t>, DataQueue<voltage_t>>* combiner;
+    CombineLatest<DataQueue<percentage_t>, DataQueue<voltage_t>>* combiner;
 
 protected:
     /** Destructs the stats view. */

@@ -29,13 +29,25 @@ StatsView::StatsView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent
 
     rpmLabel = lv_label_create(chart);
 
-    auto callback = [this](const DataQueue<velocity_t>& rpm, const DataQueue<voltage_t>& voltage) {
-        lv_chart_set_next_value(chart, rpmSeries, rpm.getLatestValue());
+    auto callback = [this](/*const DataQueue<percentage_t>& rpm, const DataQueue<voltage_t>& voltage*/) {
+        lv_chart_set_next_value(chart, rpmSeries, getDataAggregator().throttlePositions.getLatestValue());
         lv_chart_refresh(chart);
 
-        lv_label_set_text_fmt(rpmLabel, "%d RPM", rpm.getLatestValue());
+        lv_label_set_text_fmt(rpmLabel, "%d RPM", getDataAggregator().throttlePositions.getLatestValue());
     };
-    combiner = new CombineLatest(callback, getDataAggregator().motorVelocities, getDataAggregator().batteryVoltages);
+    combiner = new CombineLatest(callback, getDataAggregator().throttlePositions, getDataAggregator().batteryVoltages);
+//    getDataAggregator().motorVelocities.addListener([this](const DataQueue<velocity_t>& rpm) {
+//        lv_chart_set_next_value(chart, rpmSeries, rpm.getLatestValue());
+//        lv_chart_refresh(chart);
+//
+//        lv_label_set_text_fmt(rpmLabel, "%d RPM", rpm.getLatestValue());
+//    });
+//    getDataAggregator().throttlePositions.addListener([this](const DataQueue<percentage_t>& throttle) {
+//        lv_chart_set_next_value(chart, rpmSeries, throttle.getLatestValue());
+//        lv_chart_refresh(chart);
+//
+//        lv_label_set_text_fmt(rpmLabel, "%d RPM", throttle.getLatestValue());
+//    });
 }
 
 StatsView::~StatsView() {
