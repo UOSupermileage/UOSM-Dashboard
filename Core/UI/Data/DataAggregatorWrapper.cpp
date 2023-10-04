@@ -37,12 +37,12 @@ void SetLapTime(DataAggregatorWrapper* wrapper, ms_t time) {
 
 void
 LogCanMessage(DataAggregatorWrapper* wrapper, ICommsMessageLookUpIndex type, uint32_t value, CANLogEntryFormat style) {
-//    wrapper->aggregator.canLogEntries.add(new CANLogEntry(type, value, style));
+    wrapper->aggregator.canLogEntries.add(new CANLogEntry(type, value, style));
 }
 
 void LogCanMessagePairValue(DataAggregatorWrapper* wrapper, ICommsMessageLookUpIndex type, uint32_t a, uint32_t b,
                             CANLogEntryFormat style) {
-    //wrapper->aggregator.canLogEntries.add(new CANLogEntry(type, a, b, style));
+    wrapper->aggregator.canLogEntries.add(new CANLogEntry(type, a, b, style));
 }
 
 void SetThrottlePosition(DataAggregatorWrapper* wrapper, percentage_t throttle) {
