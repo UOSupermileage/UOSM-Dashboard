@@ -16,7 +16,7 @@ var searchData=
   ['codec_5faudioframe_5fslot_5f0123_184',['CODEC_AUDIOFRAME_SLOT_0123',['../group__STM32F769I__DISCOVERY__AUDIO__Exported__Constants.html#ga40fbd38057da0118defae1e7ba3a2a5a',1,'stm32f769i_discovery_audio.h']]],
   ['codestyle_185',['CodeStyle',['../md_Documentation_CodeStyle.html',1,'']]],
   ['combinelatest_186',['CombineLatest',['../classCombineLatest.html',1,'']]],
-  ['combinelatest_3c_20dataqueue_3c_20velocity_5ft_20_3e_2c_20dataqueue_3c_20voltage_5ft_20_3e_20_3e_187',['CombineLatest&lt; DataQueue&lt; velocity_t &gt;, DataQueue&lt; voltage_t &gt; &gt;',['../classCombineLatest.html',1,'']]],
+  ['combinelatest_3c_20dataqueue_3c_20percentage_5ft_20_3e_2c_20dataqueue_3c_20voltage_5ft_20_3e_20_3e_187',['CombineLatest&lt; DataQueue&lt; percentage_t &gt;, DataQueue&lt; voltage_t &gt; &gt;',['../classCombineLatest.html',1,'']]],
   ['common_188',['Common',['../group__Common.html',1,'']]],
   ['component_189',['Component',['../group__Component.html',1,'']]],
   ['components_190',['Components',['../group__Components.html',1,'']]],
