@@ -4,9 +4,15 @@
 
 #include "LightStyles.hpp"
 
+LV_FONT_DECLARE(montserrat_72)
+
 LightStyles::LightStyles() {
     lv_style_init(&extraLargeTextStyle);
     lv_style_set_text_font(&extraLargeTextStyle, &sf_144);
+
+    lv_style_init(&largeTextStyle);
+    lv_style_set_text_font(&largeTextStyle, &montserrat_72);
+
 
     lv_style_init(&fullscreenChartStyle);
     lv_style_set_border_width(&fullscreenChartStyle, 10);
@@ -40,6 +46,10 @@ LightStyles::LightStyles() {
 
 lv_style_t* LightStyles::GetExtraLargeTextStyle() {
     return &extraLargeTextStyle;
+}
+
+lv_style_t* LightStyles::GetLargeTextStyle() {
+    return &largeTextStyle;
 }
 
 lv_style_t* LightStyles::GetFullscreenChartStyle() {

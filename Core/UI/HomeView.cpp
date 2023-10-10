@@ -31,9 +31,9 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
 //    lv_obj_set_flex_grow(topRow, 1);
     lv_obj_set_flex_grow(bottomRow, 1);
 
-    lapTimeLabel = lv_label_create(bottomRow);
-    lv_label_set_text(lapTimeLabel, "0m 0s");
-    lv_obj_add_style(lapTimeLabel, styles->GetExtraLargeTextStyle(), LV_PART_MAIN);
+//    lapTimeLabel = lv_label_create(bottomRow);
+//    lv_label_set_text(lapTimeLabel, "0m 0s");
+//    lv_obj_add_style(lapTimeLabel, styles->GetExtraLargeTextStyle(), LV_PART_MAIN);
 
     batteryVoltageLabel = lv_label_create(bottomRow);
     lv_label_set_text(batteryVoltageLabel, "0V");
@@ -69,7 +69,12 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     lv_obj_add_style(throttleArc, styles->GetThrottleArcStyle(), LV_PART_INDICATOR);
     lv_arc_set_value(throttleArc, 50);
 
-    lapTimeBarGraph = lv_chart_create(bottomRow);
+    lapEfficiencyLabel = lv_label_create(bottomRow);
+    lv_label_set_text(lapEfficiencyLabel, "+99%");
+    lv_obj_add_style(lapEfficiencyLabel, styles->GetLargeTextStyle(), LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_align(lapEfficiencyLabel, LV_ALIGN_CENTER, 0, 0);
+
+    /*lapTimeBarGraph = lv_chart_create(bottomRow);
     lv_chart_set_type(lapTimeBarGraph, LV_CHART_TYPE_BAR);
     lv_obj_set_size(lapTimeBarGraph, 200, 150);
     lv_obj_center(lapTimeBarGraph);
@@ -77,21 +82,21 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     lv_chart_set_range(lapTimeBarGraph, LV_CHART_AXIS_SECONDARY_Y, 0, 1010);
 //    lv_chart_set_point_count(lapTimeBarGraph, 12);
 
-    /*Add ticks and label to every axis*/
+    *//*Add ticks and label to every axis*//*
     lv_chart_set_axis_tick(lapTimeBarGraph, LV_CHART_AXIS_PRIMARY_X, 10, 5, 12, 3, true, 40);
     lv_chart_set_axis_tick(lapTimeBarGraph, LV_CHART_AXIS_PRIMARY_Y, 10, 5, 6, 2, true, 50);
     lv_chart_set_axis_tick(lapTimeBarGraph, LV_CHART_AXIS_SECONDARY_Y, 10, 5, 3, 4, true, 50);
 
-    /*Zoom in a little in X*/
+    *//*Zoom in a little in X*//*
 //    lv_chart_set_zoom_x(lapTimeBarGraph, 800);
 
-    /*Add two data series*/
+    *//*Add two data series*//*
     lv_chart_series_t * ser1 = lv_chart_add_series(lapTimeBarGraph, lv_palette_lighten(LV_PALETTE_GREEN, 2), LV_CHART_AXIS_PRIMARY_Y);
 
     lv_chart_set_point_count(lapTimeBarGraph, getDataAggregator().lapTimes.getNumberOfElements());
     lv_chart_set_ext_y_array(lapTimeBarGraph, ser1,
                              reinterpret_cast<lv_coord_t *>(aggregator.lapTimes.getValues()));
-    lv_chart_refresh(lapTimeBarGraph); /*Required after direct set*/
+    lv_chart_refresh(lapTimeBarGraph); *//*Required after direct set*/
 
     getDataAggregator().batteryVoltages.addListenerForLatest([this](const voltage_t& voltage) {
         uint32_t n = voltage * 33 * 185 / 40960;
@@ -106,10 +111,10 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
 //        lv_label_set_text_fmt(lapTimeLabel, "%dm %ds", time / 60000, time / 1000);
 //    });
 
-    getDataAggregator().lapTimes.addListener([this](const DataQueue<ms_t>& queue) {
-        lv_chart_set_point_count(lapTimeBarGraph, queue.getNumberOfElements());
-        lv_chart_refresh(lapTimeBarGraph);
-    });
+//    getDataAggregator().lapTimes.addListener([this](const DataQueue<ms_t>& queue) {
+//        lv_chart_set_point_count(lapTimeBarGraph, queue.getNumberOfElements());
+//        lv_chart_refresh(lapTimeBarGraph);
+//    });
 
     getDataAggregator().throttlePositions.addListenerForLatest([this](const percentage_t& throttle) {
         lv_anim_t a;
@@ -119,7 +124,7 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
         lv_anim_set_time(&a, 100);
         lv_anim_set_values(&a, lv_arc_get_value(throttleArc), throttle);
         lv_anim_start(&a);
-        lv_label_set_text_fmt(lapTimeLabel, "%d", throttle);
+//        lv_label_set_text_fmt(lapTimeLabel, "%d", throttle);
     });
 
     ai = aiThrottleArc;

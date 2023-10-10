@@ -15,6 +15,8 @@ class LightStyles : public Styles {
 private:
     /** The style for extra large text, such as the battery voltage and motor RPM. */
     lv_style_t extraLargeTextStyle = {};
+    /** The style for large text, such as the lap efficiency. */
+    lv_style_t largeTextStyle = {};
     /** The style for fullscreen charts, such as the speed and power charts. */
     lv_style_t fullscreenChartStyle = {};
     /** The style for a fullscreen view, such as the main view. */
@@ -35,6 +37,7 @@ public:
     ~LightStyles() = default;
 
     lv_style_t* GetExtraLargeTextStyle() override;
+    lv_style_t* GetLargeTextStyle() override;
     lv_style_t* GetFullscreenChartStyle() override;
     lv_style_t* GetFullscreenViewStyle() override;
     lv_style_t* GetFullscreenRowStyle() override;

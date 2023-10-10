@@ -18,6 +18,11 @@ public:
      */
     virtual lv_style_t* GetExtraLargeTextStyle() = 0;
 
+    /** Returns a pointer to a style for large text.
+     *  @return A pointer to a style for large text.
+     */
+    virtual lv_style_t* GetLargeTextStyle() = 0;
+
     /** Returns a pointer to a style for fullscreen charts.
      *  @return A pointer to a style for fullscreen charts.
      */

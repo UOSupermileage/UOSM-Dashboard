@@ -16,6 +16,9 @@ private:
     /** The label that displays the current lap time. */
     lv_obj_t* lapTimeLabel;
 
+    /** The label that displays the last lap efficiency */
+    lv_obj_t* lapEfficiencyLabel;
+
     /** The label that displays the battery voltage. */
     lv_obj_t* batteryVoltageLabel;
 
