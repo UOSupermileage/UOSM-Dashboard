@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"group__FT6X06__Private__Defines.html":[5,2,1,2,0],
+"group__FT6X06__Private__Defines.html#gac85b949580e75cdd7109b18248874c3c":[7,0,1,0,6,0,0],
 "group__FT6X06__Private__Variables.html":[5,2,1,2,1],
 "group__FT6X06__Private__Variables.html#ga11d12c730f3be0fc1d0d6cbb8faa7a03":[7,0,1,0,6,0,11],
 "group__FT6X06__Private__Variables.html#ga4dde8a2c2c406d0eb3e52f947a462e2e":[7,0,1,0,6,0,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "group__MFXSTM32L152__Exported__Constants.html#gad48eb511d67816caaba276327ccc93c1":[7,0,1,0,7,1,86],
 "group__MFXSTM32L152__Exported__Constants.html#gad65c81d08233d2133dfe800d26d67641":[7,0,1,0,7,1,32],
 "group__MFXSTM32L152__Exported__Constants.html#gad97423a997f61e60fbe25bfe798d23ee":[7,0,1,0,7,1,140],
-"group__MFXSTM32L152__Exported__Constants.html#gad97423a997f61e60fbe25bfe798d23ee":[5,2,1,3,2,31],
-"group__MFXSTM32L152__Exported__Constants.html#gad98f162e4399b502c0bd5d80652fe56b":[7,0,1,0,7,1,96],
-"group__MFXSTM32L152__Exported__Constants.html#gad9f6ddf0f7738180f89c9a13df8aeaca":[7,0,1,0,7,1,157]
+"group__MFXSTM32L152__Exported__Constants.html#gad97423a997f61e60fbe25bfe798d23ee":[5,2,1,3,2,31]
 };

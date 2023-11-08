@@ -72,24 +72,24 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "ApplicationTypes_8h_source.html",
-"group__ADAFRUIT__SPI__LCD__Exported__Functions.html#ga7b96512c4fa885f9ad0c4873e9999b2a",
-"group__Components.html",
-"group__FT6X06__Private__Variables.html",
-"group__MFXSTM32L152__Exported__Constants.html#gad9f6ddf0f7738180f89c9a13df8aeaca",
-"group__MFXSTM32L152__Private__Functions.html#gae4cc7464b17a55c211bf8326ebae493e",
-"group__N25Q512A__Exported__Constants.html#ga4459fa22521728274004fdf22658aa0c",
-"group__OTM8009A__Private__Constants.html#gab221b2ab4141b872570f6737a61e832f",
-"group__ST7735__Private__Functions.html#ga61c27397b8896665126e6275349afc9d",
-"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#ga71122b966773b01c8a5933c76f3f12fe",
-"group__STM32F769I__DISCOVERY__LCD__Exported__Functions.html#ga63a69131bdd1e23530b2ac54cd0cad57",
-"group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Variables.html#gadf78f2d71408a01f8d30929c2d2da82b",
-"group__STM32F7xx__System__Private__Includes.html#gaaa8c76e274d0f6dd2cefb5d0b17fbc37",
-"group__STMPE811__Private__Variables.html",
-"group__ft6x06__Exported__Functions.html#ga714520adcf3d75394a2f08cf428d3c40",
-"lv__conf_8h.html#ad2a8b470876550081e27645a7b02cc51",
-"main_8h.html#ab2183d6635c7a23c066bf976e6bbfe90",
-"structACCELERO__InitTypeDef.html#ab13db51e571febe2fb5036bd2c1c5f8e",
-"structTS__DrvTypeDef.html#a61f6eee55ad561b455d5913293345edf"
+"group__ADAFRUIT__SPI__LCD__Exported__Functions.html#ga73daff348d93e7cfe665cbee3f415186",
+"group__Component.html#gaa8ed8a6fc33e1a8b1f16879d06857c0e",
+"group__FT6X06__Private__Defines.html",
+"group__MFXSTM32L152__Exported__Constants.html#gad98f162e4399b502c0bd5d80652fe56b",
+"group__MFXSTM32L152__Private__Functions.html#gae4283dcc919e306ef39c6cea11eb55b2",
+"group__N25Q512A__Exported__Constants.html#ga38123ccc69f774d52bb19a4e7ecf034f",
+"group__OTM8009A__Private__Constants.html#gaa9ca28933feea9a0efea9fdac1185c32",
+"group__ST7735__Private__Functions.html#ga465ce5514c62c49a77be9c156ab5c56e",
+"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#ga5a40f0d40f80fd71fd16fbb4e7fb3b7d",
+"group__STM32F769I__DISCOVERY__LCD__Exported__Functions.html#ga5955111784d5c5a7b9a7492b30afd7cf",
+"group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Variables.html#ga677eb99a3bb43101358dfce35efefae2",
+"group__STM32F7xx__System__Private__Includes.html",
+"group__STMPE811__Private__Macros.html",
+"group__ft6x06__Exported__Functions.html#ga55dc85a22e1cf328f4375a2399a1f552",
+"lv__conf_8h.html#ad17238861ec699b517a2fbe273d3013c",
+"main_8h.html#ab102c080d6dc4ed840d3998d9110689b",
+"structACCELERO__InitTypeDef.html#a82a898292ac2103710fb936761d10f35",
+"structTS__DrvTypeDef.html#a52a48bc0ca5423e938e7d787d59f925f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

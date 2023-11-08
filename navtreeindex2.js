@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"group__Component.html#gaa8ed8a6fc33e1a8b1f16879d06857c0e":[6,0,19,2],
+"group__Component.html#gabdc235682a19c292a893eeee30bd1057":[6,0,20,2],
 "group__Components.html":[5,2,0],
 "group__EPD.html":[5,2,0,10,0],
 "group__EPD__Driver__structure.html":[5,2,0,10,0,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "group__FT6X06__Exported__Constants.html#gaface140b179236fed9d2522ff53f0365":[7,0,1,0,6,1,3],
 "group__FT6X06__Exported__Constants.html#gafc8dc045fa3c1580f57792bb8940c3d6":[7,0,1,0,6,1,64],
 "group__FT6X06__Exported__Constants.html#gaff89c9eddd5c8f96e2ab7954992c2c1f":[7,0,1,0,6,1,53],
-"group__FT6X06__Exported__Types.html":[5,2,1,2,4],
-"group__FT6X06__Private__Defines.html":[5,2,1,2,0],
-"group__FT6X06__Private__Defines.html#gac85b949580e75cdd7109b18248874c3c":[7,0,1,0,6,0,0]
+"group__FT6X06__Exported__Types.html":[5,2,1,2,4]
 };

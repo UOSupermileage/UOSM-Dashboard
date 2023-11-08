@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"structACCELERO__InitTypeDef.html#a82a898292ac2103710fb936761d10f35":[5,2,0,7,0,1,0,6],
+"structACCELERO__InitTypeDef.html#ab026b86075ee2380a23925e7d21f9f42":[5,2,0,7,0,1,0,5],
 "structACCELERO__InitTypeDef.html#ab13db51e571febe2fb5036bd2c1c5f8e":[5,2,0,7,0,1,0,0],
 "structACCELERO__InitTypeDef.html#ad42fcf8687b89f5b2b688590a7fe41ec":[5,2,0,7,0,1,0,3],
 "structAUDIOIN__TypeDef.html":[5,2,2,1,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "structTS__DrvTypeDef.html":[5,2,0,16,0,0,0],
 "structTS__DrvTypeDef.html#a045055aa10738c334dd192f14fb66e96":[5,2,0,16,0,0,0,6],
 "structTS__DrvTypeDef.html#a1fff57a7d606fe9a4624c547d1986b54":[5,2,0,16,0,0,0,8],
-"structTS__DrvTypeDef.html#a32b240f591506fdf1ef4f8f102820c75":[5,2,0,16,0,0,0,3],
-"structTS__DrvTypeDef.html#a52a48bc0ca5423e938e7d787d59f925f":[5,2,0,16,0,0,0,0],
-"structTS__DrvTypeDef.html#a5c35ef6366d7be7f889b2de49c7afee6":[5,2,0,16,0,0,0,7]
+"structTS__DrvTypeDef.html#a32b240f591506fdf1ef4f8f102820c75":[5,2,0,16,0,0,0,3]
 };

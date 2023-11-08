@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"group__OTM8009A__Private__Constants.html#gaa9ca28933feea9a0efea9fdac1185c32":[7,0,1,0,11,0,13],
+"group__OTM8009A__Private__Constants.html#gaafc1c2c815a3a567d8832f3118adf594":[7,0,1,0,11,0,76],
 "group__OTM8009A__Private__Constants.html#gab221b2ab4141b872570f6737a61e832f":[7,0,1,0,11,0,69],
 "group__OTM8009A__Private__Constants.html#gab23992355e0629764ffee9675507bbcc":[7,0,1,0,11,0,20],
 "group__OTM8009A__Private__Constants.html#gab36baee95b183241000dccedbb09813f":[7,0,1,0,11,0,5],
@@ -143,8 +145,8 @@ var NAVTREEINDEX7 =
 "group__S5K5CAG__Exported__Functions.html#gae9e8bc10e46dab684245893476d44efa":[7,0,1,0,14,1,24],
 "group__S5K5CAG__Exported__Functions.html#gaefde94c4f6f1d5c09c12f381fe5ee090":[5,2,0,26,2,2],
 "group__S5K5CAG__Exported__Functions.html#gaefde94c4f6f1d5c09c12f381fe5ee090":[7,0,1,0,14,1,30],
-"group__S5K5CAG__Exported__Functions.html#gaf46514f154f85f55bc422d624a129985":[5,2,0,26,2,0],
 "group__S5K5CAG__Exported__Functions.html#gaf46514f154f85f55bc422d624a129985":[7,0,1,0,14,1,28],
+"group__S5K5CAG__Exported__Functions.html#gaf46514f154f85f55bc422d624a129985":[5,2,0,26,2,0],
 "group__S5K5CAG__Exported__Types.html":[5,2,0,26,0],
 "group__S5K5CAG__Private__Defines.html":[5,2,0,25,1],
 "group__S5K5CAG__Private__FunctionPrototypes.html":[5,2,0,25,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "group__ST7735__Private__FunctionPrototypes.html":[5,2,0,27,4],
 "group__ST7735__Private__Functions.html":[5,2,0,27,5],
 "group__ST7735__Private__Functions.html#ga11f384ec5794a2e3ba2ed40d33248c98":[5,2,0,27,5,1],
-"group__ST7735__Private__Functions.html#ga11f384ec5794a2e3ba2ed40d33248c98":[7,0,1,0,15,0,1],
-"group__ST7735__Private__Functions.html#ga465ce5514c62c49a77be9c156ab5c56e":[5,2,0,27,5,0],
-"group__ST7735__Private__Functions.html#ga465ce5514c62c49a77be9c156ab5c56e":[7,0,1,0,15,0,0]
+"group__ST7735__Private__Functions.html#ga11f384ec5794a2e3ba2ed40d33248c98":[7,0,1,0,15,0,1]
 };

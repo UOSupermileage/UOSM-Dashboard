@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['dataaggregator_1083',['DataAggregator',['../classDataAggregator.html',1,'']]],
-  ['dataaggregatorwrapper_1084',['DataAggregatorWrapper',['../structDataAggregatorWrapper.html',1,'']]]
+  ['dataaggregator_1084',['DataAggregator',['../classDataAggregator.html',1,'']]],
+  ['dataaggregatorwrapper_1085',['DataAggregatorWrapper',['../structDataAggregatorWrapper.html',1,'']]]
 ];
