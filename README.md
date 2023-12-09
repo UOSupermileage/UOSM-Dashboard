@@ -1,7 +1,4 @@
 # UOSM-Dashboard
-
-[View Documentation](https://uosupermileage.github.io/UOSM-Dashboard/))
-
 ## Getting Started
 
 Requirements:
