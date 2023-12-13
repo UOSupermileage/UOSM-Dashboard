@@ -2,7 +2,7 @@
 ## Getting Started
 
 Requirements:
-1. CLion (Education access if free for students, you can validate your student status using your GitHub student pack)
+1. CLion (Education access is free for students, you can validate your student status using your GitHub student pack)
 2. OpenOCD (Mac/Linux can install using their package manager, windows users should install the [precompiled binary](https://github.com/xpack-dev-tools/openocd-xpack/releases))
 3. arm-none-eabi compiler (See instructions below)
 4. ST-Link Driver (Required for windows to be able to flash the STM32)
