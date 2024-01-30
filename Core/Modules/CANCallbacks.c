@@ -16,7 +16,7 @@ static bool CAN_Enabled() {
 }
 
 void CAN_Dummy_RPM(velocity_t v) {
-    // Invert motor RPM to display in human-readable manor
+    // Invert motor RPM to display in human-readable manner
     SetMotorRPM(aggregatorWrapper, v);
     LogCanMessage(aggregatorWrapper, MOTOR_RPM_DATA_ID, v, CAN_DECIMAL);
 }
@@ -61,8 +61,11 @@ void SpeedDataCallback(iCommsMessage_t* msg) {
 void EventDataCallback(iCommsMessage_t* msg) {
     if (msg->dataLength == CANMessageLookUpTable[EVENT_DATA_ID].numberOfBytes) {
         EventCode code = (EventCode) msg->data[1];
-        flag_status_t status = (flag_status_t) msg->data[0];
-        LogCanMessagePairValue(aggregatorWrapper, EVENT_DATA_ID, code, status, CAN_DECIMAL);
+        LogCanMessagePairValue(aggregatorWrapper, EVENT_DATA_ID, code, msg->data[0], CAN_DECIMAL);
+
+        if (code == STOP_COUNTDOWN) {
+
+        }
     } else {
         DebugPrint("Received corrupted event CAN message.");
     }
