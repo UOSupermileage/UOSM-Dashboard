@@ -29,6 +29,7 @@ PUBLIC void InitInternalCommsTask(void) {
     InternalCommsTaskHandle = osThreadNew(InternalCommsTask, NULL, &InternalCommsTask_attributes);
 }
 
+// Polls can bus for new data
 PRIVATE void InternalCommsTask(void* argument) {
     uint32_t cycleTick = osKernelGetTickCount();
     DebugPrint("Starting Internal Communication Task");

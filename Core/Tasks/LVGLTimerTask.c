@@ -29,7 +29,7 @@ PUBLIC void InitLVGLTimerTask(DataAggregatorWrapper* w) {
     wrapper = w;
     LVGLTimerTaskHandle = osThreadNew(LVGLTimerTask, NULL, &LVGLTimerTask_attributes);
 }
-
+//draws new frame of ui
 PRIVATE void LVGLTimerTask(void* argument) {
     uint32_t cycleTick = osKernelGetTickCount();
     DebugPrint("%s LVLG Timer Task", LVGL_TIMER_TAG);
