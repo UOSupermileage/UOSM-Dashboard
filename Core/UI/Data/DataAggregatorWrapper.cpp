@@ -23,6 +23,9 @@ DataAggregator_Create(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, 
     return wrapper;
 }
 
+
+void SetCountDownTime()
+
 void SetMotorRPM(DataAggregatorWrapper* wrapper, velocity_t rpm) {
     wrapper->aggregator.motorVelocities.add(rpm);
 }

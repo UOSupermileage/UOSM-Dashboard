@@ -51,7 +51,8 @@ typedef enum {
     TIMER,
     MOTOR_INITIALIZING,
     UNDERVOLTAGE,
-    DRIVER_ENABLED
+    DRIVER_ENABLED,
+    STOP_COUNTDOWN
 } EventCode;
 
 typedef enum {
