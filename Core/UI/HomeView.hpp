@@ -1,5 +1,6 @@
 //
 // Created by Jeremy Cote on 2023-07-28.
+// Modified by Annique Granchelli on 2024-01-29
 //
 
 #ifndef UOSM_DASHBOARD_HOMEVIEW_HPP
@@ -24,12 +25,6 @@ private:
 
     /** The label that displays the motor RPM. */
     lv_obj_t* motorRPMLabel;
-
-    /** The AI sugested throttle arc. */
-    lv_obj_t* aiThrottleArc;
-
-    /** The current throttle arc. */
-    lv_obj_t* throttleArc;
 
     /** bar graph for time laps display. */
     lv_obj_t* lapTimeBarGraph;
