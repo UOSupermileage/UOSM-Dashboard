@@ -106,8 +106,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga0b17fa7f7fd7def7411048bbd0014af0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__core-modules.html#ga0b17fa7f7fd7def7411048bbd0014af0">DataAggregator_Create</a> (uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t throttleSize, uint8_t canLogSize)</td></tr>
-<tr class="separator:ga0b17fa7f7fd7def7411048bbd0014af0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga08ac0c902736642767c1f54baf8c7433"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__core-modules.html#ga08ac0c902736642767c1f54baf8c7433">DataAggregator_Create</a> (uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t throttleSize, uint8_t canLogSize, uint8_t countdownTimeSize)</td></tr>
+<tr class="separator:ga08ac0c902736642767c1f54baf8c7433"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga967c16631d3a55287511e94f2f9b1b08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__core-modules.html#ga967c16631d3a55287511e94f2f9b1b08">SetMotorRPM</a> (<a class="el" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a> *wrapper, velocity_t rpm)</td></tr>
 <tr class="separator:ga967c16631d3a55287511e94f2f9b1b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga046de03c32fec6afeb1fd1a877425b75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__core-modules.html#ga046de03c32fec6afeb1fd1a877425b75">SetBatteryVoltage</a> (<a class="el" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a> *wrapper, voltage_t voltage)</td></tr>
@@ -121,8 +121,8 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga0b17fa7f7fd7def7411048bbd0014af0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0b17fa7f7fd7def7411048bbd0014af0">&#9670;&nbsp;</a></span>DataAggregator_Create()</h2>
+<a id="ga08ac0c902736642767c1f54baf8c7433"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga08ac0c902736642767c1f54baf8c7433">&#9670;&nbsp;</a></span>DataAggregator_Create()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -161,7 +161,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>canLogSize</em>&#160;</td>
+          <td class="paramname"><em>canLogSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>countdownTimeSize</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

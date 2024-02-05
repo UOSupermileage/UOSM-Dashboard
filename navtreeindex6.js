@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"group__N25Q512A__Exported__Constants.html#ga38123ccc69f774d52bb19a4e7ecf034f":[5,2,0,20,1,6],
 "group__N25Q512A__Exported__Constants.html#ga38123ccc69f774d52bb19a4e7ecf034f":[7,0,1,0,10,0,30],
 "group__N25Q512A__Exported__Constants.html#ga3b736cfd3ff473f31cff422d6e5e81f2":[7,0,1,0,10,0,94],
 "group__N25Q512A__Exported__Constants.html#ga4459fa22521728274004fdf22658aa0c":[5,2,0,20,1,16],
@@ -117,10 +118,10 @@ var NAVTREEINDEX6 =
 "group__OTM8009A__Exported__Functions.html#gac8d6505d6bf82df6d41a091c074c5b53":[5,2,0,21,2,1],
 "group__OTM8009A__Exported__Functions.html#gac8d6505d6bf82df6d41a091c074c5b53":[7,0,1,0,11,0,1],
 "group__OTM8009A__Exported__Functions.html#gac8d6505d6bf82df6d41a091c074c5b53":[7,0,1,0,11,1,56],
+"group__OTM8009A__Exported__Functions.html#gae663d792047526399ce1e4a8362f471e":[5,2,0,1,2,0],
 "group__OTM8009A__Exported__Functions.html#gae663d792047526399ce1e4a8362f471e":[5,2,0,21,2,0],
 "group__OTM8009A__Exported__Functions.html#gae663d792047526399ce1e4a8362f471e":[7,0,1,0,11,0,0],
 "group__OTM8009A__Exported__Functions.html#gae663d792047526399ce1e4a8362f471e":[7,0,1,0,11,1,55],
-"group__OTM8009A__Exported__Functions.html#gae663d792047526399ce1e4a8362f471e":[5,2,0,1,2,0],
 "group__OTM8009A__Exported__Macros.html":[5,2,0,21,0],
 "group__OTM8009A__Exported__Variables.html":[5,2,0,21,1],
 "group__OTM8009A__Exported__Variables.html":[5,2,0,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "group__OTM8009A__Private__Constants.html#gaa2f79c7f90b24fe88091b6764fc866bd":[7,0,1,0,11,0,39],
 "group__OTM8009A__Private__Constants.html#gaa326e92516be1a757d375b72181c1081":[7,0,1,0,11,0,9],
 "group__OTM8009A__Private__Constants.html#gaa7746b7702a445166f5ad902f625b634":[7,0,1,0,11,0,55],
-"group__OTM8009A__Private__Constants.html#gaa8833639872e59b52381a02f4abdc35d":[7,0,1,0,11,0,22],
-"group__OTM8009A__Private__Constants.html#gaa896a875a98c7e37f11324ebea5de94f":[7,0,1,0,11,0,51]
+"group__OTM8009A__Private__Constants.html#gaa8833639872e59b52381a02f4abdc35d":[7,0,1,0,11,0,22]
 };
