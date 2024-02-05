@@ -25,13 +25,15 @@ using namespace std;
  */
 class DataAggregator {
 public:
-    explicit DataAggregator(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t throttleSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t canLogMessagesSize, bool prefillLapTimes = true):
+    explicit DataAggregator(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t throttleSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t canLogMessagesSize,
+                            uint8_t countdownTimeSize, bool prefillLapTimes = true):
             motorVelocities(motorVelocitiesSize),
             batteryVoltages(batteryVoltagesSize),
             throttlePositions(throttleSize),
             lapEfficiencies(lapEfficienciesSize),
             lapTimes(lapTimesSize),
-            canLogEntries(canLogMessagesSize) {
+            canLogEntries(canLogMessagesSize),
+            countdownTime(countdownTimeSize){
         if (prefillLapTimes) {
             for (uint8_t i = 0; i < lapTimesSize; i++){
                 lapTimes.add(0);
@@ -50,6 +52,8 @@ public:
     ObservedDataQueue<percentage_t> throttlePositions;
     /** The observed object that holds pointers to logged can messages; */
     ObservedDataQueue<CANLogEntry*> canLogEntries;
+    /** The observed object that holds the amount of seconds to countdown from */
+    ObservedDataQueue<seconds_t> countdownTime;
 };
 
 /** Returns a reference to the data aggregator object from a given wrapper.

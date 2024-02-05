@@ -64,9 +64,10 @@ void EventDataCallback(iCommsMessage_t* msg) {
         LogCanMessagePairValue(aggregatorWrapper, EVENT_DATA_ID, code, msg->data[0], CAN_DECIMAL);
 
         if (code == STOP_COUNTDOWN) {
-
+            SetCountDownTime(aggregatorWrapper, msg->data[0]);
         }
-    } else {
+    }
+    else {
         DebugPrint("Received corrupted event CAN message.");
     }
 }
