@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"structACCELERO__InitTypeDef.html#a41508a09d2d1a3c1f7033af038d5362a":[5,2,0,7,0,1,0,7],
 "structACCELERO__InitTypeDef.html#a7098cd042bd7610e912dc3139d70a8d5":[5,2,0,7,0,1,0,4],
 "structACCELERO__InitTypeDef.html#a82a898292ac2103710fb936761d10f35":[5,2,0,7,0,1,0,6],
 "structACCELERO__InitTypeDef.html#ab026b86075ee2380a23925e7d21f9f42":[5,2,0,7,0,1,0,5],
@@ -31,7 +32,7 @@ var NAVTREEINDEX17 =
 "structChartData.html#aaf6c195f1e9ce45880fb6af0439a05d7":[6,0,11,2],
 "structDataAggregatorWrapper.html":[6,0,17],
 "structDataAggregatorWrapper.html#a3bc3670b901769dca54fa330607f55ea":[6,0,17,1],
-"structDataAggregatorWrapper.html#a7a738a7f69475f369e762ed222c96a82":[6,0,17,0],
+"structDataAggregatorWrapper.html#a67c4654c6b212c372c4e0df0cdf39b17":[6,0,17,0],
 "structEPD__DrvTypeDef.html":[5,2,0,10,0,0,0,0],
 "structGYRO__DrvTypeDef.html":[5,2,0,11,0,0,0],
 "structGYRO__DrvTypeDef.html#a0aa0402cc1408ef4e833a79538078436":[5,2,0,11,0,0,0,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "structTSENSOR__InitTypeDef.html#abe7bca11c626076d35775e025ca41dbf":[5,2,0,17,0,0,0,1],
 "structTSENSOR__InitTypeDef.html#affe32253feb79e37e95440a45506d43f":[5,2,0,17,0,0,0,3],
 "structTS__DrvTypeDef.html":[5,2,0,16,0,0,0],
-"structTS__DrvTypeDef.html#a045055aa10738c334dd192f14fb66e96":[5,2,0,16,0,0,0,6],
-"structTS__DrvTypeDef.html#a1fff57a7d606fe9a4624c547d1986b54":[5,2,0,16,0,0,0,8]
+"structTS__DrvTypeDef.html#a045055aa10738c334dd192f14fb66e96":[5,2,0,16,0,0,0,6]
 };

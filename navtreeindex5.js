@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"group__MFXSTM32L152__Private__Functions.html#gadbbdf61dd803d364468ef9f699b3065d":[7,0,1,0,7,0,52],
 "group__MFXSTM32L152__Private__Functions.html#gae4283dcc919e306ef39c6cea11eb55b2":[7,0,1,0,7,0,30],
 "group__MFXSTM32L152__Private__Functions.html#gae4283dcc919e306ef39c6cea11eb55b2":[5,2,1,3,0,0,0,1,0,29],
 "group__MFXSTM32L152__Private__Functions.html#gae4cc7464b17a55c211bf8326ebae493e":[7,0,1,0,7,0,11],
@@ -104,12 +105,12 @@ var NAVTREEINDEX5 =
 "group__MX25L512__Exported__Constants.html#gad86cd5806516fb265953d7131f4d09ad":[7,0,1,0,8,0,12],
 "group__MX25L512__Exported__Constants.html#gad8f71231a1b5f3324659e18aa1c84658":[7,0,1,0,8,0,70],
 "group__MX25L512__Exported__Constants.html#gadc7df1a52c978fd9732e74a57c40e616":[7,0,1,0,8,0,51],
-"group__MX25L512__Exported__Constants.html#gadcc6fdd7f38e160243aaa3d691800557":[7,0,1,0,8,0,44],
 "group__MX25L512__Exported__Constants.html#gadcc6fdd7f38e160243aaa3d691800557":[5,2,0,18,1,17],
+"group__MX25L512__Exported__Constants.html#gadcc6fdd7f38e160243aaa3d691800557":[7,0,1,0,8,0,44],
 "group__MX25L512__Exported__Constants.html#gae0201dca2cb0722b1df933241f41fb0d":[7,0,1,0,8,0,60],
 "group__MX25L512__Exported__Constants.html#gae97fda463022259c76c481f29ca3190a":[7,0,1,0,8,0,74],
-"group__MX25L512__Exported__Constants.html#gaecc4bb0bdee1909c31dc28c39e54f8ea":[7,0,1,0,8,0,42],
 "group__MX25L512__Exported__Constants.html#gaecc4bb0bdee1909c31dc28c39e54f8ea":[5,2,0,18,1,15],
+"group__MX25L512__Exported__Constants.html#gaecc4bb0bdee1909c31dc28c39e54f8ea":[7,0,1,0,8,0,42],
 "group__MX25L512__Exported__Constants.html#gaeda85d533b1d67e86eb6124eef005ca9":[7,0,1,0,8,0,15],
 "group__MX25L512__Exported__Constants.html#gaf15ed34aa1513a3351a66e0ecca917e7":[7,0,1,0,8,0,27],
 "group__MX25L512__Exported__Constants.html#gaf26480ece89aad9b86e1423d3ec955b7":[7,0,1,0,8,0,54],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "group__N25Q512A__Exported__Constants.html#ga28973b22e9ed6824c4c998fea01aa83d":[7,0,1,0,10,0,67],
 "group__N25Q512A__Exported__Constants.html#ga28a4f84ec5d7f3314a4b87fe989fdc00":[7,0,1,0,10,0,47],
 "group__N25Q512A__Exported__Constants.html#ga2c3b6c20dd9ed63e6b9d32c31d5c25fe":[5,2,0,20,1,19],
-"group__N25Q512A__Exported__Constants.html#ga2c3b6c20dd9ed63e6b9d32c31d5c25fe":[7,0,1,0,10,0,43],
-"group__N25Q512A__Exported__Constants.html#ga2ee6170599f0e61e5a9a47c1dc46724e":[7,0,1,0,10,0,19]
+"group__N25Q512A__Exported__Constants.html#ga2c3b6c20dd9ed63e6b9d32c31d5c25fe":[7,0,1,0,10,0,43]
 };

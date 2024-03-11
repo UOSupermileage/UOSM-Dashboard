@@ -73,23 +73,23 @@ var NAVTREEINDEX =
 [
 "ApplicationTypes_8h_source.html",
 "group__ADAFRUIT__SPI__LCD__Exported__Functions.html#ga6e774267d4d8bf517b3ff0e383342ea3",
-"group__Component.html#ga7540b907b00ae0727a395af8f9923557",
-"group__FT6X06__Exported__Types.html",
+"group__Component.html#ga5b1c20a1f4fca76bf6f97cd4b42be461",
+"group__FT6X06__Exported__Constants.html#gaff89c9eddd5c8f96e2ab7954992c2c1f",
 "group__MFXSTM32L152__Exported__Constants.html#gad97423a997f61e60fbe25bfe798d23ee",
-"group__MFXSTM32L152__Private__Functions.html#gae4283dcc919e306ef39c6cea11eb55b2",
-"group__N25Q512A__Exported__Constants.html#ga38123ccc69f774d52bb19a4e7ecf034f",
-"group__OTM8009A__Private__Constants.html#gaa896a875a98c7e37f11324ebea5de94f",
+"group__MFXSTM32L152__Private__Functions.html#gadbbdf61dd803d364468ef9f699b3065d",
+"group__N25Q512A__Exported__Constants.html#ga2ee6170599f0e61e5a9a47c1dc46724e",
+"group__OTM8009A__Private__Constants.html#gaa8833639872e59b52381a02f4abdc35d",
 "group__ST7735__Private__Functions.html#ga11f384ec5794a2e3ba2ed40d33248c98",
-"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#ga5a40f0d40f80fd71fd16fbb4e7fb3b7d",
-"group__STM32F769I__DISCOVERY__LCD__Exported__Functions.html#ga5955111784d5c5a7b9a7492b30afd7cf",
-"group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Variables.html#ga5f2c1dc2d6b6f24b5a305f0763fbdd90",
+"group__STM32F769I__DISCOVERY__AUDIO__IN__Exported__Functions.html#ga0836864c082cea938e19a3f5fc2bd2c8",
+"group__STM32F769I__DISCOVERY__LCD__Exported__Functions.html",
+"group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Variables.html",
 "group__STM32F7xx__System__Private__Functions.html#gae0c36a9591fe6e9c45ecb21a794f0f0f",
 "group__STMPE811__Private__Functions.html#gafd18353ba1e835324c98b7f7c03244f8",
-"group__ft6x06__Exported__Functions.html#ga55dc85a22e1cf328f4375a2399a1f552",
-"lv__conf_8h.html#ad120fea2f0f56822803cc70d1731f84e",
-"main_8h.html#ab0e76cd153e1927bdf67f6224a92b2e8",
-"structACCELERO__InitTypeDef.html#a7098cd042bd7610e912dc3139d70a8d5",
-"structTS__DrvTypeDef.html#a32b240f591506fdf1ef4f8f102820c75"
+"group__ft6x06__Exported__Functions.html#ga3e9239483436ee60bee91078004b446f",
+"lv__conf_8h.html#ace88335920c0faeeddc032d04538bcb6",
+"main_8h.html#ab0534a41d73fa84a89f03b2f2b984746",
+"structACCELERO__InitTypeDef.html#a41508a09d2d1a3c1f7033af038d5362a",
+"structTS__DrvTypeDef.html#a1fff57a7d606fe9a4624c547d1986b54"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

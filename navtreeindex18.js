@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"structTS__DrvTypeDef.html#a1fff57a7d606fe9a4624c547d1986b54":[5,2,0,16,0,0,0,8],
 "structTS__DrvTypeDef.html#a32b240f591506fdf1ef4f8f102820c75":[5,2,0,16,0,0,0,3],
 "structTS__DrvTypeDef.html#a52a48bc0ca5423e938e7d787d59f925f":[5,2,0,16,0,0,0,0],
 "structTS__DrvTypeDef.html#a5c35ef6366d7be7f889b2de49c7afee6":[5,2,0,16,0,0,0,7],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"group__MFXSTM32L152__Exported__Constants.html#gad97423a997f61e60fbe25bfe798d23ee":[7,0,1,0,7,1,140],
 "group__MFXSTM32L152__Exported__Constants.html#gad97423a997f61e60fbe25bfe798d23ee":[5,2,1,3,2,31],
 "group__MFXSTM32L152__Exported__Constants.html#gad98f162e4399b502c0bd5d80652fe56b":[7,0,1,0,7,1,96],
 "group__MFXSTM32L152__Exported__Constants.html#gad9f6ddf0f7738180f89c9a13df8aeaca":[7,0,1,0,7,1,157],
@@ -91,8 +92,8 @@ var NAVTREEINDEX4 =
 "group__MFXSTM32L152__Exported__Functions.html#ga65ca645a8d1a4180675560099ae51531":[7,0,1,0,7,1,200],
 "group__MFXSTM32L152__Exported__Functions.html#ga68309036e6346514d97f2d662526c571":[5,2,1,3,4,18],
 "group__MFXSTM32L152__Exported__Functions.html#ga68309036e6346514d97f2d662526c571":[7,0,1,0,7,1,202],
-"group__MFXSTM32L152__Exported__Functions.html#ga68d8340ffc8efe2975379cb5651a52e0":[7,0,1,0,7,1,194],
 "group__MFXSTM32L152__Exported__Functions.html#ga68d8340ffc8efe2975379cb5651a52e0":[5,2,1,3,4,10],
+"group__MFXSTM32L152__Exported__Functions.html#ga68d8340ffc8efe2975379cb5651a52e0":[7,0,1,0,7,1,194],
 "group__MFXSTM32L152__Exported__Functions.html#ga6c5c6a5781be15e8c6e8161e89367111":[5,2,1,3,4,36],
 "group__MFXSTM32L152__Exported__Functions.html#ga6c5c6a5781be15e8c6e8161e89367111":[7,0,1,0,7,1,220],
 "group__MFXSTM32L152__Exported__Functions.html#ga726c59f85e53f6737927055e135a03f7":[5,2,1,3,4,45],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "group__MFXSTM32L152__Private__Functions.html#gac82b572d0a78ac3f80915398cd45c594":[7,0,1,0,7,0,43],
 "group__MFXSTM32L152__Private__Functions.html#gac82b572d0a78ac3f80915398cd45c594":[5,2,1,3,0,0,0,1,0,42],
 "group__MFXSTM32L152__Private__Functions.html#gada1e05c6a4169a8bf6ca495e911524ed":[7,0,1,0,7,0,40],
-"group__MFXSTM32L152__Private__Functions.html#gada1e05c6a4169a8bf6ca495e911524ed":[5,2,1,3,0,0,0,1,0,39],
-"group__MFXSTM32L152__Private__Functions.html#gadbbdf61dd803d364468ef9f699b3065d":[7,0,1,0,7,0,52]
+"group__MFXSTM32L152__Private__Functions.html#gada1e05c6a4169a8bf6ca495e911524ed":[5,2,1,3,0,0,0,1,0,39]
 };

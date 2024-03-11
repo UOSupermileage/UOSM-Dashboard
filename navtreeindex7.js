@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"group__OTM8009A__Private__Constants.html#gaa8833639872e59b52381a02f4abdc35d":[7,0,1,0,11,0,22],
 "group__OTM8009A__Private__Constants.html#gaa896a875a98c7e37f11324ebea5de94f":[7,0,1,0,11,0,51],
 "group__OTM8009A__Private__Constants.html#gaa9ca28933feea9a0efea9fdac1185c32":[7,0,1,0,11,0,13],
 "group__OTM8009A__Private__Constants.html#gaafc1c2c815a3a567d8832f3118adf594":[7,0,1,0,11,0,76],
@@ -156,8 +157,8 @@ var NAVTREEINDEX7 =
 "group__S5K5CAG__Private__Functions.html#ga22ad9c0eccce35104808245ab8cb6c1e":[7,0,1,0,14,0,1],
 "group__S5K5CAG__Private__Functions.html#ga24c04fdcc805bf88b879e8216138f85d":[5,2,0,25,5,0],
 "group__S5K5CAG__Private__Functions.html#ga24c04fdcc805bf88b879e8216138f85d":[7,0,1,0,14,0,0],
-"group__S5K5CAG__Private__Functions.html#gaefde94c4f6f1d5c09c12f381fe5ee090":[7,0,1,0,14,0,2],
 "group__S5K5CAG__Private__Functions.html#gaefde94c4f6f1d5c09c12f381fe5ee090":[5,2,0,25,5,2],
+"group__S5K5CAG__Private__Functions.html#gaefde94c4f6f1d5c09c12f381fe5ee090":[7,0,1,0,14,0,2],
 "group__S5K5CAG__Private__Macros.html":[5,2,0,25,2],
 "group__S5K5CAG__Private__TypesDefinitions.html":[5,2,0,25,0],
 "group__S5K5CAG__Private__Variables.html":[5,2,0,25,4],
@@ -213,8 +214,8 @@ var NAVTREEINDEX7 =
 "group__ST7735__Exported__Constants.html#ga82ab1bab5f964f5de397ddb397d00b1b":[7,0,1,0,15,1,70],
 "group__ST7735__Exported__Constants.html#ga887acef8849fffc10d8b1956a1a6b016":[7,0,1,0,15,1,27],
 "group__ST7735__Exported__Constants.html#ga89fb513ba7932f8248b69babca7862f5":[7,0,1,0,15,1,16],
-"group__ST7735__Exported__Constants.html#ga8ca122a4cef8abffb0bcf22b59e98dfd":[7,0,1,0,15,1,0],
 "group__ST7735__Exported__Constants.html#ga8ca122a4cef8abffb0bcf22b59e98dfd":[5,2,0,27,7,0],
+"group__ST7735__Exported__Constants.html#ga8ca122a4cef8abffb0bcf22b59e98dfd":[7,0,1,0,15,1,0],
 "group__ST7735__Exported__Constants.html#ga8e63a3d55625820de3c66dd3e71ec863":[7,0,1,0,15,1,53],
 "group__ST7735__Exported__Constants.html#ga8ed42b95157e7563161b645c4d5a4d8b":[7,0,1,0,15,1,26],
 "group__ST7735__Exported__Constants.html#ga92e089eb139c30046d59a832f34eeaea":[7,0,1,0,15,1,35],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "group__ST7735__Exported__Types.html":[5,2,0,27,6],
 "group__ST7735__Private__Defines.html":[5,2,0,27,1],
 "group__ST7735__Private__FunctionPrototypes.html":[5,2,0,27,4],
-"group__ST7735__Private__Functions.html":[5,2,0,27,5],
-"group__ST7735__Private__Functions.html#ga11f384ec5794a2e3ba2ed40d33248c98":[5,2,0,27,5,1]
+"group__ST7735__Private__Functions.html":[5,2,0,27,5]
 };

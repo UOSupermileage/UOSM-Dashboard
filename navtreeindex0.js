@@ -64,13 +64,14 @@ var NAVTREEINDEX0 =
 "classCombineLatest.html#ab39c57e7f4b7da8147208c1e8f74756d":[6,0,12,0],
 "classCombineLatest.html#ab5bbc1e33f829937291e6ea652d9ecf0":[6,0,12,1],
 "classDataAggregator.html":[5,0,0,0],
-"classDataAggregator.html#a0901d0af0a16d202f92f3e1a8ed96017":[5,0,0,0,0],
-"classDataAggregator.html#a14f5b521526fbf9f39480e2aeafe2af7":[5,0,0,0,5],
-"classDataAggregator.html#a69521bbe1b160c75661f4cbc5f6a275a":[5,0,0,0,6],
-"classDataAggregator.html#a725b677d5e1758699622c48c5acac394":[5,0,0,0,4],
+"classDataAggregator.html#a14f5b521526fbf9f39480e2aeafe2af7":[5,0,0,0,6],
+"classDataAggregator.html#a69521bbe1b160c75661f4cbc5f6a275a":[5,0,0,0,7],
+"classDataAggregator.html#a725b677d5e1758699622c48c5acac394":[5,0,0,0,5],
+"classDataAggregator.html#a7482ae0ad7b5133372f77cfad243476b":[5,0,0,0,0],
 "classDataAggregator.html#a80308970af37d946901cf0e533bb5da0":[5,0,0,0,3],
 "classDataAggregator.html#abefcdafd20f44dbed7d1013fcfdb1de2":[5,0,0,0,2],
-"classDataAggregator.html#adbbcd7221eb63a96dc62198c7d535c76":[5,0,0,0,7],
+"classDataAggregator.html#ada60c31032746c32182b7ec913a149c5":[5,0,0,0,4],
+"classDataAggregator.html#adbbcd7221eb63a96dc62198c7d535c76":[5,0,0,0,8],
 "classDataAggregator.html#ae091edc82f90157fafd25f15921d058a":[5,0,0,0,1],
 "classHomeView.html":[5,0,1,1],
 "classHomeView.html#a2dfdb680a4bc0f65acff3e2416c7ad9c":[5,0,1,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "group__ADAFRUIT__SPI__LCD__Exported__Functions.html#ga465ce5514c62c49a77be9c156ab5c56e":[5,2,0,27,8,0],
 "group__ADAFRUIT__SPI__LCD__Exported__Functions.html#ga465ce5514c62c49a77be9c156ab5c56e":[7,0,1,0,15,1,77],
 "group__ADAFRUIT__SPI__LCD__Exported__Functions.html#ga61c27397b8896665126e6275349afc9d":[5,2,0,27,8,7],
-"group__ADAFRUIT__SPI__LCD__Exported__Functions.html#ga61c27397b8896665126e6275349afc9d":[7,0,1,0,15,1,84],
-"group__ADAFRUIT__SPI__LCD__Exported__Functions.html#ga6e774267d4d8bf517b3ff0e383342ea3":[5,2,0,27,8,9]
+"group__ADAFRUIT__SPI__LCD__Exported__Functions.html#ga61c27397b8896665126e6275349afc9d":[7,0,1,0,15,1,84]
 };
