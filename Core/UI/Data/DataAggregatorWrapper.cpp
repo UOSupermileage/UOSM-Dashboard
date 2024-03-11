@@ -9,13 +9,13 @@ struct DataAggregatorWrapper {
     DataAggregator aggregator;
     //TODO: LAP EFFICIENCIES DOESN'T GET USED
     explicit DataAggregatorWrapper(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t throttleSize, uint8_t canLogSize,
-                                   uint8_t countdownTimeSize) :
-            aggregator(motorVelocitiesSize, batteryVoltagesSize, throttleSize, lapEfficienciesSize, lapTimesSize, canLogSize, countdownTimeSize) {}
+                                   uint8_t countdownTimeSize, uint8_t currentSize) :
+            aggregator(motorVelocitiesSize, batteryVoltagesSize, lapEfficienciesSize,throttleSize,  lapTimesSize, canLogSize, countdownTimeSize, currentSize) {}
 };
 
 DataAggregatorWrapper* DataAggregator_Create(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t throttleSize, uint8_t canLogSize,
-                                             uint8_t countdownTimeSize) {
-    auto* wrapper = new DataAggregatorWrapper(motorVelocitiesSize, batteryVoltagesSize, lapEfficienciesSize, lapTimesSize, throttleSize, canLogSize, countdownTimeSize);
+                                             uint8_t countdownTimeSize, uint8_t currentSize) {
+    auto* wrapper = new DataAggregatorWrapper(motorVelocitiesSize, batteryVoltagesSize, lapEfficienciesSize, lapTimesSize, throttleSize, canLogSize, countdownTimeSize, currentSize);
     return wrapper;
 }
 
@@ -30,6 +30,10 @@ void SetMotorRPM(DataAggregatorWrapper* wrapper, velocity_t rpm) {
 
 void SetBatteryVoltage(DataAggregatorWrapper* wrapper, voltage_t voltage) {
     wrapper->aggregator.batteryVoltages.add(voltage);
+}
+
+void SetCurrent(DataAggregatorWrapper* wrapper, current_t current){
+    wrapper->aggregator.current.add(current);
 }
 
 void SetLapTime(DataAggregatorWrapper* wrapper, ms_t time) {

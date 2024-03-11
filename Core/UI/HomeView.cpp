@@ -12,6 +12,9 @@ static lv_obj_t * stopCountMeter;
 static void set_value(lv_meter_indicator_t * indic, int32_t v){
     lv_meter_set_indicator_end_value(stopCountMeter, indic, v);
 }
+static uint32_t calculate_joule(uint32_t volt, uint32_t current){
+    return volt * current;
+}
 
 HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, aggregator) {
     Styles* styles = StylesManager::GetStyles();
@@ -46,6 +49,7 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     lv_label_set_text(motorRPMLabel, "0 RPM");
     lv_obj_add_style(motorRPMLabel, styles->GetExtraLargeTextStyle(), LV_PART_MAIN | LV_STATE_DEFAULT);*/
 
+/*
     stopCountMeter = lv_meter_create(bottomRow);
 
     lv_obj_remove_style(stopCountMeter, NULL, LV_PART_MAIN);
@@ -70,6 +74,45 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     lv_anim_set_time(secs, 2000);
     lv_anim_set_var(secs, indic_sec);
     lv_anim_start(secs);
+*/
+
+//get voltage, get current, calculate joules, put into array, display items of array in chart
+    uint32_t n;
+    uint32_t m;
+    uint32_t joule;
+    int32_t * efficiencyArray[4];
+
+    getDataAggregator().batteryVoltages.addListenerForLatest([this, &n](const voltage_t& voltage) {
+        n = voltage * 33 * 185 / 40960;
+
+    });
+
+    getDataAggregator().current.addListenerForLatest([this, &m](const current_t& current) {
+        m = current;
+    });
+
+    joule = calculate_joule(n, m);
+
+
+    lv_obj_t * efficiency_chart;
+    efficiency_chart = lv_chart_create(bottomRow);
+    lv_obj_set_size(efficiency_chart, 800, 472);
+    lv_obj_center(efficiency_chart);
+    lv_chart_set_type(efficiency_chart, LV_CHART_TYPE_LINE);
+    lv_chart_set_update_mode(efficiency_chart,LV_CHART_UPDATE_MODE_CIRCULAR);
+    lv_chart_set_point_count(efficiency_chart, 4);
+
+    lv_chart_series_t * efficiencies = lv_chart_add_series(efficiency_chart, lv_palette_main(LV_PALETTE_INDIGO), LV_CHART_AXIS_PRIMARY_Y);
+
+
+    uint32_t i;
+    for(i = 0; i < 4; i++) {
+        lv_chart_set_next_value(efficiency_chart, efficiencies, lv_rand(10, 50));
+    };
+
+    lv_chart_refresh(efficiency_chart);
+    //lv_chart_set_next_value(efficiency_chart, efficiencies, joule);
+
 
 
 

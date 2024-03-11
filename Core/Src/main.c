@@ -146,7 +146,7 @@ int main(void) {
     touchpad_init();
 #define N_CAN_MESSAGES_IN_LOG 8
     DataAggregatorWrapper* wrapper = DataAggregator_Create(10, 10, 10, 10, 10,
-                                                           N_CAN_MESSAGES_IN_LOG, 1);
+                                                           N_CAN_MESSAGES_IN_LOG, 1, 10);
     CAN_SetAggregator(wrapper);
     Application_Create(wrapper);
 

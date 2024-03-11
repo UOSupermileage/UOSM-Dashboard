@@ -75,5 +75,6 @@ void EventDataCallback(iCommsMessage_t* msg) {
 void CurrentVoltageDataCallback(iCommsMessage_t* msg) {
     uint16_pair_t pair = readMsgPairUInt16Bit(msg);
     SetBatteryVoltage(aggregatorWrapper, pair.b);
+    SetCurrent(aggregatorWrapper, pair.a);
     LogCanMessagePairValue(aggregatorWrapper, CURRENT_VOLTAGE_DATA_ID, pair.a, pair.b, CAN_DECIMAL);
 }
