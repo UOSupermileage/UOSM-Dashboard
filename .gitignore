@@ -3,7 +3,6 @@ Debug/
 .settings/
 .vscode/.cortex-debug*
 *.launch
-*.cfg
 
 # CMake
 CMakeLists.txt.user
@@ -74,6 +73,7 @@ dkms.conf
 /Debug/
 
 cmake-build-debug/
+cmake-build-release/
 
 # Doxygen Output
 html
