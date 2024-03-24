@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('CANMessageLookUpModule_8h_source.html'
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">// CAN Message IDs for each piece of data</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">// Details can be found on the CAN Reference Document</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#define NUMBER_CAN_MESSAGE_IDS 10</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#define NUMBER_CAN_MESSAGE_IDS 9</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> ICommsMessageLookUpIndex {</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    THROTTLE_DATA_ID,</div>
@@ -126,7 +126,7 @@ $(document).ready(function(){initNavTree('CANMessageLookUpModule_8h_source.html'
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    uint8_t numberOfBytes;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="comment">// Lambda Function. Instructions to execute when a message of this type is received.</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    void (*canMessageCallback)(<a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a>* msg);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    void (* canMessageCallback)(<a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a>* msg);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;} <a class="code" href="structICommsMessageInfo.html">ICommsMessageInfo</a>;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
