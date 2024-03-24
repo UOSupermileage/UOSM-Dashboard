@@ -74,14 +74,6 @@ void CurrentVoltageDataCallback(iCommsMessage_t* msg) {
     LogCanMessagePairValue(aggregatorWrapper, CURRENT_VOLTAGE_DATA_ID, pair.a, pair.b, CAN_DECIMAL);
 }
 
-void LightsDataCallback(iCommsMessage_t* msg) {}
-
-void PressureDataCallback(iCommsMessage_t* msg) {
-    DebugPrint("Received pressure");
-}
-
-void TemperatureDataCallback(iCommsMessage_t* msg) {}
-
 void EfficiencyDataCallback(iCommsMessage_t* msg) {
     lap_efficiencies_t e;
     IComms_ReadEfficiencyMessage(msg, &e);
