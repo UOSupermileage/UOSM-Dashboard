@@ -1,8 +1,4 @@
 <map id="View" name="View">
-<area shape="rect" id="node1" title=" " alt="" coords="172,5,227,32"/>
-<area shape="rect" id="node2" href="$classChart.html" title=" " alt="" coords="16,80,73,107"/>
-<area shape="rect" id="node4" href="$classHomeView.html" title=" " alt="" coords="98,80,191,107"/>
-<area shape="rect" id="node5" href="$classLogView.html" title=" " alt="" coords="215,80,293,107"/>
-<area shape="rect" id="node6" href="$classStatsView.html" title=" " alt="" coords="317,80,404,107"/>
-<area shape="rect" id="node3" href="$classBarChart.html" title=" " alt="" coords="5,155,84,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="25,5,79,32"/>
+<area shape="rect" id="node2" href="$classHomeView.html" title=" " alt="" coords="5,80,99,107"/>
 </map>

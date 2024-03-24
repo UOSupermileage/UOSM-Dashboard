@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['observable_1109',['Observable',['../classObservable.html',1,'']]],
-  ['observertoken_1110',['ObserverToken',['../classObserverToken.html',1,'']]]
+  ['qspi_5finfo_1119',['QSPI_Info',['../structQSPI__Info.html',1,'']]]
 ];

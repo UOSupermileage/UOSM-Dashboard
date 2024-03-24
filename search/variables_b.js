@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['vddmin_1595',['VddMin',['../structIDD__ConfigTypeDef.html#ab8be289c857a9fd08e7b058ac4174827',1,'IDD_ConfigTypeDef']]],
-  ['vrefmeasurement_1596',['VrefMeasurement',['../structIDD__ConfigTypeDef.html#a51011093bc91e6348d030254c61f5614',1,'IDD_ConfigTypeDef']]]
+  ['throttleposition_1592',['throttlePosition',['../classDataAggregator.html#a38d1476692e1f407898c20e1c92b963a',1,'DataAggregator']]],
+  ['touchdetected_1593',['touchDetected',['../structTS__StateTypeDef.html#a33736cd2bcdf928ef94bb9a5de3bbc70',1,'TS_StateTypeDef']]],
+  ['touchx_1594',['touchX',['../structTS__StateTypeDef.html#a9b63a2e0369c1d61f03ac497ad231971',1,'TS_StateTypeDef']]],
+  ['touchy_1595',['touchY',['../structTS__StateTypeDef.html#a66e0c4ef9463a30586a94e1d1261fd3b',1,'TS_StateTypeDef']]],
+  ['ts_5fevent_5fstring_5ftab_1596',['ts_event_string_tab',['../group__STM32F769I__DISCOVERY__TS__Private__Variables.html#ga9aa0e91aff946f61d4e876122ac5ec70',1,'ts_event_string_tab():&#160;stm32f769i_discovery_ts.c'],['../group__STM32F769I__DISCOVERY__TS__Imported__Variables.html#ga9aa0e91aff946f61d4e876122ac5ec70',1,'ts_event_string_tab():&#160;stm32f769i_discovery_ts.c']]],
+  ['ts_5fgesture_5fid_5fstring_5ftab_1597',['ts_gesture_id_string_tab',['../group__STM32F769I__DISCOVERY__TS__Private__Variables.html#ga48af0ef106c713b68dca35390cceb77c',1,'ts_gesture_id_string_tab():&#160;stm32f769i_discovery_ts.c'],['../group__STM32F769I__DISCOVERY__TS__Imported__Variables.html#ga48af0ef106c713b68dca35390cceb77c',1,'ts_gesture_id_string_tab():&#160;stm32f769i_discovery_ts.c']]]
 ];

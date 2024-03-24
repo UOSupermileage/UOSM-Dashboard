@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['lcd_5fdrvtypedef_1104',['LCD_DrvTypeDef',['../structLCD__DrvTypeDef.html',1,'']]],
-  ['lightstyles_1105',['LightStyles',['../classLightStyles.html',1,'']]],
-  ['logview_1106',['LogView',['../classLogView.html',1,'']]]
+  ['magneto_5fdrvtypedef_1107',['MAGNETO_DrvTypeDef',['../structMAGNETO__DrvTypeDef.html',1,'']]],
+  ['magneto_5finittypedef_1108',['MAGNETO_InitTypeDef',['../structMAGNETO__InitTypeDef.html',1,'']]]
 ];

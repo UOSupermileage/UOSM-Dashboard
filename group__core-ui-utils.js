@@ -25,5 +25,9 @@ var group__core_ui_utils =
     [ "ObserverToken", "classObserverToken.html", [
       [ "ObserverToken", "classObserverToken.html#a5de45a442a95d657cb06ed5ace8dd4b8", null ],
       [ "cancel", "classObserverToken.html#ab60534b8d3d66215d5233fd004a73be5", null ]
+    ] ],
+    [ "Listener", "classListener.html", [
+      [ "Listener", "classListener.html#aebe4f0df836443f8463f35d7dcc8295a", null ],
+      [ "onChange", "classListener.html#afe31370c006c7330107cf2f74fe58131", null ]
     ] ]
 ];

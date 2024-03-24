@@ -1,5 +1,6 @@
 <map id="Identifiable" name="Identifiable">
-<area shape="rect" id="node1" title=" " alt="" coords="79,5,174,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="145,5,239,32"/>
 <area shape="rect" id="node2" href="$classCANLogEntry.html" title="Represents a log entry for CAN messages." alt="" coords="5,80,112,107"/>
-<area shape="rect" id="node3" href="$classObserverToken.html" title=" " alt="" coords="137,80,255,107"/>
+<area shape="rect" id="node3" href="$classListener.html" title=" " alt="" coords="136,80,248,107"/>
+<area shape="rect" id="node4" href="$classObserverToken.html" title=" " alt="" coords="271,80,390,107"/>
 </map>

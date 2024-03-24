@@ -1,5 +1,5 @@
 var classObservable =
 [
-    [ "addListener", "classObservable.html#a20fa173db5d2cca61da598e96bf6badf", null ],
-    [ "get", "classObservable.html#a3b71a752660e64d051226f6c43dee64f", null ]
+    [ "addListener", "classObservable.html#ac4f37ada1c2d6fcce0a9005e8b59a508", null ],
+    [ "notify", "classObservable.html#ac4adf7cf27ac303bf21976d0a52ca2a8", null ]
 ];

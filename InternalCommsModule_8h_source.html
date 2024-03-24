@@ -124,24 +124,37 @@ $(document).ready(function(){initNavTree('InternalCommsModule_8h_source.html',''
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;PUBLIC <a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> IComms_CreatePairUInt16BitMessage(uint16_t standardMessageID, uint16_t a, uint16_t b);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="unionuint16__pair__t.html">   39</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">union </span>{</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    uint32_t all;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">struct </span>{</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        uint16_t a:16;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        uint16_t b:16;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        uint32_t reserved;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    };</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;} <a class="code" href="unionuint16__pair__t.html">uint16_pair_t</a>;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;PUBLIC <a class="code" href="unionuint16__pair__t.html">uint16_pair_t</a> readMsgPairUInt16Bit(<a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> *msg);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* MODULES_INTERNALCOMMSMODULE_H_ */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="astructiCommsMessage__t_html"><div class="ttname"><a href="structiCommsMessage__t.html">iCommsMessage_t</a></div><div class="ttdef"><b>Definition:</b> ApplicationTypes.h:81</div></div>
-<div class="ttc" id="aunionuint16__pair__t_html"><div class="ttname"><a href="unionuint16__pair__t.html">uint16_pair_t</a></div><div class="ttdef"><b>Definition:</b> InternalCommsModule.h:39</div></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;PUBLIC <a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> IComms_CreateLightsMessage(uint16_t standardMessageID, uint8_t code, uint8_t status);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;PUBLIC <a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> IComms_CreatePairInt32Message(uint16_t standardMessageID, int32_t a, int32_t b);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;PUBLIC result_t IComms_ReadPairInt32Message(<a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> *msg, int32_t* a, int32_t* b);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;PUBLIC <a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> IComms_CreatePressureTemperatureMessage(uint16_t standardMessageID, pressure_t a, temperature_t b);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;PUBLIC result_t IComms_ReadPressureTemperatureMessage(<a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a>* msg, pressure_t* a, temperature_t* b);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;PUBLIC <a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> IComms_CreateEfficiencyMessage(uint16_t standardMessageID, <a class="code" href="unionlap__efficiencies__t.html">lap_efficiencies_t</a>* efficiencies);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;PUBLIC result_t IComms_ReadEfficiencyMessage(<a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> *msg, <a class="code" href="unionlap__efficiencies__t.html">lap_efficiencies_t</a>* result);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="unionuint16__pair__t.html">   57</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">union </span>{</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    uint32_t all;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keyword">struct </span>{</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        uint16_t a:16;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        uint16_t b:16;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        uint32_t reserved;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    };</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;} <a class="code" href="unionuint16__pair__t.html">uint16_pair_t</a>;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;PUBLIC <a class="code" href="unionuint16__pair__t.html">uint16_pair_t</a> readMsgPairUInt16Bit(<a class="code" href="structiCommsMessage__t.html">iCommsMessage_t</a> *msg);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;}</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* MODULES_INTERNALCOMMSMODULE_H_ */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="astructiCommsMessage__t_html"><div class="ttname"><a href="structiCommsMessage__t.html">iCommsMessage_t</a></div><div class="ttdef"><b>Definition:</b> ApplicationTypes.h:85</div></div>
+<div class="ttc" id="aunionlap__efficiencies__t_html"><div class="ttname"><a href="unionlap__efficiencies__t.html">lap_efficiencies_t</a></div><div class="ttdef"><b>Definition:</b> ApplicationTypes.h:117</div></div>
+<div class="ttc" id="aunionuint16__pair__t_html"><div class="ttname"><a href="unionuint16__pair__t.html">uint16_pair_t</a></div><div class="ttdef"><b>Definition:</b> InternalCommsModule.h:57</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

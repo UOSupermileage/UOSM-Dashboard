@@ -8,9 +8,7 @@ var hierarchy =
     [ "AUDIO_DrvTypeDef", "structAUDIO__DrvTypeDef.html", null ],
     [ "AUDIOIN_TypeDef", "structAUDIOIN__TypeDef.html", null ],
     [ "CAMERA_DrvTypeDef", "structCAMERA__DrvTypeDef.html", null ],
-    [ "ChartData", "structChartData.html", null ],
     [ "CombineLatest< Ts >", "classCombineLatest.html", null ],
-    [ "CombineLatest< DataQueue< percentage_t >, DataQueue< voltage_t > >", "classCombineLatest.html", null ],
     [ "ctrl_error_status_t", "unionctrl__error__status__t.html", null ],
     [ "ctrl_rx_status_t", "unionctrl__rx__status__t.html", null ],
     [ "ctrl_status_t", "unionctrl__status__t.html", null ],
@@ -32,14 +30,24 @@ var hierarchy =
     [ "IDD_DrvTypeDef", "structIDD__DrvTypeDef.html", null ],
     [ "Identifiable", "classIdentifiable.html", [
       [ "CANLogEntry", "classCANLogEntry.html", null ],
+      [ "Listener< T >", "classListener.html", null ],
       [ "ObserverToken", "classObserverToken.html", null ]
     ] ],
     [ "IO_DrvTypeDef", "structIO__DrvTypeDef.html", null ],
+    [ "lap_efficiencies_t", "unionlap__efficiencies__t.html", null ],
     [ "LCD_DrvTypeDef", "structLCD__DrvTypeDef.html", null ],
+    [ "lights_status_t", "unionlights__status__t.html", null ],
     [ "MAGNETO_DrvTypeDef", "structMAGNETO__DrvTypeDef.html", null ],
     [ "MAGNETO_InitTypeDef", "structMAGNETO__InitTypeDef.html", null ],
     [ "Observable< T >", "classObservable.html", null ],
-    [ "pressure_t", "structpressure__t.html", null ],
+    [ "Observable< CANLogEntry * >", "classObservable.html", null ],
+    [ "Observable< current_t >", "classObservable.html", null ],
+    [ "Observable< lap_efficiencies_t >", "classObservable.html", null ],
+    [ "Observable< ms_t >", "classObservable.html", null ],
+    [ "Observable< percentage_t >", "classObservable.html", null ],
+    [ "Observable< seconds_t >", "classObservable.html", null ],
+    [ "Observable< velocity_t >", "classObservable.html", null ],
+    [ "Observable< voltage_t >", "classObservable.html", null ],
     [ "QSPI_Info", "structQSPI__Info.html", null ],
     [ "rx_reg_t", "unionrx__reg__t.html", null ],
     [ "RXF0", "structRXF0.html", null ],
@@ -62,11 +70,6 @@ var hierarchy =
     [ "uCAN_MSG", "unionuCAN__MSG.html", null ],
     [ "uint16_pair_t", "unionuint16__pair__t.html", null ],
     [ "View", "classView.html", [
-      [ "Chart", "classChart.html", [
-        [ "BarChart", "classBarChart.html", null ]
-      ] ],
-      [ "HomeView", "classHomeView.html", null ],
-      [ "LogView", "classLogView.html", null ],
-      [ "StatsView", "classStatsView.html", null ]
+      [ "HomeView", "classHomeView.html", null ]
     ] ]
 ];

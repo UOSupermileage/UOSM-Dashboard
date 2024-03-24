@@ -1,15 +1,14 @@
 var group__core_modules =
 [
     [ "DataAggregator", "classDataAggregator.html", [
-      [ "DataAggregator", "classDataAggregator.html#a7482ae0ad7b5133372f77cfad243476b", null ],
-      [ "batteryVoltages", "classDataAggregator.html#ae091edc82f90157fafd25f15921d058a", null ],
-      [ "canLogEntries", "classDataAggregator.html#abefcdafd20f44dbed7d1013fcfdb1de2", null ],
-      [ "countdownTime", "classDataAggregator.html#a80308970af37d946901cf0e533bb5da0", null ],
-      [ "current", "classDataAggregator.html#ada60c31032746c32182b7ec913a149c5", null ],
-      [ "lapEfficiencies", "classDataAggregator.html#a725b677d5e1758699622c48c5acac394", null ],
-      [ "lapTimes", "classDataAggregator.html#a14f5b521526fbf9f39480e2aeafe2af7", null ],
-      [ "motorVelocities", "classDataAggregator.html#a69521bbe1b160c75661f4cbc5f6a275a", null ],
-      [ "throttlePositions", "classDataAggregator.html#adbbcd7221eb63a96dc62198c7d535c76", null ]
+      [ "batteryVoltage", "classDataAggregator.html#af96421992111e069e5cd30679d2b7e49", null ],
+      [ "canLogEntry", "classDataAggregator.html#ad7faf5ae3309c46658aa1bc0ca1e0aa4", null ],
+      [ "countdownTime", "classDataAggregator.html#a8879a6706913e2a5b89ebce5cfcffdee", null ],
+      [ "current", "classDataAggregator.html#acb014adfa44d47542f1be887496641e7", null ],
+      [ "efficiency", "classDataAggregator.html#afa50b2d2c1d3226efa8b887d594bede1", null ],
+      [ "lapTime", "classDataAggregator.html#abfe2c99d7811cd73b332b1f05d850227", null ],
+      [ "motorVelocity", "classDataAggregator.html#aaf47a455bea310860350109df6077451", null ],
+      [ "throttlePosition", "classDataAggregator.html#a38d1476692e1f407898c20e1c92b963a", null ]
     ] ],
     [ "DataAggregator_Create", "group__core-modules.html#gaf5e41bb616d845e069234b69363781d1", null ],
     [ "LogCanMessage", "group__core-modules.html#ga743c7e951b9e12ec53fa085409f7317d", null ],

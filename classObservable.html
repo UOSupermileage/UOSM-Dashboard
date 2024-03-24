@@ -86,19 +86,58 @@ $(document).ready(function(){initNavTree('classObservable.html',''); initResizab
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classObservable-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Observable&lt; T &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">Observable&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3b71a752660e64d051226f6c43dee64f"><td class="memItemLeft" align="right" valign="top"><a id="a3b71a752660e64d051226f6c43dee64f"></a>
-virtual T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> () const =0</td></tr>
-<tr class="separator:a3b71a752660e64d051226f6c43dee64f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20fa173db5d2cca61da598e96bf6badf"><td class="memItemLeft" align="right" valign="top"><a id="a20fa173db5d2cca61da598e96bf6badf"></a>
-virtual <a class="el" href="classObserverToken.html">ObserverToken</a>&#160;</td><td class="memItemRight" valign="bottom"><b>addListener</b> (std::function&lt; void(const T &amp;)&gt; callback)=0</td></tr>
-<tr class="separator:a20fa173db5d2cca61da598e96bf6badf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4f37ada1c2d6fcce0a9005e8b59a508"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classObserverToken.html">ObserverToken</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classObservable.html#ac4f37ada1c2d6fcce0a9005e8b59a508">addListener</a> (std::function&lt; void(const T &amp;)&gt; callback)</td></tr>
+<tr class="memdesc:ac4f37ada1c2d6fcce0a9005e8b59a508"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a listener and return a token with a pointer to this object and a cancel lambda.  <a href="classObservable.html#ac4f37ada1c2d6fcce0a9005e8b59a508">More...</a><br /></td></tr>
+<tr class="separator:ac4f37ada1c2d6fcce0a9005e8b59a508"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4adf7cf27ac303bf21976d0a52ca2a8"><td class="memItemLeft" align="right" valign="top"><a id="ac4adf7cf27ac303bf21976d0a52ca2a8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>notify</b> (T &amp;value)</td></tr>
+<tr class="separator:ac4adf7cf27ac303bf21976d0a52ca2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac4f37ada1c2d6fcce0a9005e8b59a508"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4f37ada1c2d6fcce0a9005e8b59a508">&#9670;&nbsp;</a></span>addListener()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classObserverToken.html">ObserverToken</a> <a class="el" href="classObservable.html">Observable</a>&lt; T &gt;::addListener </td>
+          <td>(</td>
+          <td class="paramtype">std::function&lt; void(const T &amp;)&gt;&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a listener and return a token with a pointer to this object and a cancel lambda. </p>
+<p>The listener is a function that takes the current value of the object as a parameter and performs some action. The token is an object that allows canceling the listener by calling its cancel() method.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">callback</td><td>The listener function to be registered. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classObserverToken.html">ObserverToken</a> The token that allows canceling the listener. </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>UOSM-Core/Utils/<a class="el" href="Observable_8hpp_source.html">Observable.hpp</a></li>
 </ul>

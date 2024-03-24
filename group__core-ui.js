@@ -17,14 +17,6 @@ var group__core_ui =
       [ "GetMainArcStyle", "classLightStyles.html#acae25eb6da6a71c0551456a551b76ba8", null ],
       [ "GetThrottleArcStyle", "classLightStyles.html#a6b0631154b264d5648c93e54b5821dbb", null ]
     ] ],
-    [ "LogView", "classLogView.html", [
-      [ "~LogView", "classLogView.html#af6607c0c079c83be114bdaaf389adc05", null ],
-      [ "LogView", "classLogView.html#a83ed354d9f3ac998808ed1aac25a3cfd", null ]
-    ] ],
-    [ "StatsView", "classStatsView.html", [
-      [ "~StatsView", "classStatsView.html#ae456734534188125bf922504f4abe182", null ],
-      [ "StatsView", "classStatsView.html#a715499a5bfb0389bdb79f19115b4d975", null ]
-    ] ],
     [ "StylesManager", "classStylesManager.html", null ],
     [ "Application_Create", "group__core-ui.html#ga16ff1ce36197f7bf0aef0725e1752d00", null ]
 ];
