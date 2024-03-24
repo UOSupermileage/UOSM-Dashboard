@@ -95,16 +95,26 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
 
     lv_obj_t* efficiency_chart;
     efficiency_chart = lv_chart_create(bottomRow);
-    lv_obj_set_size(efficiency_chart, 800, 472);
+    lv_obj_set_size(efficiency_chart, 800, 460);
     lv_obj_center(efficiency_chart);
-    lv_chart_set_type(efficiency_chart, LV_CHART_TYPE_LINE);
+    lv_chart_set_type(efficiency_chart, LV_CHART_TYPE_BAR);
     lv_chart_set_update_mode(efficiency_chart, LV_CHART_UPDATE_MODE_CIRCULAR);
     lv_chart_set_point_count(efficiency_chart, 4);
+    lv_chart_set_range(efficiency_chart, LV_CHART_AXIS_PRIMARY_Y, 0, 200);
+
+    lv_style_t style;
+    lv_style_set_line_width(&style, 20);
+
+    lv_obj_add_style(efficiency_chart, &style, LV_PART_MAIN);
 
     lv_chart_series_t* efficiencies = lv_chart_add_series(efficiency_chart, lv_palette_main(LV_PALETTE_INDIGO),
                                                           LV_CHART_AXIS_PRIMARY_Y);
-    getDataAggregator().efficiency.addListener([&efficiency_chart, &efficiencies](const lap_efficiencies_t& e) {
-        lv_chart_set_next_value(efficiency_chart, efficiencies, e.lap_0);
+
+
+    getDataAggregator().efficiency.addListener([efficiency_chart, efficiencies](const lap_efficiencies_t& e) {
+        DebugPrint("Displaying efficiencies: %d %d %d %d", e.lap_0, e.lap_1, e.lap_2, e.lap_3);
+
+        lv_chart_set_next_value(efficiency_chart, efficiencies, 200);
         lv_chart_set_next_value(efficiency_chart, efficiencies, e.lap_1);
         lv_chart_set_next_value(efficiency_chart, efficiencies, e.lap_2);
         lv_chart_set_next_value(efficiency_chart, efficiencies, e.lap_3);
@@ -112,76 +122,5 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
         lv_chart_refresh(efficiency_chart);
     });
 
-    //lv_chart_set_next_value(efficiency_chart, efficiencies, joule);
 
-
-
-
-/*    lapEfficiencyLabel = lv_label_create(bottomRow);
-    lv_label_set_text(lapEfficiencyLabel, "+99%");
-    lv_obj_add_style(lapEfficiencyLabel, styles->GetLargeTextStyle(), LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_align(lapEfficiencyLabel, LV_ALIGN_CENTER, 0, 0);*/
-
-/*    lapTimeBarGraph = lv_chart_create(bottomRow);
-    lv_chart_set_type(lapTimeBarGraph, LV_CHART_TYPE_BAR);
-    lv_obj_set_size(lapTimeBarGraph, 200, 150);
-    lv_obj_center(lapTimeBarGraph);
-    lv_chart_set_range(lapTimeBarGraph, LV_CHART_AXIS_PRIMARY_Y, 0, 1010);
-    lv_chart_set_range(lapTimeBarGraph, LV_CHART_AXIS_SECONDARY_Y, 0, 1010);
-    lv_chart_set_point_count(lapTimeBarGraph, 12);*/
-
-/*    //Add ticks and label to every axis
-    lv_chart_set_axis_tick(lapTimeBarGraph, LV_CHART_AXIS_PRIMARY_X, 10, 5, 12, 3, true, 40);
-    lv_chart_set_axis_tick(lapTimeBarGraph, LV_CHART_AXIS_PRIMARY_Y, 10, 5, 6, 2, true, 50);
-    lv_chart_set_axis_tick(lapTimeBarGraph, LV_CHART_AXIS_SECONDARY_Y, 10, 5, 3, 4, true, 50);
-
-    //Zoom in a little in X
-    lv_chart_set_zoom_x(lapTimeBarGraph, 800);
-
-    //Add two data series
-    lv_chart_series_t * ser1 = lv_chart_add_series(lapTimeBarGraph, lv_palette_lighten(LV_PALETTE_GREEN, 2), LV_CHART_AXIS_PRIMARY_Y);
-
-    lv_chart_set_point_count(lapTimeBarGraph, getDataAggregator().lapTimes.getNumberOfElements());
-    lv_chart_set_ext_y_array(lapTimeBarGraph, ser1,
-                             reinterpret_cast<lv_coord_t *>(aggregator.lapTimes.getValues()));
-    lv_chart_refresh(lapTimeBarGraph); Required after direct set
-
-    getDataAggregator().batteryVoltages.addListenerForLatest([this](const voltage_t& voltage) {
-        uint32_t n = voltage * 33 * 185 / 40960;
-        lv_label_set_text_fmt(batteryVoltageLabel, "%d.%d Volts", n / 10, n % 10);
-    });
-
-    viewModel.GetAggregator().motorVelocities.addListenerForLatest([this](const velocity_t& velocity) {
-        lv_label_set_text_fmt(motorRPMLabel, "%d RPM", velocity);
-    });*/
-
-/*    getDataAggregator().lapTimes.addListenerForLatest([this](const ms_t& time) {
-        lv_label_set_text_fmt(lapTimeLabel, "%dm %ds", time / 60000, time / 1000);
-    });*/
-
-/*    getDataAggregator().lapTimes.addListener([this](const DataQueue<ms_t>& queue) {
-        lv_chart_set_point_count(lapTimeBarGraph, queue.getNumberOfElements());
-        lv_chart_refresh(lapTimeBarGraph);
-    });*/
-
-/*    getDataAggregator().throttlePositions.addListenerForLatest([this](const percentage_t& throttle) {
-        lv_anim_t a;
-        lv_anim_init(&a);
-        lv_anim_set_var(&a, throttleArc);
-        lv_anim_set_exec_cb(&a, reinterpret_cast<lv_anim_exec_xcb_t>(setArcValue));
-        lv_anim_set_time(&a, 100);
-        lv_anim_set_values(&a, lv_arc_get_value(throttleArc), throttle);
-        lv_anim_start(&a);
-        lv_label_set_text_fmt(lapTimeLabel, "%d", throttle);
-    });*/
-
-
-/*    lv_timer_t * timer = lv_timer_create([](lv_timer_t * timer) {lv_anim_t a;
-        lv_anim_init(&a);
-        lv_anim_set_var(&a, ai);
-        lv_anim_set_exec_cb(&a, reinterpret_cast<lv_anim_exec_xcb_t>(setArcValue));
-        lv_anim_set_time(&a, 100);
-        lv_anim_set_values(&a, lv_arc_get_value(ai), 10+rand()%80);
-        lv_anim_start(&a);
-    }, 500, nullptr);*/
 }
