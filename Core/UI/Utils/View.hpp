@@ -9,7 +9,6 @@
 #include <memory>
 #include "lvgl/lvgl.h"
 #include "Styles.hpp"
-#include "ObservedObject.hpp"
 #include "DataAggregator.hpp"
 
 /** @ingroup core-ui-utils

@@ -12,8 +12,7 @@
 #include "ApplicationTypes.h"
 #include "DataAggregatorWrapperType.h"
 
-#include "ObservedDataQueue.hpp"
-
+#include "Observable.hpp"
 #include "CANLogEntry.hpp"
 
 using namespace std;
@@ -25,38 +24,26 @@ using namespace std;
  */
 class DataAggregator {
 public:
-    explicit DataAggregator(uint8_t motorVelocitiesSize, uint8_t batteryVoltagesSize, uint8_t throttleSize, uint8_t lapEfficienciesSize, uint8_t lapTimesSize, uint8_t canLogMessagesSize, uint8_t currentSize,
-                            uint8_t countdownTimeSize, bool prefillLapTimes = true):
-            motorVelocities(motorVelocitiesSize),
-            batteryVoltages(batteryVoltagesSize),
-            throttlePositions(throttleSize),
-            lapEfficiencies(lapEfficienciesSize),
-            lapTimes(lapTimesSize),
-            current(currentSize),
-            canLogEntries(canLogMessagesSize),
-            countdownTime(countdownTimeSize){
-        if (prefillLapTimes) {
-            for (uint8_t i = 0; i < lapTimesSize; i++){
-                lapTimes.add(0);
-            }
-        }
-    }
     /** The observed object that holds the motor RPM data. */
-    ObservedDataQueue<velocity_t> motorVelocities;
-    /** The observed object that holds the battery voltage data. */
-    ObservedDataQueue<voltage_t> batteryVoltages;
-    /** The observed object that holds the current lap time. */
-    ObservedDataQueue<ms_t> lapTimes;
-    /** The observed object that holds a collection of lap efficiencies. */
-    ObservedDataQueue<watt_hour_t> lapEfficiencies;
-    /** The observed object that holds the throttle percentage data. */
-    ObservedDataQueue<percentage_t> throttlePositions;
-    /** The observed object that holds pointers to logged can messages; */
-    ObservedDataQueue<CANLogEntry*> canLogEntries;
-    /** The observed object that holds the amount of seconds to countdown from */
-    ObservedDataQueue<seconds_t> countdownTime;
+    Observable<velocity_t> motorVelocity;
 
-    ObservedDataQueue<current_t> current;
+    /** The observed object that holds the battery voltage data. */
+    Observable<voltage_t> batteryVoltage;
+
+    /** The observed object that holds the current lap time. */
+    Observable<ms_t> lapTime;
+
+    /** The observed object that holds the throttle percentage data. */
+    Observable<percentage_t> throttlePosition;
+
+    /** The observed object that holds pointers to logged can messages; */
+    Observable<CANLogEntry*> canLogEntry;
+    /** The observed object that holds the amount of seconds to countdown from */
+    Observable<seconds_t> countdownTime;
+
+    Observable<current_t> current;
+
+    Observable<lap_efficiencies_t> efficiency;
 };
 
 /** Returns a reference to the data aggregator object from a given wrapper.

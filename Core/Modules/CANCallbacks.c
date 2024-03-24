@@ -62,12 +62,7 @@ void EventDataCallback(iCommsMessage_t* msg) {
     if (msg->dataLength == CANMessageLookUpTable[EVENT_DATA_ID].numberOfBytes) {
         EventCode code = (EventCode) msg->data[1];
         LogCanMessagePairValue(aggregatorWrapper, EVENT_DATA_ID, code, msg->data[0], CAN_DECIMAL);
-
-        if (code == STOP_COUNTDOWN) {
-            SetCountDownTime(aggregatorWrapper, msg->data[0]);
-        }
-    }
-    else {
+    } else {
         DebugPrint("Received corrupted event CAN message.");
     }
 }
@@ -77,4 +72,19 @@ void CurrentVoltageDataCallback(iCommsMessage_t* msg) {
     SetBatteryVoltage(aggregatorWrapper, pair.b);
     SetCurrent(aggregatorWrapper, pair.a);
     LogCanMessagePairValue(aggregatorWrapper, CURRENT_VOLTAGE_DATA_ID, pair.a, pair.b, CAN_DECIMAL);
+}
+
+void LightsDataCallback(iCommsMessage_t* msg) {}
+
+void PressureDataCallback(iCommsMessage_t* msg) {
+    DebugPrint("Received pressure");
+}
+
+void TemperatureDataCallback(iCommsMessage_t* msg) {}
+
+void EfficiencyDataCallback(iCommsMessage_t* msg) {
+    lap_efficiencies_t e;
+    IComms_ReadEfficiencyMessage(msg, &e);
+    SetEfficiency(aggregatorWrapper, &e);
+    DebugPrint("Lap Efficiency: %d %d %d %d", e.lap_0, e.lap_1, e.lap_2, e.lap_3);
 }

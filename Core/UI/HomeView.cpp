@@ -82,15 +82,15 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     uint32_t m;
     uint32_t joule;
 
-    getDataAggregator().batteryVoltages.addListenerForLatest([this, &n, &m, &joule](const voltage_t& voltage) {
-        n = voltage * 33 * 185 / 40960;
-        joule = calculate_joule(n, m);
-    });
-
-    getDataAggregator().current.addListenerForLatest([this, &m, &n, &joule](const current_t& current) {
-        m = current;
-        joule = calculate_joule(n, m);
-    });
+//    getDataAggregator().batteryVoltage.addListener([this, &n, &m, &joule](const voltage_t& voltage) {
+//        n = voltage * 33 * 185 / 40960;
+//        joule = calculate_joule(n, m);
+//    });
+//
+//    getDataAggregator().current.addListener([this, &m, &n, &joule](const current_t& current) {
+//        m = current;
+//        joule = calculate_joule(n, m);
+//    });
 
 
     lv_obj_t* efficiency_chart;
@@ -103,14 +103,15 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
 
     lv_chart_series_t* efficiencies = lv_chart_add_series(efficiency_chart, lv_palette_main(LV_PALETTE_INDIGO),
                                                           LV_CHART_AXIS_PRIMARY_Y);
+    getDataAggregator().efficiency.addListener([&efficiency_chart, &efficiencies](const lap_efficiencies_t& e) {
+        lv_chart_set_next_value(efficiency_chart, efficiencies, e.lap_0);
+        lv_chart_set_next_value(efficiency_chart, efficiencies, e.lap_1);
+        lv_chart_set_next_value(efficiency_chart, efficiencies, e.lap_2);
+        lv_chart_set_next_value(efficiency_chart, efficiencies, e.lap_3);
 
+        lv_chart_refresh(efficiency_chart);
+    });
 
-    uint32_t i;
-    for (i = 0; i < 4; i++) {
-        lv_chart_set_next_value(efficiency_chart, efficiencies, lv_rand(10, 50));
-    };
-
-    lv_chart_refresh(efficiency_chart);
     //lv_chart_set_next_value(efficiency_chart, efficiencies, joule);
 
 

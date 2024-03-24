@@ -9,8 +9,6 @@
 #include <functional>
 #include <optional>
 
-#include "ObservedObject.hpp"
-
 //template<typename... Ts>
 //class CombineLatest {
 //public:
@@ -59,7 +57,7 @@ public:
     using Callback = std::function<void()>;
 
     template<typename Func>
-    explicit CombineLatest(Func&& callback, ObservedObject<Ts>& ... observedObjects)
+    explicit CombineLatest(Func&& callback, Observable<Ts>& ... observedObjects)
             : callback(std::forward<Func>(callback)), objects(observedObjects...) {
         (observedObjects.addListener(std::bind(&CombineLatest::handleUpdate, this)), ...);
     }
@@ -70,7 +68,8 @@ public:
 
 private:
     Callback callback;
-    std::tuple<ObservedObject<Ts>& ...> objects;
+    std::tuple<Observable<Ts>& ...>
+            objects;
 };
 
 #endif //UOSM_DASHBOARD_COMBINELATEST_HPP
