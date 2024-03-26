@@ -14,24 +14,6 @@
  */
 class HomeView : public View {
 private:
-    /** The label that displays the current lap time. */
-    lv_obj_t* lapTimeLabel;
-
-    /** The label that displays the last lap efficiency */
-    lv_obj_t* lapEfficiencyLabel;
-
-    /** The label that displays the battery voltage. */
-    lv_obj_t* batteryVoltageLabel;
-
-    /** The label that displays the motor RPM. */
-    lv_obj_t* motorRPMLabel;
-
-    /** bar graph for time laps display. */
-    lv_obj_t* lapTimeBarGraph;
-
-    /** Top row of the 2 row flex layout */
-    lv_obj_t* topRow;
-
     /** Bottom row of the 2 row flex layout */
     lv_obj_t* bottomRow;
 

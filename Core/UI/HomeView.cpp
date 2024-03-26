@@ -25,73 +25,11 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
 
     lv_obj_set_flex_flow(container, LV_FLEX_FLOW_COLUMN);
 
-/*    topRow = lv_obj_create(container);
-    lv_obj_set_width(topRow, lv_obj_get_width(container));
-    lv_obj_add_style(topRow, styles->GetFullscreenRowStyle(), LV_PART_MAIN);*/
-
     bottomRow = lv_obj_create(container);
     lv_obj_set_width(bottomRow, lv_obj_get_width(container));
     lv_obj_add_style(bottomRow, styles->GetFullscreenRowStyle(), LV_PART_MAIN);
 
-//    lv_obj_set_flex_grow(topRow, 1);
     lv_obj_set_flex_grow(bottomRow, 1);
-
-/*    lapTimeLabel = lv_label_create(bottomRow);
-    lv_label_set_text(lapTimeLabel, "0m 0s");
-    lv_obj_add_style(lapTimeLabel, styles->GetExtraLargeTextStyle(), LV_PART_MAIN);*/
-
-/*    batteryVoltageLabel = lv_label_create(bottomRow);
-    lv_label_set_text(batteryVoltageLabel, "2V");
-    lv_obj_add_style(batteryVoltageLabel, styles->GetExtraLargeTextStyle(), LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_center(batteryVoltageLabel);
-    lv_obj_align(batteryVoltageLabel, LV_ALIGN_BOTTOM_MID, 0, 0);*/
-
-/*    motorRPMLabel = lv_label_create(bottomRow);
-    lv_label_set_text(motorRPMLabel, "0 RPM");
-    lv_obj_add_style(motorRPMLabel, styles->GetExtraLargeTextStyle(), LV_PART_MAIN | LV_STATE_DEFAULT);*/
-
-/*
-    stopCountMeter = lv_meter_create(bottomRow);
-
-    lv_obj_remove_style(stopCountMeter, NULL, LV_PART_MAIN);
-    lv_obj_remove_style(stopCountMeter, NULL, LV_PART_INDICATOR);
-    lv_obj_set_size(stopCountMeter, 250, 250);
-    lv_obj_center(stopCountMeter);
-
-    lv_meter_scale_t * scale = lv_meter_add_scale(stopCountMeter);
-    lv_meter_set_scale_ticks(stopCountMeter, scale, 0, 0, 0, lv_color_black());
-    lv_meter_set_scale_range(stopCountMeter, scale, 0, 100, 360, 0);
-
-   //add indicator
-    lv_meter_indicator_t * indic_sec = lv_meter_add_arc(stopCountMeter, scale, 150, lv_palette_darken(LV_PALETTE_PURPLE, 1), 0);
-    lv_meter_set_indicator_start_value(stopCountMeter, indic_sec, 0);
-    lv_meter_set_indicator_end_value(stopCountMeter, indic_sec, 100);
-
-    lv_anim_t * secs;
-    lv_anim_init(secs);
-    lv_anim_set_exec_cb(secs, (lv_anim_exec_xcb_t) set_value);
-    lv_anim_set_values(secs, 0, 100);
-    lv_anim_set_repeat_count(secs, 0); //repeat set at 0 right now
-    lv_anim_set_time(secs, 2000);
-    lv_anim_set_var(secs, indic_sec);
-    lv_anim_start(secs);
-*/
-
-//get voltage, get current, calculate joules, put into array, display items of array in chart
-    uint32_t n;
-    uint32_t m;
-    uint32_t joule;
-
-//    getDataAggregator().batteryVoltage.addListener([this, &n, &m, &joule](const voltage_t& voltage) {
-//        n = voltage * 33 * 185 / 40960;
-//        joule = calculate_joule(n, m);
-//    });
-//
-//    getDataAggregator().current.addListener([this, &m, &n, &joule](const current_t& current) {
-//        m = current;
-//        joule = calculate_joule(n, m);
-//    });
-
 
     lv_obj_t* efficiency_chart;
     efficiency_chart = lv_chart_create(bottomRow);
@@ -121,6 +59,4 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
 
         lv_chart_refresh(efficiency_chart);
     });
-
-
 }

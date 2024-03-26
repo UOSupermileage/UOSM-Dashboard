@@ -15,29 +15,6 @@
 
 static HomeView* homeView;
 
-static uint8_t screenIndex = 0;
-static uint8_t nScreens = 3;
-
-void swipe_event_callback(lv_event_t* event) {
-    if (event->code == LV_EVENT_GESTURE) {
-        lv_dir_t direction = lv_indev_get_gesture_dir(lv_indev_get_act());
-
-        if (direction == LV_DIR_LEFT) {
-
-            if (screenIndex == 0) {
-                screenIndex = nScreens - 1;
-            } else {
-                screenIndex--;
-            }
-        } else if (direction == LV_DIR_RIGHT) {
-            screenIndex++;
-            screenIndex = screenIndex % nScreens;
-        } else {
-            return;
-        }
-    }
-}
-
 void Application_Create(DataAggregatorWrapper* aggregatorWrapper) {
     DebugPrint("Creating application");
 

@@ -235,16 +235,9 @@ PUBLIC result_t IComms_ReadPairInt32Message(iCommsMessage_t* msg, int32_t* a, in
     return RESULT_OK;
 }
 
-<<<<<<<
-HEAD
 PUBLIC iCommsMessage_t
-IComms_CreatePressureTemperatureMessage(uint16_t
-standardMessageID,
-pressure_t a, temperature_t
-b) {
-return
-IComms_CreatePairInt32Message(standardMessageID, a, b
-);
+IComms_CreatePressureTemperatureMessage(uint16_t standardMessageID, pressure_t a, temperature_t b) {
+    return IComms_CreatePairInt32Message(standardMessageID, a, b);
 }
 
 PUBLIC result_t IComms_ReadPressureTemperatureMessage(iCommsMessage_t* msg, pressure_t* a, temperature_t* b) {
@@ -261,46 +254,25 @@ PUBLIC uint16_pair_t readMsgPairUInt16Bit(iCommsMessage_t* msg) {
 
     pair.b = msg->data[3] << 8;
     pair.b |= msg->data[2];
+    return pair;
+}
 
-    =======
-    PUBLIC iCommsMessage_t
-    IComms_CreatePressureTemperatureMessage(uint16_t standardMessageID, pressure_t a, temperature_t b) {
-        return IComms_CreatePairInt32Message(standardMessageID, a, b);
-    }
-    PUBLIC result_t IComms_ReadPressureTemperatureMessage(iCommsMessage_t* msg, pressure_t* a, temperature_t* b) {
-        return IComms_ReadPairInt32Message(msg, a, b);
-    }
+PUBLIC iCommsMessage_t
+IComms_CreateEfficiencyMessage(uint16_t standardMessageID, lap_efficiencies_t* efficiencies) {
+    uint8_t data[8];
+    data[0] = efficiencies->lap_0;
+    data[1] = efficiencies->lap_1;
+    data[2] = efficiencies->lap_2;
+    data[3] = efficiencies->lap_3;
 
-    PUBLIC uint16_pair_t readMsgPairUInt16Bit(iCommsMessage_t* msg) {
-        uint16_pair_t pair = {};
+    return IComms_CreateMessage(standardMessageID, 2, data);
+}
 
-        if (msg->dataLength != 4) { return pair; }
+PUBLIC result_t IComms_ReadEfficiencyMessage(iCommsMessage_t* msg, lap_efficiencies_t* result) {
+    result->lap_0 = msg->data[0];
+    result->lap_1 = msg->data[1];
+    result->lap_2 = msg->data[2];
+    result->lap_3 = msg->data[3];
 
-        pair.a = msg->data[1] << 8;
-        pair.a |= msg->data[0];
-
-        pair.b = msg->data[3] << 8;
-        pair.b |= msg->data[2];
-        >>>>>>> 4e0e7ec6f1268e9aade8c343ff4b4799b98cb9d7
-        return pair;
-    }
-
-    PUBLIC iCommsMessage_t
-    IComms_CreateEfficiencyMessage(uint16_t standardMessageID, lap_efficiencies_t* efficiencies) {
-        uint8_t data[8];
-        data[0] = efficiencies->lap_0;
-        data[1] = efficiencies->lap_1;
-        data[2] = efficiencies->lap_2;
-        data[3] = efficiencies->lap_3;
-
-        return IComms_CreateMessage(standardMessageID, 2, data);
-    }
-
-    PUBLIC result_t IComms_ReadEfficiencyMessage(iCommsMessage_t* msg, lap_efficiencies_t* result) {
-        result->lap_0 = msg->data[0];
-        result->lap_1 = msg->data[1];
-        result->lap_2 = msg->data[2];
-        result->lap_3 = msg->data[3];
-
-        return RESULT_OK;
-    }
+    return RESULT_OK;
+}
