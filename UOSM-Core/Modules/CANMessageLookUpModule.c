@@ -20,7 +20,7 @@ __weak void MotorRPMDataCallback(iCommsMessage_t* msg) {};
 
 __weak void CurrentVoltageDataCallback(iCommsMessage_t* msg) {};
 
-__weak void PressureTemperatureDataCallback(iCommsMessage_t* msg) {};
+__weak void PressureTemperatureDataCallback(iCommsMessage_t* msg);
 
 __weak void LightsDataCallback(iCommsMessage_t* msg) {};
 
