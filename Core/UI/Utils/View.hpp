@@ -8,8 +8,10 @@
 #include <map>
 #include <memory>
 #include "lvgl/lvgl.h"
-#include "Styles.hpp"
 #include "DataAggregator.hpp"
+
+#define SCREEN_WIDTH 800
+#define SCREEN_HEIGHT 480
 
 /** @ingroup core-ui-utils
  *  A class that represents a view that displays the data from a view model using LVGL widgets.
@@ -18,9 +20,8 @@
 class View {
 private:
     /** The container that holds all the view elements. */
-    lv_obj_t* container;;
-    /** The vector of observer tokens that are used to register listeners to the view model. */
-    std::vector<ObserverToken> tokens;
+    lv_obj_t* container;
+
     /** Reference to the source of truth for this view. */
     DataAggregator& aggregator;
 
@@ -44,13 +45,6 @@ public:
      */
     lv_obj_t* getContainer() {
         return container;
-    }
-
-    /** Registers an observer token to the vector of tokens.
-     *  @param token The observer token to register.
-     */
-    void registerListener(ObserverToken& token) {
-        tokens.push_back(token);
     }
 };
 

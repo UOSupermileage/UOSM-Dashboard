@@ -10,9 +10,5 @@ View::View(lv_obj_t* parent, DataAggregator& aggregator): aggregator(aggregator)
 }
 
 View::~View() {
-    for (const auto& token: tokens) {
-        token.cancel();
-    }
-
     lv_obj_del(this->container);
 }

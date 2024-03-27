@@ -6,8 +6,6 @@
 
 #include "lvgl/lvgl.h"
 
-#include "Constants.h"
-
 #include "DataAggregator.hpp"
 #include "DataAggregatorWrapper.h"
 

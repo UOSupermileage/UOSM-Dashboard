@@ -8,7 +8,6 @@
 
 #include <stdarg.h>
 #include <stdio.h>
-#include <stdint.h>
 
 static char messageBuf[MAX_SERIAL_PRINT_LENGTH];
 
