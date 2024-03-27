@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['batteryvoltage_1563',['batteryVoltage',['../classDataAggregator.html#af96421992111e069e5cd30679d2b7e49',1,'DataAggregator']]]
+  ['calibration_1503',['Calibration',['../structIDD__ConfigTypeDef.html#a946b811e6bdf8b033c9308ea79909610',1,'IDD_ConfigTypeDef']]],
+  ['cancel_1504',['cancel',['../classObserverToken.html#ab60534b8d3d66215d5233fd004a73be5',1,'ObserverToken']]]
 ];

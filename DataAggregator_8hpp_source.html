@@ -105,35 +105,17 @@ $(document).ready(function(){initNavTree('DataAggregator_8hpp_source.html',''); 
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">using namespace </span>std;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classDataAggregator.html">   25</a></span>&#160;<span class="keyword">class </span><a class="code" href="classDataAggregator.html">DataAggregator</a> {</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classDataAggregator.html#aaf47a455bea310860350109df6077451">   28</a></span>&#160;    <a class="code" href="classObservable.html">Observable&lt;velocity_t&gt;</a> <a class="code" href="classDataAggregator.html#aaf47a455bea310860350109df6077451">motorVelocity</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classDataAggregator.html">   24</a></span>&#160;<span class="keyword">class </span><a class="code" href="classDataAggregator.html">DataAggregator</a> {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="classObservable.html">Observable&lt;voltage_t&gt;</a> batteryVoltage;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="classObservable.html">Observable&lt;lap_efficiencies_t&gt;</a> efficiency;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;};</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classDataAggregator.html#af96421992111e069e5cd30679d2b7e49">   31</a></span>&#160;    <a class="code" href="classObservable.html">Observable&lt;voltage_t&gt;</a> <a class="code" href="classDataAggregator.html#af96421992111e069e5cd30679d2b7e49">batteryVoltage</a>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classDataAggregator.html#abfe2c99d7811cd73b332b1f05d850227">   34</a></span>&#160;    <a class="code" href="classObservable.html">Observable&lt;ms_t&gt;</a> <a class="code" href="classDataAggregator.html#abfe2c99d7811cd73b332b1f05d850227">lapTime</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<a class="code" href="classDataAggregator.html">DataAggregator</a>&amp; DataAggregator_GetReference(<a class="code" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a>* wrapper);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classDataAggregator.html#a38d1476692e1f407898c20e1c92b963a">   37</a></span>&#160;    <a class="code" href="classObservable.html">Observable&lt;percentage_t&gt;</a> <a class="code" href="classDataAggregator.html#a38d1476692e1f407898c20e1c92b963a">throttlePosition</a>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classDataAggregator.html#ad7faf5ae3309c46658aa1bc0ca1e0aa4">   40</a></span>&#160;    <a class="code" href="classObservable.html">Observable&lt;CANLogEntry*&gt;</a> <a class="code" href="classDataAggregator.html#ad7faf5ae3309c46658aa1bc0ca1e0aa4">canLogEntry</a>;</div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classDataAggregator.html#a8879a6706913e2a5b89ebce5cfcffdee">   42</a></span>&#160;    <a class="code" href="classObservable.html">Observable&lt;seconds_t&gt;</a> <a class="code" href="classDataAggregator.html#a8879a6706913e2a5b89ebce5cfcffdee">countdownTime</a>;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="classObservable.html">Observable&lt;current_t&gt;</a> current;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="classObservable.html">Observable&lt;lap_efficiencies_t&gt;</a> efficiency;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;};</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<a class="code" href="classDataAggregator.html">DataAggregator</a>&amp; DataAggregator_GetReference(<a class="code" href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a>* wrapper);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//UOSM_DASHBOARD_DATAAGGREGATOR_HPP</span></div>
-<div class="ttc" id="aclassDataAggregator_html"><div class="ttname"><a href="classDataAggregator.html">DataAggregator</a></div><div class="ttdef"><b>Definition:</b> DataAggregator.hpp:25</div></div>
-<div class="ttc" id="aclassDataAggregator_html_a38d1476692e1f407898c20e1c92b963a"><div class="ttname"><a href="classDataAggregator.html#a38d1476692e1f407898c20e1c92b963a">DataAggregator::throttlePosition</a></div><div class="ttdeci">Observable&lt; percentage_t &gt; throttlePosition</div><div class="ttdef"><b>Definition:</b> DataAggregator.hpp:37</div></div>
-<div class="ttc" id="aclassDataAggregator_html_a8879a6706913e2a5b89ebce5cfcffdee"><div class="ttname"><a href="classDataAggregator.html#a8879a6706913e2a5b89ebce5cfcffdee">DataAggregator::countdownTime</a></div><div class="ttdeci">Observable&lt; seconds_t &gt; countdownTime</div><div class="ttdef"><b>Definition:</b> DataAggregator.hpp:42</div></div>
-<div class="ttc" id="aclassDataAggregator_html_aaf47a455bea310860350109df6077451"><div class="ttname"><a href="classDataAggregator.html#aaf47a455bea310860350109df6077451">DataAggregator::motorVelocity</a></div><div class="ttdeci">Observable&lt; velocity_t &gt; motorVelocity</div><div class="ttdef"><b>Definition:</b> DataAggregator.hpp:28</div></div>
-<div class="ttc" id="aclassDataAggregator_html_abfe2c99d7811cd73b332b1f05d850227"><div class="ttname"><a href="classDataAggregator.html#abfe2c99d7811cd73b332b1f05d850227">DataAggregator::lapTime</a></div><div class="ttdeci">Observable&lt; ms_t &gt; lapTime</div><div class="ttdef"><b>Definition:</b> DataAggregator.hpp:34</div></div>
-<div class="ttc" id="aclassDataAggregator_html_ad7faf5ae3309c46658aa1bc0ca1e0aa4"><div class="ttname"><a href="classDataAggregator.html#ad7faf5ae3309c46658aa1bc0ca1e0aa4">DataAggregator::canLogEntry</a></div><div class="ttdeci">Observable&lt; CANLogEntry * &gt; canLogEntry</div><div class="ttdef"><b>Definition:</b> DataAggregator.hpp:40</div></div>
-<div class="ttc" id="aclassDataAggregator_html_af96421992111e069e5cd30679d2b7e49"><div class="ttname"><a href="classDataAggregator.html#af96421992111e069e5cd30679d2b7e49">DataAggregator::batteryVoltage</a></div><div class="ttdeci">Observable&lt; voltage_t &gt; batteryVoltage</div><div class="ttdef"><b>Definition:</b> DataAggregator.hpp:31</div></div>
-<div class="ttc" id="aclassObservable_html"><div class="ttname"><a href="classObservable.html">Observable&lt; velocity_t &gt;</a></div></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//UOSM_DASHBOARD_DATAAGGREGATOR_HPP</span></div>
+<div class="ttc" id="aclassDataAggregator_html"><div class="ttname"><a href="classDataAggregator.html">DataAggregator</a></div><div class="ttdef"><b>Definition:</b> DataAggregator.hpp:24</div></div>
+<div class="ttc" id="aclassObservable_html"><div class="ttname"><a href="classObservable.html">Observable&lt; voltage_t &gt;</a></div></div>
 <div class="ttc" id="astructDataAggregatorWrapper_html"><div class="ttname"><a href="structDataAggregatorWrapper.html">DataAggregatorWrapper</a></div><div class="ttdef"><b>Definition:</b> DataAggregatorWrapper.cpp:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

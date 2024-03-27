@@ -1,6 +1,5 @@
 var main_8c =
 [
-    [ "N_CAN_MESSAGES_IN_LOG", "main_8c.html#a7fa4d20ea84e6031123410143bffcf19", null ],
     [ "Error_Handler", "main_8c.html#a1730ffe1e560465665eb47d9264826f9", null ],
     [ "main", "main_8c.html#a840291bc02cba5474a4cb46a9b9566fe", null ],
     [ "PeriphCommonClock_Config", "main_8c.html#a336c5acb34a801b2984e602b97ed7b73", null ],

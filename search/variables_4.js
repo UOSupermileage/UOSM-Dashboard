@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['erasesectorsize_1570',['EraseSectorSize',['../structQSPI__Info.html#a49aa04e99ed4cb71a9d39e7b6b79ceeb',1,'QSPI_Info']]],
-  ['erasesectorsnumber_1571',['EraseSectorsNumber',['../structQSPI__Info.html#a96cc23108f9bb02aeffe79cf073ff074',1,'QSPI_Info']]]
+  ['flashsize_1509',['FlashSize',['../structQSPI__Info.html#aea8ce8d3cddb9860a733721051a54bbb',1,'QSPI_Info']]]
 ];

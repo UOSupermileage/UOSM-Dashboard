@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['deltadelayunit_1568',['DeltaDelayUnit',['../structIDD__ConfigTypeDef.html#a911b84562d806d387e838b147e288c9e',1,'IDD_ConfigTypeDef']]],
-  ['deltadelayvalue_1569',['DeltaDelayValue',['../structIDD__ConfigTypeDef.html#a24c4a0fb2ca03a736340dcd231384c6a',1,'IDD_ConfigTypeDef']]]
+  ['erasesectorsize_1507',['EraseSectorSize',['../structQSPI__Info.html#a49aa04e99ed4cb71a9d39e7b6b79ceeb',1,'QSPI_Info']]],
+  ['erasesectorsnumber_1508',['EraseSectorsNumber',['../structQSPI__Info.html#a96cc23108f9bb02aeffe79cf073ff074',1,'QSPI_Info']]]
 ];

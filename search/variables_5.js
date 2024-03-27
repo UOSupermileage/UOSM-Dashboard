@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['flashsize_1572',['FlashSize',['../structQSPI__Info.html#aea8ce8d3cddb9860a733721051a54bbb',1,'QSPI_Info']]]
+  ['measurenb_1510',['MeasureNb',['../structIDD__ConfigTypeDef.html#af9b602ce27142e679ca329e97da60781',1,'IDD_ConfigTypeDef']]]
 ];

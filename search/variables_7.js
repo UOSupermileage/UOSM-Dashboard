@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['measurenb_1574',['MeasureNb',['../structIDD__ConfigTypeDef.html#af9b602ce27142e679ca329e97da60781',1,'IDD_ConfigTypeDef']]],
-  ['motorvelocity_1575',['motorVelocity',['../classDataAggregator.html#aaf47a455bea310860350109df6077451',1,'DataAggregator']]]
+  ['predelayunit_1512',['PreDelayUnit',['../structIDD__ConfigTypeDef.html#abc6a7704d3bda641bd27adbbc57ce0ca',1,'IDD_ConfigTypeDef']]],
+  ['predelayvalue_1513',['PreDelayValue',['../structIDD__ConfigTypeDef.html#a657cd233d4b7e79a0a022816d4bd3b34',1,'IDD_ConfigTypeDef']]],
+  ['progpagesize_1514',['ProgPageSize',['../structQSPI__Info.html#a20fa9012bb6f0b93e59be2231abd3fe7',1,'QSPI_Info']]],
+  ['progpagesnumber_1515',['ProgPagesNumber',['../structQSPI__Info.html#a5ae42645debb7362adf0a7d1b58e92e2',1,'QSPI_Info']]]
 ];
