@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"group__ST7789H2__Exported__Constants.html#gaa718f430547b0ad9bd681539e03fb98a":[7,0,1,0,16,1,12],
 "group__ST7789H2__Exported__Constants.html#gaa718f430547b0ad9bd681539e03fb98a":[5,2,0,2,7,2],
 "group__ST7789H2__Exported__Constants.html#gaa7c838aeb69d95fbaf1d6c2b0a98996f":[7,0,1,0,16,1,29],
 "group__ST7789H2__Exported__Constants.html#gaa89ddd993c221aa55912e285106e4a1b":[7,0,1,0,16,1,28],
@@ -7,8 +8,8 @@ var NAVTREEINDEX8 =
 "group__ST7789H2__Exported__Constants.html#gab30fb9577bb5157bc4191578a72db818":[7,0,1,0,16,1,0],
 "group__ST7789H2__Exported__Constants.html#gab357dfb1fe4518a9d4eae5be7a963376":[7,0,1,0,16,1,14],
 "group__ST7789H2__Exported__Constants.html#gab641759692044e32b5da416557e73639":[7,0,1,0,16,1,22],
-"group__ST7789H2__Exported__Constants.html#gabb072892ebbabcfb49c5b625effc91c6":[7,0,1,0,16,1,18],
 "group__ST7789H2__Exported__Constants.html#gabb072892ebbabcfb49c5b625effc91c6":[5,2,0,2,7,3],
+"group__ST7789H2__Exported__Constants.html#gabb072892ebbabcfb49c5b625effc91c6":[7,0,1,0,16,1,18],
 "group__ST7789H2__Exported__Constants.html#gac35a92a670d0e623c5b20772eb6f017b":[7,0,1,0,16,1,31],
 "group__ST7789H2__Exported__Constants.html#gacc55fbdfb6e2c734ac33041223d5702b":[7,0,1,0,16,1,23],
 "group__ST7789H2__Exported__Constants.html#gae024fdb141c56a3e269fce0ab1215668":[7,0,1,0,16,1,30],
@@ -62,8 +63,8 @@ var NAVTREEINDEX8 =
 "group__ST7789H2__Private__Functions.html":[5,2,0,2,5],
 "group__ST7789H2__Private__Functions.html#ga072637724e314afd2ff3400d81026e4d":[5,2,0,2,5,3],
 "group__ST7789H2__Private__Functions.html#ga072637724e314afd2ff3400d81026e4d":[7,0,1,0,16,0,3],
-"group__ST7789H2__Private__Functions.html#ga10c728adb4ca43b08a29f45a61226014":[5,2,0,2,5,6],
 "group__ST7789H2__Private__Functions.html#ga10c728adb4ca43b08a29f45a61226014":[7,0,1,0,16,0,6],
+"group__ST7789H2__Private__Functions.html#ga10c728adb4ca43b08a29f45a61226014":[5,2,0,2,5,6],
 "group__ST7789H2__Private__Functions.html#ga146ade032342938424edf997e79e9672":[5,2,0,2,5,2],
 "group__ST7789H2__Private__Functions.html#ga146ade032342938424edf997e79e9672":[7,0,1,0,16,0,2],
 "group__ST7789H2__Private__Functions.html#ga1855278f79146c88b0d0bb7e3b44fe36":[5,2,0,2,5,5],
@@ -72,8 +73,8 @@ var NAVTREEINDEX8 =
 "group__ST7789H2__Private__Functions.html#ga19a9f41ab437e6d0d0310b535f84a08c":[7,0,1,0,16,0,0],
 "group__ST7789H2__Private__Functions.html#ga1bcf4ea47a4e1f8d3298b78727c5e5c2":[7,0,1,0,16,0,14],
 "group__ST7789H2__Private__Functions.html#ga1bcf4ea47a4e1f8d3298b78727c5e5c2":[5,2,0,2,5,14],
-"group__ST7789H2__Private__Functions.html#ga2bb4b27b8a1b997030f8ecf2b7efd824":[5,2,0,2,5,9],
 "group__ST7789H2__Private__Functions.html#ga2bb4b27b8a1b997030f8ecf2b7efd824":[7,0,1,0,16,0,9],
+"group__ST7789H2__Private__Functions.html#ga2bb4b27b8a1b997030f8ecf2b7efd824":[5,2,0,2,5,9],
 "group__ST7789H2__Private__Functions.html#ga4971d96cf2b39b046f234d6e5b380b07":[7,0,1,0,16,0,7],
 "group__ST7789H2__Private__Functions.html#ga4971d96cf2b39b046f234d6e5b380b07":[5,2,0,2,5,7],
 "group__ST7789H2__Private__Functions.html#ga5c3d3168b881708cdc4174500d24d190":[7,0,1,0,16,0,13],
@@ -90,8 +91,8 @@ var NAVTREEINDEX8 =
 "group__ST7789H2__Private__Functions.html#gab0ada921c8c4886a56114035b4496edf":[5,2,0,2,5,15],
 "group__ST7789H2__Private__Functions.html#gad35fbfe45d9c0a5740d65f2597af02c2":[7,0,1,0,16,0,10],
 "group__ST7789H2__Private__Functions.html#gad35fbfe45d9c0a5740d65f2597af02c2":[5,2,0,2,5,10],
-"group__ST7789H2__Private__Functions.html#gad939fb4b0afad19759072b8932061ec7":[7,0,1,0,16,0,4],
 "group__ST7789H2__Private__Functions.html#gad939fb4b0afad19759072b8932061ec7":[5,2,0,2,5,4],
+"group__ST7789H2__Private__Functions.html#gad939fb4b0afad19759072b8932061ec7":[7,0,1,0,16,0,4],
 "group__ST7789H2__Private__Functions.html#gaddd260d6608ed9f4817b691fad210de6":[7,0,1,0,16,0,11],
 "group__ST7789H2__Private__Functions.html#gaddd260d6608ed9f4817b691fad210de6":[5,2,0,2,5,11],
 "group__ST7789H2__Private__Macros.html":[5,2,0,2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#ga87b21404e958ee9e88213323278b2882":[5,2,2,1,6,3],
 "group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#ga87b21404e958ee9e88213323278b2882":[7,0,1,1,2,8],
 "group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#gaa4a2359abfe68ce856dbfaf78f19e250":[5,2,2,1,6,0],
-"group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#gaa4a2359abfe68ce856dbfaf78f19e250":[7,0,1,1,2,5],
-"group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#gac145a279ffcaf4ec9a63650f5330ee78":[5,2,2,1,6,4]
+"group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#gaa4a2359abfe68ce856dbfaf78f19e250":[7,0,1,1,2,5]
 };

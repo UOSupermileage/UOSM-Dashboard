@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"group__ts3510__Exported__Functions.html#ga11e0c31073a5106868d486f857cb7fb6":[5,2,1,4,1,1,0,9],
 "group__ts3510__Exported__Functions.html#ga11e0c31073a5106868d486f857cb7fb6":[7,0,1,0,18,1,18],
 "group__ts3510__Exported__Functions.html#ga20cd09e59bac7284d1342b6741733593":[7,0,1,0,18,1,5],
 "group__ts3510__Exported__Functions.html#ga2efe70212fb686dd46ec2250954bfef9":[5,2,1,4,1,1,0,1],
@@ -13,8 +14,8 @@ var NAVTREEINDEX14 =
 "group__ts3510__Exported__Functions.html#ga5fe7cfd4186184111114f8b298c3a7a3":[7,0,1,0,18,1,15],
 "group__ts3510__Exported__Functions.html#ga64befc1365a5ecf06b9b226516243d3a":[5,2,1,4,1,1,0,8],
 "group__ts3510__Exported__Functions.html#ga64befc1365a5ecf06b9b226516243d3a":[7,0,1,0,18,1,17],
-"group__ts3510__Exported__Functions.html#ga6c8ad8d98d01976e227b45c346428531":[5,2,1,4,1,1,0,5],
 "group__ts3510__Exported__Functions.html#ga6c8ad8d98d01976e227b45c346428531":[7,0,1,0,18,1,14],
+"group__ts3510__Exported__Functions.html#ga6c8ad8d98d01976e227b45c346428531":[5,2,1,4,1,1,0,5],
 "group__ts3510__Exported__Functions.html#ga73c1226046389de4ff75a2e908a18dd6":[5,2,1,4,1,1,0,0],
 "group__ts3510__Exported__Functions.html#ga73c1226046389de4ff75a2e908a18dd6":[7,0,1,0,18,1,9],
 "group__ts3510__Exported__Functions.html#ga7e34d248f9576cbf2f2c18620ff2d124":[5,2,1,4,1,1,0,3],
@@ -28,8 +29,8 @@ var NAVTREEINDEX14 =
 "group__ts3510__Exported__Macros.html":[5,2,1,4,1,1],
 "group__ts3510__Private__Function__Prototypes.html":[5,2,1,4,0,0,0,1],
 "group__ts3510__Private__Functions.html":[5,2,1,4,0,0,0,1,0],
-"group__ts3510__Private__Functions.html#ga11e0c31073a5106868d486f857cb7fb6":[7,0,1,0,18,0,9],
 "group__ts3510__Private__Functions.html#ga11e0c31073a5106868d486f857cb7fb6":[5,2,1,4,0,0,0,1,0,9],
+"group__ts3510__Private__Functions.html#ga11e0c31073a5106868d486f857cb7fb6":[7,0,1,0,18,0,9],
 "group__ts3510__Private__Functions.html#ga2efe70212fb686dd46ec2250954bfef9":[5,2,1,4,0,0,0,1,0,1],
 "group__ts3510__Private__Functions.html#ga2efe70212fb686dd46ec2250954bfef9":[7,0,1,0,18,0,1],
 "group__ts3510__Private__Functions.html#ga34dccfd38359b0a5fdc57607c742267c":[5,2,1,4,0,0,0,1,0,4],
@@ -38,14 +39,14 @@ var NAVTREEINDEX14 =
 "group__ts3510__Private__Functions.html#ga47a4d9a5812d18d71542111c12d275ca":[7,0,1,0,18,0,2],
 "group__ts3510__Private__Functions.html#ga5fe7cfd4186184111114f8b298c3a7a3":[5,2,1,4,0,0,0,1,0,6],
 "group__ts3510__Private__Functions.html#ga5fe7cfd4186184111114f8b298c3a7a3":[7,0,1,0,18,0,6],
-"group__ts3510__Private__Functions.html#ga64befc1365a5ecf06b9b226516243d3a":[7,0,1,0,18,0,8],
 "group__ts3510__Private__Functions.html#ga64befc1365a5ecf06b9b226516243d3a":[5,2,1,4,0,0,0,1,0,8],
+"group__ts3510__Private__Functions.html#ga64befc1365a5ecf06b9b226516243d3a":[7,0,1,0,18,0,8],
 "group__ts3510__Private__Functions.html#ga6c8ad8d98d01976e227b45c346428531":[5,2,1,4,0,0,0,1,0,5],
 "group__ts3510__Private__Functions.html#ga6c8ad8d98d01976e227b45c346428531":[7,0,1,0,18,0,5],
 "group__ts3510__Private__Functions.html#ga73c1226046389de4ff75a2e908a18dd6":[5,2,1,4,0,0,0,1,0,0],
 "group__ts3510__Private__Functions.html#ga73c1226046389de4ff75a2e908a18dd6":[7,0,1,0,18,0,0],
-"group__ts3510__Private__Functions.html#ga7e34d248f9576cbf2f2c18620ff2d124":[7,0,1,0,18,0,3],
 "group__ts3510__Private__Functions.html#ga7e34d248f9576cbf2f2c18620ff2d124":[5,2,1,4,0,0,0,1,0,3],
+"group__ts3510__Private__Functions.html#ga7e34d248f9576cbf2f2c18620ff2d124":[7,0,1,0,18,0,3],
 "group__ts3510__Private__Functions.html#gab4f36dc3c8a0cbe843bdb44f9da6ed22":[5,2,1,4,0,0,0,1,0,7],
 "group__ts3510__Private__Functions.html#gab4f36dc3c8a0cbe843bdb44f9da6ed22":[7,0,1,0,18,0,7],
 "group__wm8994.html":[5,2,0,28],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "main_8h.html#a054258532590e451586770c696e66bae":[7,0,0,0,3,104],
 "main_8h.html#a063de91742778936285db6352966f601":[7,0,0,0,3,199],
 "main_8h.html#a06e8769a780420126fb17f345b6f08c8":[7,0,0,0,3,212],
-"main_8h.html#a071021e0682955a992bcd2d6226e8187":[7,0,0,0,3,191],
-"main_8h.html#a08a7b321c5fb60e9e76bc74a1bf8ce5e":[7,0,0,0,3,86]
+"main_8h.html#a071021e0682955a992bcd2d6226e8187":[7,0,0,0,3,191]
 };

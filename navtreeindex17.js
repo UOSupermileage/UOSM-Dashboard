@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"structICommsMessageInfo.html#a38c3354feb415826e8b0a7193d3a03d6":[6,0,24,3],
 "structICommsMessageInfo.html#a3b73039c77d70d10af26dc10b69408ef":[6,0,24,1],
 "structICommsMessageInfo.html#a699fd13c1d65b81725678ef1532fcf27":[6,0,24,0],
 "structICommsMessageInfo.html#a9a7a4de08f08debc5a04841cd902f837":[6,0,24,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "touchpad_8h_source.html":[7,0,1,3,0],
 "ts3510_8c.html":[7,0,1,0,18,0],
 "ts3510_8h.html":[7,0,1,0,18,1],
-"ts3510_8h_source.html":[7,0,1,0,18,1],
-"ts_8h.html":[7,0,1,0,3,9]
+"ts3510_8h_source.html":[7,0,1,0,18,1]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"main_8h.html#ad54b5cc45c142aaff3d6555f0e404b47":[7,0,0,0,3,171],
 "main_8h.html#ad66e0c00ab08fc162e467885e1f2aedd":[7,0,0,0,3,284],
 "main_8h.html#ad75b519f138373565019156c555b9256":[7,0,0,0,3,131],
 "main_8h.html#ad8102dd29df30e029dcf3ec2b60f8b0c":[7,0,0,0,3,161],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "structGYRO__InterruptConfigTypeDef.html#a55d1685d751cffa77f6eefe492d98f80":[5,2,0,11,0,1,2,1],
 "structGYRO__InterruptConfigTypeDef.html#a6b570098bb7a5a7f2b927af7358b03c1":[5,2,0,11,0,1,2,0],
 "structGYRO__InterruptConfigTypeDef.html#ad34764ae087eb41a305bd8b820dd7d74":[5,2,0,11,0,1,2,2],
-"structICommsMessageInfo.html":[6,0,24],
-"structICommsMessageInfo.html#a38c3354feb415826e8b0a7193d3a03d6":[6,0,24,3]
+"structICommsMessageInfo.html":[6,0,24]
 };

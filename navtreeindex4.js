@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"group__MFXSTM32L152__Exported__Functions.html#ga27a0578b435479366af56d42b48e8ad7":[7,0,1,0,7,1,184],
 "group__MFXSTM32L152__Exported__Functions.html#ga2c044cc76865cdde5ddd54692019cf69":[7,0,1,0,7,1,188],
 "group__MFXSTM32L152__Exported__Functions.html#ga2c044cc76865cdde5ddd54692019cf69":[5,2,1,3,4,4],
 "group__MFXSTM32L152__Exported__Functions.html#ga3f21c86ab3429a42ce0599b3317b47a1":[7,0,1,0,7,1,180],
@@ -66,8 +67,8 @@ var NAVTREEINDEX4 =
 "group__MFXSTM32L152__Exported__Functions.html#ga9aaf184fd4a9d82ea3c88dd5a0ebbf4c":[7,0,1,0,7,1,181],
 "group__MFXSTM32L152__Exported__Functions.html#ga9e95f3f4f8128306351dd3edaea04d21":[7,0,1,0,7,1,192],
 "group__MFXSTM32L152__Exported__Functions.html#ga9e95f3f4f8128306351dd3edaea04d21":[5,2,1,3,4,8],
-"group__MFXSTM32L152__Exported__Functions.html#gaa78ac90676c880fdff3bbbd0ce7f3565":[7,0,1,0,7,1,230],
 "group__MFXSTM32L152__Exported__Functions.html#gaa78ac90676c880fdff3bbbd0ce7f3565":[5,2,1,3,4,46],
+"group__MFXSTM32L152__Exported__Functions.html#gaa78ac90676c880fdff3bbbd0ce7f3565":[7,0,1,0,7,1,230],
 "group__MFXSTM32L152__Exported__Functions.html#gab4cea459b91b04fac04b1d24aa4896e2":[7,0,1,0,7,1,185],
 "group__MFXSTM32L152__Exported__Functions.html#gab4cea459b91b04fac04b1d24aa4896e2":[5,2,1,3,4,1],
 "group__MFXSTM32L152__Exported__Functions.html#gab71fdfbf6e3f308290a7a95468e84ddc":[5,2,1,3,4,49],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "group__MX25L512__Exported__Constants.html#ga552a6b9a3fec8b78660659abe16b5b41":[7,0,1,0,8,0,10],
 "group__MX25L512__Exported__Constants.html#ga5636bed05f7ecd27f6a4eeeb7c6d3ed3":[7,0,1,0,8,0,49],
 "group__MX25L512__Exported__Constants.html#ga64b71576d0eb15c60ff0554d85d88a33":[5,2,0,18,1,1],
-"group__MX25L512__Exported__Constants.html#ga64b71576d0eb15c60ff0554d85d88a33":[7,0,1,0,8,0,17],
-"group__MX25L512__Exported__Constants.html#ga66456d73cb4185955c6c7e663a85c8da":[7,0,1,0,8,0,0]
+"group__MX25L512__Exported__Constants.html#ga64b71576d0eb15c60ff0554d85d88a33":[7,0,1,0,8,0,17]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"group__OV9655__Exported__Constants.html#gad1e61af121355346ba7f1344a1d626ac":[7,0,1,0,12,1,22],
 "group__OV9655__Exported__Constants.html#gad3cfe331d59f7a1dbad89c221f49a88f":[7,0,1,0,12,1,23],
 "group__OV9655__Exported__Constants.html#gad868cfd7656b3e7ba60b912ced9ed088":[5,2,0,23,1,1],
 "group__OV9655__Exported__Constants.html#gad868cfd7656b3e7ba60b912ced9ed088":[7,0,1,0,12,1,19],
@@ -74,8 +75,8 @@ var NAVTREEINDEX7 =
 "group__S5K5CAG__Exported__Constants.html#gaae6ad3ef596517f7333475a5de8e8d02":[7,0,1,0,14,1,23],
 "group__S5K5CAG__Exported__Constants.html#gac1ef7cda1a4544e44ace150e13381134":[7,0,1,0,14,1,2],
 "group__S5K5CAG__Exported__Constants.html#gac206507e6893eebcafced17646097220":[7,0,1,0,14,1,6],
-"group__S5K5CAG__Exported__Constants.html#gac5387cf3fe6929e06c80166d619ac721":[7,0,1,0,14,1,20],
 "group__S5K5CAG__Exported__Constants.html#gac5387cf3fe6929e06c80166d619ac721":[5,2,0,26,1,2],
+"group__S5K5CAG__Exported__Constants.html#gac5387cf3fe6929e06c80166d619ac721":[7,0,1,0,14,1,20],
 "group__S5K5CAG__Exported__Constants.html#gad19d48405e9070cf7d46326375bd9cf7":[5,2,0,26,1,0],
 "group__S5K5CAG__Exported__Constants.html#gad19d48405e9070cf7d46326375bd9cf7":[7,0,1,0,14,1,4],
 "group__S5K5CAG__Exported__Constants.html#gad899dc6d171b7cbe39ec6b04b6a79c3a":[7,0,1,0,14,1,17],
@@ -211,14 +212,14 @@ var NAVTREEINDEX7 =
 "group__ST7735__Private__Functions.html#ga8be4e6fdac7ae4d1f300d515efbbcb95":[7,0,1,0,15,0,11],
 "group__ST7735__Private__Functions.html#gacb8d75e41d9b4a1d539040df211c6247":[5,2,0,27,5,3],
 "group__ST7735__Private__Functions.html#gacb8d75e41d9b4a1d539040df211c6247":[7,0,1,0,15,0,3],
-"group__ST7735__Private__Functions.html#gad918a3ad4e088a957e4e86a3f766b12f":[7,0,1,0,15,0,5],
 "group__ST7735__Private__Functions.html#gad918a3ad4e088a957e4e86a3f766b12f":[5,2,0,27,5,5],
+"group__ST7735__Private__Functions.html#gad918a3ad4e088a957e4e86a3f766b12f":[7,0,1,0,15,0,5],
 "group__ST7735__Private__Functions.html#gae268609486ae0404017a43a62300850a":[5,2,0,27,5,4],
 "group__ST7735__Private__Functions.html#gae268609486ae0404017a43a62300850a":[7,0,1,0,15,0,4],
 "group__ST7735__Private__Functions.html#gaeb135ea157d424b976ae241157080e98":[5,2,0,27,5,2],
 "group__ST7735__Private__Functions.html#gaeb135ea157d424b976ae241157080e98":[7,0,1,0,15,0,2],
-"group__ST7735__Private__Functions.html#gaefe86718c82713c7c15a5ae6f8ed4214":[5,2,0,27,5,6],
 "group__ST7735__Private__Functions.html#gaefe86718c82713c7c15a5ae6f8ed4214":[7,0,1,0,15,0,6],
+"group__ST7735__Private__Functions.html#gaefe86718c82713c7c15a5ae6f8ed4214":[5,2,0,27,5,6],
 "group__ST7735__Private__Macros.html":[5,2,0,27,2],
 "group__ST7735__Private__TypesDefinitions.html":[5,2,0,27,0],
 "group__ST7735__Private__Variables.html":[5,2,0,27,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "group__ST7789H2__Exported__Constants.html#ga7057d48247ad1207599a5d8069ffdfc8":[7,0,1,0,16,1,13],
 "group__ST7789H2__Exported__Constants.html#ga84b2afc73c893826c5f39baedeef915a":[7,0,1,0,16,1,24],
 "group__ST7789H2__Exported__Constants.html#ga9a95e3d53bb555afdbb53e4fc6d85781":[7,0,1,0,16,1,2],
-"group__ST7789H2__Exported__Constants.html#gaa5c021f907e7967e854ee4b022951e80":[7,0,1,0,16,1,4],
-"group__ST7789H2__Exported__Constants.html#gaa718f430547b0ad9bd681539e03fb98a":[7,0,1,0,16,1,12]
+"group__ST7789H2__Exported__Constants.html#gaa5c021f907e7967e854ee4b022951e80":[7,0,1,0,16,1,4]
 };
