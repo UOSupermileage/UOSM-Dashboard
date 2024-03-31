@@ -140,7 +140,7 @@
 
 /*Number of stops allowed per gradient. Increase this to allow more stops.
  *This adds (sizeof(lv_color_t) + 1) bytes per additional stop*/
-#define LV_GRADIENT_MAX_STOPS       2
+#define LV_GRADIENT_MAX_STOPS       3
 
 /*Default gradient buffer size.
  *When LVGL calculates the gradient "maps" it can save them into a cache to avoid calculating them again.
@@ -347,7 +347,7 @@
 #define LV_FONT_MONTSERRAT_24 0
 #define LV_FONT_MONTSERRAT_26 0
 #define LV_FONT_MONTSERRAT_28 0
-#define LV_FONT_MONTSERRAT_30 0
+#define LV_FONT_MONTSERRAT_30 1
 #define LV_FONT_MONTSERRAT_32 0
 #define LV_FONT_MONTSERRAT_34 0
 #define LV_FONT_MONTSERRAT_36 0

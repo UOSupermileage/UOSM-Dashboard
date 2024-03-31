@@ -15,6 +15,7 @@
 class HomeView : public View {
 private:
     /** Bottom row of the 2 row flex layout */
+    lv_obj_t* topRow;
     lv_obj_t* bottomRow;
 
 protected:

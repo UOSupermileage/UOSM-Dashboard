@@ -25,6 +25,7 @@ class DataAggregator {
 public:
     Observable<voltage_t> batteryVoltage;
     Observable<lap_efficiencies_t> efficiency;
+    Observable<speed_t> speed;
 };
 
 /** Returns a reference to the data aggregator object from a given wrapper.

@@ -2,6 +2,7 @@
 
 #include "InternalCommsModule.h"
 #include "DataAggregatorWrapper.h"
+#include "CANDriver.h"
 
 static DataAggregatorWrapper* aggregatorWrapper;
 
@@ -17,3 +18,17 @@ void EfficiencyDataCallback(iCommsMessage_t* msg) {
 
     SetEfficiency(aggregatorWrapper, &e);
 }
+
+void ThrottleDataCallback(iCommsMessage_t *msg){}
+void ErrorDataCallback(iCommsMessage_t *msg){}
+void SpeedDataCallback(iCommsMessage_t *msg){
+    DebugPrint("Received speed");
+    speed_t speed = readMsg(msg);
+    DebugPrint("Speed %d", speed);
+    SetSpeed(aggregatorWrapper, speed);
+}
+void EventDataCallback(iCommsMessage_t *msg){}
+void MotorRPMDataCallback(iCommsMessage_t *msg){}
+void CurrentVoltageDataCallback(iCommsMessage_t *msg){}
+void PressureTemperatureDataCallback(iCommsMessage_t *msg){}
+void LightsDataCallback(iCommsMessage_t *msg){}

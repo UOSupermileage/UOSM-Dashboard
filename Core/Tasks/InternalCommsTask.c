@@ -39,6 +39,7 @@ PRIVATE void InternalCommsTask(void* argument) {
         cycleTick += TIMER_INTERNAL_COMMS_TASK;
         osDelayUntil(cycleTick);
 
+        DebugPrint(".");
         IComms_PeriodicReceive();
     }
 }

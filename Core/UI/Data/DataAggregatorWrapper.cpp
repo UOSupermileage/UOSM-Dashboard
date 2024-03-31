@@ -18,6 +18,10 @@ void SetEfficiency(DataAggregatorWrapper* wrapper, lap_efficiencies_t* efficienc
     wrapper->aggregator.efficiency.notify(*efficiencies);
 }
 
+void SetSpeed(DataAggregatorWrapper* wrapper, speed_t speed) {
+    wrapper->aggregator.speed.notify(speed);
+}
+
 DataAggregator& DataAggregator_GetReference(DataAggregatorWrapper* wrapper) {
     return wrapper->aggregator;
 }

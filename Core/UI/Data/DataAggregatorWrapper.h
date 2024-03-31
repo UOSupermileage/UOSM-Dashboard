@@ -20,6 +20,7 @@ extern "C" {
 DataAggregatorWrapper* DataAggregator_Create();
 
 void SetEfficiency(DataAggregatorWrapper* wrapper, lap_efficiencies_t* efficiencies);
+void SetSpeed(DataAggregatorWrapper* wrapper, speed_t speed);
 
 #ifdef  __cplusplus
 }
