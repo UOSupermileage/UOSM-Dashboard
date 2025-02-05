@@ -1,7 +1,7 @@
 <map id="OTM8009A" name="OTM8009A">
-<area shape="rect" id="node1" href="$group__OTM8009A__Private__Constants.html" title=" " alt="" coords="305,5,517,31"/>
-<area shape="rect" id="node2" href="$group__OTM8009A__Exported__Functions.html" title=" " alt="" coords="301,55,522,80"/>
-<area shape="rect" id="node3" title="This file provides a set of functions needed to drive the otm8009a IC display driver." alt="" coords="157,55,251,80"/>
-<area shape="rect" id="node5" href="$group__OTM8009A__Exported__Variables.html" title=" " alt="" coords="299,104,524,129"/>
-<area shape="rect" id="node4" href="$group__Components.html" title=" " alt="" coords="5,55,109,80"/>
+<area shape="rect" id="Node000002" href="$group__Components.html" title=" " alt="" coords="5,55,109,80"/>
+<area shape="rect" id="Node000001" title="This file provides a set of functions needed to drive the otm8009a IC display driver." alt="" coords="157,55,251,80"/>
+<area shape="rect" id="Node000005" href="$group__OTM8009A__Exported__Functions.html" title=" " alt="" coords="301,5,522,31"/>
+<area shape="rect" id="Node000004" href="$group__OTM8009A__Exported__Variables.html" title=" " alt="" coords="299,55,524,80"/>
+<area shape="rect" id="Node000003" href="$group__OTM8009A__Private__Constants.html" title=" " alt="" coords="305,104,517,129"/>
 </map>

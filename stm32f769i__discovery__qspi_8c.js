@@ -10,6 +10,5 @@ var stm32f769i__discovery__qspi_8c =
     [ "BSP_QSPI_MspDeInit", "group__STM32F769I__DISCOVERY__QSPI__Private__Functions.html#gada6e3e6bb80241f445d7aec1197facde", null ],
     [ "BSP_QSPI_MspInit", "group__STM32F769I__DISCOVERY__QSPI__Private__Functions.html#ga66e6ba13cfc2d35c3f38be86681e5e82", null ],
     [ "BSP_QSPI_Read", "group__STM32F769I__DISCOVERY__QSPI__Exported__Functions.html#gafd24188012ad168d89a49354fed1c073", null ],
-    [ "BSP_QSPI_Write", "group__STM32F769I__DISCOVERY__QSPI__Exported__Functions.html#ga2db5e1ee5203ab750531a7fe5e9e3547", null ],
-    [ "QSPIHandle", "group__STM32F769I__DISCOVERY__QSPI__Private__Variables.html#ga9b15f51508052efe03ba5ace19d3fdf1", null ]
+    [ "BSP_QSPI_Write", "group__STM32F769I__DISCOVERY__QSPI__Exported__Functions.html#ga2db5e1ee5203ab750531a7fe5e9e3547", null ]
 ];

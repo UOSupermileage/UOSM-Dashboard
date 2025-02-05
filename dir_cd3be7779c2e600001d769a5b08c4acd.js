@@ -1,8 +1,8 @@
 var dir_cd3be7779c2e600001d769a5b08c4acd =
 [
     [ "accelero.h", "accelero_8h.html", null ],
-    [ "audio.h", "audio_8h.html", "audio_8h" ],
-    [ "camera.h", "camera_8h.html", "camera_8h" ],
+    [ "audio.h", "audio_8h.html", null ],
+    [ "camera.h", "camera_8h.html", null ],
     [ "epd.h", "epd_8h.html", null ],
     [ "gyro.h", "gyro_8h.html", null ],
     [ "idd.h", "idd_8h.html", null ],

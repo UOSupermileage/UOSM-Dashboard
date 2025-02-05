@@ -9,6 +9,5 @@ var ts3510_8c =
     [ "ts3510_TS_EnableIT", "group__ts3510__Private__Functions.html#ga5fe7cfd4186184111114f8b298c3a7a3", null ],
     [ "ts3510_TS_GetXY", "group__ts3510__Private__Functions.html#gab4f36dc3c8a0cbe843bdb44f9da6ed22", null ],
     [ "ts3510_TS_ITStatus", "group__ts3510__Private__Functions.html#ga64befc1365a5ecf06b9b226516243d3a", null ],
-    [ "ts3510_TS_Start", "group__ts3510__Private__Functions.html#ga11e0c31073a5106868d486f857cb7fb6", null ],
-    [ "ts3510_ts_drv", "group__TS3510__Private__Variables.html#gafdfa0ad9c6a5f08fc7ebc9c480e56104", null ]
+    [ "ts3510_TS_Start", "group__ts3510__Private__Functions.html#ga11e0c31073a5106868d486f857cb7fb6", null ]
 ];

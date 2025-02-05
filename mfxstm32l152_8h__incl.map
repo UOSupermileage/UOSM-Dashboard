@@ -1,7 +1,13 @@
 <map id="Drivers/Components/mfxstm32l152/mfxstm32l152.h" name="Drivers/Components/mfxstm32l152/mfxstm32l152.h">
-<area shape="rect" id="node1" title="This file contains all the functions prototypes for the mfxstm32l152.c IO expander driver." alt="" coords="95,5,327,47"/>
-<area shape="rect" id="node2" href="$ts_8h.html" title="This file contains all the functions prototypes for the Touch Screen driver." alt="" coords="5,95,127,121"/>
-<area shape="rect" id="node4" href="$io_8h.html" title="This file contains all the functions prototypes for the IO driver." alt="" coords="151,95,272,121"/>
-<area shape="rect" id="node5" href="$idd_8h.html" title="This file contains all the functions prototypes for the IDD driver." alt="" coords="296,95,425,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="176,169,247,196"/>
+<area shape="rect" id="Node000001" title="This file contains all the functions prototypes for the mfxstm32l152.c IO expander driver." alt="" coords="95,5,327,45"/>
+<area shape="rect" id="Node000002" href="$ts_8h.html" title="This file contains all the functions prototypes for the Touch Screen driver." alt="" coords="5,93,127,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,48,101,89,98,84,175,43"/>
+<area shape="rect" id="Node000004" href="$io_8h.html" title="This file contains all the functions prototypes for the IO driver." alt="" coords="151,93,272,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="214,46,214,79,209,79,209,46"/>
+<area shape="rect" id="Node000005" href="$idd_8h.html" title="This file contains all the functions prototypes for the IDD driver." alt="" coords="296,93,425,119"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="248,43,328,84,325,89,246,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="176,167,247,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,116,177,158,174,163,88,121"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="214,119,214,153,209,153,209,119"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="338,121,249,163,247,158,336,116"/>
 </map>

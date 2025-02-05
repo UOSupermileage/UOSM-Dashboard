@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['variables_0',['variables',['../group__STM32F769I__DISCOVERY__EEPROM__Private__Variables.html',1,'EEPROM Private Variables'],['../group__FT6X06__Private__Variables.html',1,'FT6X06 Private Variables'],['../group__STM32F769I__DISCOVERY__LCD__Private__Variables.html',1,'LCD Private Variables'],['../group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Variables.html',1,'LOW_LEVEL Private Variables'],['../group__STM32F769I__DISCOVERY__SDRAM__Private__Variables.html',1,'SDRAM Private Variables'],['../group__ST7789H2__Private__Variables.html',1,'ST7789H2 Private Variables'],['../group__STM32F769I__DISCOVERY__LCD__Exported__Variables.html',1,'STM32F769I DISCOVERY LCD Exported Variables'],['../group__STM32F769I__DISCOVERY__QSPI__Private__Variables.html',1,'STM32F769I_DISCOVERY QSPI Private Variables'],['../group__STM32F769I__DISCOVERY__AUDIO__Private__Variables.html',1,'STM32F769I_DISCOVERY_AUDIO Private Variables'],['../group__STM32F769I__DISCOVERY__TS__Imported__Variables.html',1,'TS Imported Variables'],['../group__STM32F769I__DISCOVERY__TS__Private__Variables.html',1,'TS Private Variables']]],
+  ['vddmin_1',['VddMin',['../structIDD__ConfigTypeDef.html#ab8be289c857a9fd08e7b058ac4174827',1,'IDD_ConfigTypeDef']]],
+  ['view_2',['view',['../md_Documentation_2Architecture.html#autotoc_md1',1,'Updating the view'],['../classView.html#a1bc9ad5d792ada107d4ece451a37f2a9',1,'View::View()'],['../classView.html',1,'View']]],
+  ['voltage_20throttle_20over_20time_3',['3. Graph of RPM, Current, Voltage, Throttle over time.',['../md_Documentation_2ToDo.html#autotoc_md8',1,'']]],
+  ['vrefmeasurement_4',['VrefMeasurement',['../structIDD__ConfigTypeDef.html#a51011093bc91e6348d030254c61f5614',1,'IDD_ConfigTypeDef']]]
+];

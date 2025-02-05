@@ -1,12 +1,23 @@
 <map id="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery.h" name="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery.h">
-<area shape="rect" id="node1" title="This file contains definitions for STM32F769I&#45;Discovery LEDs, push&#45;buttons hardware resources." alt="" coords="492,5,663,61"/>
-<area shape="rect" id="node2" href="$stm32f769i__discovery_8c.html" title="This file provides a set of firmware functions to manage LEDs, push&#45;buttons, external SDRAM,..." alt="" coords="5,109,176,165"/>
-<area shape="rect" id="node3" href="$stm32f769i__discovery__audio_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_audio...." alt="" coords="200,109,371,165"/>
-<area shape="rect" id="node5" href="$stm32f769i__discovery__eeprom_8h.html" title="This file contains all the functions prototypes for the stm32f769i_discovery_eeprom...." alt="" coords="395,109,565,165"/>
-<area shape="rect" id="node7" href="$stm32f769i__discovery__lcd_8h.html" title="This file contains the common defines and functions prototypes for the stm32469i_discovery_lcd...." alt="" coords="589,109,760,165"/>
-<area shape="rect" id="node9" href="$stm32f769i__discovery__ts_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_ts...." alt="" coords="765,213,936,269"/>
-<area shape="rect" id="node10" href="$stm32f769i__discovery__ts_8c.html" title="This file provides a set of functions needed to manage the Touch Screen on STM32F769I&#45;DISCOVERY disco..." alt="" coords="827,317,997,373"/>
-<area shape="rect" id="node4" href="$stm32f769i__discovery__audio_8c.html" title="This file provides the Audio driver for the STM32F769I&#45;DISCOVERY &#160;&#160;board." alt="" coords="181,213,352,269"/>
-<area shape="rect" id="node6" href="$stm32f769i__discovery__eeprom_8c.html" title="This file provides a set of functions needed to manage an I2C M24LR64 EEPROM memory." alt="" coords="376,213,547,269"/>
-<area shape="rect" id="node8" href="$stm32f769i__discovery__lcd_8c.html" title="This file includes the driver for Liquid Crystal Display (LCD) module mounted on STM32F769I&#45;DISCOVERY..." alt="" coords="571,213,741,269"/>
+<area shape="rect" id="Node000001" title="This file contains definitions for STM32F769I&#45;Discovery LEDs, push&#45;buttons hardware resources." alt="" coords="492,5,663,60"/>
+<area shape="rect" id="Node000002" href="$stm32f769i__discovery_8c.html" title="This file provides a set of firmware functions to manage LEDs, push&#45;buttons, external SDRAM,..." alt="" coords="5,108,176,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="479,53,341,79,189,111,177,113,175,108,187,105,340,74,478,48"/>
+<area shape="rect" id="Node000003" href="$stm32f769i__discovery__audio_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_audio...." alt="" coords="200,108,371,163"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="489,67,362,110,361,105,488,62"/>
+<area shape="rect" id="Node000005" href="$stm32f769i__discovery__eeprom_8h.html" title="This file contains all the functions prototypes for the stm32f769i_discovery_eeprom...." alt="" coords="395,108,565,163"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="544,72,507,110,503,106,540,68"/>
+<area shape="rect" id="Node000007" href="$stm32f769i__discovery__lcd_8h.html" title="This file contains the common defines and functions prototypes for the stm32469i_discovery_lcd...." alt="" coords="589,108,760,163"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="614,68,651,106,647,110,610,72"/>
+<area shape="rect" id="Node000009" href="$stm32f769i__discovery__ts_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_ts...." alt="" coords="765,211,936,265"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="677,55,727,76,774,106,797,130,817,157,843,209,838,212,812,160,793,133,770,110,725,81,675,60"/>
+<area shape="rect" id="Node000010" href="$stm32f769i__discovery__ts_8c.html" title="This file provides a set of functions needed to manage the Touch Screen on STM32F769I&#45;DISCOVERY disco..." alt="" coords="827,313,997,368"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="677,45,751,64,829,96,866,117,899,143,928,174,950,210,957,237,954,265,944,292,932,314,928,312,939,289,949,264,952,237,946,212,924,177,895,147,863,122,826,100,749,69,675,50"/>
+<area shape="rect" id="Node000004" href="$stm32f769i__discovery__audio_8c.html" title="This file provides the Audio driver for the STM32F769I&#45;DISCOVERY &#160;&#160;board." alt="" coords="181,211,352,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="281,177,274,211,269,210,275,176"/>
+<area shape="rect" id="Node000006" href="$stm32f769i__discovery__eeprom_8c.html" title="This file provides a set of functions needed to manage an I2C M24LR64 EEPROM memory." alt="" coords="376,211,547,265"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="475,177,469,211,464,210,470,176"/>
+<area shape="rect" id="Node000008" href="$stm32f769i__discovery__lcd_8c.html" title="This file includes the driver for Liquid Crystal Display (LCD) module mounted on STM32F769I&#45;DISCOVERY..." alt="" coords="571,211,741,265"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="670,177,663,211,658,210,665,176"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="734,167,806,208,803,213,731,172"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="876,276,898,312,894,315,872,279"/>
 </map>

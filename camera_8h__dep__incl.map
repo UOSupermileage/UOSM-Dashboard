@@ -1,7 +1,11 @@
 <map id="Drivers/Components/Common/camera.h" name="Drivers/Components/Common/camera.h">
-<area shape="rect" id="node1" title="This header file contains the common defines and functions prototypes for the camera driver." alt="" coords="95,5,249,47"/>
-<area shape="rect" id="node2" href="$ov9655_8h.html" title="This file contains all the functions prototypes for the ov9655.c driver." alt="" coords="5,95,160,136"/>
-<area shape="rect" id="node4" href="$s5k5cag_8h.html" title="This file contains all the functions prototypes for the s5k5cag.c driver." alt="" coords="184,95,339,136"/>
-<area shape="rect" id="node3" href="$ov9655_8c.html" title="This file provides the OV9655 camera driver." alt="" coords="5,184,160,225"/>
-<area shape="rect" id="node5" href="$s5k5cag_8c.html" title="This file provides the S5K5CAG camera driver." alt="" coords="184,184,339,225"/>
+<area shape="rect" id="Node000001" title="This header file contains the common defines and functions prototypes for the camera driver." alt="" coords="95,5,249,45"/>
+<area shape="rect" id="Node000002" href="$ov9655_8h.html" title="This file contains all the functions prototypes for the ov9655.c driver." alt="" coords="5,93,160,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,57,104,95,101,91,140,53"/>
+<area shape="rect" id="Node000004" href="$s5k5cag_8h.html" title="This file contains all the functions prototypes for the s5k5cag.c driver." alt="" coords="184,93,339,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="204,53,243,91,240,95,200,57"/>
+<area shape="rect" id="Node000003" href="$ov9655_8c.html" title="This file provides the OV9655 camera driver." alt="" coords="5,181,160,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,147,85,181,80,181,80,147"/>
+<area shape="rect" id="Node000005" href="$s5k5cag_8c.html" title="This file provides the S5K5CAG camera driver." alt="" coords="184,181,339,221"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="264,147,264,181,259,181,259,147"/>
 </map>

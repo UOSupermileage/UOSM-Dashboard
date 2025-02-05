@@ -1,4 +1,5 @@
 <map id="Drivers/Components/stmpe811/stmpe811.h" name="Drivers/Components/stmpe811/stmpe811.h">
-<area shape="rect" id="node1" title="This file contains all the functions prototypes for the stmpe811.c IO expander driver." alt="" coords="5,5,177,47"/>
-<area shape="rect" id="node2" href="$stmpe811_8c.html" title="This file provides a set of functions needed to manage the STMPE811 IO Expander devices." alt="" coords="6,95,177,136"/>
+<area shape="rect" id="Node000001" title="This file contains all the functions prototypes for the stmpe811.c IO expander driver." alt="" coords="5,5,177,45"/>
+<area shape="rect" id="Node000002" href="$stmpe811_8c.html" title="This file provides a set of functions needed to manage the STMPE811 IO Expander devices." alt="" coords="6,93,177,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,59,94,93,89,93,89,59"/>
 </map>

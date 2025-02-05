@@ -17,5 +17,10 @@ var group__ADV7533__Exported__Functions =
     [ "adv7533_SetMute", "group__ADV7533__Exported__Functions.html#ga6bb0da07e06235141438a7b7d00c4735", null ],
     [ "adv7533_SetOutputMode", "group__ADV7533__Exported__Functions.html#ga3c8270661e87ab41c4721c8339524e49", null ],
     [ "adv7533_SetVolume", "group__ADV7533__Exported__Functions.html#ga84d1a4e2fba10bf26dad70313de37178", null ],
-    [ "adv7533_Stop", "group__ADV7533__Exported__Functions.html#ga35b63fbbe5bff1972bf99ae5613dac2e", null ]
+    [ "adv7533_Stop", "group__ADV7533__Exported__Functions.html#ga35b63fbbe5bff1972bf99ae5613dac2e", null ],
+    [ "AUDIO_IO_DeInit", "group__ADV7533__Exported__Functions.html#ga06ed3f7f32df17d8b5099754dd81d6b3", null ],
+    [ "HDMI_IO_Delay", "group__ADV7533__Exported__Functions.html#ga90c3eeb1e88f9f1c02862b9e48cc35b1", null ],
+    [ "HDMI_IO_Init", "group__ADV7533__Exported__Functions.html#ga544f0d0708135b1e716a2d309f5f9509", null ],
+    [ "HDMI_IO_Read", "group__ADV7533__Exported__Functions.html#ga2fbd238c4483b08b7ae8a2206df5acf7", null ],
+    [ "HDMI_IO_Write", "group__ADV7533__Exported__Functions.html#gad4f6407da49a24c73e0bbe85d42bec66", null ]
 ];

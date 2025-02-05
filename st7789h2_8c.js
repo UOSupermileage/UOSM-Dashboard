@@ -16,6 +16,5 @@ var st7789h2_8c =
     [ "ST7789H2_SetDisplayWindow", "group__ST7789H2__Private__Functions.html#ga5c3d3168b881708cdc4174500d24d190", null ],
     [ "ST7789H2_SetOrientation", "group__ST7789H2__Private__Functions.html#ga1bcf4ea47a4e1f8d3298b78727c5e5c2", null ],
     [ "ST7789H2_WritePixel", "group__ST7789H2__Private__Functions.html#gab0ada921c8c4886a56114035b4496edf", null ],
-    [ "ST7789H2_WriteReg", "group__ST7789H2__Private__Functions.html#ga88e28d2b7833475c12420bbbc8071a36", null ],
-    [ "ST7789H2_drv", "group__ST7789H2__Private__Variables.html#gaa15472afb440f9fbbede6755a51ba7b6", null ]
+    [ "ST7789H2_WriteReg", "group__ST7789H2__Private__Functions.html#ga88e28d2b7833475c12420bbbc8071a36", null ]
 ];

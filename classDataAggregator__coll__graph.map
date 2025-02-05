@@ -1,6 +1,9 @@
 <map id="DataAggregator" name="DataAggregator">
-<area shape="rect" id="node1" title=" " alt="" coords="243,95,368,121"/>
-<area shape="rect" id="node2" href="$classObservable.html" title=" " alt="" coords="5,5,192,32"/>
-<area shape="rect" id="node3" href="$classObservable.html" title=" " alt="" coords="217,5,394,32"/>
-<area shape="rect" id="node4" href="$classObservable.html" title=" " alt="" coords="418,5,657,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="273,93,399,119"/>
+<area shape="rect" id="Node000002" href="$classObservable.html" title=" " alt="" coords="5,5,192,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,33,230,67,301,91,299,96,228,72,139,38"/>
+<area shape="rect" id="Node000003" href="$classObservable.html" title=" " alt="" coords="217,5,455,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="339,45,339,93,333,93,333,45"/>
+<area shape="rect" id="Node000004" href="$classObservable.html" title=" " alt="" coords="479,5,657,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="525,38,368,96,366,91,523,33"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="STM32F769I_DISCOVERY_AUDIO Exported Constants" name="STM32F769I_DISCOVERY_AUDIO Exported Constants">
-<area shape="rect" id="node1" title=" " alt="" coords="236,5,439,45"/>
-<area shape="rect" id="node2" href="$group__BSP__Audio__Sample__Rate.html" title=" " alt="" coords="487,13,661,38"/>
-<area shape="rect" id="node3" href="$group__STM32F769I__DISCOVERY__AUDIO.html" title="This file includes the low layer driver for wm8994 Audio Codec available on STM32F769I&#45;DISCOVERY disc..." alt="" coords="5,5,188,45"/>
+<area shape="rect" id="Node000003" href="$group__BSP__Audio__Sample__Rate.html" title=" " alt="" coords="487,13,661,38"/>
+<area shape="rect" id="Node000002" href="$group__STM32F769I__DISCOVERY__AUDIO.html" title="This file includes the low layer driver for wm8994 Audio Codec available on STM32F769I&#45;DISCOVERY disc..." alt="" coords="5,5,188,45"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="236,5,439,45"/>
 </map>

@@ -1,5 +1,7 @@
 <map id="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_qspi.h" name="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_qspi.h">
-<area shape="rect" id="node1" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_qspi...." alt="" coords="76,5,247,61"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,117,136,143"/>
-<area shape="rect" id="node3" href="$mx25l512_8h.html" title="This file contains all the description of the MX25L51245G QSPI memory." alt="" coords="161,109,346,151"/>
+<area shape="rect" id="Node000001" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_qspi...." alt="" coords="76,5,247,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,115,136,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,62,94,107,90,103,134,58"/>
+<area shape="rect" id="Node000003" href="$mx25l512_8h.html" title="This file contains all the description of the MX25L51245G QSPI memory." alt="" coords="161,108,346,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,58,227,96,223,100,186,62"/>
 </map>

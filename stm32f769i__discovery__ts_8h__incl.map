@@ -1,14 +1,29 @@
 <map id="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_ts.h" name="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_ts.h">
-<area shape="rect" id="node1" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_ts...." alt="" coords="325,5,496,61"/>
-<area shape="rect" id="node2" href="$stm32f769i__discovery_8h.html" title="This file contains definitions for STM32F769I&#45;Discovery LEDs, push&#45;buttons hardware resources." alt="" coords="5,206,181,233"/>
-<area shape="rect" id="node4" href="$stm32f769i__discovery__lcd_8h.html" title="This file contains the common defines and functions prototypes for the stm32469i_discovery_lcd...." alt="" coords="327,109,494,151"/>
-<area shape="rect" id="node11" href="$ft6x06_8h.html" title="This file contains all the functions prototypes for the ft6x06.c IO expander driver." alt="" coords="597,109,758,151"/>
-<area shape="rect" id="node3" title=" " alt="" coords="95,295,225,322"/>
-<area shape="rect" id="node5" href="$otm8009a_8h.html" title="This file contains all the constants parameters for the OTM8009A which is the LCD Driver for KoD KM&#45;0..." alt="" coords="316,288,503,329"/>
-<area shape="rect" id="node7" href="$adv7533_8h.html" title="This file contains all the constants parameters for the ADV7533 which is the HDMI bridge between DSI ..." alt="" coords="448,199,624,240"/>
-<area shape="rect" id="node9" href="$stm32f769i__discovery__sdram_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_sdram...." alt="" coords="206,199,373,240"/>
-<area shape="rect" id="node10" title=" " alt="" coords="649,206,719,233"/>
-<area shape="rect" id="node6" title=" " alt="" coords="565,377,635,404"/>
-<area shape="rect" id="node8" href="$audio_8h.html" title="This header file contains the common defines and functions prototypes for the Audio driver." alt="" coords="527,295,673,322"/>
-<area shape="rect" id="node12" href="$ts_8h.html" title="This file contains all the functions prototypes for the Touch Screen driver." alt="" coords="697,295,818,322"/>
+<area shape="rect" id="Node000001" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_ts...." alt="" coords="325,5,496,60"/>
+<area shape="rect" id="Node000002" href="$stm32f769i__discovery_8h.html" title="This file contains definitions for STM32F769I&#45;Discovery LEDs, push&#45;buttons hardware resources." alt="" coords="5,203,181,229"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="366,62,126,199,124,194,364,58"/>
+<area shape="rect" id="Node000004" href="$stm32f769i__discovery__lcd_8h.html" title="This file contains the common defines and functions prototypes for the stm32469i_discovery_lcd...." alt="" coords="327,108,494,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="413,60,413,94,408,94,408,60"/>
+<area shape="rect" id="Node000011" href="$ft6x06_8h.html" title="This file contains all the functions prototypes for the ft6x06.c IO expander driver." alt="" coords="597,108,758,148"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="487,58,611,101,610,106,485,63"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="95,291,225,317"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="104,227,144,278,140,282,100,230"/>
+<area shape="poly" id="edge11_Node000004_Node000002" title=" " alt="" coords="342,151,149,202,148,197,340,145"/>
+<area shape="rect" id="Node000005" href="$otm8009a_8h.html" title="This file contains all the constants parameters for the OTM8009A which is the LCD Driver for KoD KM&#45;0..." alt="" coords="316,284,503,324"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="413,148,412,270,407,270,408,148"/>
+<area shape="rect" id="Node000007" href="$adv7533_8h.html" title="This file contains all the constants parameters for the ADV7533 which is the HDMI bridge between DSI ..." alt="" coords="448,196,624,236"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="440,146,498,186,495,190,437,150"/>
+<area shape="rect" id="Node000009" href="$stm32f769i__discovery__sdram_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_sdram...." alt="" coords="206,196,373,236"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="385,150,329,190,326,186,382,146"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="649,203,719,229"/>
+<area shape="poly" id="edge12_Node000004_Node000010" title=" " alt="" coords="480,146,637,193,644,196,642,201,635,199,479,151"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="565,372,635,397"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="456,322,560,364,558,369,454,326"/>
+<area shape="rect" id="Node000008" href="$audio_8h.html" title="This header file contains the common defines and functions prototypes for the Audio driver." alt="" coords="527,291,673,317"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="552,235,585,278,581,282,548,238"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="603,317,603,358,597,358,597,317"/>
+<area shape="poly" id="edge10_Node000009_Node000003" title=" " alt="" coords="262,238,191,286,188,281,259,234"/>
+<area shape="rect" id="Node000012" href="$ts_8h.html" title="This file contains all the functions prototypes for the Touch Screen driver." alt="" coords="697,291,818,317"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="698,146,717,169,733,195,748,237,757,277,752,278,743,239,728,197,712,172,694,150"/>
+<area shape="poly" id="edge15_Node000012_Node000006" title=" " alt="" coords="736,319,636,368,634,364,733,314"/>
 </map>

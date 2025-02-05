@@ -1,4 +1,5 @@
 <map id="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_sdram.h" name="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_sdram.h">
-<area shape="rect" id="node1" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_sdram...." alt="" coords="5,5,176,61"/>
-<area shape="rect" id="node2" title=" " alt="" coords="25,109,156,136"/>
+<area shape="rect" id="Node000001" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_sdram...." alt="" coords="5,5,176,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="25,108,156,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,60,93,94,88,94,88,60"/>
 </map>

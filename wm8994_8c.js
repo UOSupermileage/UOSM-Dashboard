@@ -11,6 +11,5 @@ var wm8994_8c =
     [ "wm8994_SetMute", "group__WM8994__Private__Functions.html#ga2f3d8a46806eb63a023bf6bb4f7821e3", null ],
     [ "wm8994_SetOutputMode", "group__WM8994__Private__Functions.html#ga74e3c3342bce3e9bb871ca13125a263c", null ],
     [ "wm8994_SetVolume", "group__WM8994__Private__Functions.html#ga3f3e2ff73924bcb5de7ed9d1de056b3a", null ],
-    [ "wm8994_Stop", "group__WM8994__Private__Functions.html#ga99a727c0ff7966622fcd1b0531ae141e", null ],
-    [ "wm8994_drv", "group__WM8994__Private__Variables.html#ga02cdf3607d911abf01bb66af3f0d8a35", null ]
+    [ "wm8994_Stop", "group__WM8994__Private__Functions.html#ga99a727c0ff7966622fcd1b0531ae141e", null ]
 ];

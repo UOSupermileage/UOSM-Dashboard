@@ -1,8 +1,8 @@
 <map id="WM8994" name="WM8994">
-<area shape="rect" id="node1" href="$group__WM8994__Exported__Macros.html" title=" " alt="" coords="286,5,485,31"/>
-<area shape="rect" id="node2" href="$group__WM8994__Exported__Constants.html" title=" " alt="" coords="277,55,493,80"/>
-<area shape="rect" id="node3" href="$group__Component.html" title=" " alt="" coords="5,80,103,105"/>
-<area shape="rect" id="node6" title=" " alt="" coords="151,80,229,105"/>
-<area shape="rect" id="node4" href="$group__WM8994__Exported__Types.html" title=" " alt="" coords="291,104,479,129"/>
-<area shape="rect" id="node5" href="$group__WM8994__Exported__Functions.html" title=" " alt="" coords="279,153,492,179"/>
+<area shape="rect" id="Node000002" href="$group__Component.html" title=" " alt="" coords="5,80,103,105"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="151,80,229,105"/>
+<area shape="rect" id="Node000004" href="$group__WM8994__Exported__Constants.html" title=" " alt="" coords="277,5,493,31"/>
+<area shape="rect" id="Node000006" href="$group__WM8994__Exported__Functions.html" title=" " alt="" coords="279,55,492,80"/>
+<area shape="rect" id="Node000005" href="$group__WM8994__Exported__Macros.html" title=" " alt="" coords="286,104,485,129"/>
+<area shape="rect" id="Node000003" href="$group__WM8994__Exported__Types.html" title=" " alt="" coords="291,153,479,179"/>
 </map>

@@ -26,25 +26,26 @@ var NAVTREE =
 [
   [ "UOSM Dashboard", "index.html", [
     [ "Getting Started", "index.html", null ],
-    [ "Overview", "md_Documentation_Architecture.html", [
-      [ "Updating the view", "md_Documentation_Architecture.html#autotoc_md1", null ]
+    [ "Overview", "md_Documentation_2Architecture.html", [
+      [ "Updating the view", "md_Documentation_2Architecture.html#autotoc_md1", null ]
     ] ],
-    [ "CodeStyle", "md_Documentation_CodeStyle.html", [
-      [ "Naming Conventions", "md_Documentation_CodeStyle.html#autotoc_md2", [
-        [ "File Extensions", "md_Documentation_CodeStyle.html#autotoc_md3", null ]
+    [ "CodeStyle", "md_Documentation_2CodeStyle.html", [
+      [ "Naming Conventions", "md_Documentation_2CodeStyle.html#autotoc_md2", [
+        [ "File Extensions", "md_Documentation_2CodeStyle.html#autotoc_md3", null ]
       ] ]
     ] ],
-    [ "ToDo List", "md_Documentation_ToDo.html", [
-      [ "1. Bar chart that displays lap efficiencies.", "md_Documentation_ToDo.html#autotoc_md6", null ],
-      [ "2. Large format efficiency number percentage.", "md_Documentation_ToDo.html#autotoc_md7", null ],
-      [ "3. Graph of RPM, Current, Voltage, Throttle over time.", "md_Documentation_ToDo.html#autotoc_md8", null ],
-      [ "4. Large format lap time.", "md_Documentation_ToDo.html#autotoc_md9", null ],
-      [ "5. Easily change the default screen at compile time.", "md_Documentation_ToDo.html#autotoc_md10", null ]
+    [ "ToDo List", "md_Documentation_2ToDo.html", [
+      [ "1. Bar chart that displays lap efficiencies.", "md_Documentation_2ToDo.html#autotoc_md6", null ],
+      [ "2. Large format efficiency number percentage.", "md_Documentation_2ToDo.html#autotoc_md7", null ],
+      [ "3. Graph of RPM, Current, Voltage, Throttle over time.", "md_Documentation_2ToDo.html#autotoc_md8", null ],
+      [ "4. Large format lap time.", "md_Documentation_2ToDo.html#autotoc_md9", null ],
+      [ "5. Easily change the default screen at compile time.", "md_Documentation_2ToDo.html#autotoc_md10", null ]
     ] ],
-    [ "UOSM-Core", "md_UOSM_Core_README.html", [
-      [ "Usage", "md_UOSM_Core_README.html#autotoc_md13", null ]
+    [ "UOSM-Core", "md_UOSM-Core_2README.html", [
+      [ "Usage", "md_UOSM-Core_2README.html#autotoc_md13", null ],
+      [ "Commands", "md_UOSM-Core_2README.html#autotoc_md14", null ]
     ] ],
-    [ "Modules", "modules.html", "modules" ],
+    [ "Topics", "topics.html", "topics" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -72,24 +73,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "ApplicationTypes_8h_source.html",
-"group__ADV7533__Exported__Constants.html#gaaa8bcbd3c3c16e28c96d8ddc03d73385",
-"group__FT5336__Exported__Constants.html#ga39279893a7f327079ed0b8036eacf5ee",
-"group__IO__Exported__Types.html#gga24235ace1c8ec7472d83811fd1c83874a146b3d469c6b5bdee5d51e57fda2ffa3",
-"group__MFXSTM32L152__Exported__Functions.html#ga27a0578b435479366af56d42b48e8ad7",
-"group__MX25L512__Exported__Constants.html#ga66456d73cb4185955c6c7e663a85c8da",
-"group__N25Q512A__Exported__Constants.html#ga981ef7851babecae3de375cdc7e8f800",
-"group__OV9655__Exported__Constants.html#gad1e61af121355346ba7f1344a1d626ac",
-"group__ST7789H2__Exported__Constants.html#gaa718f430547b0ad9bd681539e03fb98a",
-"group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#gac145a279ffcaf4ec9a63650f5330ee78",
-"group__STM32F769I__DISCOVERY__LOW__LEVEL.html#ga544f0d0708135b1e716a2d309f5f9509",
-"group__STM32F769I__DISCOVERY__QSPI__Exported__Functions.html#ga4e269ef036b75cd70a490a40f165aac2",
-"group__STMPE811__Exported__Constants.html#ga7ba3e266149528a3d01c88a968d88367",
-"group__WM8994__Exported__Constants.html#gae2a20594d7d7356ac9315f37f0ed62f0",
-"group__ts3510__Exported__Functions.html#ga11e0c31073a5106868d486f857cb7fb6",
-"main_8h.html#a08a7b321c5fb60e9e76bc74a1bf8ce5e",
-"main_8h.html#ad54b5cc45c142aaff3d6555f0e404b47",
-"structICommsMessageInfo.html#a38c3354feb415826e8b0a7193d3a03d6",
-"ts_8h.html"
+"group__ADV7533__Exported__Types.html",
+"group__MX25L512__Exported__Constants.html#ga8173013e67894a4e45cf4f13d5934b6d",
+"group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#ga345932dd9f27ba5e7fbf54fe6e9a18d3",
+"group__STM32F769I__DISCOVERY__TS__Exported__Types.html#gga39edc5adfbc376e1554971543d24b952a90038a05d94fc558478c96875661b06e",
+"group__ft6x06__Exported__Functions.html#ga9617cc523a8f1817698200a35b1bf45d",
+"structTS__StateTypeDef.html#a66e0c4ef9463a30586a94e1d1261fd3b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

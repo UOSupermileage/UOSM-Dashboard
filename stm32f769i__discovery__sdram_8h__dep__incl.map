@@ -1,8 +1,13 @@
 <map id="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_sdram.h" name="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_sdram.h">
-<area shape="rect" id="node1" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_sdram...." alt="" coords="200,5,371,61"/>
-<area shape="rect" id="node2" href="$stm32f769i__discovery__lcd_8h.html" title="This file contains the common defines and functions prototypes for the stm32469i_discovery_lcd...." alt="" coords="103,109,273,165"/>
-<area shape="rect" id="node6" href="$stm32f769i__discovery__sdram_8c.html" title="This file includes the SDRAM driver for the MT48LC4M32B2B5&#45;6A memory device mounted on STM32F769I&#45;DIS..." alt="" coords="297,109,468,165"/>
-<area shape="rect" id="node3" href="$stm32f769i__discovery__lcd_8c.html" title="This file includes the driver for Liquid Crystal Display (LCD) module mounted on STM32F769I&#45;DISCOVERY..." alt="" coords="5,213,176,269"/>
-<area shape="rect" id="node4" href="$stm32f769i__discovery__ts_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_ts...." alt="" coords="200,213,371,269"/>
-<area shape="rect" id="node5" href="$stm32f769i__discovery__ts_8c.html" title="This file provides a set of functions needed to manage the Touch Screen on STM32F769I&#45;DISCOVERY disco..." alt="" coords="200,317,371,373"/>
+<area shape="rect" id="Node000001" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_sdram...." alt="" coords="200,5,371,60"/>
+<area shape="rect" id="Node000002" href="$stm32f769i__discovery__lcd_8h.html" title="This file contains the common defines and functions prototypes for the stm32469i_discovery_lcd...." alt="" coords="103,108,273,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="252,72,215,110,211,106,248,68"/>
+<area shape="rect" id="Node000006" href="$stm32f769i__discovery__sdram_8c.html" title="This file includes the SDRAM driver for the MT48LC4M32B2B5&#45;6A memory device mounted on STM32F769I&#45;DIS..." alt="" coords="297,108,468,163"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="322,68,359,106,355,110,318,72"/>
+<area shape="rect" id="Node000003" href="$stm32f769i__discovery__lcd_8c.html" title="This file includes the driver for Liquid Crystal Display (LCD) module mounted on STM32F769I&#45;DISCOVERY..." alt="" coords="5,211,176,265"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="155,175,118,212,114,209,151,171"/>
+<area shape="rect" id="Node000004" href="$stm32f769i__discovery__ts_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_ts...." alt="" coords="200,211,371,265"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="225,171,262,209,258,212,221,175"/>
+<area shape="rect" id="Node000005" href="$stm32f769i__discovery__ts_8c.html" title="This file provides a set of functions needed to manage the Touch Screen on STM32F769I&#45;DISCOVERY disco..." alt="" coords="200,313,371,368"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="288,279,288,313,283,313,283,279"/>
 </map>

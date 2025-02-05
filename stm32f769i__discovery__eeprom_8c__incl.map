@@ -1,6 +1,9 @@
 <map id="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_eeprom.c" name="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_eeprom.c">
-<area shape="rect" id="node1" title="This file provides a set of functions needed to manage an I2C M24LR64 EEPROM memory." alt="" coords="8,5,179,61"/>
-<area shape="rect" id="node2" href="$stm32f769i__discovery__eeprom_8h.html" title="This file contains all the functions prototypes for the stm32f769i_discovery_eeprom...." alt="" coords="10,109,177,151"/>
-<area shape="rect" id="node3" href="$stm32f769i__discovery_8h.html" title="This file contains definitions for STM32F769I&#45;Discovery LEDs, push&#45;buttons hardware resources." alt="" coords="5,199,181,225"/>
-<area shape="rect" id="node4" title=" " alt="" coords="28,273,159,300"/>
+<area shape="rect" id="Node000001" title="This file provides a set of functions needed to manage an I2C M24LR64 EEPROM memory." alt="" coords="8,5,179,60"/>
+<area shape="rect" id="Node000002" href="$stm32f769i__discovery__eeprom_8h.html" title="This file contains all the functions prototypes for the stm32f769i_discovery_eeprom...." alt="" coords="10,108,177,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,60,96,94,91,94,91,60"/>
+<area shape="rect" id="Node000003" href="$stm32f769i__discovery_8h.html" title="This file contains definitions for STM32F769I&#45;Discovery LEDs, push&#45;buttons hardware resources." alt="" coords="5,196,181,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,148,96,182,91,182,91,148"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="28,269,159,295"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="96,222,96,256,91,256,91,222"/>
 </map>

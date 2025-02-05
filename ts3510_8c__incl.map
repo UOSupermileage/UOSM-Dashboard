@@ -1,6 +1,9 @@
 <map id="Drivers/Components/ts3510/ts3510.c" name="Drivers/Components/ts3510/ts3510.c">
-<area shape="rect" id="node1" title="This file provides a set of functions needed to manage the TS3510 IO Expander devices." alt="" coords="5,5,160,47"/>
-<area shape="rect" id="node2" href="$ts3510_8h.html" title="This file contains all the functions prototypes for the ts3510.c IO expander driver." alt="" coords="43,95,122,121"/>
-<area shape="rect" id="node3" href="$ts_8h.html" title="This file contains all the functions prototypes for the Touch Screen driver." alt="" coords="22,169,143,196"/>
-<area shape="rect" id="node4" title=" " alt="" coords="47,244,118,271"/>
+<area shape="rect" id="Node000001" title="This file provides a set of functions needed to manage the TS3510 IO Expander devices." alt="" coords="5,5,160,45"/>
+<area shape="rect" id="Node000002" href="$ts3510_8h.html" title="This file contains all the functions prototypes for the ts3510.c IO expander driver." alt="" coords="43,93,122,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,46,85,79,80,79,80,46"/>
+<area shape="rect" id="Node000003" href="$ts_8h.html" title="This file contains all the functions prototypes for the Touch Screen driver." alt="" coords="22,167,143,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,119,85,153,80,153,80,119"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="47,240,118,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="85,192,85,226,80,226,80,192"/>
 </map>

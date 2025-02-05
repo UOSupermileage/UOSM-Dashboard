@@ -28,6 +28,9 @@ var hierarchy =
     [ "IDD_dbgTypeDef", "structIDD__dbgTypeDef.html", null ],
     [ "IDD_DrvTypeDef", "structIDD__DrvTypeDef.html", null ],
     [ "Identifiable", "classIdentifiable.html", [
+      [ "Listener< voltage_t >", "classListener.html", null ],
+      [ "Listener< lap_efficiencies_t >", "classListener.html", null ],
+      [ "Listener< speed_t >", "classListener.html", null ],
       [ "CANLogEntry", "classCANLogEntry.html", null ],
       [ "Listener< T >", "classListener.html", null ],
       [ "ObserverToken", "classObserverToken.html", null ]

@@ -1,6 +1,7 @@
 <map id="Drivers/Components/mfxstm32l152" name="Drivers/Components/mfxstm32l152">
-<area shape="rect" id="node1" href="dir_cd3be7779c2e600001d769a5b08c4acd.html" title="Common" alt="" coords="45,148,126,196"/>
-<area shape="rect" id="node2" href="dir_12d7934d17ff65ed6cbdda1ccfadfd5e.html" title="mfxstm32l152" alt="" coords="27,52,144,100"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000018_000014.html" title="3" alt="" coords="89,122,98,137"/>
-<area shape="rect" id="clust1" href="dir_f2158a96a8a21db91f49d5d478722960.html" title="Components" alt="" coords="16,16,155,207"/>
+<area shape="rect" id="node1" href="dir_cd3be7779c2e600001d769a5b08c4acd.html" title="Common" alt="" coords="45,125,126,151"/>
+<area shape="rect" id="node2" href="dir_12d7934d17ff65ed6cbdda1ccfadfd5e.html" title="mfxstm32l152" alt="" coords="27,52,144,77"/>
+<area shape="poly" id="edge1" href="dir_000016_000003.html" alt="" coords="88,78,88,112,83,112,83,78"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000016_000003.html" title="3" alt="" coords="89,100,98,114"/>
+<area shape="rect" id="clust1" href="dir_f2158a96a8a21db91f49d5d478722960.html" title="Components" alt="" coords="16,16,155,161"/>
 </map>

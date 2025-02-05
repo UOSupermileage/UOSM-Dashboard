@@ -1,9 +1,9 @@
 <map id="FT6X06" name="FT6X06">
-<area shape="rect" id="node1" href="$group__Component.html" title=" " alt="" coords="5,104,103,129"/>
-<area shape="rect" id="node6" title=" " alt="" coords="151,104,221,129"/>
-<area shape="rect" id="node2" href="$group__FT6X06__Exported__Types.html" title=" " alt="" coords="272,5,451,31"/>
-<area shape="rect" id="node3" href="$group__FT6X06__Private__Variables.html" title=" " alt="" coords="269,55,453,80"/>
-<area shape="rect" id="node4" href="$group__FT6X06__Private__Defines.html" title=" " alt="" coords="275,104,448,129"/>
-<area shape="rect" id="node5" href="$group__ft6x06__Private__Functions.html" title=" " alt="" coords="272,153,451,179"/>
-<area shape="rect" id="node7" href="$group__ft6x06__Private__Function__Prototypes.html" title=" " alt="" coords="275,203,447,243"/>
+<area shape="rect" id="Node000002" href="$group__Component.html" title=" " alt="" coords="5,104,103,129"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="151,104,221,129"/>
+<area shape="rect" id="Node000007" href="$group__FT6X06__Exported__Types.html" title=" " alt="" coords="272,5,451,31"/>
+<area shape="rect" id="Node000003" href="$group__FT6X06__Private__Defines.html" title=" " alt="" coords="275,55,448,80"/>
+<area shape="rect" id="Node000004" href="$group__FT6X06__Private__Variables.html" title=" " alt="" coords="269,104,453,129"/>
+<area shape="rect" id="Node000005" href="$group__ft6x06__Private__Function__Prototypes.html" title=" " alt="" coords="275,154,447,194"/>
+<area shape="rect" id="Node000006" href="$group__ft6x06__Private__Functions.html" title=" " alt="" coords="272,219,451,244"/>
 </map>

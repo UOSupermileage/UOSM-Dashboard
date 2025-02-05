@@ -1,11 +1,21 @@
 <map id="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_lcd.h" name="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_lcd.h">
-<area shape="rect" id="node1" title="This file contains the common defines and functions prototypes for the stm32469i_discovery_lcd...." alt="" coords="359,5,529,61"/>
-<area shape="rect" id="node2" href="$otm8009a_8h.html" title="This file contains all the constants parameters for the OTM8009A which is the LCD Driver for KoD KM&#45;0..." alt="" coords="5,199,192,240"/>
-<area shape="rect" id="node4" href="$adv7533_8h.html" title="This file contains all the constants parameters for the ADV7533 which is the HDMI bridge between DSI ..." alt="" coords="160,109,336,151"/>
-<area shape="rect" id="node6" href="$stm32f769i__discovery__sdram_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_sdram...." alt="" coords="361,109,527,151"/>
-<area shape="rect" id="node8" href="$stm32f769i__discovery_8h.html" title="This file contains definitions for STM32F769I&#45;Discovery LEDs, push&#45;buttons hardware resources." alt="" coords="552,117,728,143"/>
-<area shape="rect" id="node9" title=" " alt="" coords="753,117,823,143"/>
-<area shape="rect" id="node3" title=" " alt="" coords="158,288,229,315"/>
-<area shape="rect" id="node5" href="$audio_8h.html" title="This header file contains the common defines and functions prototypes for the Audio driver." alt="" coords="217,206,362,233"/>
-<area shape="rect" id="node7" title=" " alt="" coords="480,206,611,233"/>
+<area shape="rect" id="Node000001" title="This file contains the common defines and functions prototypes for the stm32469i_discovery_lcd...." alt="" coords="359,5,529,60"/>
+<area shape="rect" id="Node000002" href="$otm8009a_8h.html" title="This file contains all the constants parameters for the OTM8009A which is the LCD Driver for KoD KM&#45;0..." alt="" coords="5,196,192,236"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="359,39,307,46,252,58,198,79,150,110,135,126,123,145,108,184,103,182,118,142,131,123,146,106,196,75,250,53,306,40,358,33"/>
+<area shape="rect" id="Node000004" href="$adv7533_8h.html" title="This file contains all the constants parameters for the ADV7533 which is the HDMI bridge between DSI ..." alt="" coords="160,108,336,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="390,62,301,105,299,100,388,58"/>
+<area shape="rect" id="Node000006" href="$stm32f769i__discovery__sdram_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_sdram...." alt="" coords="361,108,527,148"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="447,60,447,94,441,94,441,60"/>
+<area shape="rect" id="Node000008" href="$stm32f769i__discovery_8h.html" title="This file contains definitions for STM32F769I&#45;Discovery LEDs, push&#45;buttons hardware resources." alt="" coords="552,115,728,141"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="500,58,605,107,603,112,498,62"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="753,115,823,141"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="530,50,632,74,741,105,748,108,747,113,739,111,630,80,529,55"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="158,284,229,309"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,234,170,273,167,277,120,238"/>
+<area shape="rect" id="Node000005" href="$audio_8h.html" title="This header file contains the common defines and functions prototypes for the Audio driver." alt="" coords="217,203,362,229"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="260,147,280,190,275,192,255,149"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="277,231,220,277,216,273,273,227"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="480,203,611,229"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="468,146,523,192,519,196,465,150"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="629,143,570,196,567,192,625,139"/>
 </map>

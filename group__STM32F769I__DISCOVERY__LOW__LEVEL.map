@@ -1,12 +1,12 @@
 <map id="STM32F769I_DISCOVERY LOW LEVEL" name="STM32F769I_DISCOVERY LOW LEVEL">
-<area shape="rect" id="node1" href="$group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__TypesDefinitions.html" title=" " alt="" coords="479,5,675,45"/>
-<area shape="rect" id="node2" href="$group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Defines.html" title=" " alt="" coords="477,70,678,95"/>
-<area shape="rect" id="node3" href="$group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__FunctionPrototypes.html" title=" " alt="" coords="474,120,681,160"/>
-<area shape="rect" id="node4" href="$group__STM32F769I__DISCOVERY__LOW__LEVEL__Exported__Types.html" title=" " alt="" coords="480,184,675,224"/>
-<area shape="rect" id="node5" href="$group__STM32F769I__DISCOVERY.html" title=" " alt="" coords="5,221,188,246"/>
-<area shape="rect" id="node6" title=" " alt="" coords="236,213,419,253"/>
-<area shape="rect" id="node7" href="$group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Macros.html" title=" " alt="" coords="478,249,677,274"/>
-<area shape="rect" id="node8" href="$group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Variables.html" title=" " alt="" coords="471,298,683,323"/>
-<area shape="rect" id="node9" href="$group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Functions.html" title=" " alt="" coords="467,348,688,388"/>
-<area shape="rect" id="node10" href="$group__STM32F769I__DISCOVERY__BSP__Public__Functions.html" title=" " alt="" coords="499,413,655,438"/>
+<area shape="rect" id="Node000002" href="$group__STM32F769I__DISCOVERY.html" title=" " alt="" coords="5,209,188,235"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="236,202,419,242"/>
+<area shape="rect" id="Node000008" href="$group__STM32F769I__DISCOVERY__BSP__Public__Functions.html" title=" " alt="" coords="499,5,655,31"/>
+<area shape="rect" id="Node000010" href="$group__STM32F769I__DISCOVERY__LOW__LEVEL__Exported__Types.html" title=" " alt="" coords="480,55,675,95"/>
+<area shape="rect" id="Node000004" href="$group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Defines.html" title=" " alt="" coords="477,120,678,145"/>
+<area shape="rect" id="Node000007" href="$group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__FunctionPrototypes.html" title=" " alt="" coords="474,170,681,210"/>
+<area shape="rect" id="Node000009" href="$group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Functions.html" title=" " alt="" coords="467,234,688,274"/>
+<area shape="rect" id="Node000005" href="$group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Macros.html" title=" " alt="" coords="478,299,677,324"/>
+<area shape="rect" id="Node000003" href="$group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__TypesDefinitions.html" title=" " alt="" coords="479,349,675,389"/>
+<area shape="rect" id="Node000006" href="$group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Variables.html" title=" " alt="" coords="471,413,683,439"/>
 </map>

@@ -11,6 +11,5 @@ var ft5336_8c =
     [ "ft5336_TS_GetTouchInfo", "group__ft5336__Public__Function__Body.html#ga90bb74f476a4d929fc79ae41bbed754b", null ],
     [ "ft5336_TS_GetXY", "group__ft5336__Public__Function__Body.html#gae6d2654235148ff80e6d38de0a928dd6", null ],
     [ "ft5336_TS_ITStatus", "group__ft5336__Public__Function__Body.html#ga31e0ab57dcacdd4e3caa357648eaed39", null ],
-    [ "ft5336_TS_Start", "group__ft5336__Public__Function__Body.html#ga3f3623ca0efba95ed7b20d79dbb36d73", null ],
-    [ "ft5336_ts_drv", "group__FT5336__Private__Variables.html#ga3f7877da8b7728ce517d782152159c26", null ]
+    [ "ft5336_TS_Start", "group__ft5336__Public__Function__Body.html#ga3f3623ca0efba95ed7b20d79dbb36d73", null ]
 ];

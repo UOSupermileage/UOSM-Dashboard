@@ -1,10 +1,17 @@
 <map id="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_audio.c" name="Drivers/STM32F769I&#45;Discovery/stm32f769i_discovery_audio.c">
-<area shape="rect" id="node1" title="This file provides the Audio driver for the STM32F769I&#45;DISCOVERY &#160;&#160;board." alt="" coords="208,5,379,61"/>
-<area shape="rect" id="node2" href="$stm32f769i__discovery__audio_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_audio...." alt="" coords="210,109,377,151"/>
-<area shape="rect" id="node3" href="$wm8994_8h.html" title="This file contains all the functions prototypes for the wm8994.c driver." alt="" coords="5,199,181,240"/>
-<area shape="rect" id="node6" href="$stm32f769i__discovery_8h.html" title="This file contains definitions for STM32F769I&#45;Discovery LEDs, push&#45;buttons hardware resources." alt="" coords="205,206,381,233"/>
-<area shape="rect" id="node8" title=" " alt="" coords="406,206,477,233"/>
-<area shape="rect" id="node4" href="$audio_8h.html" title="This header file contains the common defines and functions prototypes for the Audio driver." alt="" coords="21,288,166,315"/>
-<area shape="rect" id="node5" title=" " alt="" coords="58,363,129,389"/>
-<area shape="rect" id="node7" title=" " alt="" coords="228,288,359,315"/>
+<area shape="rect" id="Node000001" title="This file provides the Audio driver for the STM32F769I&#45;DISCOVERY &#160;&#160;board." alt="" coords="208,5,379,60"/>
+<area shape="rect" id="Node000002" href="$stm32f769i__discovery__audio_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_audio...." alt="" coords="210,108,377,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="296,60,296,94,291,94,291,60"/>
+<area shape="rect" id="Node000003" href="$wm8994_8h.html" title="This file contains all the functions prototypes for the wm8994.c driver." alt="" coords="5,196,181,236"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="250,151,151,193,149,188,248,146"/>
+<area shape="rect" id="Node000006" href="$stm32f769i__discovery_8h.html" title="This file contains definitions for STM32F769I&#45;Discovery LEDs, push&#45;buttons hardware resources." alt="" coords="205,203,381,229"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="296,148,296,189,291,189,291,148"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="406,203,477,229"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="327,146,411,194,409,199,324,150"/>
+<area shape="rect" id="Node000004" href="$audio_8h.html" title="This header file contains the common defines and functions prototypes for the Audio driver." alt="" coords="21,284,166,309"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="96,236,96,270,91,270,91,236"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="58,357,129,383"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="96,310,96,344,91,344,91,310"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="228,284,359,309"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="296,229,296,270,291,270,291,229"/>
 </map>

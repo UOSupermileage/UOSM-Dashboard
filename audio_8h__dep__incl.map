@@ -1,13 +1,23 @@
 <map id="Drivers/Components/Common/audio.h" name="Drivers/Components/Common/audio.h">
-<area shape="rect" id="node1" title="This header file contains the common defines and functions prototypes for the Audio driver." alt="" coords="285,5,440,47"/>
-<area shape="rect" id="node2" href="$adv7533_8h.html" title="This file contains all the constants parameters for the ADV7533 which is the HDMI bridge between DSI ..." alt="" coords="192,95,347,136"/>
-<area shape="rect" id="node8" href="$wm8994_8h.html" title="This file contains all the functions prototypes for the wm8994.c driver." alt="" coords="379,95,533,136"/>
-<area shape="rect" id="node3" href="$adv7533_8c.html" title="This file provides the ADV7533 DSI to HDMI bridge driver." alt="" coords="5,191,160,233"/>
-<area shape="rect" id="node4" href="$stm32f769i__discovery__lcd_8h.html" title="This file contains the common defines and functions prototypes for the stm32469i_discovery_lcd...." alt="" coords="184,184,355,240"/>
-<area shape="rect" id="node5" href="$stm32f769i__discovery__lcd_8c.html" title="This file includes the driver for Liquid Crystal Display (LCD) module mounted on STM32F769I&#45;DISCOVERY..." alt="" coords="79,288,249,344"/>
-<area shape="rect" id="node6" href="$stm32f769i__discovery__ts_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_ts...." alt="" coords="273,288,444,344"/>
-<area shape="rect" id="node7" href="$stm32f769i__discovery__ts_8c.html" title="This file provides a set of functions needed to manage the Touch Screen on STM32F769I&#45;DISCOVERY disco..." alt="" coords="273,392,444,448"/>
-<area shape="rect" id="node9" href="$wm8994_8c.html" title="This file provides the WM8994 Audio Codec driver." alt="" coords="379,191,533,233"/>
-<area shape="rect" id="node10" href="$stm32f769i__discovery__audio_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_audio...." alt="" coords="557,184,728,240"/>
-<area shape="rect" id="node11" href="$stm32f769i__discovery__audio_8c.html" title="This file provides the Audio driver for the STM32F769I&#45;DISCOVERY &#160;&#160;board." alt="" coords="557,288,728,344"/>
+<area shape="rect" id="Node000001" title="This header file contains the common defines and functions prototypes for the Audio driver." alt="" coords="285,5,440,45"/>
+<area shape="rect" id="Node000002" href="$adv7533_8h.html" title="This file contains all the constants parameters for the ADV7533 which is the HDMI bridge between DSI ..." alt="" coords="192,93,347,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="334,57,292,95,288,91,330,53"/>
+<area shape="rect" id="Node000008" href="$wm8994_8h.html" title="This file contains all the functions prototypes for the wm8994.c driver." alt="" coords="379,93,533,133"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="395,53,437,91,434,95,392,57"/>
+<area shape="rect" id="Node000003" href="$adv7533_8c.html" title="This file provides the ADV7533 DSI to HDMI bridge driver." alt="" coords="5,189,160,229"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="220,142,122,191,119,186,218,137"/>
+<area shape="rect" id="Node000004" href="$stm32f769i__discovery__lcd_8h.html" title="This file contains the common defines and functions prototypes for the stm32469i_discovery_lcd...." alt="" coords="184,181,355,236"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="272,147,272,181,267,181,267,147"/>
+<area shape="rect" id="Node000005" href="$stm32f769i__discovery__lcd_8c.html" title="This file includes the driver for Liquid Crystal Display (LCD) module mounted on STM32F769I&#45;DISCOVERY..." alt="" coords="79,284,249,339"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="234,248,193,286,190,282,230,244"/>
+<area shape="rect" id="Node000006" href="$stm32f769i__discovery__ts_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_ts...." alt="" coords="273,284,444,339"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="304,245,337,282,333,286,300,248"/>
+<area shape="rect" id="Node000007" href="$stm32f769i__discovery__ts_8c.html" title="This file provides a set of functions needed to manage the Touch Screen on STM32F769I&#45;DISCOVERY disco..." alt="" coords="273,387,444,441"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="361,352,361,387,356,387,356,352"/>
+<area shape="rect" id="Node000009" href="$wm8994_8c.html" title="This file provides the WM8994 Audio Codec driver." alt="" coords="379,189,533,229"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="459,147,459,189,453,189,453,147"/>
+<area shape="rect" id="Node000010" href="$stm32f769i__discovery__audio_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_audio...." alt="" coords="557,181,728,236"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="507,137,591,179,589,184,505,142"/>
+<area shape="rect" id="Node000011" href="$stm32f769i__discovery__audio_8c.html" title="This file provides the Audio driver for the STM32F769I&#45;DISCOVERY &#160;&#160;board." alt="" coords="557,284,728,339"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="645,250,645,284,640,284,640,250"/>
 </map>

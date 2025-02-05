@@ -1,6 +1,5 @@
 var stmpe811_8c =
 [
-    [ "STMPE811_MAX_INSTANCE", "group__STMPE811__Private__Defines.html#gaa6bf5ee26af42d3d7ace48cb8f02fda3", null ],
     [ "stmpe811_ClearGlobalIT", "group__STMPE811__Private__Functions.html#gadf6fcaf4bcd765c0e5c9f96781cbbbf9", null ],
     [ "stmpe811_DisableGlobalIT", "group__STMPE811__Private__Functions.html#ga54bdd8669c2d73fde1939fd15d28c3a2", null ],
     [ "stmpe811_DisableITSource", "group__STMPE811__Private__Functions.html#gaa72900e194641921649229f22ad349ec", null ],
@@ -33,8 +32,5 @@ var stmpe811_8c =
     [ "stmpe811_TS_EnableIT", "group__STMPE811__Private__Functions.html#gafd18353ba1e835324c98b7f7c03244f8", null ],
     [ "stmpe811_TS_GetXY", "group__STMPE811__Private__Functions.html#gab242655d3918e03e289140fcd49e9776", null ],
     [ "stmpe811_TS_ITStatus", "group__STMPE811__Private__Functions.html#gad34fc9bbe11dca105a81374145155448", null ],
-    [ "stmpe811_TS_Start", "group__STMPE811__Private__Functions.html#ga6c2784b727e123850d09a884027d1521", null ],
-    [ "stmpe811", "group__STMPE811__Private__Variables.html#ga022ba9edb476d7aae528b637605bd9df", null ],
-    [ "stmpe811_io_drv", "group__STMPE811__Private__Variables.html#ga01a31abe80ee484688566c0be1504d5b", null ],
-    [ "stmpe811_ts_drv", "group__STMPE811__Private__Variables.html#ga8a8c3b1d0c9b85335bdb74c1cfc6a041", null ]
+    [ "stmpe811_TS_Start", "group__STMPE811__Private__Functions.html#ga6c2784b727e123850d09a884027d1521", null ]
 ];

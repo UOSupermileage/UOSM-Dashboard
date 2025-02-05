@@ -1,6 +1,6 @@
 var group__ft5336__Exported__Functions =
 [
-    [ "Ft5336_Imported_Functions", "group__ft5336__Imported__Functions.html", null ],
+    [ "Ft5336_Imported_Functions", "group__ft5336__Imported__Functions.html", "group__ft5336__Imported__Functions" ],
     [ "Ft5336_Imported_Globals", "group__ft5336__Imported__Globals.html", null ],
     [ "ft5336_Init", "group__ft5336__Exported__Functions.html#ga938b7fe018fbde36e5488801f8044d29", null ],
     [ "ft5336_ReadID", "group__ft5336__Exported__Functions.html#ga665fc8676888df46a0a23e2bad1f1605", null ],

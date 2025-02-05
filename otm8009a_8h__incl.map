@@ -1,4 +1,5 @@
 <map id="Drivers/Components/otm8009a/otm8009a.h" name="Drivers/Components/otm8009a/otm8009a.h">
-<area shape="rect" id="node1" title="This file contains all the constants parameters for the OTM8009A which is the LCD Driver for KoD KM&#45;0..." alt="" coords="5,5,180,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="57,95,128,121"/>
+<area shape="rect" id="Node000001" title="This file contains all the constants parameters for the OTM8009A which is the LCD Driver for KoD KM&#45;0..." alt="" coords="5,5,180,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="57,93,128,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,46,95,79,90,79,90,46"/>
 </map>

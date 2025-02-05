@@ -1,6 +1,9 @@
 <map id="Drivers/Components/adv7533/adv7533.c" name="Drivers/Components/adv7533/adv7533.c">
-<area shape="rect" id="node1" title="This file provides the ADV7533 DSI to HDMI bridge driver." alt="" coords="5,5,160,47"/>
-<area shape="rect" id="node2" href="$adv7533_8h.html" title="This file contains all the constants parameters for the ADV7533 which is the HDMI bridge between DSI ..." alt="" coords="37,95,128,121"/>
-<area shape="rect" id="node3" href="$audio_8h.html" title="This header file contains the common defines and functions prototypes for the Audio driver." alt="" coords="10,169,155,196"/>
-<area shape="rect" id="node4" title=" " alt="" coords="47,244,118,271"/>
+<area shape="rect" id="Node000001" title="This file provides the ADV7533 DSI to HDMI bridge driver." alt="" coords="5,5,160,45"/>
+<area shape="rect" id="Node000002" href="$adv7533_8h.html" title="This file contains all the constants parameters for the ADV7533 which is the HDMI bridge between DSI ..." alt="" coords="37,93,128,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,46,85,79,80,79,80,46"/>
+<area shape="rect" id="Node000003" href="$audio_8h.html" title="This header file contains the common defines and functions prototypes for the Audio driver." alt="" coords="10,167,155,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,119,85,153,80,153,80,119"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="47,240,118,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="85,192,85,226,80,226,80,192"/>
 </map>

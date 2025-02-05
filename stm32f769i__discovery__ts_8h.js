@@ -1,12 +1,6 @@
 var stm32f769i__discovery__ts_8h =
 [
-    [ "TS_IRQ_PENDING", "group__STM32F769I__DISCOVERY__TS__Exported__Constants.html#ga055f97e1c288087665316002738fee47", null ],
     [ "TS_MAX_NB_TOUCH", "group__STM32F769I__DISCOVERY__TS__Exported__Constants.html#gad9662c3007d9d4eed17e28a58678660e", null ],
-    [ "TS_NO_IRQ_PENDING", "group__STM32F769I__DISCOVERY__TS__Exported__Constants.html#ga036c3fb36065780384b21ed09ead0747", null ],
-    [ "TS_SWAP_NONE", "group__STM32F769I__DISCOVERY__TS__Exported__Constants.html#gaacb08e87e9add41d934d45551a768eda", null ],
-    [ "TS_SWAP_X", "group__STM32F769I__DISCOVERY__TS__Exported__Constants.html#gabb8d35421ee7847892a99174feba21fb", null ],
-    [ "TS_SWAP_XY", "group__STM32F769I__DISCOVERY__TS__Exported__Constants.html#gade654743f913c4cecba95f39a56f8096", null ],
-    [ "TS_SWAP_Y", "group__STM32F769I__DISCOVERY__TS__Exported__Constants.html#ga4804102cf63cc799ebe69d393538b5af", null ],
     [ "TS_GestureIdTypeDef", "group__STM32F769I__DISCOVERY__TS__Exported__Types.html#ga678c9b661a14739c4a73715e922d25ab", [
       [ "GEST_ID_NO_GESTURE", "group__STM32F769I__DISCOVERY__TS__Exported__Types.html#gga678c9b661a14739c4a73715e922d25aba7c0b78c75e2468806c996c36d67052ac", null ],
       [ "GEST_ID_MOVE_UP", "group__STM32F769I__DISCOVERY__TS__Exported__Types.html#gga678c9b661a14739c4a73715e922d25aba4ff172692f8c1960980f170b64f087cf", null ],

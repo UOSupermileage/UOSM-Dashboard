@@ -1,5 +1,7 @@
 <map id="Drivers/Components/st7735/st7735.h" name="Drivers/Components/st7735/st7735.h">
-<area shape="rect" id="node1" title="This file contains all the functions prototypes for the st7735.c driver." alt="" coords="5,5,160,47"/>
-<area shape="rect" id="node2" href="$lcd_8h.html" title="This file contains all the functions prototypes for the LCD driver." alt="" coords="19,95,147,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="47,169,118,196"/>
+<area shape="rect" id="Node000001" title="This file contains all the functions prototypes for the st7735.c driver." alt="" coords="5,5,160,45"/>
+<area shape="rect" id="Node000002" href="$lcd_8h.html" title="This file contains all the functions prototypes for the LCD driver." alt="" coords="19,93,147,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,46,85,79,80,79,80,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="47,167,118,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,119,85,153,80,153,80,119"/>
 </map>

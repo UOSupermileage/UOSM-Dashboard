@@ -1,6 +1,5 @@
 var stm32f769i__discovery_8c =
 [
-    [ "__STM32F769I_DISCOVERY_BSP_VERSION", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Defines.html#ga9538d818f0060fde05cdcd938378d9c8", null ],
     [ "__STM32F769I_DISCOVERY_BSP_VERSION_MAIN", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Defines.html#gaeae85bc767fd05f0d3ca186b5248c7e9", null ],
     [ "__STM32F769I_DISCOVERY_BSP_VERSION_RC", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Defines.html#gaaea7b1426852b78dd5f1ad8520bbfd3b", null ],
     [ "__STM32F769I_DISCOVERY_BSP_VERSION_SUB1", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Defines.html#ga61a1568f1adfabba7108360f863f9013", null ],
@@ -20,9 +19,9 @@ var stm32f769i__discovery_8c =
     [ "BSP_PB_GetState", "group__STM32F769I__DISCOVERY__BSP__Public__Functions.html#ga8f0978b6cffda9c67266ddfdb3a0abf7", null ],
     [ "BSP_PB_Init", "group__STM32F769I__DISCOVERY__BSP__Public__Functions.html#gacfde520fe598ece32657c56408354d2e", null ],
     [ "EEPROM_IO_Init", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__FunctionPrototypes.html#gaede36baff975b658c44252c7475e1f1d", null ],
-    [ "EEPROM_IO_IsDeviceReady", "group__STM32F769I__DISCOVERY__LOW__LEVEL.html#ga91c7e6644ddb30821b25a0edd61efc40", null ],
-    [ "EEPROM_IO_ReadData", "group__STM32F769I__DISCOVERY__LOW__LEVEL.html#gaa5103cc0e83e161ebe898b9014076c9b", null ],
-    [ "EEPROM_IO_WriteData", "group__STM32F769I__DISCOVERY__LOW__LEVEL.html#gacec8bd8e70225f66180661c1c2542cc0", null ],
+    [ "EEPROM_IO_IsDeviceReady", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__FunctionPrototypes.html#ga91c7e6644ddb30821b25a0edd61efc40", null ],
+    [ "EEPROM_IO_ReadData", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__FunctionPrototypes.html#gaa5103cc0e83e161ebe898b9014076c9b", null ],
+    [ "EEPROM_IO_WriteData", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__FunctionPrototypes.html#gacec8bd8e70225f66180661c1c2542cc0", null ],
     [ "HDMI_IO_Delay", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__FunctionPrototypes.html#ga1ce79d16e899976eed2e0bc7afcbe6b1", null ],
     [ "HDMI_IO_Init", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__FunctionPrototypes.html#ga544f0d0708135b1e716a2d309f5f9509", null ],
     [ "HDMI_IO_Read", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__FunctionPrototypes.html#ga6f26b1e833894041e12ccc560c29b069", null ],
@@ -33,10 +32,5 @@ var stm32f769i__discovery_8c =
     [ "TS_IO_Read", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__FunctionPrototypes.html#gaca8344ba740dd85d22e9b67be038b244", null ],
     [ "TS_IO_ReadMultiple", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__FunctionPrototypes.html#ga0db63147b4350e8bd133e330b5620afd", null ],
     [ "TS_IO_Write", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__FunctionPrototypes.html#ga379d6c03bc1669be20615952bb22b99c", null ],
-    [ "TS_IO_WriteMultiple", "group__STM32F769I__DISCOVERY__LOW__LEVEL.html#gad94f2304ff487b0c88218f1a450e1fb6", null ],
-    [ "BUTTON_IRQn", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Variables.html#ga677eb99a3bb43101358dfce35efefae2", null ],
-    [ "BUTTON_PIN", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Variables.html#gadf78f2d71408a01f8d30929c2d2da82b", null ],
-    [ "BUTTON_PORT", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Variables.html#gad63ed42b4071e78f80f7462227da4f35", null ],
-    [ "GPIO_PIN", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Variables.html#ga5f2c1dc2d6b6f24b5a305f0763fbdd90", null ],
-    [ "GPIO_PORT", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__Variables.html#gadfddcc182c40163aaa7b3c7f36e42ed9", null ]
+    [ "TS_IO_WriteMultiple", "group__STM32F769I__DISCOVERY__LOW__LEVEL__Private__FunctionPrototypes.html#gad94f2304ff487b0c88218f1a450e1fb6", null ]
 ];

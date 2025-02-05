@@ -1,5 +1,7 @@
 <map id="Drivers/Components/adv7533/adv7533.h" name="Drivers/Components/adv7533/adv7533.h">
-<area shape="rect" id="node1" title="This file contains all the constants parameters for the ADV7533 which is the HDMI bridge between DSI ..." alt="" coords="5,5,160,47"/>
-<area shape="rect" id="node2" href="$audio_8h.html" title="This header file contains the common defines and functions prototypes for the Audio driver." alt="" coords="10,95,155,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="47,169,118,196"/>
+<area shape="rect" id="Node000001" title="This file contains all the constants parameters for the ADV7533 which is the HDMI bridge between DSI ..." alt="" coords="5,5,160,45"/>
+<area shape="rect" id="Node000002" href="$audio_8h.html" title="This header file contains the common defines and functions prototypes for the Audio driver." alt="" coords="10,93,155,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,46,85,79,80,79,80,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="47,167,118,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,119,85,153,80,153,80,119"/>
 </map>

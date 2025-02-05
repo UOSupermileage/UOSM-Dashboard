@@ -1,10 +1,5 @@
 var stm32f769i__discovery__audio_8c =
 [
-    [ "DFSDM_CLOCK_DIVIDER", "group__STM32F769I__DISCOVERY__AUDIO__Private__Macros.html#ga34f1e72df106933d3464882f36acb8e4", null ],
-    [ "DFSDM_FILTER_ORDER", "group__STM32F769I__DISCOVERY__AUDIO__Private__Macros.html#ga3ce7f95b3ed6344b66849443979020d3", null ],
-    [ "DFSDM_OVER_SAMPLING", "group__STM32F769I__DISCOVERY__AUDIO__Private__Macros.html#ga984d777993f8922c51368edb04c14462", null ],
-    [ "DFSDM_RIGHT_BIT_SHIFT", "group__STM32F769I__DISCOVERY__AUDIO__Private__Macros.html#ga881dede074719099d009822eeb77fbda", null ],
-    [ "SaturaLH", "group__STM32F769I__DISCOVERY__AUDIO__Private__Macros.html#ga06bb72a405d696bf9d8b5812fa62e683", null ],
     [ "BSP_AUDIO_IN_AllocScratch", "group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#gaa4a2359abfe68ce856dbfaf78f19e250", null ],
     [ "BSP_AUDIO_IN_ClockConfig", "group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#ga1903f766c6436306921e204d98ce2d91", null ],
     [ "BSP_AUDIO_IN_DeInit", "group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#gaecc95f1e2e0daece1d49ac2cb8120380", null ],
@@ -44,21 +39,5 @@ var stm32f769i__discovery__audio_8c =
     [ "HAL_SAI_RxCpltCallback", "group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#gae465346926adb160d40f7b961e9aa711", null ],
     [ "HAL_SAI_RxHalfCpltCallback", "group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#gac3e769eacc58946595a7ecc1b69ae0eb", null ],
     [ "HAL_SAI_TxCpltCallback", "group__STM32F769I__DISCOVERY__AUDIO__out__Private__Functions.html#ga1f0a735fa94285567877a27194e6a8d5", null ],
-    [ "HAL_SAI_TxHalfCpltCallback", "group__STM32F769I__DISCOVERY__AUDIO__out__Private__Functions.html#gadb923532664ab9addc9036fbe39c7d32", null ],
-    [ "audio_drv", "group__STM32F769I__DISCOVERY__AUDIO__Private__Variables.html#ga306f5d25441bf096d61255570392efd2", null ],
-    [ "haudio_in_sai", "group__STM32F769I__DISCOVERY__AUDIO__Private__Variables.html#gae88b68479a0daf1541f77f07cfb3c308", null ],
-    [ "haudio_out_sai", "group__STM32F769I__DISCOVERY__AUDIO__Private__Variables.html#gaefbdac8d9c4f8c6c485c0d864137f8f0", null ],
-    [ "hAudioIn", "group__STM32F769I__DISCOVERY__AUDIO__Private__Variables.html#ga66c85b9b2161b32d41e0042a1bbc526a", null ],
-    [ "hAudioInButtomLeftChannel", "group__STM32F769I__DISCOVERY__AUDIO__Private__Variables.html#ga964c030432eb9f47afc30dc632599675", null ],
-    [ "hAudioInButtomLeftFilter", "group__STM32F769I__DISCOVERY__AUDIO__Private__Variables.html#gaad74d2b254f7e3fdca04987a47ae8f57", null ],
-    [ "hAudioInButtomRightChannel", "group__STM32F769I__DISCOVERY__AUDIO__Private__Variables.html#ga434599455f8b1c5a8ac166a5db80c935", null ],
-    [ "hAudioInButtomRightFilter", "group__STM32F769I__DISCOVERY__AUDIO__Private__Variables.html#ga818b271a76f85665c532e2f240a1ebf9", null ],
-    [ "hAudioInTopLeftChannel", "group__STM32F769I__DISCOVERY__AUDIO__Private__Variables.html#ga0ff9db73a1dc8687239e73545956d3e7", null ],
-    [ "hAudioInTopLeftFilter", "group__STM32F769I__DISCOVERY__AUDIO__Private__Variables.html#gabea6af5a1c84ee2461e9256f2f305204", null ],
-    [ "hAudioInTopRightChannel", "group__STM32F769I__DISCOVERY__AUDIO__Private__Variables.html#gafc289c8cd79640d651d64a8a1978fc3f", null ],
-    [ "hAudioInTopRightFilter", "group__STM32F769I__DISCOVERY__AUDIO__Private__Variables.html#gae8f12579bd09d2e3e6abb39ad8e24f7a", null ],
-    [ "hDmaButtomLeft", "group__STM32F769I__DISCOVERY__AUDIO__Private__Variables.html#gaceaf15c92b86608d3c0d146e732580ce", null ],
-    [ "hDmaButtomRight", "group__STM32F769I__DISCOVERY__AUDIO__Private__Variables.html#ga8df1339cb4ad4c6c39e93b84ba847fdf", null ],
-    [ "hDmaTopLeft", "group__STM32F769I__DISCOVERY__AUDIO__Private__Variables.html#gaea345a9eb117ca65a3cb2b03e000dfe2", null ],
-    [ "hDmaTopRight", "group__STM32F769I__DISCOVERY__AUDIO__Private__Variables.html#gae72ee27dbe51a4a64572ac9810010ddf", null ]
+    [ "HAL_SAI_TxHalfCpltCallback", "group__STM32F769I__DISCOVERY__AUDIO__out__Private__Functions.html#gadb923532664ab9addc9036fbe39c7d32", null ]
 ];

@@ -1,7 +1,10 @@
 var group__WM8994__Exported__Functions =
 [
     [ "AUDIO_IO_DeInit", "group__WM8994__Exported__Functions.html#ga06ed3f7f32df17d8b5099754dd81d6b3", null ],
+    [ "AUDIO_IO_Delay", "group__WM8994__Exported__Functions.html#ga4e980e10c63db804c3226e0af44715b2", null ],
     [ "AUDIO_IO_Init", "group__WM8994__Exported__Functions.html#gace44c34a627a0fb28c61366b9ca80b78", null ],
+    [ "AUDIO_IO_Read", "group__WM8994__Exported__Functions.html#gabf6348f7a95184d2868b9c15fc7375d2", null ],
+    [ "AUDIO_IO_Write", "group__WM8994__Exported__Functions.html#gabd465ebcb314c8dba97102702b6b8518", null ],
     [ "wm8994_DeInit", "group__WM8994__Exported__Functions.html#ga4b75806a89e7ce5dd5643b1815ab657d", null ],
     [ "wm8994_Init", "group__WM8994__Exported__Functions.html#ga3480b4e36772987950257bde02653721", null ],
     [ "wm8994_Pause", "group__WM8994__Exported__Functions.html#ga7dc61f1e194ac0dddfd2433aad18ffbd", null ],

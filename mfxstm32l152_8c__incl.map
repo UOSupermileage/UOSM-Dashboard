@@ -1,8 +1,15 @@
 <map id="Drivers/Components/mfxstm32l152/mfxstm32l152.c" name="Drivers/Components/mfxstm32l152/mfxstm32l152.c">
-<area shape="rect" id="node1" title="This file provides a set of functions needed to manage the MFXSTM32L152 IO Expander devices." alt="" coords="96,5,327,47"/>
-<area shape="rect" id="node2" href="$mfxstm32l152_8h.html" title="This file contains all the functions prototypes for the mfxstm32l152.c IO expander driver." alt="" coords="147,95,276,121"/>
-<area shape="rect" id="node3" href="$ts_8h.html" title="This file contains all the functions prototypes for the Touch Screen driver." alt="" coords="5,169,127,196"/>
-<area shape="rect" id="node5" href="$io_8h.html" title="This file contains all the functions prototypes for the IO driver." alt="" coords="151,169,272,196"/>
-<area shape="rect" id="node6" href="$idd_8h.html" title="This file contains all the functions prototypes for the IDD driver." alt="" coords="296,169,425,196"/>
-<area shape="rect" id="node4" title=" " alt="" coords="176,244,247,271"/>
+<area shape="rect" id="Node000001" title="This file provides a set of functions needed to manage the MFXSTM32L152 IO Expander devices." alt="" coords="96,5,327,45"/>
+<area shape="rect" id="Node000002" href="$mfxstm32l152_8h.html" title="This file contains all the functions prototypes for the mfxstm32l152.c IO expander driver." alt="" coords="147,93,276,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,46,214,79,209,79,209,46"/>
+<area shape="rect" id="Node000003" href="$ts_8h.html" title="This file contains all the functions prototypes for the Touch Screen driver." alt="" coords="5,167,127,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="189,121,103,163,101,158,187,116"/>
+<area shape="rect" id="Node000005" href="$io_8h.html" title="This file contains all the functions prototypes for the IO driver." alt="" coords="151,167,272,192"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="214,119,214,153,209,153,209,119"/>
+<area shape="rect" id="Node000006" href="$idd_8h.html" title="This file contains all the functions prototypes for the IDD driver." alt="" coords="296,167,425,192"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="236,116,325,158,323,163,234,121"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="176,240,247,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="91,190,177,232,174,236,88,194"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="214,192,214,226,209,226,209,192"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="338,194,249,236,247,232,336,190"/>
 </map>

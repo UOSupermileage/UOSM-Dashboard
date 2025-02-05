@@ -1,8 +1,13 @@
 <map id="Drivers/Components/adv7533/adv7533.h" name="Drivers/Components/adv7533/adv7533.h">
-<area shape="rect" id="node1" title="This file contains all the constants parameters for the ADV7533 which is the HDMI bridge between DSI ..." alt="" coords="99,5,253,47"/>
-<area shape="rect" id="node2" href="$adv7533_8c.html" title="This file provides the ADV7533 DSI to HDMI bridge driver." alt="" coords="5,102,160,143"/>
-<area shape="rect" id="node3" href="$stm32f769i__discovery__lcd_8h.html" title="This file contains the common defines and functions prototypes for the stm32469i_discovery_lcd...." alt="" coords="184,95,355,151"/>
-<area shape="rect" id="node4" href="$stm32f769i__discovery__lcd_8c.html" title="This file includes the driver for Liquid Crystal Display (LCD) module mounted on STM32F769I&#45;DISCOVERY..." alt="" coords="87,199,257,255"/>
-<area shape="rect" id="node5" href="$stm32f769i__discovery__ts_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_ts...." alt="" coords="281,199,452,255"/>
-<area shape="rect" id="node6" href="$stm32f769i__discovery__ts_8c.html" title="This file provides a set of functions needed to manage the Touch Screen on STM32F769I&#45;DISCOVERY disco..." alt="" coords="281,303,452,359"/>
+<area shape="rect" id="Node000001" title="This file contains all the constants parameters for the ADV7533 which is the HDMI bridge between DSI ..." alt="" coords="99,5,253,45"/>
+<area shape="rect" id="Node000002" href="$adv7533_8c.html" title="This file provides the ADV7533 DSI to HDMI bridge driver." alt="" coords="5,101,160,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,57,103,103,100,99,145,53"/>
+<area shape="rect" id="Node000003" href="$stm32f769i__discovery__lcd_8h.html" title="This file contains the common defines and functions prototypes for the stm32469i_discovery_lcd...." alt="" coords="184,93,355,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="206,53,245,91,241,95,203,57"/>
+<area shape="rect" id="Node000004" href="$stm32f769i__discovery__lcd_8c.html" title="This file includes the driver for Liquid Crystal Display (LCD) module mounted on STM32F769I&#45;DISCOVERY..." alt="" coords="87,196,257,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="236,160,199,198,195,194,232,156"/>
+<area shape="rect" id="Node000005" href="$stm32f769i__discovery__ts_8h.html" title="This file contains the common defines and functions prototypes for the stm32f769i_discovery_ts...." alt="" coords="281,196,452,251"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="306,156,343,194,339,198,302,160"/>
+<area shape="rect" id="Node000006" href="$stm32f769i__discovery__ts_8c.html" title="This file provides a set of functions needed to manage the Touch Screen on STM32F769I&#45;DISCOVERY disco..." alt="" coords="281,299,452,353"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="369,264,369,299,364,299,364,264"/>
 </map>

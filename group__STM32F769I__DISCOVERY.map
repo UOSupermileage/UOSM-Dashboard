@@ -1,11 +1,11 @@
 <map id="STM32F769I_DISCOVERY" name="STM32F769I_DISCOVERY">
-<area shape="rect" id="node1" href="$group__BSP.html" title=" " alt="" coords="5,191,52,217"/>
-<area shape="rect" id="node4" title=" " alt="" coords="100,191,283,217"/>
-<area shape="rect" id="node2" href="$group__STM32F769I__DISCOVERY__SDRAM.html" title=" " alt="" coords="348,5,531,45"/>
-<area shape="rect" id="node3" href="$group__STM32F769I__DISCOVERY__QSPI.html" title=" " alt="" coords="331,70,548,95"/>
-<area shape="rect" id="node5" href="$group__STM32F769I__DISCOVERY__LOW__LEVEL.html" title=" " alt="" coords="348,120,531,160"/>
-<area shape="rect" id="node6" href="$group__STM32F769I__DISCOVERY__EEPROM.html" title="This file includes the I2C EEPROM driver of STM32F769I&#45;DISCOVERY board." alt="" coords="348,184,531,224"/>
-<area shape="rect" id="node7" href="$group__STM32F769I__DISCOVERY__TS.html" title=" " alt="" coords="338,249,541,274"/>
-<area shape="rect" id="node8" href="$group__STM32F769I__DISCOVERY__LCD.html" title=" " alt="" coords="333,298,546,323"/>
-<area shape="rect" id="node9" href="$group__STM32F769I__DISCOVERY__AUDIO.html" title="This file includes the low layer driver for wm8994 Audio Codec available on STM32F769I&#45;DISCOVERY disc..." alt="" coords="348,348,531,388"/>
+<area shape="rect" id="Node000002" href="$group__BSP.html" title=" " alt="" coords="5,191,52,217"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="100,191,283,217"/>
+<area shape="rect" id="Node000004" href="$group__STM32F769I__DISCOVERY__AUDIO.html" title="This file includes the low layer driver for wm8994 Audio Codec available on STM32F769I&#45;DISCOVERY disc..." alt="" coords="348,5,531,45"/>
+<area shape="rect" id="Node000009" href="$group__STM32F769I__DISCOVERY__EEPROM.html" title="This file includes the I2C EEPROM driver of STM32F769I&#45;DISCOVERY board." alt="" coords="348,69,531,109"/>
+<area shape="rect" id="Node000005" href="$group__STM32F769I__DISCOVERY__LCD.html" title=" " alt="" coords="333,134,546,159"/>
+<area shape="rect" id="Node000003" href="$group__STM32F769I__DISCOVERY__LOW__LEVEL.html" title=" " alt="" coords="348,184,531,224"/>
+<area shape="rect" id="Node000006" href="$group__STM32F769I__DISCOVERY__QSPI.html" title=" " alt="" coords="331,249,548,274"/>
+<area shape="rect" id="Node000007" href="$group__STM32F769I__DISCOVERY__SDRAM.html" title=" " alt="" coords="348,299,531,339"/>
+<area shape="rect" id="Node000008" href="$group__STM32F769I__DISCOVERY__TS.html" title=" " alt="" coords="338,363,541,389"/>
 </map>

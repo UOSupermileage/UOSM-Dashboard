@@ -1,4 +1,5 @@
 <map id="Drivers/Components/s5k5cag/s5k5cag.h" name="Drivers/Components/s5k5cag/s5k5cag.h">
-<area shape="rect" id="node1" title="This file contains all the functions prototypes for the s5k5cag.c driver." alt="" coords="5,5,160,47"/>
-<area shape="rect" id="node2" href="$s5k5cag_8c.html" title="This file provides the S5K5CAG camera driver." alt="" coords="5,95,160,136"/>
+<area shape="rect" id="Node000001" title="This file contains all the functions prototypes for the s5k5cag.c driver." alt="" coords="5,5,160,45"/>
+<area shape="rect" id="Node000002" href="$s5k5cag_8c.html" title="This file provides the S5K5CAG camera driver." alt="" coords="5,93,160,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,59,85,93,80,93,80,59"/>
 </map>

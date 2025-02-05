@@ -1,4 +1,5 @@
 <map id="Drivers/Components/ts3510/ts3510.h" name="Drivers/Components/ts3510/ts3510.h">
-<area shape="rect" id="node1" title="This file contains all the functions prototypes for the ts3510.c IO expander driver." alt="" coords="5,5,160,47"/>
-<area shape="rect" id="node2" href="$ts3510_8c.html" title="This file provides a set of functions needed to manage the TS3510 IO Expander devices." alt="" coords="5,95,160,136"/>
+<area shape="rect" id="Node000001" title="This file contains all the functions prototypes for the ts3510.c IO expander driver." alt="" coords="5,5,160,45"/>
+<area shape="rect" id="Node000002" href="$ts3510_8c.html" title="This file provides a set of functions needed to manage the TS3510 IO Expander devices." alt="" coords="5,93,160,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,59,85,93,80,93,80,59"/>
 </map>

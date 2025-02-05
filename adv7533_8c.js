@@ -17,6 +17,5 @@ var adv7533_8c =
     [ "adv7533_SetMute", "group__ADV7533__Exported__Functions.html#ga6bb0da07e06235141438a7b7d00c4735", null ],
     [ "adv7533_SetOutputMode", "group__ADV7533__Exported__Functions.html#ga3c8270661e87ab41c4721c8339524e49", null ],
     [ "adv7533_SetVolume", "group__ADV7533__Exported__Functions.html#ga84d1a4e2fba10bf26dad70313de37178", null ],
-    [ "adv7533_Stop", "group__ADV7533__Exported__Functions.html#ga35b63fbbe5bff1972bf99ae5613dac2e", null ],
-    [ "adv7533_drv", "group__ADV7533__Exported__Variables.html#ga0c0b6f26442cafb44b0038dcbfeb865c", null ]
+    [ "adv7533_Stop", "group__ADV7533__Exported__Functions.html#ga35b63fbbe5bff1972bf99ae5613dac2e", null ]
 ];

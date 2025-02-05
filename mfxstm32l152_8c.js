@@ -1,6 +1,5 @@
 var mfxstm32l152_8c =
 [
-    [ "MFXSTM32L152_MAX_INSTANCE", "group__MFXSTM32L152__Private__Defines.html#gac479cbcddbb94a94139bf2d27d1f116d", null ],
     [ "mfxstm32l152_ClearGlobalIT", "group__MFXSTM32L152__Private__Functions.html#gab4cea459b91b04fac04b1d24aa4896e2", null ],
     [ "mfxstm32l152_DeInit", "group__MFXSTM32L152__Private__Functions.html#ga8ec4549b6719a15bcfd3a1444d35bfc3", null ],
     [ "mfxstm32l152_DisableITSource", "group__MFXSTM32L152__Private__Functions.html#ga6166a6e8cf485bc44f601595a6c3cfe8", null ],
@@ -51,10 +50,5 @@ var mfxstm32l152_8c =
     [ "mfxstm32l152_TS_GetXY", "group__MFXSTM32L152__Private__Functions.html#gaba9c65eca11cceea87fb0c47578147bf", null ],
     [ "mfxstm32l152_TS_ITStatus", "group__MFXSTM32L152__Private__Functions.html#gab71fdfbf6e3f308290a7a95468e84ddc", null ],
     [ "mfxstm32l152_TS_Start", "group__MFXSTM32L152__Private__Functions.html#ga1f311d23036ffeb40b5f7d1889c73ab6", null ],
-    [ "mfxstm32l152_WakeUp", "group__MFXSTM32L152__Private__Functions.html#gaec837b686eb2cbe600b497a23f5a6044", null ],
-    [ "mfxstm32l152_WriteReg", "group__MFXSTM32L152__Private__Functions.html#gadbbdf61dd803d364468ef9f699b3065d", null ],
-    [ "mfxstm32l152", "group__MFXSTM32L152__Private__Variables.html#ga7203c65645ae5a40dcd433cd8c9e8faa", null ],
-    [ "mfxstm32l152_idd_drv", "group__MFXSTM32L152__Private__Variables.html#ga81e72ecfbc26e625dab288027f61c7e1", null ],
-    [ "mfxstm32l152_io_drv", "group__MFXSTM32L152__Private__Variables.html#ga05ee69fa6e51ccbad20917381aaf77c3", null ],
-    [ "mfxstm32l152_ts_drv", "group__MFXSTM32L152__Private__Variables.html#ga73c72c36609ca89baf76fcbaa0688177", null ]
+    [ "mfxstm32l152_WakeUp", "group__MFXSTM32L152__Private__Functions.html#gaec837b686eb2cbe600b497a23f5a6044", null ]
 ];

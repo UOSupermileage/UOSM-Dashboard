@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['codestyle_1881',['CodeStyle',['../md_Documentation_CodeStyle.html',1,'']]]
+  ['codestyle_0',['CodeStyle',['../md_Documentation_2CodeStyle.html',1,'']]],
+  ['core_1',['UOSM-Core',['../md_UOSM-Core_2README.html',1,'']]]
 ];

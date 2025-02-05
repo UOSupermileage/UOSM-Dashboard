@@ -1,7 +1,11 @@
 <map id="Drivers/Components/Common/lcd.h" name="Drivers/Components/Common/lcd.h">
-<area shape="rect" id="node1" title="This file contains all the functions prototypes for the LCD driver." alt="" coords="96,5,251,47"/>
-<area shape="rect" id="node2" href="$st7735_8h.html" title="This file contains all the functions prototypes for the st7735.c driver." alt="" coords="5,95,160,136"/>
-<area shape="rect" id="node4" href="$st7789h2_8h.html" title="This file contains all the functions prototypes for the st7789h2.c driver." alt="" coords="184,95,347,136"/>
-<area shape="rect" id="node3" href="$st7735_8c.html" title="This file includes the driver for ST7735 LCD mounted on the Adafruit 1.8&quot; TFT LCD shield (reference I..." alt="" coords="5,184,160,225"/>
-<area shape="rect" id="node5" href="$st7789h2_8c.html" title="This file includes the LCD driver for st7789h2 LCD." alt="" coords="185,184,346,225"/>
+<area shape="rect" id="Node000001" title="This file contains all the functions prototypes for the LCD driver." alt="" coords="96,5,251,45"/>
+<area shape="rect" id="Node000002" href="$st7735_8h.html" title="This file contains all the functions prototypes for the st7735.c driver." alt="" coords="5,93,160,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,57,105,95,101,91,142,53"/>
+<area shape="rect" id="Node000004" href="$st7789h2_8h.html" title="This file contains all the functions prototypes for the st7789h2.c driver." alt="" coords="184,93,347,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="205,53,247,91,243,95,202,57"/>
+<area shape="rect" id="Node000003" href="$st7735_8c.html" title="This file includes the driver for ST7735 LCD mounted on the Adafruit 1.8&quot; TFT LCD shield (reference I..." alt="" coords="5,181,160,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,147,85,181,80,181,80,147"/>
+<area shape="rect" id="Node000005" href="$st7789h2_8c.html" title="This file includes the LCD driver for st7789h2 LCD." alt="" coords="185,181,346,221"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="268,147,268,181,263,181,263,147"/>
 </map>
