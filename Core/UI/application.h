@@ -19,7 +19,7 @@ extern "C" {
  * Creates the LVGL application.
  * @param aggregatorWrapper
  */
-PUBLIC void Application_Create(DataAggregatorWrapper* aggregatorWrapper);
+/*PUBLIC*/ void Application_Create(DataAggregatorWrapper* aggregatorWrapper);
 
 #ifdef __cplusplus
 }
