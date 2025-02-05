@@ -20,7 +20,7 @@ var NAVTREEINDEX0 =
 "SerialDebugDriver_8h_source.html":[7,0,2,0,3],
 "TaskManager_8h_source.html":[7,0,0,3,2],
 "UOSMCoreConfig_8h_source.html":[7,0,0,0,6],
-"View_8hpp_source.html":[7,0,0,4,1,0],
+"View_8hpp_source.html":[7,0,0,4,1,1],
 "accelero_8h.html":[7,0,1,0,3,0],
 "accelero_8h_source.html":[7,0,1,0,3,0],
 "adv7533_8c.html":[7,0,1,0,0,0],

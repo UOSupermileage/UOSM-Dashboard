@@ -63,7 +63,7 @@ var searchData=
   ['ampire640480_5fhsync_60',['AMPIRE640480_HSYNC',['../group__AMPIRE640480__Exported__Constants.html#ga533a589a5aa656c5d40d16551f01115c',1,'ampire640480.h']]],
   ['ampire640480_5fwidth_61',['AMPIRE640480_WIDTH',['../group__AMPIRE640480__Exported__Constants.html#ga53dd5d358e9582c7c48be8cbcd9a4be6',1,'ampire640480.h']]],
   ['ampligain_62',['AmpliGain',['../structIDD__ConfigTypeDef.html#a9f80320a163c3bf30adb5bfedab630eb',1,'IDD_ConfigTypeDef']]],
-  ['application_5fcreate_63',['application_create',['../group__core-ui.html#ga16ff1ce36197f7bf0aef0725e1752d00',1,'Application_Create(DataAggregatorWrapper *aggregatorWrapper):&#160;application.cpp'],['../group__core-ui.html#ga16ff1ce36197f7bf0aef0725e1752d00',1,'Application_Create(DataAggregatorWrapper *aggregatorWrapper):&#160;application.cpp']]],
+  ['application_5fcreate_63',['application_create',['../group__core-ui.html#ga5c9b93d9ab0ced485f96511ca6856e71',1,'Application_Create(DataAggregatorWrapper *aggregatorWrapper):&#160;application.cpp'],['../group__core-ui.html#ga5c9b93d9ab0ced485f96511ca6856e71',1,'Application_Create(DataAggregatorWrapper *aggregatorWrapper):&#160;application.cpp']]],
   ['at_20compile_20time_64',['5. Easily change the default screen at compile time.',['../md_Documentation_2ToDo.html#autotoc_md10',1,'']]],
   ['audio_65',['audio',['../group__AUDIO.html',1,'AUDIO'],['../group__STM32F769I__DISCOVERY__AUDIO.html',1,'STM32F769I_DISCOVERY AUDIO']]],
   ['audio_20driver_20structure_66',['Audio Driver structure',['../group__AUDIO__Driver__structure.html',1,'']]],
