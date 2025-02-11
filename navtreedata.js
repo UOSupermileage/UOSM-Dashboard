@@ -74,11 +74,11 @@ var NAVTREEINDEX =
 [
 "ApplicationTypes_8h_source.html",
 "group__ADV7533__Exported__Functions.html#gafcaa5f574499517c9fc2e8deb106b960",
-"group__MX25L512__Exported__Constants.html#ga64b71576d0eb15c60ff0554d85d88a33",
-"group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#ga1903f766c6436306921e204d98ce2d91",
-"group__STM32F769I__DISCOVERY__TS__Exported__Types.html#gga39edc5adfbc376e1554971543d24b952a26d89d97a8703151f7d8e8ef54c0375d",
-"group__ft6x06__Exported__Functions.html#ga714520adcf3d75394a2f08cf428d3c40",
-"structTS__DrvTypeDef.html"
+"group__MX25L512__Exported__Constants.html#ga52660095d7a2ab3afdfa7ac291dc047c",
+"group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#ga165e0b4c19b92963f4046cfc63cfa770",
+"group__STM32F769I__DISCOVERY__TS__Exported__Types.html#ga8629dde031f9c1c5fa2dd1ca79168963",
+"group__ft6x06__Exported__Functions.html#ga55dc85a22e1cf328f4375a2399a1f552",
+"structTSENSOR__InitTypeDef.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,6 +1,7 @@
 var NAVTREEINDEX1 =
 {
 "group__ADV7533__Exported__Functions.html#gafcaa5f574499517c9fc2e8deb106b960":[5,2,0,0,2,6],
+"group__ADV7533__Exported__Functions.html#gafcaa5f574499517c9fc2e8deb106b960":[5,2,0,4,0,2,6],
 "group__ADV7533__Exported__Macros.html":[5,2,0,4,0,1],
 "group__ADV7533__Exported__Types.html":[5,2,0,4,0],
 "group__ADV7533__Exported__Variables.html":[5,2,0,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "group__MX25L512__Exported__Constants.html#ga23b5460d8017d1eaad5bd56371711c1f":[5,2,0,18,1,3],
 "group__MX25L512__Exported__Constants.html#ga23f17a20fff9bfedd5d5f28ae5acefc4":[5,2,0,18,1,4],
 "group__MX25L512__Exported__Constants.html#ga3e058195b95cf1d0a63c0750026efaf6":[5,2,0,18,1,16],
-"group__MX25L512__Exported__Constants.html#ga44206623a9d73eba3607a135e9ca2882":[5,2,0,18,1,11],
-"group__MX25L512__Exported__Constants.html#ga52660095d7a2ab3afdfa7ac291dc047c":[5,2,0,18,1,2]
+"group__MX25L512__Exported__Constants.html#ga44206623a9d73eba3607a135e9ca2882":[5,2,0,18,1,11]
 };

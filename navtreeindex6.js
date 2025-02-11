@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"structTSENSOR__InitTypeDef.html":[5,2,0,17,0,0,0],
 "structTS__DrvTypeDef.html":[5,2,0,16,0,0,0],
 "structTS__StateTypeDef.html":[5,2,2,5,8,0],
 "structTS__StateTypeDef.html#a33736cd2bcdf928ef94bb9a5de3bbc70":[5,2,2,5,8,0,0],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"group__ft6x06__Exported__Functions.html#ga55dc85a22e1cf328f4375a2399a1f552":[5,2,1,2,4,1,0,8],
 "group__ft6x06__Exported__Functions.html#ga714520adcf3d75394a2f08cf428d3c40":[5,2,1,2,4,1,0,3],
 "group__ft6x06__Exported__Functions.html#ga877eeda8f858e0c17aeefe412f1192cf":[5,2,1,2,4,1,0,10],
 "group__ft6x06__Exported__Functions.html#ga9617cc523a8f1817698200a35b1bf45d":[5,2,1,2,4,1,0,9],
@@ -64,8 +65,8 @@ var NAVTREEINDEX5 =
 "hierarchy.html":[6,2],
 "idd_8h.html":[7,0,1,0,3,5],
 "idd_8h_source.html":[7,0,1,0,3,5],
-"index.html":[0],
 "index.html":[],
+"index.html":[0],
 "io_8h.html":[7,0,1,0,3,6],
 "io_8h_source.html":[7,0,1,0,3,6],
 "lcd_8h.html":[7,0,1,0,3,7],
@@ -102,7 +103,7 @@ var NAVTREEINDEX5 =
 "mfxstm32l152_8c.html":[7,0,1,0,7,0],
 "mfxstm32l152_8h.html":[7,0,1,0,7,1],
 "mfxstm32l152_8h_source.html":[7,0,1,0,7,1],
-"montserrat__72_8c_source.html":[7,0,0,4,1,0],
+"montserrat__72_8c_source.html":[7,0,0,4,1,1],
 "mx25l512_8h.html":[7,0,1,0,8,0],
 "mx25l512_8h_source.html":[7,0,1,0,8,0],
 "n25q128a_8h.html":[7,0,1,0,9,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "structRXM0.html":[6,0,49],
 "structRXM1.html":[6,0,50],
 "structST7789H2__Rgb888.html":[5,2,0,2,0,0],
-"structTSENSOR__DrvTypeDef.html":[5,2,0,17,0,1,0],
-"structTSENSOR__InitTypeDef.html":[5,2,0,17,0,0,0]
+"structTSENSOR__DrvTypeDef.html":[5,2,0,17,0,1,0]
 };
