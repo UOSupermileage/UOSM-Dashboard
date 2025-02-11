@@ -18,6 +18,7 @@ private:
     lv_obj_t* topRow;
     lv_obj_t* bottomRow;
 
+
 protected:
     /** Destructs the home view. */
     ~HomeView() = default;
