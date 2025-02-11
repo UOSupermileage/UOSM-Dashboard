@@ -73,12 +73,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "ApplicationTypes_8h_source.html",
-"group__ADV7533__Exported__Types.html",
-"group__MX25L512__Exported__Constants.html#ga8173013e67894a4e45cf4f13d5934b6d",
-"group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#ga345932dd9f27ba5e7fbf54fe6e9a18d3",
-"group__STM32F769I__DISCOVERY__TS__Exported__Types.html#gga39edc5adfbc376e1554971543d24b952a90038a05d94fc558478c96875661b06e",
-"group__ft6x06__Exported__Functions.html#ga9617cc523a8f1817698200a35b1bf45d",
-"structTS__StateTypeDef.html#a33736cd2bcdf928ef94bb9a5de3bbc70"
+"group__ADV7533__Exported__Functions.html#gafcaa5f574499517c9fc2e8deb106b960",
+"group__MX25L512__Exported__Constants.html#ga64b71576d0eb15c60ff0554d85d88a33",
+"group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#ga1903f766c6436306921e204d98ce2d91",
+"group__STM32F769I__DISCOVERY__TS__Exported__Types.html#gga39edc5adfbc376e1554971543d24b952a26d89d97a8703151f7d8e8ef54c0375d",
+"group__ft6x06__Exported__Functions.html#ga714520adcf3d75394a2f08cf428d3c40",
+"structTS__DrvTypeDef.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

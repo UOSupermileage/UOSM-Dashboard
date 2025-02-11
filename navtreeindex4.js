@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"group__STM32F769I__DISCOVERY__TS__Exported__Types.html#gga39edc5adfbc376e1554971543d24b952a26d89d97a8703151f7d8e8ef54c0375d":[5,2,2,5,8,2,0],
+"group__STM32F769I__DISCOVERY__TS__Exported__Types.html#gga39edc5adfbc376e1554971543d24b952a57bb2dac9a3b0ecadfb549ba29a1fc8c":[5,2,2,5,8,2,3],
 "group__STM32F769I__DISCOVERY__TS__Exported__Types.html#gga39edc5adfbc376e1554971543d24b952a90038a05d94fc558478c96875661b06e":[5,2,2,5,8,2,2],
 "group__STM32F769I__DISCOVERY__TS__Exported__Types.html#gga39edc5adfbc376e1554971543d24b952ae1a55fbb6e1d803ef3f4bf7a1df945b8":[5,2,2,5,8,2,1],
 "group__STM32F769I__DISCOVERY__TS__Exported__Types.html#gga678c9b661a14739c4a73715e922d25aba3999f11d54610f2879c03f967de9cad3":[5,2,2,5,8,1,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "group__ft6x06__Exported__Functions.html":[5,2,1,2,4,1,0],
 "group__ft6x06__Exported__Functions.html#ga0b3b8a00d8eaa2c7897faa510c6be8e6":[5,2,1,2,4,1,0,11],
 "group__ft6x06__Exported__Functions.html#ga3e9239483436ee60bee91078004b446f":[5,2,1,2,4,1,0,6],
-"group__ft6x06__Exported__Functions.html#ga55dc85a22e1cf328f4375a2399a1f552":[5,2,1,2,4,1,0,8],
-"group__ft6x06__Exported__Functions.html#ga714520adcf3d75394a2f08cf428d3c40":[5,2,1,2,4,1,0,3],
-"group__ft6x06__Exported__Functions.html#ga877eeda8f858e0c17aeefe412f1192cf":[5,2,1,2,4,1,0,10]
+"group__ft6x06__Exported__Functions.html#ga55dc85a22e1cf328f4375a2399a1f552":[5,2,1,2,4,1,0,8]
 };
