@@ -4,7 +4,7 @@
 
 #include "Cards.h"
 
-#include <src/misc/lv_event_private.h>
+//#include <src/misc/lv_event_private.h>
 
 #include "Utils/montserrat_72.c"
 // add font
@@ -16,8 +16,8 @@ Card::Card(lv_obj_t * parent, const char * title, const char * value, const int3
     lv_obj_set_size(card, width, height);
     // lv_obj_set_style_bg_color(card, lv_color_hex(0x00FF00), 0);
     // set grid layout
-    static int32_t col_dsc[] = {width, LV_GRID_TEMPLATE_LAST};
-    static int32_t row_dsc[] = {height/3, (height/3)*2, LV_GRID_TEMPLATE_LAST};
+    static lv_coord_t col_dsc[] = {width, LV_GRID_TEMPLATE_LAST};
+    static lv_coord_t row_dsc[] = {height/3, (height/3)*2, LV_GRID_TEMPLATE_LAST};
     lv_obj_set_grid_dsc_array(card, col_dsc, row_dsc);
     lv_obj_set_layout(card, LV_LAYOUT_GRID);
     lv_obj_set_grid_align(card, LV_GRID_ALIGN_CENTER, LV_GRID_ALIGN_CENTER);
@@ -39,8 +39,8 @@ Card::Card(lv_obj_t * parent, const char * title, const char * value, const int3
 }
 
 DualCardInfo::DualCardInfo(lv_obj_t * parent, const char * title1, const char * value1, const char * title2, const char * value2, const int32_t width, const int32_t height) : width(width), height(height) {
-    static int32_t col_dsc[] = {width, LV_GRID_TEMPLATE_LAST};
-    static int32_t row_dsc[] = {height/2, height/2, LV_GRID_TEMPLATE_LAST};
+    static lv_coord_t col_dsc[] = {width, LV_GRID_TEMPLATE_LAST};
+    static lv_coord_t row_dsc[] = {height/2, height/2, LV_GRID_TEMPLATE_LAST};
 
     dualCard = lv_obj_create(parent);
     lv_obj_remove_style_all(dualCard);

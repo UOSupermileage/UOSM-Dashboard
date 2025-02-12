@@ -5,7 +5,7 @@
 
 #include "HomeView.hpp"
 
-#include <src/misc/lv_event_private.h>
+// #include <src/misc/lv_event_private.h>
 
 #include "Utils/Cards.h"
 // add font
@@ -113,8 +113,8 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
 
     DebugPrint("res : %d, %d\n", SCREEN_WIDTH, SCREEN_HEIGHT);
 
-    static int32_t col_dsc[] = {SCREEN_WIDTH/2 -1, 2, SCREEN_WIDTH/2 -1, LV_GRID_TEMPLATE_LAST};
-    static int32_t row_dsc[] = {SCREEN_HEIGHT/2 -1, 2, SCREEN_HEIGHT/2 -1, LV_GRID_TEMPLATE_LAST};
+    static lv_coord_t col_dsc[] = {SCREEN_WIDTH/2 -1, 2, SCREEN_WIDTH/2 -1, LV_GRID_TEMPLATE_LAST};
+    static lv_coord_t row_dsc[] = {SCREEN_HEIGHT/2 -1, 2, SCREEN_HEIGHT/2 -1, LV_GRID_TEMPLATE_LAST};
 
     /*Create a container with grid*/
     // lv_obj_t * cont = lv_obj_create(lv_screen_active());

@@ -4,8 +4,10 @@
 
 #include "View.hpp"
 
+#ifdef SIM
 #include <src/core/lv_obj_private.h>
 #include <src/core/lv_obj_style_private.h>
+#endif
 
 View::View(lv_obj_t* parent, DataAggregator& aggregator): aggregator(aggregator) {
     this->container = lv_obj_create(parent);

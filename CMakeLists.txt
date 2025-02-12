@@ -18,6 +18,9 @@ project(UOSM-Dashboard C CXX ASM)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_STANDARD 11)
 
+# make public and private keywords available in c
+add_compile_definitions(PUBLIC= PRIVATE=static)
+
 # Hardware floating point
 add_compile_definitions(ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING)
 add_compile_options(-mfloat-abi=hard -mfpu=fpv4-sp-d16)
