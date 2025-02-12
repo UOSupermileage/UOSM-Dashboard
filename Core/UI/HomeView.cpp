@@ -5,10 +5,6 @@
 
 #include "HomeView.hpp"
 
-// #include <src/misc/lv_event_private.h>
-
-#include <src/misc/lv_event_private.h>
-
 #include "Utils/Cards.h"
 // add font
 // LV_FONT_DECLARE(montserrat_72);

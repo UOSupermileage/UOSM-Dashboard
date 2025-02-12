@@ -72,7 +72,9 @@ file(GLOB_RECURSE SOURCES "Core/*.*" "Middlewares/*.*" "Drivers/*.*")
 
 file(GLOB TASK_SOURCES Core/Tasks/*.c)
 file(GLOB UOSM_CORE_SOURCES
-    UOSM-Core/Drivers/*.c
+    UOSM-Core/Drivers/CANDriver.c
+    UOSM-Core/Drivers/MCP2515.c
+    UOSM-Core/Drivers/SerialDebugDriver.c
     UOSM-Core/Modules/*.c
     UOSM-Core/Utils/*.cpp
 )
