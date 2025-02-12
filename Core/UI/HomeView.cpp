@@ -7,6 +7,8 @@
 
 // #include <src/misc/lv_event_private.h>
 
+#include <src/misc/lv_event_private.h>
+
 #include "Utils/Cards.h"
 // add font
 // LV_FONT_DECLARE(montserrat_72);
@@ -20,11 +22,12 @@ static void set_value(lv_obj_t * obj, int32_t v)
     lv_label_set_text(obj, buf);
 }
 
-static void event_cb(lv_event_t * e)
-{
-    static int32_t idk = 0;
-    set_value(l, ++idk);
-}
+// static void event_cb(lv_event_t * e)
+// {
+    // static int32_t idk = 0;
+    // set_value(l, ++idk);
+    // DebugPrint("Event: %s\n", lv_event_code_get_name(e->code));
+// }
 
 
 
@@ -134,24 +137,27 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     obj = speedCards.get_dualCard();
     lv_obj_set_grid_cell(obj, LV_GRID_ALIGN_STRETCH, 0, 1,
     LV_GRID_ALIGN_STRETCH, 0, 1);
+    lv_obj_set_scroll_dir(obj, LV_DIR_NONE);
 
     l = speedCards.get_card2()->get_value_label();
 
     lapCards = create_lap_section(cont, SCREEN_WIDTH/2, SCREEN_HEIGHT/2);
     obj = lapCards.get_dualCard();
-    lv_obj_add_event_cb(obj, event_cb, LV_EVENT_SCROLL, nullptr);   /* Assign an event callback */
     lv_obj_set_grid_cell(obj, LV_GRID_ALIGN_STRETCH, 2, 1,
     LV_GRID_ALIGN_STRETCH, 0, 1);
+    lv_obj_set_scroll_dir(obj, LV_DIR_NONE);
 
     efficiencyCards = create_efficienty_section(cont, SCREEN_WIDTH/2, SCREEN_HEIGHT/2);
     obj = efficiencyCards.get_dualCard();
     lv_obj_set_grid_cell(obj, LV_GRID_ALIGN_STRETCH, 0, 1,
     LV_GRID_ALIGN_STRETCH, 2, 1);
+    lv_obj_set_scroll_dir(obj, LV_DIR_NONE);
 
     consomationCards = create_consomation_section(cont, SCREEN_WIDTH/2, SCREEN_HEIGHT/2);
     obj = consomationCards.get_dualCard();
     lv_obj_set_grid_cell(obj, LV_GRID_ALIGN_STRETCH, 2, 1,
                          LV_GRID_ALIGN_STRETCH, 2, 1);
+    lv_obj_set_scroll_dir(obj, LV_DIR_NONE);
 
     // add vertical separator
     lv_obj_t * separator = lv_obj_create(cont);
