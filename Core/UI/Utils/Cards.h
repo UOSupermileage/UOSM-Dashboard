@@ -38,15 +38,15 @@ public:
 
     ~DualCardInfo();
 
-    lv_obj_t * get_dualCard() {
+    lv_obj_t * get_dualCard() const {
         return dualCard;
     }
 
-    Card * get_card1() {
+    Card * get_card1() const {
         return card1;
     }
 
-    Card * get_card2() {
+    Card * get_card2() const {
         return card2;
     }
 

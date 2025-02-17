@@ -6,6 +6,8 @@
 #ifndef UOSM_DASHBOARD_HOMEVIEW_HPP
 #define UOSM_DASHBOARD_HOMEVIEW_HPP
 
+#include "Cards.h"
+
 #include "View.hpp"
 
 /** @ingroup core-ui
@@ -29,6 +31,11 @@ public:
      *  @param aggregator The reference to the data aggregator to use as source of truth for this view.
      */
     HomeView(lv_obj_t* parent, DataAggregator& aggregator);
+
+    static DualCardInfo speedCards;
+    static DualCardInfo lapCards;
+    static DualCardInfo efficiencyCards;
+    static DualCardInfo consomationCards;
 };
 
 

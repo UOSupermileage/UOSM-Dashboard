@@ -26,6 +26,7 @@ public:
     Observable<voltage_t> batteryVoltage;
     Observable<lap_efficiencies_t> efficiency;
     Observable<speed_t> speed;
+    Observable<int32_t> rpmSpeed;
 };
 
 /** Returns a reference to the data aggregator object from a given wrapper.

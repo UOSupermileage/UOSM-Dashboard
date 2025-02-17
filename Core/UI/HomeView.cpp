@@ -5,11 +5,17 @@
 
 #include "HomeView.hpp"
 
+#include <src/misc/lv_event_private.h>
+
 #include "Utils/Cards.h"
-// add font
-// LV_FONT_DECLARE(montserrat_72);
 
 #define MAX_SPEED 45
+
+DualCardInfo HomeView::speedCards = DualCardInfo();
+DualCardInfo HomeView::lapCards = DualCardInfo();
+DualCardInfo HomeView::efficiencyCards = DualCardInfo();
+DualCardInfo HomeView::consomationCards = DualCardInfo();
+
 static lv_obj_t *l;
 static void set_value(lv_obj_t * obj, int32_t v)
 {
@@ -18,47 +24,14 @@ static void set_value(lv_obj_t * obj, int32_t v)
     lv_label_set_text(obj, buf);
 }
 
-// static void event_cb(lv_event_t * e)
-// {
-    // static int32_t idk = 0;
-    // set_value(l, ++idk);
-    // DebugPrint("Event: %s\n", lv_event_code_get_name(e->code));
-// }
+// event callback
+int v = 0;
+static void event_handler(lv_event_t event)
+{
+    v++;
+    set_value(HomeView::speedCards.get_card2()->get_value_label(), v);
+}
 
-
-
-DualCardInfo speedCards;
-DualCardInfo lapCards;
-DualCardInfo efficiencyCards;
-DualCardInfo consomationCards;
-
-// static void event_cb(lv_event_t * e)
-// {
-//     DebugPrint("AAAAAA");
-//     set_value(speedCards.get_card2()->get_value_label(), ++idk);
-// }
-// get card
-// ---------------------
-// Title
-//        Value
-// ---------------------
-
-// lv_obj_t * create_dual_card_info(lv_obj_t * parent, const char * title1, const char * value1, const char * title2, const char * value2, const int32_t width, const int32_t height) {
-//
-//
-//     return cont;
-// }
-
-// speed section
-// ---------------------
-// Speed
-//        45
-// ---------------------
-// RPM
-
-//        5000
-
-// ---------------------
 DualCardInfo create_speed_section(lv_obj_t * parent, const int32_t width, const int32_t height)
 {
     return DualCardInfo(parent, "Speed", "45", "RPM", "5000", width, height);
@@ -79,34 +52,7 @@ DualCardInfo create_consomation_section(lv_obj_t * parent, const int32_t width, 
     return DualCardInfo(parent, "Voltage", "10 V", "Current", "12 Amp", width, height);
 }
 
-// Function to update the label
-// void update_label() {
-//     static char buf[16];  // Buffer for formatted text
-//     snprintf(buf, sizeof(buf), "Value: %d", counter);
-//     lv_label_set_text(label, buf);
-// }
-//
-// void update_label(lv_obj_t * label) {
-//     static char buf[16];  // Buffer for formatted text
-//     snprintf(buf, sizeof(buf), "Value: %d", counter);
-//     lv_label_set_text(label, buf);
-// }
-
 HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, aggregator) {
-//
-//     // Create a label
-//     label = lv_label_create(getContainer());
-//     lv_label_set_text(label, "Value: 0");  // Initial value
-//     lv_obj_align(label, LV_ALIGN_CENTER, 0, 0);  // Center it on the screen
-//
-//     // Simulate updating the variable
-//     lv_timer_create([](lv_timer_t *t) {
-//         counter++;
-//         update_label();
-//     }, 1000, NULL);  // Update every second
-// }
-
-// void i(lv_obj_t * cont){
     // get resoltion of the screen
     lv_obj_t * cont = getContainer();
 
@@ -141,7 +87,8 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     obj = lapCards.get_dualCard();
     lv_obj_set_grid_cell(obj, LV_GRID_ALIGN_STRETCH, 2, 1,
     LV_GRID_ALIGN_STRETCH, 0, 1);
-    lv_obj_set_scroll_dir(obj, LV_DIR_NONE);
+    // lv_obj_set_scroll_dir(obj, LV_DIR_NONE);
+    lv_obj_add_event_cb(obj, lv_event_cb_t(event_handler), LV_EVENT_SCROLL, NULL);
 
     efficiencyCards = create_efficienty_section(cont, SCREEN_WIDTH/2, SCREEN_HEIGHT/2);
     obj = efficiencyCards.get_dualCard();
@@ -171,4 +118,20 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
 
     lv_obj_set_style_pad_column(cont, 0, 0);
     lv_obj_set_style_pad_row(cont, 0, 0);
+
+    aggregator.speed.addListener([&](speed_t speed) {
+        set_value(speedCards.get_card2()->get_value_label(), speed);
+    });
+
+    aggregator.efficiency.addListener([&](lap_efficiencies_t efficiency) {
+        set_value(efficiencyCards.get_card2()->get_value_label(), efficiency.all);
+    });
+
+    aggregator.batteryVoltage.addListener([&](voltage_t voltage) {
+        set_value(consomationCards.get_card1()->get_value_label(), voltage);
+    });
+
+    aggregator.rpmSpeed.addListener([&](int32_t rpm) {
+        set_value(speedCards.get_card2()->get_value_label(), rpm);
+    });
 }

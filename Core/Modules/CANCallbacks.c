@@ -28,7 +28,17 @@ void SpeedDataCallback(iCommsMessage_t *msg){
     SetSpeed(aggregatorWrapper, speed);
 }
 void EventDataCallback(iCommsMessage_t *msg){}
-void MotorRPMDataCallback(iCommsMessage_t *msg){}
-void CurrentVoltageDataCallback(iCommsMessage_t *msg){}
+void MotorRPMDataCallback(iCommsMessage_t *msg) {
+    DebugPrint("Received motor RPM");
+    int32_t rpm = readMsg(msg);
+    DebugPrint("RPM %d", rpm);
+    SetRPMSpeed(aggregatorWrapper, rpm);
+}
+void CurrentVoltageDataCallback(iCommsMessage_t *msg) {
+    DebugPrint("Received current and voltage");
+    voltage_t voltage = readMsg(msg);
+    DebugPrint("Voltage %d", voltage);
+    SetBatteryVoltage(aggregatorWrapper, voltage);
+}
 void PressureTemperatureDataCallback(iCommsMessage_t *msg){}
 void LightsDataCallback(iCommsMessage_t *msg){}
