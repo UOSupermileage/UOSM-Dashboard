@@ -33,6 +33,7 @@ var hierarchy =
       [ "Listener< voltage_t >", "classListener.html", null ],
       [ "Listener< lap_efficiencies_t >", "classListener.html", null ],
       [ "Listener< speed_t >", "classListener.html", null ],
+      [ "Listener< int32_t >", "classListener.html", null ],
       [ "CANLogEntry", "classCANLogEntry.html", null ],
       [ "Listener< T >", "classListener.html", null ],
       [ "ObserverToken", "classObserverToken.html", null ]
@@ -44,6 +45,7 @@ var hierarchy =
     [ "MAGNETO_DrvTypeDef", "structMAGNETO__DrvTypeDef.html", null ],
     [ "MAGNETO_InitTypeDef", "structMAGNETO__InitTypeDef.html", null ],
     [ "Observable< T >", "classObservable.html", null ],
+    [ "Observable< int32_t >", "classObservable.html", null ],
     [ "Observable< lap_efficiencies_t >", "classObservable.html", null ],
     [ "Observable< speed_t >", "classObservable.html", null ],
     [ "Observable< voltage_t >", "classObservable.html", null ],

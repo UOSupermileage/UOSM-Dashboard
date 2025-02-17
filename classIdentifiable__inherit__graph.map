@@ -1,15 +1,17 @@
 <map id="Identifiable" name="Identifiable">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,129,100,155"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,153,100,179"/>
 <area shape="rect" id="Node000002" href="$classListener.html" title=" " alt="" coords="174,5,339,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,116,101,76,123,56,147,40,173,28,175,33,149,44,126,61,105,80,72,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,140,96,88,119,62,147,40,173,27,175,32,149,44,123,66,100,92,68,142"/>
 <area shape="rect" id="Node000003" href="$classListener.html" title=" " alt="" coords="148,55,365,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="85,120,147,89,184,78,186,83,149,94,87,124"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="74,142,107,114,147,89,177,78,179,83,149,94,110,118,78,146"/>
 <area shape="rect" id="Node000004" href="$classListener.html" title=" " alt="" coords="179,104,334,129"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="114,132,179,124,179,129,114,137"/>
-<area shape="rect" id="Node000005" href="$classCANLogEntry.html" title="Represents a log entry for CAN messages." alt="" coords="203,153,310,179"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="114,146,204,157,203,162,113,152"/>
-<area shape="rect" id="Node000006" href="$classListener.html" title=" " alt="" coords="201,203,313,228"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="88,159,149,188,201,203,200,208,147,192,86,164"/>
-<area shape="rect" id="Node000007" href="$classObserverToken.html" title=" " alt="" coords="197,252,316,277"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="73,165,106,202,126,221,149,237,173,247,198,255,196,260,171,252,147,242,123,225,102,206,69,168"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="112,147,147,138,196,127,197,132,149,143,113,152"/>
+<area shape="rect" id="Node000005" href="$classListener.html" title=" " alt="" coords="182,153,331,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="114,163,182,163,182,169,114,169"/>
+<area shape="rect" id="Node000006" href="$classCANLogEntry.html" title="Represents a log entry for CAN messages." alt="" coords="203,203,310,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="114,179,149,187,204,201,202,206,147,193,113,184"/>
+<area shape="rect" id="Node000007" href="$classListener.html" title=" " alt="" coords="201,252,313,277"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="78,186,111,213,149,237,201,254,199,259,147,242,107,217,75,190"/>
+<area shape="rect" id="Node000008" href="$classObserverToken.html" title=" " alt="" coords="197,301,316,327"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="68,189,101,239,123,265,149,286,173,298,198,305,197,310,171,303,147,291,120,269,96,243,64,192"/>
 </map>
