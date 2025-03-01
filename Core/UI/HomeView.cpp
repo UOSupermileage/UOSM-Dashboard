@@ -5,7 +5,9 @@
 
 #include "HomeView.hpp"
 
+#ifdef SIM
 #include <src/misc/lv_event_private.h>
+#endif
 
 #include "Utils/Cards.h"
 
@@ -16,7 +18,6 @@ DualCardInfo HomeView::lapCards = DualCardInfo();
 DualCardInfo HomeView::efficiencyCards = DualCardInfo();
 DualCardInfo HomeView::consomationCards = DualCardInfo();
 
-static lv_obj_t *l;
 static void set_value(lv_obj_t * obj, int32_t v)
 {
     static char buf[16];  // Buffer for formatted text
@@ -24,13 +25,32 @@ static void set_value(lv_obj_t * obj, int32_t v)
     lv_label_set_text(obj, buf);
 }
 
-// event callback
-int v = 0;
-static void event_handler(lv_event_t event)
+static void set_speed(lv_obj_t * obj, int32_t v)
 {
-    v++;
-    set_value(HomeView::speedCards.get_card2()->get_value_label(), v);
+    static char buf[16];  // Buffer for formatted text
+    snprintf(buf, sizeof(buf), "%d km/h", v);
+    lv_label_set_text(obj, buf);
+    if (v > MAX_SPEED) {
+        lv_obj_set_style_bg_color(obj, lv_color_hex(0xFF0000), 0);
+    } else {
+        lv_obj_set_style_bg_color(obj, lv_color_hex(0x00FF00), 0);
+    }
 }
+
+static void set_current(lv_obj_t * obj, int32_t v)
+{
+    static char buf[16];  // Buffer for formatted text
+    snprintf(buf, sizeof(buf), "%d Amp", v);
+    lv_label_set_text(obj, buf);
+}
+
+// event callback
+// int v = 0;
+// static void event_handler(lv_event_t event)
+// {
+//     v++;
+//     set_value(HomeView::speedCards.get_card2()->get_value_label(), v);
+// }
 
 DualCardInfo create_speed_section(lv_obj_t * parent, const int32_t width, const int32_t height)
 {
@@ -81,14 +101,12 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     LV_GRID_ALIGN_STRETCH, 0, 1);
     lv_obj_set_scroll_dir(obj, LV_DIR_NONE);
 
-    l = speedCards.get_card2()->get_value_label();
-
     lapCards = create_lap_section(cont, SCREEN_WIDTH/2, SCREEN_HEIGHT/2);
     obj = lapCards.get_dualCard();
     lv_obj_set_grid_cell(obj, LV_GRID_ALIGN_STRETCH, 2, 1,
     LV_GRID_ALIGN_STRETCH, 0, 1);
-    // lv_obj_set_scroll_dir(obj, LV_DIR_NONE);
-    lv_obj_add_event_cb(obj, lv_event_cb_t(event_handler), LV_EVENT_SCROLL, NULL);
+    lv_obj_set_scroll_dir(obj, LV_DIR_NONE);
+    // lv_obj_add_event_cb(obj, lv_event_cb_t(event_handler), LV_EVENT_SCROLL, NULL);
 
     efficiencyCards = create_efficienty_section(cont, SCREEN_WIDTH/2, SCREEN_HEIGHT/2);
     obj = efficiencyCards.get_dualCard();
@@ -120,7 +138,7 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     lv_obj_set_style_pad_row(cont, 0, 0);
 
     aggregator.speed.addListener([&](speed_t speed) {
-        set_value(speedCards.get_card2()->get_value_label(), speed);
+        set_speed(speedCards.get_card1()->get_value_label(), speed);
     });
 
     aggregator.efficiency.addListener([&](lap_efficiencies_t efficiency) {
@@ -129,6 +147,10 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
 
     aggregator.batteryVoltage.addListener([&](voltage_t voltage) {
         set_value(consomationCards.get_card1()->get_value_label(), voltage);
+    });
+
+    aggregator.batteryCurrent.addListener([&](current_t current) {
+        set_current(consomationCards.get_card2()->get_value_label(), current);
     });
 
     aggregator.rpmSpeed.addListener([&](int32_t rpm) {
