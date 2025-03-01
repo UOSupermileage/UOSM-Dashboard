@@ -24,6 +24,8 @@
 #include "task.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <ApplicationTypes.h>
+
 #include "lvgl/lvgl.h"
 /* USER CODE END Includes */
 
@@ -78,6 +80,8 @@ void NMI_Handler(void)
   while (1)
   {
   }
+  DebugPrint("NMI");
+  NVIC_SystemReset();
   /* USER CODE END NonMaskableInt_IRQn 1 */
 }
 
