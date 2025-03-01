@@ -30,6 +30,10 @@ void SetBatteryVoltage(DataAggregatorWrapper* wrapper, voltage_t voltage) {
     wrapper->aggregator.batteryVoltage.notify(voltage);
 }
 
+void SetBatteryCurrent(DataAggregatorWrapper* wrapper, current_t current) {
+    wrapper->aggregator.batteryCurrent.notify(current);
+}
+
 DataAggregator& DataAggregator_GetReference(DataAggregatorWrapper* wrapper) {
     return wrapper->aggregator;
 }

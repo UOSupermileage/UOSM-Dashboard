@@ -24,6 +24,7 @@ using namespace std;
 class DataAggregator {
 public:
     Observable<voltage_t> batteryVoltage;
+    Observable<current_t> batteryCurrent;
     Observable<lap_efficiencies_t> efficiency;
     Observable<speed_t> speed;
     Observable<int32_t> rpmSpeed;
