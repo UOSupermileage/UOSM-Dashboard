@@ -28,6 +28,7 @@ public:
     Observable<lap_efficiencies_t> efficiency;
     Observable<speed_t> speed;
     Observable<int32_t> rpmSpeed;
+    Observable<temperature_t> temperature;
 };
 
 /** Returns a reference to the data aggregator object from a given wrapper.

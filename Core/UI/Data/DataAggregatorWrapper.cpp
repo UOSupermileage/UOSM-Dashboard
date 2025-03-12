@@ -34,6 +34,10 @@ void SetBatteryCurrent(DataAggregatorWrapper* wrapper, current_t current) {
     wrapper->aggregator.batteryCurrent.notify(current);
 }
 
+void SetMotorTemperature(DataAggregatorWrapper* wrapper, temperature_t temperature) {
+    wrapper->aggregator.temperature.notify(temperature);
+}
+
 DataAggregator& DataAggregator_GetReference(DataAggregatorWrapper* wrapper) {
     return wrapper->aggregator;
 }

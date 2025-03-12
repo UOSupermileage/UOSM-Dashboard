@@ -51,7 +51,7 @@ iCommsMessage_t IComms_CreatePairInt32Message(uint16_t standardMessageID, int32_
 result_t IComms_ReadPairInt32Message(iCommsMessage_t *msg, int32_t* a, int32_t* b);
 
 iCommsMessage_t IComms_CreatePressureTemperatureMessage(pressure_t a, temperature_t b);
-result_t IComms_ReadPressureTemperatureMessage(iCommsMessage_t* msg, pressure_t* a, temperature_t* b);
+result_t IComms_ReadPressureTemperatureMessage(iCommsMessage_t* msg, pressure_t* a, uint32_t* b);
 
 /**
  * Create an efficiency message that packs 4 laps into a CAN message

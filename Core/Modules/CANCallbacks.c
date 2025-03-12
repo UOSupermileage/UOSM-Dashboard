@@ -42,5 +42,11 @@ void CurrentVoltageDataCallback(iCommsMessage_t *msg) {
     DebugPrint("Voltage %d", battery.b);
     SetBatteryVoltage(aggregatorWrapper, battery.b);
 }
+void MotorTemperatureDataCallback(iCommsMessage_t *msg) {
+    DebugPrint("Received motor temperature");
+    temperature_t temp = readMsg(msg);
+    DebugPrint("Temperature %d", temp);
+    SetMotorTemperature(aggregatorWrapper, temp);
+}
 void PressureTemperatureDataCallback(iCommsMessage_t *msg){}
 void LightsDataCallback(iCommsMessage_t *msg){}

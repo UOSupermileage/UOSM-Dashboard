@@ -215,7 +215,7 @@ result_t IComms_ReadPairInt32Message(iCommsMessage_t* msg, int32_t* a, int32_t* 
 iCommsMessage_t IComms_CreatePressureTemperatureMessage(pressure_t a, temperature_t b) {
     return IComms_CreatePairInt32Message(PRESSURE_TEMPERATURE_DATA_ID, a, b);
 }
-result_t IComms_ReadPressureTemperatureMessage(iCommsMessage_t* msg, pressure_t* a, temperature_t* b) {
+result_t IComms_ReadPressureTemperatureMessage(iCommsMessage_t* msg, pressure_t* a, uint32_t* b) {
     return IComms_ReadPairInt32Message(msg, a, b);
 }
 

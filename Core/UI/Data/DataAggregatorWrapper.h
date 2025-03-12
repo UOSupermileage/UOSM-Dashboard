@@ -24,6 +24,7 @@ void SetSpeed(DataAggregatorWrapper* wrapper, speed_t speed);
 void SetRPMSpeed(DataAggregatorWrapper* wrapper, int32_t rpm);
 void SetBatteryVoltage(DataAggregatorWrapper* wrapper, voltage_t voltage);
 void SetBatteryCurrent(DataAggregatorWrapper* wrapper, current_t current);
+void SetMotorTemperature(DataAggregatorWrapper* wrapper, temperature_t temperature);
 
 #ifdef  __cplusplus
 }

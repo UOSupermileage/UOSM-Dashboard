@@ -59,7 +59,7 @@ DualCardInfo create_speed_section(lv_obj_t * parent, const int32_t width, const 
 
 DualCardInfo create_lap_section(lv_obj_t * parent, const int32_t width, const int32_t height)
 {
-    return DualCardInfo(parent, "Current Lap", "03:05", "Last Lap", "05:34", width, height);
+    return DualCardInfo(parent, "Current Lap", "03:05", "Temp (Celsius)", "99", width, height);
 }
 
 DualCardInfo create_efficienty_section(lv_obj_t * parent, const int32_t width, const int32_t height)
@@ -155,5 +155,9 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
 
     aggregator.rpmSpeed.addListener([&](int32_t rpm) {
         set_value(speedCards.get_card2()->get_value_label(), rpm);
+    });
+
+    aggregator.temperature.addListener([&](temperature_t temperature) {
+        set_value(lapCards.get_card2()->get_value_label(), temperature);
     });
 }
