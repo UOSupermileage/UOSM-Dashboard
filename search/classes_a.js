@@ -5,6 +5,7 @@ var searchData=
   ['observable_3c_20int32_5ft_20_3e_2',['Observable&lt; int32_t &gt;',['../classObservable.html',1,'']]],
   ['observable_3c_20lap_5fefficiencies_5ft_20_3e_3',['Observable&lt; lap_efficiencies_t &gt;',['../classObservable.html',1,'']]],
   ['observable_3c_20speed_5ft_20_3e_4',['Observable&lt; speed_t &gt;',['../classObservable.html',1,'']]],
-  ['observable_3c_20voltage_5ft_20_3e_5',['Observable&lt; voltage_t &gt;',['../classObservable.html',1,'']]],
-  ['observertoken_6',['ObserverToken',['../classObserverToken.html',1,'']]]
+  ['observable_3c_20temperature_5ft_20_3e_5',['Observable&lt; temperature_t &gt;',['../classObservable.html',1,'']]],
+  ['observable_3c_20voltage_5ft_20_3e_6',['Observable&lt; voltage_t &gt;',['../classObservable.html',1,'']]],
+  ['observertoken_7',['ObserverToken',['../classObserverToken.html',1,'']]]
 ];

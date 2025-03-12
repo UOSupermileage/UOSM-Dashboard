@@ -1,19 +1,21 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classIdentifiable.html" title=" " alt="" coords="5,179,100,204"/>
+<area shape="rect" id="Node000000" href="$classIdentifiable.html" title=" " alt="" coords="5,203,100,228"/>
 <area shape="rect" id="Node000001" href="$classListener.html" title=" " alt="" coords="174,5,339,31"/>
-<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="61,165,92,101,116,68,146,40,173,27,175,31,150,44,120,71,96,104,65,167"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="58,189,70,155,88,114,113,74,146,40,172,26,175,31,150,44,117,77,92,117,74,157,63,190"/>
 <area shape="rect" id="Node000002" href="$classListener.html" title=" " alt="" coords="175,55,338,80"/>
-<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="68,165,101,126,123,106,147,89,174,77,176,82,149,94,126,110,105,129,72,169"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="64,189,96,138,119,111,147,89,174,76,176,81,149,94,123,115,100,141,68,192"/>
 <area shape="rect" id="Node000003" href="$classListener.html" title=" " alt="" coords="148,104,365,129"/>
-<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="85,169,147,138,184,127,186,132,149,143,87,174"/>
+<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="74,191,107,163,147,138,177,127,179,132,149,143,110,168,78,195"/>
 <area shape="rect" id="Node000004" href="$classListener.html" title=" " alt="" coords="179,153,334,179"/>
-<area shape="poly" id="edge4_Node000000_Node000004" title=" " alt="" coords="114,181,179,173,179,178,114,186"/>
+<area shape="poly" id="edge4_Node000000_Node000004" title=" " alt="" coords="112,197,147,187,196,176,197,181,149,193,113,202"/>
 <area shape="rect" id="Node000005" href="$classListener.html" title=" " alt="" coords="182,203,331,228"/>
-<area shape="poly" id="edge5_Node000000_Node000005" title=" " alt="" coords="114,196,182,204,181,209,113,201"/>
-<area shape="rect" id="Node000006" href="$classCANLogEntry.html" title="Represents a log entry for CAN messages." alt="" coords="203,252,310,277"/>
-<area shape="poly" id="edge6_Node000000_Node000006" title=" " alt="" coords="88,208,149,237,204,252,203,258,147,242,86,213"/>
-<area shape="rect" id="Node000007" href="$classListener.html" title=" " alt="" coords="201,301,313,327"/>
-<area shape="poly" id="edge7_Node000000_Node000007" title=" " alt="" coords="73,214,106,252,126,271,149,286,174,297,201,305,199,310,173,302,147,291,123,275,102,256,69,217"/>
-<area shape="rect" id="Node000008" href="$classObserverToken.html" title=" " alt="" coords="197,351,316,376"/>
-<area shape="poly" id="edge8_Node000000_Node000008" title=" " alt="" coords="66,216,97,277,120,309,150,336,173,348,198,355,197,361,171,353,146,340,116,313,92,280,61,218"/>
+<area shape="poly" id="edge5_Node000000_Node000005" title=" " alt="" coords="114,213,182,213,182,218,114,218"/>
+<area shape="rect" id="Node000006" href="$classListener.html" title=" " alt="" coords="158,252,355,277"/>
+<area shape="poly" id="edge6_Node000000_Node000006" title=" " alt="" coords="114,228,149,237,201,249,200,255,147,242,113,233"/>
+<area shape="rect" id="Node000007" href="$classCANLogEntry.html" title="Represents a log entry for CAN messages." alt="" coords="203,301,310,327"/>
+<area shape="poly" id="edge7_Node000000_Node000007" title=" " alt="" coords="78,236,111,262,149,286,204,304,202,309,147,291,107,267,75,240"/>
+<area shape="rect" id="Node000008" href="$classListener.html" title=" " alt="" coords="201,351,313,376"/>
+<area shape="poly" id="edge8_Node000000_Node000008" title=" " alt="" coords="68,239,101,289,123,314,149,336,174,348,201,355,200,360,173,353,147,340,120,318,96,292,64,241"/>
+<area shape="rect" id="Node000009" href="$classObserverToken.html" title=" " alt="" coords="197,400,316,425"/>
+<area shape="poly" id="edge9_Node000000_Node000009" title=" " alt="" coords="63,241,75,274,93,313,117,352,150,385,172,398,198,405,196,410,170,403,146,389,113,356,88,316,70,276,58,242"/>
 </map>

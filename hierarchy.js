@@ -35,6 +35,7 @@ var hierarchy =
       [ "Listener< lap_efficiencies_t >", "classListener.html", null ],
       [ "Listener< speed_t >", "classListener.html", null ],
       [ "Listener< int32_t >", "classListener.html", null ],
+      [ "Listener< temperature_t >", "classListener.html", null ],
       [ "CANLogEntry", "classCANLogEntry.html", null ],
       [ "Listener< T >", "classListener.html", null ],
       [ "ObserverToken", "classObserverToken.html", null ]
@@ -50,6 +51,7 @@ var hierarchy =
     [ "Observable< int32_t >", "classObservable.html", null ],
     [ "Observable< lap_efficiencies_t >", "classObservable.html", null ],
     [ "Observable< speed_t >", "classObservable.html", null ],
+    [ "Observable< temperature_t >", "classObservable.html", null ],
     [ "Observable< voltage_t >", "classObservable.html", null ],
     [ "QSPI_Info", "structQSPI__Info.html", null ],
     [ "rx_reg_t", "unionrx__reg__t.html", null ],

@@ -1,13 +1,15 @@
 <map id="DataAggregator" name="DataAggregator">
-<area shape="rect" id="Node000001" title=" " alt="" coords="393,104,519,129"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="393,129,519,155"/>
 <area shape="rect" id="Node000002" href="$classObservable.html" title=" " alt="" coords="31,5,218,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,25,301,38,370,60,409,80,440,102,437,106,406,84,368,64,300,44,231,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,25,302,39,371,65,414,96,446,127,442,131,411,100,368,70,300,45,231,30"/>
 <area shape="rect" id="Node000003" href="$classObservable.html" title=" " alt="" coords="33,55,217,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,75,370,94,405,101,404,107,369,99,230,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,78,300,90,370,106,427,127,425,132,369,111,299,95,230,83"/>
 <area shape="rect" id="Node000004" href="$classObservable.html" title=" " alt="" coords="5,104,244,129"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="258,114,393,114,393,119,258,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="258,124,393,135,393,140,258,129"/>
 <area shape="rect" id="Node000005" href="$classObservable.html" title=" " alt="" coords="36,153,213,179"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="227,154,369,134,404,127,405,132,370,139,227,159"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="227,165,297,164,369,158,404,152,405,157,370,163,297,169,227,171"/>
 <area shape="rect" id="Node000006" href="$classObservable.html" title=" " alt="" coords="39,203,210,228"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="224,205,296,192,368,170,407,150,438,127,441,132,410,154,370,175,297,197,225,210"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="224,211,296,203,369,186,404,171,435,153,437,157,407,175,370,191,297,208,224,216"/>
+<area shape="rect" id="Node000007" href="$classObservable.html" title=" " alt="" coords="15,252,234,277"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="247,260,309,249,368,228,393,211,414,191,444,153,449,156,418,195,396,216,371,232,310,254,248,266"/>
 </map>
