@@ -11,7 +11,13 @@
 
 #include "Utils/Cards.h"
 
+#include <chrono>
+
 #define MAX_SPEED 45
+
+uint32_t lapTimer = 0;
+uint8_t stopCounter = 0;
+uint32_t lastRpm = 0;
 
 DualCardInfo HomeView::speedCards = DualCardInfo();
 DualCardInfo HomeView::lapCards = DualCardInfo();
@@ -25,10 +31,30 @@ static void set_value(lv_obj_t * obj, int32_t v)
     lv_label_set_text(obj, buf);
 }
 
+static void update_lap_time(lv_obj_t * obj) {
+    uint32_t minutes = lapTimer / 60;
+    uint32_t seconds = lapTimer % 60;
+
+    static char buf[16];  // Buffer for formatted text
+    snprintf(buf, sizeof(buf), "%02d:%02d", minutes, seconds);
+    DebugPrint(buf);
+    lv_label_set_text(obj, buf);
+}
+
+static void reset_lap_timer() {
+    lapTimer = 0;
+    DebugPrint("Lap timer reset\n");
+    update_lap_time(HomeView::lapCards.get_card1()->get_value_label());
+}
+
+static void reset_lap_timer(lv_event_t * e) {
+    reset_lap_timer();
+}
+
 static void set_speed(lv_obj_t * obj, int32_t v)
 {
     static char buf[16];  // Buffer for formatted text
-    snprintf(buf, sizeof(buf), "%d km/h", v);
+    snprintf(buf, sizeof(buf), "%d km/h", (v/1000));
     lv_label_set_text(obj, buf);
     if (v > MAX_SPEED) {
         lv_obj_set_style_bg_color(obj, lv_color_hex(0xFF0000), 0);
@@ -107,6 +133,7 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     LV_GRID_ALIGN_STRETCH, 0, 1);
     lv_obj_set_scroll_dir(obj, LV_DIR_NONE);
     // lv_obj_add_event_cb(obj, lv_event_cb_t(event_handler), LV_EVENT_SCROLL, NULL);
+    lv_obj_add_event_cb(obj, reset_lap_timer, LV_EVENT_CLICKED, NULL);
 
     efficiencyCards = create_efficienty_section(cont, SCREEN_WIDTH/2, SCREEN_HEIGHT/2);
     obj = efficiencyCards.get_dualCard();
@@ -154,10 +181,22 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     });
 
     aggregator.rpmSpeed.addListener([&](int32_t rpm) {
+        if (rpm == 0 && lastRpm != 0) {
+            stopCounter++;
+            if (stopCounter >= 2) {
+                reset_lap_timer();
+                stopCounter = 0;
+            }
+        }
         set_value(speedCards.get_card2()->get_value_label(), rpm);
     });
 
     aggregator.temperature.addListener([&](temperature_t temperature) {
         set_value(lapCards.get_card2()->get_value_label(), temperature);
     });
+
+    __attribute__ ((__unused__)) lv_timer_t * timer = lv_timer_create([](lv_timer_t * timer) {
+        lapTimer++;
+        update_lap_time(lapCards.get_card1()->get_value_label());
+    }, 1000, NULL);
 }
