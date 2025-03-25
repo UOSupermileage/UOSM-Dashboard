@@ -14,6 +14,9 @@
 #include <chrono>
 
 #define MAX_SPEED 45
+#define MAX_RPM 1000
+#define MAX_TEMPERATURE 100
+#define MAX_BATTERY_VOLTAGE 100
 
 uint32_t lapTimer = 0;
 uint8_t stopCounter = 0;
@@ -51,23 +54,33 @@ static void reset_lap_timer(lv_event_t * e) {
     reset_lap_timer();
 }
 
-static void set_speed(lv_obj_t * obj, int32_t v)
+static void set_value(lv_obj_t * obj, int32_t v, int32_t threshold = INT32_MAX)
 {
     static char buf[16];  // Buffer for formatted text
-    snprintf(buf, sizeof(buf), "%d km/h", (v/1000));
+    snprintf(buf, sizeof(buf), "%d", v);
     lv_label_set_text(obj, buf);
-    if (v > MAX_SPEED) {
-        lv_obj_set_style_bg_color(obj, lv_color_hex(0xFF0000), 0);
+    
+    if (v > threshold) {
+        lv_obj_set_style_bg_color(obj, lv_color_hex(0xFF0000), 0); // Red
     } else {
-        lv_obj_set_style_bg_color(obj, lv_color_hex(0x00FF00), 0);
+        lv_obj_set_style_bg_color(obj, lv_color_hex(0x00FF00), 0); // Green
     }
 }
+
 
 static void set_current(lv_obj_t * obj, int32_t v)
 {
     static char buf[16];  // Buffer for formatted text
     snprintf(buf, sizeof(buf), "%d Amp", v);
     lv_label_set_text(obj, buf);
+    
+    // Add threshold check - using 80% of maximum as threshold
+    int32_t currentThreshold = (MAX_BATTERY_VOLTAGE * 80) / 100;
+    if (v > currentThreshold) {
+        lv_obj_set_style_bg_color(obj, lv_color_hex(0xFF0000), 0); // Red
+    } else {
+        lv_obj_set_style_bg_color(obj, lv_color_hex(0x00FF00), 0); // Green
+    }
 }
 
 // event callback
@@ -173,7 +186,7 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     });
 
     aggregator.batteryVoltage.addListener([&](voltage_t voltage) {
-        set_value(consomationCards.get_card1()->get_value_label(), voltage);
+        set_value(consomationCards.get_card1()->get_value_label(), voltage, MAX_BATTERY_VOLTAGE);
     });
 
     aggregator.batteryCurrent.addListener([&](current_t current) {
@@ -188,12 +201,13 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
                 stopCounter = 0;
             }
         }
-        set_value(speedCards.get_card2()->get_value_label(), rpm);
+        lastRpm = rpm;
+        set_value(speedCards.get_card2()->get_value_label(), rpm, MAX_RPM);
     });
-
+    
     aggregator.temperature.addListener([&](temperature_t temperature) {
-        set_value(lapCards.get_card2()->get_value_label(), temperature);
-    });
+        set_value(lapCards.get_card2()->get_value_label(), temperature, MAX_TEMPERATURE);
+    });    
 
     __attribute__ ((__unused__)) lv_timer_t * timer = lv_timer_create([](lv_timer_t * timer) {
         lapTimer++;
