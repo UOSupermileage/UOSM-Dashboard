@@ -21,6 +21,7 @@ DataAggregatorWrapper* DataAggregator_Create();
 
 void SetEfficiency(DataAggregatorWrapper* wrapper, lap_efficiencies_t* efficiencies);
 void SetSpeed(DataAggregatorWrapper* wrapper, speed_t speed);
+void ResetTimer(DataAggregatorWrapper* wrapper, uint32_t timer);
 void SetRPMSpeed(DataAggregatorWrapper* wrapper, int32_t rpm);
 void SetBatteryVoltage(DataAggregatorWrapper* wrapper, voltage_t voltage);
 void SetBatteryCurrent(DataAggregatorWrapper* wrapper, current_t current);

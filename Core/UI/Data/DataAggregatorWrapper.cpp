@@ -22,6 +22,11 @@ void SetSpeed(DataAggregatorWrapper* wrapper, speed_t speed) {
     wrapper->aggregator.speed.notify(speed);
 }
 
+void ResetTimer(DataAggregatorWrapper* wrapper, uint32_t timer) {
+    DebugPrint("Lap timer reset\n");
+    wrapper->aggregator.lapTimer.notify(timer);
+}
+
 void SetRPMSpeed(DataAggregatorWrapper* wrapper, int32_t rpm) {
     wrapper->aggregator.rpmSpeed.notify(rpm);
 }
