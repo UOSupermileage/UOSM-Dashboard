@@ -13,8 +13,11 @@
 
 #include <chrono>
 
-#define MAX_SPEED 45
+#include "FreeRTOS/portable/ThirdParty/GCC/ARC_EM_HS/portmacro.h"
 
+#define MAX_SPEED 30
+#define RED "#FF0000"
+#define BLACK "#000000"
 uint32_t lapTimer = 0;
 uint8_t stopCounter = 0;
 uint32_t lastRpm = 0;
@@ -23,6 +26,10 @@ DualCardInfo HomeView::speedCards = DualCardInfo();
 DualCardInfo HomeView::lapCards = DualCardInfo();
 DualCardInfo HomeView::efficiencyCards = DualCardInfo();
 DualCardInfo HomeView::consomationCards = DualCardInfo();
+
+// Check conditions based on given prompts:
+// Requires a "Maximum" to use
+
 
 static void set_value(lv_obj_t * obj, int32_t v)
 {
@@ -37,13 +44,13 @@ static void update_lap_time(lv_obj_t * obj) {
 
     static char buf[16];  // Buffer for formatted text
     snprintf(buf, sizeof(buf), "%02d:%02d", minutes, seconds);
-    DebugPrint(buf);
+    //DebugPrint(buf);
     lv_label_set_text(obj, buf);
 }
 
 static void reset_lap_timer() {
     lapTimer = 0;
-    DebugPrint("Lap timer reset\n");
+    //DebugPrint("Lap timer reset\n");
     update_lap_time(HomeView::lapCards.get_card1()->get_value_label());
 }
 
@@ -54,13 +61,16 @@ static void reset_lap_timer(lv_event_t * e) {
 static void set_speed(lv_obj_t * obj, int32_t v)
 {
     static char buf[16];  // Buffer for formatted text
-    snprintf(buf, sizeof(buf), "%d km/h", (v/1000));
-    lv_label_set_text(obj, buf);
-    if (v > MAX_SPEED) {
-        lv_obj_set_style_bg_color(obj, lv_color_hex(0xFF0000), 0);
+    v = v/1000;
+    lv_label_set_recolor(obj,true);
+
+    if (v >= MAX_SPEED) {
+        snprintf(buf, sizeof(buf), "%s %d km/h #",RED, v);
     } else {
-        lv_obj_set_style_bg_color(obj, lv_color_hex(0x00FF00), 0);
+        snprintf(buf, sizeof(buf), "%s %d km/h #",BLACK, v);
     }
+
+    lv_label_set_text(obj, buf);
 }
 
 static void set_current(lv_obj_t * obj, int32_t v)
@@ -80,7 +90,7 @@ static void set_current(lv_obj_t * obj, int32_t v)
 
 DualCardInfo create_speed_section(lv_obj_t * parent, const int32_t width, const int32_t height)
 {
-    return DualCardInfo(parent, "Speed", "45", "RPM", "5000", width, height);
+    return DualCardInfo(parent, "Speed", "000", "RPM", "5000", width, height);
 }
 
 DualCardInfo create_lap_section(lv_obj_t * parent, const int32_t width, const int32_t height)
@@ -126,7 +136,6 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     lv_obj_set_grid_cell(obj, LV_GRID_ALIGN_STRETCH, 0, 1,
     LV_GRID_ALIGN_STRETCH, 0, 1);
     lv_obj_set_scroll_dir(obj, LV_DIR_NONE);
-
     lapCards = create_lap_section(cont, SCREEN_WIDTH/2, SCREEN_HEIGHT/2);
     obj = lapCards.get_dualCard();
     lv_obj_set_grid_cell(obj, LV_GRID_ALIGN_STRETCH, 2, 1,
