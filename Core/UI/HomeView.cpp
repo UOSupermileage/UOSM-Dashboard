@@ -13,7 +13,6 @@
 
 #include <chrono>
 
-#include "FreeRTOS/portable/ThirdParty/GCC/ARC_EM_HS/portmacro.h"
 
 #define MAX_SPEED 30
 #define RED "#FF0000"
@@ -27,8 +26,6 @@ DualCardInfo HomeView::lapCards = DualCardInfo();
 DualCardInfo HomeView::efficiencyCards = DualCardInfo();
 DualCardInfo HomeView::consomationCards = DualCardInfo();
 
-// Check conditions based on given prompts:
-// Requires a "Maximum" to use
 
 
 static void set_value(lv_obj_t * obj, int32_t v)
