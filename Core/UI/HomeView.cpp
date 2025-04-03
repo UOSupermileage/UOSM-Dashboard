@@ -87,22 +87,22 @@ static void set_current(lv_obj_t * obj, int32_t v)
 
 DualCardInfo create_speed_section(lv_obj_t * parent, const int32_t width, const int32_t height)
 {
-    return DualCardInfo(parent, "Speed", "000", "RPM", "5000", width, height);
+    return DualCardInfo(parent, "Speed", "000", "RPM", "0", width, height);
 }
 
 DualCardInfo create_lap_section(lv_obj_t * parent, const int32_t width, const int32_t height)
 {
-    return DualCardInfo(parent, "Current Lap", "03:05", "Temp (Celsius)", "99", width, height);
+    return DualCardInfo(parent, "Current Lap", "00:00", "Temp (Celsius)", "0", width, height);
 }
 
 DualCardInfo create_efficienty_section(lv_obj_t * parent, const int32_t width, const int32_t height)
 {
-    return DualCardInfo(parent, "Efficiency", "20.5", "Suggestion", "SLOWER", width, height);
+    return DualCardInfo(parent, "Efficiency", "0", "Suggestion", "SLOWER", width, height);
 }
 
 DualCardInfo create_consomation_section(lv_obj_t * parent, const int32_t width, const int32_t height)
 {
-    return DualCardInfo(parent, "Voltage", "10 V", "Current", "12 Amp", width, height);
+    return DualCardInfo(parent, "Voltage", "0", "Current", "0", width, height);
 }
 
 HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, aggregator) {
