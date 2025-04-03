@@ -14,7 +14,7 @@
 #include <chrono>
 
 
-#define MAX_SPEED 30
+#define MAX_SPEED 40
 #define RED "#FF0000"
 #define BLACK "#000000"
 uint32_t lapTimer = 0;
