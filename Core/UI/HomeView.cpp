@@ -93,6 +93,8 @@ DualCardInfo create_speed_section(lv_obj_t * parent, const int32_t width, const 
 DualCardInfo create_lap_section(lv_obj_t * parent, const int32_t width, const int32_t height)
 {
     return DualCardInfo(parent, "Current Lap", "00:00", "Temp (Celsius)", "0", width, height);
+    
+
 }
 
 DualCardInfo create_efficienty_section(lv_obj_t * parent, const int32_t width, const int32_t height)
@@ -139,7 +141,7 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     LV_GRID_ALIGN_STRETCH, 0, 1);
     lv_obj_set_scroll_dir(obj, LV_DIR_NONE);
     // lv_obj_add_event_cb(obj, lv_event_cb_t(event_handler), LV_EVENT_SCROLL, NULL);
-    lv_obj_add_event_cb(obj, reset_lap_timer, LV_EVENT_CLICKED, NULL);
+    // lv_obj_add_event_cb(obj, reset_lap_timer, LV_EVENT_CLICKED, NULL);
 
     efficiencyCards = create_efficienty_section(cont, SCREEN_WIDTH/2, SCREEN_HEIGHT/2);
     obj = efficiencyCards.get_dualCard();
@@ -175,7 +177,7 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     });
 
     aggregator.efficiency.addListener([&](lap_efficiencies_t efficiency) {
-        set_value(efficiencyCards.get_card2()->get_value_label(), efficiency.all);
+        set_value(efficiencyCards.get_card2()->get_value_label(), efficiency.lap_0);
     });
 
     aggregator.batteryVoltage.addListener([&](voltage_t voltage) {
@@ -187,18 +189,23 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     });
 
     aggregator.rpmSpeed.addListener([&](int32_t rpm) {
-        if (rpm == 0 && lastRpm != 0) {
-            stopCounter++;
-            if (stopCounter >= 2) {
-                reset_lap_timer();
-                stopCounter = 0;
-            }
-        }
+        // if (rpm == 0 && lastRpm != 0) {
+        //     stopCounter++;
+        //     if (stopCounter >= 2) {
+        //         reset_lap_timer();
+        //         stopCounter = 0;
+        //     }
+        // }
         set_value(speedCards.get_card2()->get_value_label(), rpm);
     });
 
     aggregator.temperature.addListener([&](temperature_t temperature) {
         set_value(lapCards.get_card2()->get_value_label(), temperature);
+    });
+
+    aggregator.lapTimer.addListener([&](uint32_t timer) {
+        lapTimer = timer;
+        update_lap_time(lapCards.get_card1()->get_value_label());
     });
 
     __attribute__ ((__unused__)) lv_timer_t * timer = lv_timer_create([](lv_timer_t * timer) {

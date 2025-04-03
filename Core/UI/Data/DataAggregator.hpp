@@ -27,6 +27,7 @@ public:
     Observable<current_t> batteryCurrent;
     Observable<lap_efficiencies_t> efficiency;
     Observable<speed_t> speed;
+    Observable<uint32_t> lapTimer;
     Observable<int32_t> rpmSpeed;
     Observable<temperature_t> temperature;
 };
