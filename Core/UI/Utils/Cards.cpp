@@ -62,6 +62,9 @@ DualCardInfo::DualCardInfo(lv_obj_t * parent, const char * title1, const char * 
     lv_obj_set_grid_cell(card2->get_card(), LV_GRID_ALIGN_STRETCH, 0, 1,
                          LV_GRID_ALIGN_STRETCH, 1, 1);
 }
+Card::Card() {
+
+}
 
 DualCardInfo::~DualCardInfo() {
     // delete card1;

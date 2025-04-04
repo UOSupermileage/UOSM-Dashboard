@@ -22,6 +22,9 @@ uint8_t stopCounter = 0;
 uint32_t lastRpm = 0;
 
 DualCardInfo HomeView::speedCards = DualCardInfo();
+Card* speedCard = new Card();
+Card* lapCard = new Card();
+Card* RPMCard = new Card();
 DualCardInfo HomeView::lapCards = DualCardInfo();
 DualCardInfo HomeView::efficiencyCards = DualCardInfo();
 DualCardInfo HomeView::consomationCards = DualCardInfo();
@@ -48,7 +51,7 @@ static void update_lap_time(lv_obj_t * obj) {
 static void reset_lap_timer() {
     lapTimer = 0;
     //DebugPrint("Lap timer reset\n");
-    update_lap_time(HomeView::lapCards.get_card1()->get_value_label());
+    update_lap_time(lapCard->get_value_label());
 }
 
 static void reset_lap_timer(lv_event_t * e) {
@@ -57,7 +60,7 @@ static void reset_lap_timer(lv_event_t * e) {
 
 static void set_speed(lv_obj_t * obj, int32_t v)
 {
-    static char buf[16];  // Buffer for formatted text
+    static char buf[24];  // Buffer for formatted text
     v = v/1000;
     lv_label_set_recolor(obj,true);
 
@@ -69,13 +72,14 @@ static void set_speed(lv_obj_t * obj, int32_t v)
 
     lv_label_set_text(obj, buf);
 }
-
+/*
 static void set_current(lv_obj_t * obj, int32_t v)
 {
     static char buf[16];  // Buffer for formatted text
     snprintf(buf, sizeof(buf), "%d Amp", v);
     lv_label_set_text(obj, buf);
 }
+*/
 
 // event callback
 // int v = 0;
@@ -84,7 +88,17 @@ static void set_current(lv_obj_t * obj, int32_t v)
 //     v++;
 //     set_value(HomeView::speedCards.get_card2()->get_value_label(), v);
 // }
-
+Card* createNewSpeedCard(lv_obj_t* parent, const int32_t width, const int32_t height) {
+    return new Card(parent,"Speed","Initializing...",width,height);
+}
+Card* createNewLapCard(lv_obj_t* parent, const int32_t width, const int32_t height) {
+    Card* lapCard = new Card(parent,"Current Time:","Initializing...",width,height);
+    return lapCard;
+}
+Card* createNewRPMCard(lv_obj_t* parent, const int32_t width, const int32_t height) {
+    return new Card(parent,"RPM","Initializing...",width,height);
+}
+/*
 DualCardInfo create_speed_section(lv_obj_t * parent, const int32_t width, const int32_t height)
 {
     return DualCardInfo(parent, "Speed", "000", "RPM", "0", width, height);
@@ -106,7 +120,7 @@ DualCardInfo create_consomation_section(lv_obj_t * parent, const int32_t width, 
 {
     return DualCardInfo(parent, "Voltage", "0", "Current", "0", width, height);
 }
-
+*/
 HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, aggregator) {
     // get resoltion of the screen
     lv_obj_t * cont = getContainer();
@@ -130,19 +144,40 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     lv_obj_t * obj;
 
     // obj = lv_button_create(cont);
+    speedCard = createNewSpeedCard(cont,SCREEN_WIDTH/2,SCREEN_HEIGHT/4);
+    obj = speedCard->get_card();
+    lv_obj_set_grid_cell(obj, LV_GRID_ALIGN_STRETCH, 0, 1,
+    LV_GRID_ALIGN_STRETCH, 0, 1);
+    lv_obj_set_scroll_dir(obj, LV_DIR_NONE);
+
+    RPMCard = createNewRPMCard(cont,SCREEN_WIDTH/2,SCREEN_HEIGHT/4);
+    obj = RPMCard->get_card();
+    lv_obj_set_grid_cell(obj, LV_GRID_ALIGN_STRETCH, 2, 1,
+    LV_GRID_ALIGN_STRETCH, 0, 1);
+    lv_obj_set_scroll_dir(obj, LV_DIR_NONE);
+    /*
     speedCards = create_speed_section(cont, SCREEN_WIDTH/2, SCREEN_HEIGHT/2);
     obj = speedCards.get_dualCard();
     lv_obj_set_grid_cell(obj, LV_GRID_ALIGN_STRETCH, 0, 1,
     LV_GRID_ALIGN_STRETCH, 0, 1);
     lv_obj_set_scroll_dir(obj, LV_DIR_NONE);
+    */
+    lapCard = createNewLapCard(cont,SCREEN_WIDTH,SCREEN_HEIGHT/4);
+    obj = lapCard->get_card();
+    lv_obj_set_grid_cell(obj, LV_GRID_ALIGN_CENTER, 1, 1,
+LV_GRID_ALIGN_CENTER, 2, 1);
+    lv_obj_set_scroll_dir(obj, LV_DIR_NONE);
+
+    /*
     lapCards = create_lap_section(cont, SCREEN_WIDTH/2, SCREEN_HEIGHT/2);
     obj = lapCards.get_dualCard();
     lv_obj_set_grid_cell(obj, LV_GRID_ALIGN_STRETCH, 2, 1,
     LV_GRID_ALIGN_STRETCH, 0, 1);
     lv_obj_set_scroll_dir(obj, LV_DIR_NONE);
+    */
     // lv_obj_add_event_cb(obj, lv_event_cb_t(event_handler), LV_EVENT_SCROLL, NULL);
     // lv_obj_add_event_cb(obj, reset_lap_timer, LV_EVENT_CLICKED, NULL);
-
+    /*
     efficiencyCards = create_efficienty_section(cont, SCREEN_WIDTH/2, SCREEN_HEIGHT/2);
     obj = efficiencyCards.get_dualCard();
     lv_obj_set_grid_cell(obj, LV_GRID_ALIGN_STRETCH, 0, 1,
@@ -154,13 +189,13 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     lv_obj_set_grid_cell(obj, LV_GRID_ALIGN_STRETCH, 2, 1,
                          LV_GRID_ALIGN_STRETCH, 2, 1);
     lv_obj_set_scroll_dir(obj, LV_DIR_NONE);
-
+    */
     // add vertical separator
     lv_obj_t * separator = lv_obj_create(cont);
-    lv_obj_set_size(separator, 2, SCREEN_HEIGHT);
+    lv_obj_set_size(separator, 2, SCREEN_HEIGHT/2);
     lv_obj_set_style_bg_color(separator, lv_color_hex(0x000000), 0);
     lv_obj_set_grid_cell(separator, LV_GRID_ALIGN_CENTER, 1, 1,
-                         LV_GRID_ALIGN_CENTER, 0, 3);
+                         LV_GRID_ALIGN_START, 0, 3);
 
     // add horizontal separator
     lv_obj_t * separator2 = lv_obj_create(cont);
@@ -173,9 +208,9 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     lv_obj_set_style_pad_row(cont, 0, 0);
 
     aggregator.speed.addListener([&](speed_t speed) {
-        set_speed(speedCards.get_card1()->get_value_label(), speed);
+        set_speed(speedCard->get_value_label(), speed);
     });
-
+/*
     aggregator.efficiency.addListener([&](lap_efficiencies_t efficiency) {
         set_value(efficiencyCards.get_card2()->get_value_label(), efficiency.lap_0);
     });
@@ -187,7 +222,7 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     aggregator.batteryCurrent.addListener([&](current_t current) {
         set_current(consomationCards.get_card2()->get_value_label(), current);
     });
-
+*/
     aggregator.rpmSpeed.addListener([&](int32_t rpm) {
         // if (rpm == 0 && lastRpm != 0) {
         //     stopCounter++;
@@ -198,18 +233,19 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
         // }
         set_value(speedCards.get_card2()->get_value_label(), rpm);
     });
-
+/*
     aggregator.temperature.addListener([&](temperature_t temperature) {
         set_value(lapCards.get_card2()->get_value_label(), temperature);
     });
+    */
 
     aggregator.lapTimer.addListener([&](uint32_t timer) {
         lapTimer = timer;
-        update_lap_time(lapCards.get_card1()->get_value_label());
+        update_lap_time(lapCard->get_value_label());
     });
 
     __attribute__ ((__unused__)) lv_timer_t * timer = lv_timer_create([](lv_timer_t * timer) {
         lapTimer++;
-        update_lap_time(lapCards.get_card1()->get_value_label());
+        update_lap_time(lapCard->get_value_label());
     }, 1000, NULL);
 }

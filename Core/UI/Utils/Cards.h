@@ -10,7 +10,7 @@
 class Card {
 public:
     Card(lv_obj_t * parent, const char * title, const char * value, const int32_t width, const int32_t height);
-
+    Card();
     lv_obj_t * get_card() {
         return card;
     }
