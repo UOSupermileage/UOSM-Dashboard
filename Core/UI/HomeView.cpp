@@ -6,7 +6,7 @@
 #include "HomeView.hpp"
 
 #ifdef SIM
-#include <src/misc/lv_event_private.h>
+
 #endif
 
 #include "Utils/Cards.h"
