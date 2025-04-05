@@ -17,10 +17,11 @@
 #define MAX_SPEED 40
 #define RED "#FF0000"
 #define BLACK "#000000"
+#define MAX_NOISE 20
 uint32_t lapTimer = 0;
 uint8_t stopCounter = 0;
 uint32_t lastRpm = 0;
-
+uint32_t lastSpeed = 0;
 DualCardInfo HomeView::speedCards = DualCardInfo();
 Card* speedCard = new Card();
 Card* lapCard = new Card();
@@ -62,6 +63,9 @@ static void set_speed(lv_obj_t * obj, int32_t v)
 {
     static char buf[24];  // Buffer for formatted text
     v = v/1000;
+    if (v - lastSpeed > MAX_NOISE ) {
+        return;
+    }
     lv_label_set_recolor(obj,true);
 
     if (v >= MAX_SPEED) {
@@ -69,7 +73,7 @@ static void set_speed(lv_obj_t * obj, int32_t v)
     } else {
         snprintf(buf, sizeof(buf), "%s %d km/h #",BLACK, v);
     }
-
+    lastSpeed = v;
     lv_label_set_text(obj, buf);
 }
 /*
