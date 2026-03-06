@@ -6,6 +6,7 @@
 #define CARDS_H
 
 #include <lvgl/lvgl.h>
+#include <optional>
 
 class Card {
 public:
@@ -36,24 +37,24 @@ public:
     DualCardInfo() {}
     DualCardInfo(lv_obj_t * parent, const char * title1, const char * value1, const char * title2, const char * value2, const int32_t width, const int32_t height);
 
-    ~DualCardInfo();
+    ~DualCardInfo() = default;
 
     lv_obj_t * get_dualCard() const {
         return dualCard;
     }
 
-    Card * get_card1() const {
-        return card1;
+    Card * get_card1() {
+        return &(*card1);
     }
 
-    Card * get_card2() const {
-        return card2;
+    Card * get_card2() {
+        return &(*card2);
     }
 
 private:
     lv_obj_t * dualCard;
-    Card * card1;
-    Card * card2;
+    std::optional<Card> card1;
+    std::optional<Card> card2;
     int32_t width;
     int32_t height;
 

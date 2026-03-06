@@ -59,13 +59,6 @@ SPI_HandleTypeDef hspi2;
 
 UART_HandleTypeDef huart1;
 
-/* Definitions for defaultTask */
-osThreadId_t defaultTaskHandle;
-const osThreadAttr_t defaultTask_attributes = {
-        .name = "defaultTask",
-        .stack_size = 128 * 4,
-        .priority = (osPriority_t) osPriorityNormal,
-};
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -80,8 +73,6 @@ static void MX_GPIO_Init(void);
 static void MX_USART1_UART_Init(void);
 
 static void MX_SPI2_Init(void);
-
-void StartDefaultTask(void* argument);
 
 /* USER CODE BEGIN PFP */
 
@@ -170,9 +161,6 @@ int main(void) {
     /* add queues, ... */
     /* USER CODE END RTOS_QUEUES */
 
-    /* Create the thread(s) */
-    /* creation of defaultTask */
-    defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
 
     /* USER CODE BEGIN RTOS_THREADS */
     RunTaskManager(wrapper);
@@ -669,22 +657,6 @@ static void MX_GPIO_Init(void) {
 /* USER CODE BEGIN 4 */
 
 /* USER CODE END 4 */
-
-/* USER CODE BEGIN Header_StartDefaultTask */
-/**
-  * @brief  Function implementing the defaultTask thread.
-  * @param  argument: Not used
-  * @retval None
-  */
-/* USER CODE END Header_StartDefaultTask */
-void StartDefaultTask(void* argument) {
-    /* USER CODE BEGIN 5 */
-    /* Infinite loop */
-    for (;;) {
-        osDelay(1);
-    }
-    /* USER CODE END 5 */
-}
 
 /**
   * @brief  This function is executed in case of error occurrence.
