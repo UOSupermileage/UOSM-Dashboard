@@ -10,6 +10,7 @@
 #endif
 
 #include "Utils/Cards.h"
+#include "Tasks/LVGLTimerTask.h"
 
 #include <chrono>
 
@@ -173,19 +174,27 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
     lv_obj_set_style_pad_row(cont, 0, 0);
 
     aggregator.speed.addListener([&](speed_t speed) {
+        LVGL_Lock();
         set_speed(speedCards.get_card1()->get_value_label(), speed);
+        LVGL_Unlock();
     });
 
     aggregator.efficiency.addListener([&](lap_efficiencies_t efficiency) {
+        LVGL_Lock();
         set_value(efficiencyCards.get_card2()->get_value_label(), efficiency.lap_0);
+        LVGL_Unlock();
     });
 
     aggregator.batteryVoltage.addListener([&](voltage_t voltage) {
+        LVGL_Lock();
         set_value(consomationCards.get_card1()->get_value_label(), voltage);
+        LVGL_Unlock();
     });
 
     aggregator.batteryCurrent.addListener([&](current_t current) {
+        LVGL_Lock();
         set_current(consomationCards.get_card2()->get_value_label(), current);
+        LVGL_Unlock();
     });
 
     aggregator.rpmSpeed.addListener([&](int32_t rpm) {
@@ -196,16 +205,22 @@ HomeView::HomeView(lv_obj_t* parent, DataAggregator& aggregator) : View(parent, 
         //         stopCounter = 0;
         //     }
         // }
+        LVGL_Lock();
         set_value(speedCards.get_card2()->get_value_label(), rpm);
+        LVGL_Unlock();
     });
 
     aggregator.temperature.addListener([&](temperature_t temperature) {
+        LVGL_Lock();
         set_value(lapCards.get_card2()->get_value_label(), temperature);
+        LVGL_Unlock();
     });
 
     aggregator.lapTimer.addListener([&](uint32_t timer) {
+        LVGL_Lock();
         lapTimer = timer;
         update_lap_time(lapCards.get_card1()->get_value_label());
+        LVGL_Unlock();
     });
 
     __attribute__ ((__unused__)) lv_timer_t * timer = lv_timer_create([](lv_timer_t * timer) {

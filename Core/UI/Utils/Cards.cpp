@@ -55,15 +55,10 @@ DualCardInfo::DualCardInfo(lv_obj_t * parent, const char * title1, const char * 
     // remove default container style
 
     // speed
-    card1 = new Card(dualCard, title1, value1, width, height/2);
-    card2 = new Card(dualCard, title2, value2, width, height/2);
+    card1.emplace(dualCard, title1, value1, width, height/2);
+    card2.emplace(dualCard, title2, value2, width, height/2);
     lv_obj_set_grid_cell(card1->get_card(), LV_GRID_ALIGN_STRETCH, 0, 1,
                          LV_GRID_ALIGN_STRETCH, 0, 1);
     lv_obj_set_grid_cell(card2->get_card(), LV_GRID_ALIGN_STRETCH, 0, 1,
                          LV_GRID_ALIGN_STRETCH, 1, 1);
-}
-
-DualCardInfo::~DualCardInfo() {
-    // delete card1;
-    // delete card2;
 }
