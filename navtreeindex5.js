@@ -65,8 +65,8 @@ var NAVTREEINDEX5 =
 "hierarchy.html":[6,2],
 "idd_8h.html":[7,0,1,0,3,5],
 "idd_8h_source.html":[7,0,1,0,3,5],
-"index.html":[],
 "index.html":[0],
+"index.html":[],
 "io_8h.html":[7,0,1,0,3,6],
 "io_8h_source.html":[7,0,1,0,3,6],
 "lcd_8h.html":[7,0,1,0,3,7],
@@ -80,9 +80,8 @@ var NAVTREEINDEX5 =
 "main_8c.html":[7,0,0,2,0],
 "main_8c.html#a1730ffe1e560465665eb47d9264826f9":[7,0,0,2,0,0],
 "main_8c.html#a336c5acb34a801b2984e602b97ed7b73":[7,0,0,2,0,2],
-"main_8c.html#a70af21c671abfcc773614a9a4f63d920":[7,0,0,2,0,4],
+"main_8c.html#a70af21c671abfcc773614a9a4f63d920":[7,0,0,2,0,3],
 "main_8c.html#a840291bc02cba5474a4cb46a9b9566fe":[7,0,0,2,0,1],
-"main_8c.html#a99d0fdb0434092bcb24d9c9af917e4e9":[7,0,0,2,0,3],
 "main_8h.html":[7,0,0,0,3],
 "main_8h.html#a1730ffe1e560465665eb47d9264826f9":[7,0,0,0,3,0],
 "main_8h_source.html":[7,0,0,0,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX5 =
 "structRXM0.html":[6,0,49],
 "structRXM1.html":[6,0,50],
 "structST7789H2__Rgb888.html":[5,2,0,2,0,0],
-"structTSENSOR__DrvTypeDef.html":[5,2,0,17,0,1,0]
+"structTSENSOR__DrvTypeDef.html":[5,2,0,17,0,1,0],
+"structTSENSOR__InitTypeDef.html":[5,2,0,17,0,0,0]
 };

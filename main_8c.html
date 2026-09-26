@@ -182,9 +182,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a336c5acb34a801b2984e602b97ed7b73" id="r_a336c5acb34a801b2984e602b97ed7b73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a336c5acb34a801b2984e602b97ed7b73">PeriphCommonClock_Config</a> (void)</td></tr>
 <tr class="memdesc:a336c5acb34a801b2984e602b97ed7b73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Peripherals Common Clock Configuration.  <br /></td></tr>
 <tr class="separator:a336c5acb34a801b2984e602b97ed7b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99d0fdb0434092bcb24d9c9af917e4e9" id="r_a99d0fdb0434092bcb24d9c9af917e4e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a99d0fdb0434092bcb24d9c9af917e4e9">StartDefaultTask</a> (void *argument)</td></tr>
-<tr class="memdesc:a99d0fdb0434092bcb24d9c9af917e4e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function implementing the defaultTask thread.  <br /></td></tr>
-<tr class="separator:a99d0fdb0434092bcb24d9c9af917e4e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a840291bc02cba5474a4cb46a9b9566fe" id="r_a840291bc02cba5474a4cb46a9b9566fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe">main</a> (void)</td></tr>
 <tr class="memdesc:a840291bc02cba5474a4cb46a9b9566fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application entry point.  <br /></td></tr>
 <tr class="separator:a840291bc02cba5474a4cb46a9b9566fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,11 +197,6 @@ SPI_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>hspi2</b
 <tr class="memitem:a2cf715bef37f7e8ef385a30974a5f0d5" id="r_a2cf715bef37f7e8ef385a30974a5f0d5"><td class="memItemLeft" align="right" valign="top"><a id="a2cf715bef37f7e8ef385a30974a5f0d5" name="a2cf715bef37f7e8ef385a30974a5f0d5"></a>
 UART_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>huart1</b></td></tr>
 <tr class="separator:a2cf715bef37f7e8ef385a30974a5f0d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a263905468b0c37de4ee5e50ede4e74" id="r_a6a263905468b0c37de4ee5e50ede4e74"><td class="memItemLeft" align="right" valign="top"><a id="a6a263905468b0c37de4ee5e50ede4e74" name="a6a263905468b0c37de4ee5e50ede4e74"></a>
-osThreadId_t&#160;</td><td class="memItemRight" valign="bottom"><b>defaultTaskHandle</b></td></tr>
-<tr class="separator:a6a263905468b0c37de4ee5e50ede4e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25fbb54afdba71c24ba51ed50166ac8d" id="r_a25fbb54afdba71c24ba51ed50166ac8d"><td class="memItemLeft" align="right" valign="top">const osThreadAttr_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a25fbb54afdba71c24ba51ed50166ac8d">defaultTask_attributes</a></td></tr>
-<tr class="separator:a25fbb54afdba71c24ba51ed50166ac8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>: Main program body </p>
@@ -291,38 +283,6 @@ osThreadId_t&#160;</td><td class="memItemRight" valign="bottom"><b>defaultTaskHa
 
 </div>
 </div>
-<a id="a99d0fdb0434092bcb24d9c9af917e4e9" name="a99d0fdb0434092bcb24d9c9af917e4e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99d0fdb0434092bcb24d9c9af917e4e9">&#9670;&#160;</a></span>StartDefaultTask()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void StartDefaultTask </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>argument</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Function implementing the defaultTask thread. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">argument</td><td>Not used </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="retval"><dt>Return values</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname">None</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="a70af21c671abfcc773614a9a4f63d920" name="a70af21c671abfcc773614a9a4f63d920"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a70af21c671abfcc773614a9a4f63d920">&#9670;&#160;</a></span>SystemClock_Config()</h2>
 
@@ -351,26 +311,6 @@ osThreadId_t&#160;</td><td class="memItemRight" valign="bottom"><b>defaultTaskHa
 <p>Activate the Over-Drive mode</p>
 <p>Initializes the CPU, AHB and APB buses clocks</p>
 
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a25fbb54afdba71c24ba51ed50166ac8d" name="a25fbb54afdba71c24ba51ed50166ac8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25fbb54afdba71c24ba51ed50166ac8d">&#9670;&#160;</a></span>defaultTask_attributes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const osThreadAttr_t defaultTask_attributes</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">        .name = <span class="stringliteral">&quot;defaultTask&quot;</span>,</div>
-<div class="line">        .stack_size = 128 * 4,</div>
-<div class="line">        .priority = (osPriority_t) osPriorityNormal,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

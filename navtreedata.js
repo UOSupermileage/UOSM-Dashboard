@@ -78,7 +78,7 @@ var NAVTREEINDEX =
 "group__STM32F769I__DISCOVERY__AUDIO__In__Private__Functions.html#ga165e0b4c19b92963f4046cfc63cfa770",
 "group__STM32F769I__DISCOVERY__TS__Exported__Types.html#ga8629dde031f9c1c5fa2dd1ca79168963",
 "group__ft6x06__Exported__Functions.html#ga55dc85a22e1cf328f4375a2399a1f552",
-"structTSENSOR__InitTypeDef.html"
+"structTS__DrvTypeDef.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
